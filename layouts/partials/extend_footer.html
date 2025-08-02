@@ -1,11 +1,15 @@
 <!-- Page Last Updated - Hugo automatically updates this when file changes -->
-<div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important; color: #000 !important;">
+<div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important;">
   —
   <p>
-    Page Last Updated: {{ .Page.Lastmod.Format "January 2, 2006" }}
+  Page Last Updated: {{ .Page.Lastmod.Format "January 2, 2006" }}
 </div>
 
 <style>
+.page-last-updated-auto {
+  color: #000 !important;
+}
+
 .dark .page-last-updated-auto {
   color: #fff !important;
 }
@@ -24,3 +28,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+
+
