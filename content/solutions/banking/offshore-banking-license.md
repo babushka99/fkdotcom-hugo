@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with offshore banking license? Contact Faisal Khan LLC for expert consultation."
----
-# Offshore Banking License
-
-Professional offshore banking license services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Offshore Banking License and how Faisal Khan LLC can help]
 

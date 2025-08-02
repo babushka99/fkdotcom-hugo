@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with gambling? Contact Faisal Khan LLC for expert consultation."
----
-# Gambling
-
-Professional gambling services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Gambling and how Faisal Khan LLC can help]
 

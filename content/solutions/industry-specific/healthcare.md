@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with healthcare? Contact Faisal Khan LLC for expert consultation."
----
-# Healthcare
-
-Professional healthcare services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Healthcare and how Faisal Khan LLC can help]
 

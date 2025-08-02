@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with banking-as-a-service (baas)? Contact Faisal Khan LLC for expert consultation."
----
-# Banking-as-a-Service (BaaS)
-
-Professional banking-as-a-service (baas) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Banking-as-a-Service (BaaS) and how Faisal Khan LLC can help]
 

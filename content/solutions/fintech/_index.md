@@ -13,22 +13,34 @@ tags: ["fintech", "solutions", "financial-services"]
 canonicalURL: "https://faisalkhan.com/solutions/fintech/"
 images: ["/images/solutions/fintech/overview.webp"]
 
-# Page settings
-ShowToc: true
-TocOpen: true
-ShowBreadCrumbs: true
+# COMPLETELY DISABLE AUTO-LISTING
+type: "page"
+layout: "single"
+_build:
+  list: false
 
 # Schema
-type: "CollectionPage"
 provider: "Faisal Khan LLC"
----
-# Fintech & Startups
+---<style>
+/* Theme-responsive bullet colors */
+.theme-bullet {
+  background-color: #000000 !important; /* Black in light mode */
+}
 
-Solutions for fintech startups and embedded finance
+.dark .theme-bullet {
+  background-color: #ffffff !important; /* White in dark mode */
+}
+</style>
 
 ## Available Solutions
 
-*Solutions in this category will be listed below - check back soon or contact us for specific options.*
+<ul style="padding-left: 0; margin: 20px 0;">
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/fintech/build-your-own-bank/" style="text-decoration: none; color: inherit;">Build Your Own Bank (BYOB)</a></li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/fintech/embedded-finance/" style="text-decoration: none; color: inherit;">Embedded Finance</a></li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/fintech/crypto-based-projects/" style="text-decoration: none; color: inherit;">Crypto-based Projects</a></li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/fintech/starting-a-neo-bank/" style="text-decoration: none; color: inherit;">Starting a Neo Bank</a></li>
+
+</ul>
 
 ## Why Choose Our Fintech & Startups
 

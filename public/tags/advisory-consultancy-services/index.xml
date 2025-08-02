@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Advisory-Consultancy-Services on Faisal Khan LLC</title>
-    <link>http://localhost:65053/tags/advisory-consultancy-services/</link>
+    <link>http://localhost:1313/tags/advisory-consultancy-services/</link>
     <description>Recent content in Advisory-Consultancy-Services on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/tags/advisory-consultancy-services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/advisory-consultancy-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advisory Consultancy Services</title>
-      <link>http://localhost:65053/solutions/consulting/advisory-consultancy-services/</link>
+      <link>http://localhost:1313/solutions/consulting/advisory-consultancy-services/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/consulting/advisory-consultancy-services/</guid>
+      <guid>http://localhost:1313/solutions/consulting/advisory-consultancy-services/</guid>
       <description>Expert advisory consultancy services solutions from Faisal Khan LLC</description>
     </item>
   </channel>

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with crypto-based projects? Contact Faisal Khan LLC for expert consultation."
----
-# Crypto-based Projects
-
-Professional crypto-based projects services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Crypto-based Projects and how Faisal Khan LLC can help]
 

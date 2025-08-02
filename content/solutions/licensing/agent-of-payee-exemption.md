@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with agent of payee exemption? Contact Faisal Khan LLC for expert consultation."
----
-# Agent of Payee Exemption
-
-Professional agent of payee exemption services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Agent of Payee Exemption and how Faisal Khan LLC can help]
 

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Wallet Solutions on Faisal Khan LLC</title>
-    <link>http://localhost:65053/solutions/wallets/</link>
+    <link>http://localhost:1313/solutions/wallets/</link>
     <description>Recent content in Wallet Solutions on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/solutions/wallets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/solutions/wallets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crypto Wallet</title>
-      <link>http://localhost:65053/solutions/wallets/crypto-wallet/</link>
+      <link>http://localhost:1313/solutions/wallets/crypto-wallet/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/wallets/crypto-wallet/</guid>
+      <guid>http://localhost:1313/solutions/wallets/crypto-wallet/</guid>
       <description>Expert crypto wallet solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>E-Money Wallet</title>
-      <link>http://localhost:65053/solutions/wallets/e-money-wallet/</link>
+      <link>http://localhost:1313/solutions/wallets/e-money-wallet/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/wallets/e-money-wallet/</guid>
+      <guid>http://localhost:1313/solutions/wallets/e-money-wallet/</guid>
       <description>Expert e-money wallet solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Fiat Wallet</title>
-      <link>http://localhost:65053/solutions/wallets/fiat-wallet/</link>
+      <link>http://localhost:1313/solutions/wallets/fiat-wallet/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/wallets/fiat-wallet/</guid>
+      <guid>http://localhost:1313/solutions/wallets/fiat-wallet/</guid>
       <description>Expert fiat wallet solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Local Wallet Funding</title>
-      <link>http://localhost:65053/solutions/wallets/local-wallet-funding/</link>
+      <link>http://localhost:1313/solutions/wallets/local-wallet-funding/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/wallets/local-wallet-funding/</guid>
+      <guid>http://localhost:1313/solutions/wallets/local-wallet-funding/</guid>
       <description>Expert local wallet funding solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Readymade Solutions</title>
-      <link>http://localhost:65053/solutions/wallets/readymade-solutions/</link>
+      <link>http://localhost:1313/solutions/wallets/readymade-solutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/wallets/readymade-solutions/</guid>
+      <guid>http://localhost:1313/solutions/wallets/readymade-solutions/</guid>
       <description>Expert readymade solutions solutions from Faisal Khan LLC</description>
     </item>
   </channel>

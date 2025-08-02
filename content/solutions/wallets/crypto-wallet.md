@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with crypto wallet? Contact Faisal Khan LLC for expert consultation."
----
-# Crypto Wallet
-
-Professional crypto wallet services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Crypto Wallet and how Faisal Khan LLC can help]
 

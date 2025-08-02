@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with lithuania? Contact Faisal Khan LLC for expert consultation."
----
-# Lithuania
-
-Professional lithuania services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Lithuania and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with south korea? Contact Faisal Khan LLC for expert consultation."
----
-# South Korea
-
-Professional south korea services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of South Korea and how Faisal Khan LLC can help]
 

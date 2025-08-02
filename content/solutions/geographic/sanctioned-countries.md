@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with sanctioned countries? Contact Faisal Khan LLC for expert consultation."
----
-# Sanctioned Countries
-
-Professional sanctioned countries services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Sanctioned Countries and how Faisal Khan LLC can help]
 

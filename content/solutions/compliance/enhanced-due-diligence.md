@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with enhanced due diligence (edd)? Contact Faisal Khan LLC for expert consultation."
----
-# Enhanced Due Diligence (EDD)
-
-Professional enhanced due diligence (edd) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Enhanced Due Diligence (EDD) and how Faisal Khan LLC can help]
 

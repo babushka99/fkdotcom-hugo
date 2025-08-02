@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with high-risk countries? Contact Faisal Khan LLC for expert consultation."
----
-# High-Risk Countries
-
-Professional high-risk countries services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of High-Risk Countries and how Faisal Khan LLC can help]
 

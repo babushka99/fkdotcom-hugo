@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with rent-a-license? Contact Faisal Khan LLC for expert consultation."
----
-# Rent-a-License
-
-Professional rent-a-license services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Rent-a-License and how Faisal Khan LLC can help]
 

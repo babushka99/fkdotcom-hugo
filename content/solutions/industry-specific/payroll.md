@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with payroll? Contact Faisal Khan LLC for expert consultation."
----
-# Payroll
-
-Professional payroll services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Payroll and how Faisal Khan LLC can help]
 

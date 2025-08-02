@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with bangladesh? Contact Faisal Khan LLC for expert consultation."
----
-# Bangladesh
-
-Professional bangladesh services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Bangladesh and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with latin america? Contact Faisal Khan LLC for expert consultation."
----
-# Latin America
-
-Professional latin america services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Latin America and how Faisal Khan LLC can help]
 

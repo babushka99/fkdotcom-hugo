@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with remittance-as-a-service (raas)? Contact Faisal Khan LLC for expert consultation."
----
-# Remittance-as-a-Service (RaaS)
-
-Professional remittance-as-a-service (raas) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Remittance-as-a-Service (RaaS) and how Faisal Khan LLC can help]
 

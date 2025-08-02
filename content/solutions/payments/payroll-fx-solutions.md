@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with payroll fx solutions? Contact Faisal Khan LLC for expert consultation."
----
-# Payroll FX Solutions
-
-Professional payroll fx solutions services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Payroll FX Solutions and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with bitcoin atm business? Contact Faisal Khan LLC for expert consultation."
----
-# Bitcoin ATM Business
-
-Professional bitcoin atm business services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Bitcoin ATM Business and how Faisal Khan LLC can help]
 

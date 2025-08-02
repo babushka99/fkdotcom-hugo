@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cards on Faisal Khan LLC</title>
-    <link>http://localhost:65053/categories/cards/</link>
+    <link>http://localhost:1313/categories/cards/</link>
     <description>Recent content in Cards on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/categories/cards/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/cards/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acquiring</title>
-      <link>http://localhost:65053/solutions/cards/acquiring/</link>
+      <link>http://localhost:1313/solutions/cards/acquiring/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/cards/acquiring/</guid>
+      <guid>http://localhost:1313/solutions/cards/acquiring/</guid>
       <description>Expert acquiring solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>BIN Sponsorship</title>
-      <link>http://localhost:65053/solutions/cards/bin-sponsorship/</link>
+      <link>http://localhost:1313/solutions/cards/bin-sponsorship/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/cards/bin-sponsorship/</guid>
+      <guid>http://localhost:1313/solutions/cards/bin-sponsorship/</guid>
       <description>Expert bin sponsorship solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Card Issuance</title>
-      <link>http://localhost:65053/solutions/cards/card-issuance/</link>
+      <link>http://localhost:1313/solutions/cards/card-issuance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/cards/card-issuance/</guid>
+      <guid>http://localhost:1313/solutions/cards/card-issuance/</guid>
       <description>Expert card issuance solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Card Processing</title>
-      <link>http://localhost:65053/solutions/cards/card-processing/</link>
+      <link>http://localhost:1313/solutions/cards/card-processing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/cards/card-processing/</guid>
+      <guid>http://localhost:1313/solutions/cards/card-processing/</guid>
       <description>Expert card processing solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Issuing/Issuance</title>
-      <link>http://localhost:65053/solutions/cards/issuingissuance/</link>
+      <link>http://localhost:1313/solutions/cards/issuingissuance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/cards/issuingissuance/</guid>
+      <guid>http://localhost:1313/solutions/cards/issuingissuance/</guid>
       <description>Expert issuing/issuance solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Merchant Accounts</title>
-      <link>http://localhost:65053/solutions/cards/merchant-accounts/</link>
+      <link>http://localhost:1313/solutions/cards/merchant-accounts/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/cards/merchant-accounts/</guid>
+      <guid>http://localhost:1313/solutions/cards/merchant-accounts/</guid>
       <description>Expert merchant accounts solutions from Faisal Khan LLC</description>
     </item>
   </channel>

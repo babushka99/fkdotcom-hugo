@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with crypto otc license? Contact Faisal Khan LLC for expert consultation."
----
-# Crypto OTC License
-
-Professional crypto otc license services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Crypto OTC License and how Faisal Khan LLC can help]
 

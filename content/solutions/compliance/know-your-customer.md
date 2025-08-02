@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with know your customer (kyc)? Contact Faisal Khan LLC for expert consultation."
----
-# Know Your Customer (KYC)
-
-Professional know your customer (kyc) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Know Your Customer (KYC) and how Faisal Khan LLC can help]
 

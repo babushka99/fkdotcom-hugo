@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with turkey? Contact Faisal Khan LLC for expert consultation."
----
-# Turkey
-
-Professional turkey services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Turkey and how Faisal Khan LLC can help]
 

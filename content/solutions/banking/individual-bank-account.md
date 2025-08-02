@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with individual bank account? Contact Faisal Khan LLC for expert consultation."
----
-# Individual Bank Account
-
-Professional individual bank account services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Individual Bank Account and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with licensed gaming? Contact Faisal Khan LLC for expert consultation."
----
-# Licensed Gaming
-
-Professional licensed gaming services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Licensed Gaming and how Faisal Khan LLC can help]
 

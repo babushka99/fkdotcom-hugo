@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with payment processors & aggregators? Contact Faisal Khan LLC for expert consultation."
----
-# Payment Processors & Aggregators
-
-Professional payment processors & aggregators services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Payment Processors & Aggregators and how Faisal Khan LLC can help]
 

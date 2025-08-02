@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with bill payment? Contact Faisal Khan LLC for expert consultation."
----
-# Bill Payment
-
-Professional bill payment services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Bill Payment and how Faisal Khan LLC can help]
 

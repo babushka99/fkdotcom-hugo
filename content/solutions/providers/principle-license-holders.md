@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with principle license holders? Contact Faisal Khan LLC for expert consultation."
----
-# Principle License Holders
-
-Professional principle license holders services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Principle License Holders and how Faisal Khan LLC can help]
 

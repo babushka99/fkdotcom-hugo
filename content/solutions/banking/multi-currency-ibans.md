@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with multi-currency ibans? Contact Faisal Khan LLC for expert consultation."
----
-# Multi-Currency IBANs
-
-Professional multi-currency ibans services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Multi-Currency IBANs and how Faisal Khan LLC can help]
 

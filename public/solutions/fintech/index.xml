@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fintech &amp; Startups on Faisal Khan LLC</title>
-    <link>http://localhost:65053/solutions/fintech/</link>
+    <link>http://localhost:1313/solutions/fintech/</link>
     <description>Recent content in Fintech &amp; Startups on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/solutions/fintech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/solutions/fintech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build Your Own Bank (BYOB)</title>
-      <link>http://localhost:65053/solutions/fintech/build-your-own-bank/</link>
+      <link>http://localhost:1313/solutions/fintech/build-your-own-bank/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/fintech/build-your-own-bank/</guid>
+      <guid>http://localhost:1313/solutions/fintech/build-your-own-bank/</guid>
       <description>Expert build your own bank (byob) solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Crypto-based Projects</title>
-      <link>http://localhost:65053/solutions/fintech/crypto-based-projects/</link>
+      <link>http://localhost:1313/solutions/fintech/crypto-based-projects/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/fintech/crypto-based-projects/</guid>
+      <guid>http://localhost:1313/solutions/fintech/crypto-based-projects/</guid>
       <description>Expert crypto-based projects solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Embedded Finance</title>
-      <link>http://localhost:65053/solutions/fintech/embedded-finance/</link>
+      <link>http://localhost:1313/solutions/fintech/embedded-finance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/fintech/embedded-finance/</guid>
+      <guid>http://localhost:1313/solutions/fintech/embedded-finance/</guid>
       <description>Expert embedded finance solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Starting a Neo Bank</title>
-      <link>http://localhost:65053/solutions/fintech/starting-a-neo-bank/</link>
+      <link>http://localhost:1313/solutions/fintech/starting-a-neo-bank/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/fintech/starting-a-neo-bank/</guid>
+      <guid>http://localhost:1313/solutions/fintech/starting-a-neo-bank/</guid>
       <description>Expert starting a neo bank solutions from Faisal Khan LLC</description>
     </item>
   </channel>

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with cryptocurrency trading? Contact Faisal Khan LLC for expert consultation."
----
-# Cryptocurrency Trading
-
-Professional cryptocurrency trading services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Cryptocurrency Trading and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with marketplace? Contact Faisal Khan LLC for expert consultation."
----
-# Marketplace
-
-Professional marketplace services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Marketplace and how Faisal Khan LLC can help]
 

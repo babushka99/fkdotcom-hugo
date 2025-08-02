@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with europe/eea? Contact Faisal Khan LLC for expert consultation."
----
-# Europe/EEA
-
-Professional europe/eea services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Europe/EEA and how Faisal Khan LLC can help]
 

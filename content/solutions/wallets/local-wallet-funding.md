@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with local wallet funding? Contact Faisal Khan LLC for expert consultation."
----
-# Local Wallet Funding
-
-Professional local wallet funding services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Local Wallet Funding and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with product development consulting? Contact Faisal Khan LLC for expert consultation."
----
-# Product Development Consulting
-
-Professional product development consulting services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Product Development Consulting and how Faisal Khan LLC can help]
 

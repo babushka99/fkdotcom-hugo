@@ -2,1053 +2,1137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Faisal Khan LLC</title>
-    <link>http://localhost:65053/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acquiring</title>
-      <link>http://localhost:65053/tags/acquiring/</link>
+      <link>http://localhost:1313/tags/acquiring/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/acquiring/</guid>
+      <guid>http://localhost:1313/tags/acquiring/</guid>
       <description></description>
     </item>
     <item>
       <title>Advisory-Consultancy-Services</title>
-      <link>http://localhost:65053/tags/advisory-consultancy-services/</link>
+      <link>http://localhost:1313/tags/advisory-consultancy-services/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/advisory-consultancy-services/</guid>
+      <guid>http://localhost:1313/tags/advisory-consultancy-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Africa</title>
-      <link>http://localhost:65053/tags/africa/</link>
+      <link>http://localhost:1313/tags/africa/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/africa/</guid>
+      <guid>http://localhost:1313/tags/africa/</guid>
       <description></description>
     </item>
     <item>
       <title>Agent-of-Payee-Exemption</title>
-      <link>http://localhost:65053/tags/agent-of-payee-exemption/</link>
+      <link>http://localhost:1313/tags/agent-of-payee-exemption/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/agent-of-payee-exemption/</guid>
+      <guid>http://localhost:1313/tags/agent-of-payee-exemption/</guid>
       <description></description>
     </item>
     <item>
       <title>Anti-Money-Laundering</title>
-      <link>http://localhost:65053/tags/anti-money-laundering/</link>
+      <link>http://localhost:1313/tags/anti-money-laundering/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/anti-money-laundering/</guid>
+      <guid>http://localhost:1313/tags/anti-money-laundering/</guid>
       <description></description>
     </item>
     <item>
       <title>Authorized-Payment-Institution</title>
-      <link>http://localhost:65053/tags/authorized-payment-institution/</link>
+      <link>http://localhost:1313/tags/authorized-payment-institution/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/authorized-payment-institution/</guid>
+      <guid>http://localhost:1313/tags/authorized-payment-institution/</guid>
       <description></description>
     </item>
     <item>
       <title>B2b-Payments</title>
-      <link>http://localhost:65053/tags/b2b-payments/</link>
+      <link>http://localhost:1313/tags/b2b-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/b2b-payments/</guid>
+      <guid>http://localhost:1313/tags/b2b-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Bangladesh</title>
-      <link>http://localhost:65053/tags/bangladesh/</link>
+      <link>http://localhost:1313/tags/bangladesh/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/bangladesh/</guid>
+      <guid>http://localhost:1313/tags/bangladesh/</guid>
       <description></description>
     </item>
     <item>
       <title>Bank-Sponsorship</title>
-      <link>http://localhost:65053/tags/bank-sponsorship/</link>
+      <link>http://localhost:1313/tags/bank-sponsorship/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/bank-sponsorship/</guid>
+      <guid>http://localhost:1313/tags/bank-sponsorship/</guid>
       <description></description>
     </item>
     <item>
       <title>Banking</title>
-      <link>http://localhost:65053/tags/banking/</link>
+      <link>http://localhost:1313/tags/banking/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/banking/</guid>
+      <guid>http://localhost:1313/tags/banking/</guid>
       <description></description>
     </item>
     <item>
       <title>Banking-as-a-Service</title>
-      <link>http://localhost:65053/tags/banking-as-a-service/</link>
+      <link>http://localhost:1313/tags/banking-as-a-service/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/banking-as-a-service/</guid>
+      <guid>http://localhost:1313/tags/banking-as-a-service/</guid>
       <description></description>
     </item>
     <item>
       <title>Bill-Payment</title>
-      <link>http://localhost:65053/tags/bill-payment/</link>
+      <link>http://localhost:1313/tags/bill-payment/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/bill-payment/</guid>
+      <guid>http://localhost:1313/tags/bill-payment/</guid>
       <description></description>
     </item>
     <item>
       <title>Bin-Sponsorship</title>
-      <link>http://localhost:65053/tags/bin-sponsorship/</link>
+      <link>http://localhost:1313/tags/bin-sponsorship/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/bin-sponsorship/</guid>
+      <guid>http://localhost:1313/tags/bin-sponsorship/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitcoin-Atm-Business</title>
-      <link>http://localhost:65053/tags/bitcoin-atm-business/</link>
+      <link>http://localhost:1313/tags/bitcoin-atm-business/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/bitcoin-atm-business/</guid>
+      <guid>http://localhost:1313/tags/bitcoin-atm-business/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitcoin-Money-Transmitter-License</title>
-      <link>http://localhost:65053/tags/bitcoin-money-transmitter-license/</link>
+      <link>http://localhost:1313/tags/bitcoin-money-transmitter-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/bitcoin-money-transmitter-license/</guid>
+      <guid>http://localhost:1313/tags/bitcoin-money-transmitter-license/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bootcamp</title>
+      <link>http://localhost:1313/tags/bootcamp/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bootcamp/</guid>
       <description></description>
     </item>
     <item>
       <title>Build-Your-Own-Bank</title>
-      <link>http://localhost:65053/tags/build-your-own-bank/</link>
+      <link>http://localhost:1313/tags/build-your-own-bank/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/build-your-own-bank/</guid>
+      <guid>http://localhost:1313/tags/build-your-own-bank/</guid>
       <description></description>
     </item>
     <item>
       <title>Canada</title>
-      <link>http://localhost:65053/tags/canada/</link>
+      <link>http://localhost:1313/tags/canada/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/canada/</guid>
+      <guid>http://localhost:1313/tags/canada/</guid>
       <description></description>
     </item>
     <item>
       <title>Car-Auction-Payment</title>
-      <link>http://localhost:65053/tags/car-auction-payment/</link>
+      <link>http://localhost:1313/tags/car-auction-payment/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/car-auction-payment/</guid>
+      <guid>http://localhost:1313/tags/car-auction-payment/</guid>
       <description></description>
     </item>
     <item>
       <title>Card-Issuance</title>
-      <link>http://localhost:65053/tags/card-issuance/</link>
+      <link>http://localhost:1313/tags/card-issuance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/card-issuance/</guid>
+      <guid>http://localhost:1313/tags/card-issuance/</guid>
       <description></description>
     </item>
     <item>
       <title>Card-Processing</title>
-      <link>http://localhost:65053/tags/card-processing/</link>
+      <link>http://localhost:1313/tags/card-processing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/card-processing/</guid>
+      <guid>http://localhost:1313/tags/card-processing/</guid>
       <description></description>
     </item>
     <item>
       <title>Cards</title>
-      <link>http://localhost:65053/tags/cards/</link>
+      <link>http://localhost:1313/tags/cards/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/cards/</guid>
+      <guid>http://localhost:1313/tags/cards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Case-Studies</title>
+      <link>http://localhost:1313/tags/case-studies/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/case-studies/</guid>
       <description></description>
     </item>
     <item>
       <title>Central-Bank-Digital-Currencies</title>
-      <link>http://localhost:65053/tags/central-bank-digital-currencies/</link>
+      <link>http://localhost:1313/tags/central-bank-digital-currencies/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/central-bank-digital-currencies/</guid>
+      <guid>http://localhost:1313/tags/central-bank-digital-currencies/</guid>
       <description></description>
     </item>
     <item>
       <title>Check-Cashing-Business</title>
-      <link>http://localhost:65053/tags/check-cashing-business/</link>
+      <link>http://localhost:1313/tags/check-cashing-business/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/check-cashing-business/</guid>
+      <guid>http://localhost:1313/tags/check-cashing-business/</guid>
       <description></description>
     </item>
     <item>
       <title>China</title>
-      <link>http://localhost:65053/tags/china/</link>
+      <link>http://localhost:1313/tags/china/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/china/</guid>
+      <guid>http://localhost:1313/tags/china/</guid>
       <description></description>
     </item>
     <item>
       <title>Compliance</title>
-      <link>http://localhost:65053/tags/compliance/</link>
+      <link>http://localhost:1313/tags/compliance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/compliance/</guid>
+      <guid>http://localhost:1313/tags/compliance/</guid>
       <description></description>
     </item>
     <item>
       <title>Compliance-Training</title>
-      <link>http://localhost:65053/tags/compliance-training/</link>
+      <link>http://localhost:1313/tags/compliance-training/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/compliance-training/</guid>
+      <guid>http://localhost:1313/tags/compliance-training/</guid>
       <description></description>
     </item>
     <item>
       <title>Consulting</title>
-      <link>http://localhost:65053/tags/consulting/</link>
+      <link>http://localhost:1313/tags/consulting/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/consulting/</guid>
+      <guid>http://localhost:1313/tags/consulting/</guid>
       <description></description>
     </item>
     <item>
       <title>Corporate-Bank-Account</title>
-      <link>http://localhost:65053/tags/corporate-bank-account/</link>
+      <link>http://localhost:1313/tags/corporate-bank-account/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/corporate-bank-account/</guid>
+      <guid>http://localhost:1313/tags/corporate-bank-account/</guid>
       <description></description>
     </item>
     <item>
       <title>Correspondent-Banking-Relationship</title>
-      <link>http://localhost:65053/tags/correspondent-banking-relationship/</link>
+      <link>http://localhost:1313/tags/correspondent-banking-relationship/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/correspondent-banking-relationship/</guid>
+      <guid>http://localhost:1313/tags/correspondent-banking-relationship/</guid>
       <description></description>
     </item>
     <item>
       <title>Cross-Border-Payments</title>
-      <link>http://localhost:65053/tags/cross-border-payments/</link>
+      <link>http://localhost:1313/tags/cross-border-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/cross-border-payments/</guid>
+      <guid>http://localhost:1313/tags/cross-border-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Cross-Border-Payments-Strategy-Consulting</title>
-      <link>http://localhost:65053/tags/cross-border-payments-strategy-consulting/</link>
+      <link>http://localhost:1313/tags/cross-border-payments-strategy-consulting/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/cross-border-payments-strategy-consulting/</guid>
+      <guid>http://localhost:1313/tags/cross-border-payments-strategy-consulting/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto</title>
-      <link>http://localhost:65053/tags/crypto/</link>
+      <link>http://localhost:1313/tags/crypto/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto/</guid>
+      <guid>http://localhost:1313/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Bank-Accounts</title>
-      <link>http://localhost:65053/tags/crypto-bank-accounts/</link>
+      <link>http://localhost:1313/tags/crypto-bank-accounts/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-bank-accounts/</guid>
+      <guid>http://localhost:1313/tags/crypto-bank-accounts/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Based-Debit-Cards</title>
-      <link>http://localhost:65053/tags/crypto-based-debit-cards/</link>
+      <link>http://localhost:1313/tags/crypto-based-debit-cards/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-based-debit-cards/</guid>
+      <guid>http://localhost:1313/tags/crypto-based-debit-cards/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Based-Projects</title>
-      <link>http://localhost:65053/tags/crypto-based-projects/</link>
+      <link>http://localhost:1313/tags/crypto-based-projects/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-based-projects/</guid>
+      <guid>http://localhost:1313/tags/crypto-based-projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Exchange-License</title>
-      <link>http://localhost:65053/tags/crypto-exchange-license/</link>
+      <link>http://localhost:1313/tags/crypto-exchange-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-exchange-license/</guid>
+      <guid>http://localhost:1313/tags/crypto-exchange-license/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Licensing</title>
-      <link>http://localhost:65053/tags/crypto-licensing/</link>
+      <link>http://localhost:1313/tags/crypto-licensing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-licensing/</guid>
+      <guid>http://localhost:1313/tags/crypto-licensing/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Otc-License</title>
-      <link>http://localhost:65053/tags/crypto-otc-license/</link>
+      <link>http://localhost:1313/tags/crypto-otc-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-otc-license/</guid>
+      <guid>http://localhost:1313/tags/crypto-otc-license/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Wallet</title>
-      <link>http://localhost:65053/tags/crypto-wallet/</link>
+      <link>http://localhost:1313/tags/crypto-wallet/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-wallet/</guid>
+      <guid>http://localhost:1313/tags/crypto-wallet/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto-Wallet-License</title>
-      <link>http://localhost:65053/tags/crypto-wallet-license/</link>
+      <link>http://localhost:1313/tags/crypto-wallet-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/crypto-wallet-license/</guid>
+      <guid>http://localhost:1313/tags/crypto-wallet-license/</guid>
       <description></description>
     </item>
     <item>
       <title>Cryptocurrency-Licensing</title>
-      <link>http://localhost:65053/tags/cryptocurrency-licensing/</link>
+      <link>http://localhost:1313/tags/cryptocurrency-licensing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/cryptocurrency-licensing/</guid>
+      <guid>http://localhost:1313/tags/cryptocurrency-licensing/</guid>
       <description></description>
     </item>
     <item>
       <title>Cryptocurrency-Trading</title>
-      <link>http://localhost:65053/tags/cryptocurrency-trading/</link>
+      <link>http://localhost:1313/tags/cryptocurrency-trading/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/cryptocurrency-trading/</guid>
+      <guid>http://localhost:1313/tags/cryptocurrency-trading/</guid>
       <description></description>
     </item>
     <item>
       <title>Decentralized-Autonomous-Organization</title>
-      <link>http://localhost:65053/tags/decentralized-autonomous-organization/</link>
+      <link>http://localhost:1313/tags/decentralized-autonomous-organization/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/decentralized-autonomous-organization/</guid>
+      <guid>http://localhost:1313/tags/decentralized-autonomous-organization/</guid>
       <description></description>
     </item>
     <item>
       <title>Defi-License</title>
-      <link>http://localhost:65053/tags/defi-license/</link>
+      <link>http://localhost:1313/tags/defi-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/defi-license/</guid>
+      <guid>http://localhost:1313/tags/defi-license/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagrams</title>
+      <link>http://localhost:1313/tags/diagrams/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/diagrams/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documents</title>
+      <link>http://localhost:1313/tags/documents/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/documents/</guid>
       <description></description>
     </item>
     <item>
       <title>E-Money-Wallet</title>
-      <link>http://localhost:65053/tags/e-money-wallet/</link>
+      <link>http://localhost:1313/tags/e-money-wallet/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/e-money-wallet/</guid>
+      <guid>http://localhost:1313/tags/e-money-wallet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/tags/education/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Electronic-Money-Institution</title>
-      <link>http://localhost:65053/tags/electronic-money-institution/</link>
+      <link>http://localhost:1313/tags/electronic-money-institution/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/electronic-money-institution/</guid>
+      <guid>http://localhost:1313/tags/electronic-money-institution/</guid>
       <description></description>
     </item>
     <item>
       <title>Embedded-Finance</title>
-      <link>http://localhost:65053/tags/embedded-finance/</link>
+      <link>http://localhost:1313/tags/embedded-finance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/embedded-finance/</guid>
+      <guid>http://localhost:1313/tags/embedded-finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Enhanced-Due-Diligence</title>
-      <link>http://localhost:65053/tags/enhanced-due-diligence/</link>
+      <link>http://localhost:1313/tags/enhanced-due-diligence/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/enhanced-due-diligence/</guid>
+      <guid>http://localhost:1313/tags/enhanced-due-diligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Estonia</title>
-      <link>http://localhost:65053/tags/estonia/</link>
+      <link>http://localhost:1313/tags/estonia/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/estonia/</guid>
+      <guid>http://localhost:1313/tags/estonia/</guid>
       <description></description>
     </item>
     <item>
       <title>Europeeea</title>
-      <link>http://localhost:65053/tags/europeeea/</link>
+      <link>http://localhost:1313/tags/europeeea/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/europeeea/</guid>
+      <guid>http://localhost:1313/tags/europeeea/</guid>
       <description></description>
     </item>
     <item>
       <title>Farm-Worker-Payment</title>
-      <link>http://localhost:65053/tags/farm-worker-payment/</link>
+      <link>http://localhost:1313/tags/farm-worker-payment/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/farm-worker-payment/</guid>
+      <guid>http://localhost:1313/tags/farm-worker-payment/</guid>
       <description></description>
     </item>
     <item>
       <title>Farm-Worker-Payments</title>
-      <link>http://localhost:65053/tags/farm-worker-payments/</link>
+      <link>http://localhost:1313/tags/farm-worker-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/farm-worker-payments/</guid>
+      <guid>http://localhost:1313/tags/farm-worker-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Fatf-Grey-List-Countries</title>
-      <link>http://localhost:65053/tags/fatf-grey-list-countries/</link>
+      <link>http://localhost:1313/tags/fatf-grey-list-countries/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/fatf-grey-list-countries/</guid>
+      <guid>http://localhost:1313/tags/fatf-grey-list-countries/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiat-Wallet</title>
-      <link>http://localhost:65053/tags/fiat-wallet/</link>
+      <link>http://localhost:1313/tags/fiat-wallet/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/fiat-wallet/</guid>
+      <guid>http://localhost:1313/tags/fiat-wallet/</guid>
       <description></description>
     </item>
     <item>
       <title>Financial-Institutions</title>
-      <link>http://localhost:65053/tags/financial-institutions/</link>
+      <link>http://localhost:1313/tags/financial-institutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/financial-institutions/</guid>
+      <guid>http://localhost:1313/tags/financial-institutions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Financial-Modeling</title>
+      <link>http://localhost:1313/tags/financial-modeling/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/financial-modeling/</guid>
       <description></description>
     </item>
     <item>
       <title>Financial-Services</title>
-      <link>http://localhost:65053/tags/financial-services/</link>
+      <link>http://localhost:1313/tags/financial-services/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/financial-services/</guid>
+      <guid>http://localhost:1313/tags/financial-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Fintech</title>
-      <link>http://localhost:65053/tags/fintech/</link>
+      <link>http://localhost:1313/tags/fintech/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/fintech/</guid>
+      <guid>http://localhost:1313/tags/fintech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forms</title>
+      <link>http://localhost:1313/tags/forms/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/forms/</guid>
       <description></description>
     </item>
     <item>
       <title>Gambling</title>
-      <link>http://localhost:65053/tags/gambling/</link>
+      <link>http://localhost:1313/tags/gambling/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/gambling/</guid>
+      <guid>http://localhost:1313/tags/gambling/</guid>
       <description></description>
     </item>
     <item>
       <title>Gambling-Sports-Betting-Licensing</title>
-      <link>http://localhost:65053/tags/gambling-sports-betting-licensing/</link>
+      <link>http://localhost:1313/tags/gambling-sports-betting-licensing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/gambling-sports-betting-licensing/</guid>
+      <guid>http://localhost:1313/tags/gambling-sports-betting-licensing/</guid>
       <description></description>
     </item>
     <item>
       <title>Geographic</title>
-      <link>http://localhost:65053/tags/geographic/</link>
+      <link>http://localhost:1313/tags/geographic/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/geographic/</guid>
+      <guid>http://localhost:1313/tags/geographic/</guid>
       <description></description>
     </item>
     <item>
       <title>Georgia</title>
-      <link>http://localhost:65053/tags/georgia/</link>
+      <link>http://localhost:1313/tags/georgia/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/georgia/</guid>
+      <guid>http://localhost:1313/tags/georgia/</guid>
       <description></description>
     </item>
     <item>
       <title>Global-Advisory-Program</title>
-      <link>http://localhost:65053/tags/global-advisory-program/</link>
+      <link>http://localhost:1313/tags/global-advisory-program/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/global-advisory-program/</guid>
+      <guid>http://localhost:1313/tags/global-advisory-program/</guid>
       <description></description>
     </item>
     <item>
       <title>Gulf-Cooperation-Council</title>
-      <link>http://localhost:65053/tags/gulf-cooperation-council/</link>
+      <link>http://localhost:1313/tags/gulf-cooperation-council/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/gulf-cooperation-council/</guid>
+      <guid>http://localhost:1313/tags/gulf-cooperation-council/</guid>
       <description></description>
     </item>
     <item>
       <title>Healthcare</title>
-      <link>http://localhost:65053/tags/healthcare/</link>
+      <link>http://localhost:1313/tags/healthcare/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/healthcare/</guid>
+      <guid>http://localhost:1313/tags/healthcare/</guid>
       <description></description>
     </item>
     <item>
       <title>Healthcare-Payments</title>
-      <link>http://localhost:65053/tags/healthcare-payments/</link>
+      <link>http://localhost:1313/tags/healthcare-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/healthcare-payments/</guid>
+      <guid>http://localhost:1313/tags/healthcare-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Risk</title>
-      <link>http://localhost:65053/tags/high-risk/</link>
+      <link>http://localhost:1313/tags/high-risk/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/high-risk/</guid>
+      <guid>http://localhost:1313/tags/high-risk/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Risk-Banking</title>
-      <link>http://localhost:65053/tags/high-risk-banking/</link>
+      <link>http://localhost:1313/tags/high-risk-banking/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/high-risk-banking/</guid>
+      <guid>http://localhost:1313/tags/high-risk-banking/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Risk-Countries</title>
-      <link>http://localhost:65053/tags/high-risk-countries/</link>
+      <link>http://localhost:1313/tags/high-risk-countries/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/high-risk-countries/</guid>
+      <guid>http://localhost:1313/tags/high-risk-countries/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How-Tos</title>
+      <link>http://localhost:1313/tags/how-tos/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/how-tos/</guid>
       <description></description>
     </item>
     <item>
       <title>India</title>
-      <link>http://localhost:65053/tags/india/</link>
+      <link>http://localhost:1313/tags/india/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/india/</guid>
+      <guid>http://localhost:1313/tags/india/</guid>
       <description></description>
     </item>
     <item>
       <title>Individual-Bank-Account</title>
-      <link>http://localhost:65053/tags/individual-bank-account/</link>
+      <link>http://localhost:1313/tags/individual-bank-account/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/individual-bank-account/</guid>
+      <guid>http://localhost:1313/tags/individual-bank-account/</guid>
       <description></description>
     </item>
     <item>
       <title>Industry-Specific</title>
-      <link>http://localhost:65053/tags/industry-specific/</link>
+      <link>http://localhost:1313/tags/industry-specific/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/industry-specific/</guid>
+      <guid>http://localhost:1313/tags/industry-specific/</guid>
       <description></description>
     </item>
     <item>
       <title>Initial-Coin-Offering</title>
-      <link>http://localhost:65053/tags/initial-coin-offering/</link>
+      <link>http://localhost:1313/tags/initial-coin-offering/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/initial-coin-offering/</guid>
+      <guid>http://localhost:1313/tags/initial-coin-offering/</guid>
       <description></description>
     </item>
     <item>
       <title>International-Money-Transmitter-License</title>
-      <link>http://localhost:65053/tags/international-money-transmitter-license/</link>
+      <link>http://localhost:1313/tags/international-money-transmitter-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/international-money-transmitter-license/</guid>
+      <guid>http://localhost:1313/tags/international-money-transmitter-license/</guid>
       <description></description>
     </item>
     <item>
       <title>Issuingissuance</title>
-      <link>http://localhost:65053/tags/issuingissuance/</link>
+      <link>http://localhost:1313/tags/issuingissuance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/issuingissuance/</guid>
+      <guid>http://localhost:1313/tags/issuingissuance/</guid>
       <description></description>
     </item>
     <item>
       <title>Japan</title>
-      <link>http://localhost:65053/tags/japan/</link>
+      <link>http://localhost:1313/tags/japan/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/japan/</guid>
+      <guid>http://localhost:1313/tags/japan/</guid>
       <description></description>
     </item>
     <item>
       <title>Know-Your-Business</title>
-      <link>http://localhost:65053/tags/know-your-business/</link>
+      <link>http://localhost:1313/tags/know-your-business/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/know-your-business/</guid>
+      <guid>http://localhost:1313/tags/know-your-business/</guid>
       <description></description>
     </item>
     <item>
       <title>Know-Your-Customer</title>
-      <link>http://localhost:65053/tags/know-your-customer/</link>
+      <link>http://localhost:1313/tags/know-your-customer/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/know-your-customer/</guid>
+      <guid>http://localhost:1313/tags/know-your-customer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knowledge-Base</title>
+      <link>http://localhost:1313/tags/knowledge-base/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/knowledge-base/</guid>
       <description></description>
     </item>
     <item>
       <title>Latin-America</title>
-      <link>http://localhost:65053/tags/latin-america/</link>
+      <link>http://localhost:1313/tags/latin-america/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/latin-america/</guid>
+      <guid>http://localhost:1313/tags/latin-america/</guid>
       <description></description>
     </item>
     <item>
       <title>License-as-a-Service</title>
-      <link>http://localhost:65053/tags/license-as-a-service/</link>
+      <link>http://localhost:1313/tags/license-as-a-service/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/license-as-a-service/</guid>
+      <guid>http://localhost:1313/tags/license-as-a-service/</guid>
       <description></description>
     </item>
     <item>
       <title>Licensed-Gaming</title>
-      <link>http://localhost:65053/tags/licensed-gaming/</link>
+      <link>http://localhost:1313/tags/licensed-gaming/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/licensed-gaming/</guid>
+      <guid>http://localhost:1313/tags/licensed-gaming/</guid>
       <description></description>
     </item>
     <item>
       <title>Licensing</title>
-      <link>http://localhost:65053/tags/licensing/</link>
+      <link>http://localhost:1313/tags/licensing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/licensing/</guid>
+      <guid>http://localhost:1313/tags/licensing/</guid>
       <description></description>
     </item>
     <item>
       <title>Licensing-Application-Strategy-Consulting</title>
-      <link>http://localhost:65053/tags/licensing-application-strategy-consulting/</link>
+      <link>http://localhost:1313/tags/licensing-application-strategy-consulting/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/licensing-application-strategy-consulting/</guid>
+      <guid>http://localhost:1313/tags/licensing-application-strategy-consulting/</guid>
       <description></description>
     </item>
     <item>
       <title>Lithuania</title>
-      <link>http://localhost:65053/tags/lithuania/</link>
+      <link>http://localhost:1313/tags/lithuania/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/lithuania/</guid>
+      <guid>http://localhost:1313/tags/lithuania/</guid>
       <description></description>
     </item>
     <item>
       <title>Local-Wallet-Funding</title>
-      <link>http://localhost:65053/tags/local-wallet-funding/</link>
+      <link>http://localhost:1313/tags/local-wallet-funding/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/local-wallet-funding/</guid>
+      <guid>http://localhost:1313/tags/local-wallet-funding/</guid>
       <description></description>
     </item>
     <item>
       <title>Major-Telco-Payment</title>
-      <link>http://localhost:65053/tags/major-telco-payment/</link>
+      <link>http://localhost:1313/tags/major-telco-payment/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/major-telco-payment/</guid>
+      <guid>http://localhost:1313/tags/major-telco-payment/</guid>
       <description></description>
     </item>
     <item>
       <title>Major-Telco-Payments</title>
-      <link>http://localhost:65053/tags/major-telco-payments/</link>
+      <link>http://localhost:1313/tags/major-telco-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/major-telco-payments/</guid>
+      <guid>http://localhost:1313/tags/major-telco-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketplace</title>
-      <link>http://localhost:65053/tags/marketplace/</link>
+      <link>http://localhost:1313/tags/marketplace/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/marketplace/</guid>
+      <guid>http://localhost:1313/tags/marketplace/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketplace-Licensing</title>
-      <link>http://localhost:65053/tags/marketplace-licensing/</link>
+      <link>http://localhost:1313/tags/marketplace-licensing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/marketplace-licensing/</guid>
+      <guid>http://localhost:1313/tags/marketplace-licensing/</guid>
       <description></description>
     </item>
     <item>
       <title>Merchant-Accounts</title>
-      <link>http://localhost:65053/tags/merchant-accounts/</link>
+      <link>http://localhost:1313/tags/merchant-accounts/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/merchant-accounts/</guid>
+      <guid>http://localhost:1313/tags/merchant-accounts/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Services-Business</title>
-      <link>http://localhost:65053/tags/money-services-business/</link>
+      <link>http://localhost:1313/tags/money-services-business/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/money-services-business/</guid>
+      <guid>http://localhost:1313/tags/money-services-business/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Transfer</title>
-      <link>http://localhost:65053/tags/money-transfer/</link>
+      <link>http://localhost:1313/tags/money-transfer/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/money-transfer/</guid>
+      <guid>http://localhost:1313/tags/money-transfer/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Transfer-Agent</title>
-      <link>http://localhost:65053/tags/money-transfer-agent/</link>
+      <link>http://localhost:1313/tags/money-transfer-agent/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/money-transfer-agent/</guid>
+      <guid>http://localhost:1313/tags/money-transfer-agent/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Transfer-as-a-Service</title>
-      <link>http://localhost:65053/tags/money-transfer-as-a-service/</link>
+      <link>http://localhost:1313/tags/money-transfer-as-a-service/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/money-transfer-as-a-service/</guid>
+      <guid>http://localhost:1313/tags/money-transfer-as-a-service/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Transfer-Business</title>
-      <link>http://localhost:65053/tags/money-transfer-business/</link>
+      <link>http://localhost:1313/tags/money-transfer-business/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/money-transfer-business/</guid>
+      <guid>http://localhost:1313/tags/money-transfer-business/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Transfer-Operator</title>
-      <link>http://localhost:65053/tags/money-transfer-operator/</link>
+      <link>http://localhost:1313/tags/money-transfer-operator/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/money-transfer-operator/</guid>
+      <guid>http://localhost:1313/tags/money-transfer-operator/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Transmitter-License</title>
-      <link>http://localhost:65053/tags/money-transmitter-license/</link>
+      <link>http://localhost:1313/tags/money-transmitter-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/money-transmitter-license/</guid>
+      <guid>http://localhost:1313/tags/money-transmitter-license/</guid>
       <description></description>
     </item>
     <item>
       <title>Msb-Friendly-Bank-Accounts</title>
-      <link>http://localhost:65053/tags/msb-friendly-bank-accounts/</link>
+      <link>http://localhost:1313/tags/msb-friendly-bank-accounts/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/msb-friendly-bank-accounts/</guid>
+      <guid>http://localhost:1313/tags/msb-friendly-bank-accounts/</guid>
       <description></description>
     </item>
     <item>
       <title>Multi-Currency-Ibans</title>
-      <link>http://localhost:65053/tags/multi-currency-ibans/</link>
+      <link>http://localhost:1313/tags/multi-currency-ibans/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/multi-currency-ibans/</guid>
+      <guid>http://localhost:1313/tags/multi-currency-ibans/</guid>
       <description></description>
     </item>
     <item>
       <title>Nepal</title>
-      <link>http://localhost:65053/tags/nepal/</link>
+      <link>http://localhost:1313/tags/nepal/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/nepal/</guid>
+      <guid>http://localhost:1313/tags/nepal/</guid>
       <description></description>
     </item>
     <item>
       <title>Nigeria</title>
-      <link>http://localhost:65053/tags/nigeria/</link>
+      <link>http://localhost:1313/tags/nigeria/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/nigeria/</guid>
+      <guid>http://localhost:1313/tags/nigeria/</guid>
       <description></description>
     </item>
     <item>
       <title>Non-Banking-Financial-Institutions</title>
-      <link>http://localhost:65053/tags/non-banking-financial-institutions/</link>
+      <link>http://localhost:1313/tags/non-banking-financial-institutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/non-banking-financial-institutions/</guid>
+      <guid>http://localhost:1313/tags/non-banking-financial-institutions/</guid>
       <description></description>
     </item>
     <item>
       <title>Nzaustralia</title>
-      <link>http://localhost:65053/tags/nzaustralia/</link>
+      <link>http://localhost:1313/tags/nzaustralia/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/nzaustralia/</guid>
+      <guid>http://localhost:1313/tags/nzaustralia/</guid>
       <description></description>
     </item>
     <item>
       <title>Offshore-Banking-License</title>
-      <link>http://localhost:65053/tags/offshore-banking-license/</link>
+      <link>http://localhost:1313/tags/offshore-banking-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/offshore-banking-license/</guid>
+      <guid>http://localhost:1313/tags/offshore-banking-license/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online-Training</title>
+      <link>http://localhost:1313/tags/online-training/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/online-training/</guid>
       <description></description>
     </item>
     <item>
       <title>Pakistan</title>
-      <link>http://localhost:65053/tags/pakistan/</link>
+      <link>http://localhost:1313/tags/pakistan/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/pakistan/</guid>
+      <guid>http://localhost:1313/tags/pakistan/</guid>
       <description></description>
     </item>
     <item>
       <title>Payment-Facilitator</title>
-      <link>http://localhost:65053/tags/payment-facilitator/</link>
+      <link>http://localhost:1313/tags/payment-facilitator/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/payment-facilitator/</guid>
+      <guid>http://localhost:1313/tags/payment-facilitator/</guid>
       <description></description>
     </item>
     <item>
       <title>Payment-Institution</title>
-      <link>http://localhost:65053/tags/payment-institution/</link>
+      <link>http://localhost:1313/tags/payment-institution/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/payment-institution/</guid>
+      <guid>http://localhost:1313/tags/payment-institution/</guid>
       <description></description>
     </item>
     <item>
       <title>Payment-Networks</title>
-      <link>http://localhost:65053/tags/payment-networks/</link>
+      <link>http://localhost:1313/tags/payment-networks/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/payment-networks/</guid>
+      <guid>http://localhost:1313/tags/payment-networks/</guid>
       <description></description>
     </item>
     <item>
       <title>Payment-Processors-Aggregators</title>
-      <link>http://localhost:65053/tags/payment-processors-aggregators/</link>
+      <link>http://localhost:1313/tags/payment-processors-aggregators/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/payment-processors-aggregators/</guid>
+      <guid>http://localhost:1313/tags/payment-processors-aggregators/</guid>
       <description></description>
     </item>
     <item>
       <title>Payments</title>
-      <link>http://localhost:65053/tags/payments/</link>
+      <link>http://localhost:1313/tags/payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/payments/</guid>
+      <guid>http://localhost:1313/tags/payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Payroll</title>
-      <link>http://localhost:65053/tags/payroll/</link>
+      <link>http://localhost:1313/tags/payroll/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/payroll/</guid>
+      <guid>http://localhost:1313/tags/payroll/</guid>
       <description></description>
     </item>
     <item>
       <title>Payroll-Fx-Solutions</title>
-      <link>http://localhost:65053/tags/payroll-fx-solutions/</link>
+      <link>http://localhost:1313/tags/payroll-fx-solutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/payroll-fx-solutions/</guid>
+      <guid>http://localhost:1313/tags/payroll-fx-solutions/</guid>
       <description></description>
     </item>
     <item>
       <title>Pobo-Cobo</title>
-      <link>http://localhost:65053/tags/pobo-cobo/</link>
+      <link>http://localhost:1313/tags/pobo-cobo/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/pobo-cobo/</guid>
+      <guid>http://localhost:1313/tags/pobo-cobo/</guid>
       <description></description>
     </item>
     <item>
       <title>Pobocobo</title>
-      <link>http://localhost:65053/tags/pobocobo/</link>
+      <link>http://localhost:1313/tags/pobocobo/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/pobocobo/</guid>
+      <guid>http://localhost:1313/tags/pobocobo/</guid>
       <description></description>
     </item>
     <item>
       <title>Politically-Exposed-Person</title>
-      <link>http://localhost:65053/tags/politically-exposed-person/</link>
+      <link>http://localhost:1313/tags/politically-exposed-person/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/politically-exposed-person/</guid>
+      <guid>http://localhost:1313/tags/politically-exposed-person/</guid>
       <description></description>
     </item>
     <item>
       <title>Principle-License-Holders</title>
-      <link>http://localhost:65053/tags/principle-license-holders/</link>
+      <link>http://localhost:1313/tags/principle-license-holders/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/principle-license-holders/</guid>
+      <guid>http://localhost:1313/tags/principle-license-holders/</guid>
       <description></description>
     </item>
     <item>
       <title>Product-Development-Consulting</title>
-      <link>http://localhost:65053/tags/product-development-consulting/</link>
+      <link>http://localhost:1313/tags/product-development-consulting/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/product-development-consulting/</guid>
+      <guid>http://localhost:1313/tags/product-development-consulting/</guid>
       <description></description>
     </item>
     <item>
       <title>Project-Evaluation-Advisory-Consulting</title>
-      <link>http://localhost:65053/tags/project-evaluation-advisory-consulting/</link>
+      <link>http://localhost:1313/tags/project-evaluation-advisory-consulting/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/project-evaluation-advisory-consulting/</guid>
+      <guid>http://localhost:1313/tags/project-evaluation-advisory-consulting/</guid>
       <description></description>
     </item>
     <item>
       <title>Providers</title>
-      <link>http://localhost:65053/tags/providers/</link>
+      <link>http://localhost:1313/tags/providers/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/providers/</guid>
+      <guid>http://localhost:1313/tags/providers/</guid>
       <description></description>
     </item>
     <item>
       <title>Readymade-Solutions</title>
-      <link>http://localhost:65053/tags/readymade-solutions/</link>
+      <link>http://localhost:1313/tags/readymade-solutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/readymade-solutions/</guid>
+      <guid>http://localhost:1313/tags/readymade-solutions/</guid>
       <description></description>
     </item>
     <item>
       <title>Remittance-as-a-Service</title>
-      <link>http://localhost:65053/tags/remittance-as-a-service/</link>
+      <link>http://localhost:1313/tags/remittance-as-a-service/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/remittance-as-a-service/</guid>
+      <guid>http://localhost:1313/tags/remittance-as-a-service/</guid>
       <description></description>
     </item>
     <item>
       <title>Rent-a-License</title>
-      <link>http://localhost:65053/tags/rent-a-license/</link>
+      <link>http://localhost:1313/tags/rent-a-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/rent-a-license/</guid>
+      <guid>http://localhost:1313/tags/rent-a-license/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/tags/resources/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/resources/</guid>
       <description></description>
     </item>
     <item>
       <title>Risk-Assessment</title>
-      <link>http://localhost:65053/tags/risk-assessment/</link>
+      <link>http://localhost:1313/tags/risk-assessment/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/risk-assessment/</guid>
+      <guid>http://localhost:1313/tags/risk-assessment/</guid>
       <description></description>
     </item>
     <item>
       <title>Sanctioned-Countries</title>
-      <link>http://localhost:65053/tags/sanctioned-countries/</link>
+      <link>http://localhost:1313/tags/sanctioned-countries/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/sanctioned-countries/</guid>
+      <guid>http://localhost:1313/tags/sanctioned-countries/</guid>
       <description></description>
     </item>
     <item>
       <title>Sanctions-Screening</title>
-      <link>http://localhost:65053/tags/sanctions-screening/</link>
+      <link>http://localhost:1313/tags/sanctions-screening/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/sanctions-screening/</guid>
+      <guid>http://localhost:1313/tags/sanctions-screening/</guid>
       <description></description>
     </item>
     <item>
       <title>Seafarer-Payment-Solutions</title>
-      <link>http://localhost:65053/tags/seafarer-payment-solutions/</link>
+      <link>http://localhost:1313/tags/seafarer-payment-solutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/seafarer-payment-solutions/</guid>
+      <guid>http://localhost:1313/tags/seafarer-payment-solutions/</guid>
       <description></description>
     </item>
     <item>
       <title>Seafarer-Payments</title>
-      <link>http://localhost:65053/tags/seafarer-payments/</link>
+      <link>http://localhost:1313/tags/seafarer-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/seafarer-payments/</guid>
+      <guid>http://localhost:1313/tags/seafarer-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Small-Payment-Institution</title>
-      <link>http://localhost:65053/tags/small-payment-institution/</link>
+      <link>http://localhost:1313/tags/small-payment-institution/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/small-payment-institution/</guid>
+      <guid>http://localhost:1313/tags/small-payment-institution/</guid>
       <description></description>
     </item>
     <item>
       <title>Solutions</title>
-      <link>http://localhost:65053/tags/solutions/</link>
+      <link>http://localhost:1313/tags/solutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/solutions/</guid>
+      <guid>http://localhost:1313/tags/solutions/</guid>
       <description></description>
     </item>
     <item>
       <title>Somalia</title>
-      <link>http://localhost:65053/tags/somalia/</link>
+      <link>http://localhost:1313/tags/somalia/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/somalia/</guid>
+      <guid>http://localhost:1313/tags/somalia/</guid>
       <description></description>
     </item>
     <item>
       <title>South-Asia</title>
-      <link>http://localhost:65053/tags/south-asia/</link>
+      <link>http://localhost:1313/tags/south-asia/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/south-asia/</guid>
+      <guid>http://localhost:1313/tags/south-asia/</guid>
       <description></description>
     </item>
     <item>
       <title>South-East-Asia</title>
-      <link>http://localhost:65053/tags/south-east-asia/</link>
+      <link>http://localhost:1313/tags/south-east-asia/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/south-east-asia/</guid>
+      <guid>http://localhost:1313/tags/south-east-asia/</guid>
       <description></description>
     </item>
     <item>
       <title>South-Korea</title>
-      <link>http://localhost:65053/tags/south-korea/</link>
+      <link>http://localhost:1313/tags/south-korea/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/south-korea/</guid>
+      <guid>http://localhost:1313/tags/south-korea/</guid>
       <description></description>
     </item>
     <item>
       <title>Sports-Betting</title>
-      <link>http://localhost:65053/tags/sports-betting/</link>
+      <link>http://localhost:1313/tags/sports-betting/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/sports-betting/</guid>
+      <guid>http://localhost:1313/tags/sports-betting/</guid>
       <description></description>
     </item>
     <item>
       <title>Stablecoins-Payments</title>
-      <link>http://localhost:65053/tags/stablecoins-payments/</link>
+      <link>http://localhost:1313/tags/stablecoins-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/stablecoins-payments/</guid>
+      <guid>http://localhost:1313/tags/stablecoins-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Starting-a-Neo-Bank</title>
-      <link>http://localhost:65053/tags/starting-a-neo-bank/</link>
+      <link>http://localhost:1313/tags/starting-a-neo-bank/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/starting-a-neo-bank/</guid>
+      <guid>http://localhost:1313/tags/starting-a-neo-bank/</guid>
       <description></description>
     </item>
     <item>
       <title>Sub-Saharan-Africa</title>
-      <link>http://localhost:65053/tags/sub-saharan-africa/</link>
+      <link>http://localhost:1313/tags/sub-saharan-africa/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/sub-saharan-africa/</guid>
+      <guid>http://localhost:1313/tags/sub-saharan-africa/</guid>
       <description></description>
     </item>
     <item>
       <title>Surety-Bonds</title>
-      <link>http://localhost:65053/tags/surety-bonds/</link>
+      <link>http://localhost:1313/tags/surety-bonds/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/surety-bonds/</guid>
+      <guid>http://localhost:1313/tags/surety-bonds/</guid>
       <description></description>
     </item>
     <item>
       <title>Swift-Access</title>
-      <link>http://localhost:65053/tags/swift-access/</link>
+      <link>http://localhost:1313/tags/swift-access/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/swift-access/</guid>
+      <guid>http://localhost:1313/tags/swift-access/</guid>
       <description></description>
     </item>
     <item>
       <title>Tax-Payment</title>
-      <link>http://localhost:65053/tags/tax-payment/</link>
+      <link>http://localhost:1313/tags/tax-payment/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/tax-payment/</guid>
+      <guid>http://localhost:1313/tags/tax-payment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/tags/tools/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Trade-Payments</title>
-      <link>http://localhost:65053/tags/trade-payments/</link>
+      <link>http://localhost:1313/tags/trade-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/trade-payments/</guid>
+      <guid>http://localhost:1313/tags/trade-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel-Industry</title>
-      <link>http://localhost:65053/tags/travel-industry/</link>
+      <link>http://localhost:1313/tags/travel-industry/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/travel-industry/</guid>
+      <guid>http://localhost:1313/tags/travel-industry/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel-Industry-Payments</title>
-      <link>http://localhost:65053/tags/travel-industry-payments/</link>
+      <link>http://localhost:1313/tags/travel-industry-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/travel-industry-payments/</guid>
+      <guid>http://localhost:1313/tags/travel-industry-payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Tuition-Payment</title>
-      <link>http://localhost:65053/tags/tuition-payment/</link>
+      <link>http://localhost:1313/tags/tuition-payment/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/tuition-payment/</guid>
+      <guid>http://localhost:1313/tags/tuition-payment/</guid>
       <description></description>
     </item>
     <item>
       <title>Turkey</title>
-      <link>http://localhost:65053/tags/turkey/</link>
+      <link>http://localhost:1313/tags/turkey/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/turkey/</guid>
+      <guid>http://localhost:1313/tags/turkey/</guid>
       <description></description>
     </item>
     <item>
       <title>Uk</title>
-      <link>http://localhost:65053/tags/uk/</link>
+      <link>http://localhost:1313/tags/uk/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/uk/</guid>
+      <guid>http://localhost:1313/tags/uk/</guid>
       <description></description>
     </item>
     <item>
       <title>Us-Dollar-Accounts</title>
-      <link>http://localhost:65053/tags/us-dollar-accounts/</link>
+      <link>http://localhost:1313/tags/us-dollar-accounts/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/us-dollar-accounts/</guid>
+      <guid>http://localhost:1313/tags/us-dollar-accounts/</guid>
       <description></description>
     </item>
     <item>
       <title>Usa</title>
-      <link>http://localhost:65053/tags/usa/</link>
+      <link>http://localhost:1313/tags/usa/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/usa/</guid>
+      <guid>http://localhost:1313/tags/usa/</guid>
       <description></description>
     </item>
     <item>
       <title>Venezuela</title>
-      <link>http://localhost:65053/tags/venezuela/</link>
+      <link>http://localhost:1313/tags/venezuela/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/venezuela/</guid>
+      <guid>http://localhost:1313/tags/venezuela/</guid>
       <description></description>
     </item>
     <item>
       <title>Wallets</title>
-      <link>http://localhost:65053/tags/wallets/</link>
+      <link>http://localhost:1313/tags/wallets/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/tags/wallets/</guid>
+      <guid>http://localhost:1313/tags/wallets/</guid>
       <description></description>
     </item>
   </channel>

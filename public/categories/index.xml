@@ -2,108 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Faisal Khan LLC</title>
-    <link>http://localhost:65053/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Banking</title>
-      <link>http://localhost:65053/categories/banking/</link>
+      <link>http://localhost:1313/categories/banking/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/banking/</guid>
+      <guid>http://localhost:1313/categories/banking/</guid>
       <description></description>
     </item>
     <item>
       <title>Cards</title>
-      <link>http://localhost:65053/categories/cards/</link>
+      <link>http://localhost:1313/categories/cards/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/cards/</guid>
+      <guid>http://localhost:1313/categories/cards/</guid>
       <description></description>
     </item>
     <item>
       <title>Compliance</title>
-      <link>http://localhost:65053/categories/compliance/</link>
+      <link>http://localhost:1313/categories/compliance/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/compliance/</guid>
+      <guid>http://localhost:1313/categories/compliance/</guid>
       <description></description>
     </item>
     <item>
       <title>Consulting</title>
-      <link>http://localhost:65053/categories/consulting/</link>
+      <link>http://localhost:1313/categories/consulting/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/consulting/</guid>
+      <guid>http://localhost:1313/categories/consulting/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto</title>
-      <link>http://localhost:65053/categories/crypto/</link>
+      <link>http://localhost:1313/categories/crypto/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/crypto/</guid>
+      <guid>http://localhost:1313/categories/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>Fintech</title>
-      <link>http://localhost:65053/categories/fintech/</link>
+      <link>http://localhost:1313/categories/fintech/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/fintech/</guid>
+      <guid>http://localhost:1313/categories/fintech/</guid>
       <description></description>
     </item>
     <item>
       <title>Geographic</title>
-      <link>http://localhost:65053/categories/geographic/</link>
+      <link>http://localhost:1313/categories/geographic/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/geographic/</guid>
+      <guid>http://localhost:1313/categories/geographic/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Risk</title>
-      <link>http://localhost:65053/categories/high-risk/</link>
+      <link>http://localhost:1313/categories/high-risk/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/high-risk/</guid>
+      <guid>http://localhost:1313/categories/high-risk/</guid>
       <description></description>
     </item>
     <item>
       <title>Industry-Specific</title>
-      <link>http://localhost:65053/categories/industry-specific/</link>
+      <link>http://localhost:1313/categories/industry-specific/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/industry-specific/</guid>
+      <guid>http://localhost:1313/categories/industry-specific/</guid>
       <description></description>
     </item>
     <item>
       <title>Licensing</title>
-      <link>http://localhost:65053/categories/licensing/</link>
+      <link>http://localhost:1313/categories/licensing/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/licensing/</guid>
+      <guid>http://localhost:1313/categories/licensing/</guid>
       <description></description>
     </item>
     <item>
       <title>Money-Transfer</title>
-      <link>http://localhost:65053/categories/money-transfer/</link>
+      <link>http://localhost:1313/categories/money-transfer/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/money-transfer/</guid>
+      <guid>http://localhost:1313/categories/money-transfer/</guid>
       <description></description>
     </item>
     <item>
       <title>Payments</title>
-      <link>http://localhost:65053/categories/payments/</link>
+      <link>http://localhost:1313/categories/payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/payments/</guid>
+      <guid>http://localhost:1313/categories/payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Providers</title>
-      <link>http://localhost:65053/categories/providers/</link>
+      <link>http://localhost:1313/categories/providers/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/providers/</guid>
+      <guid>http://localhost:1313/categories/providers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/categories/resources/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/resources/</guid>
       <description></description>
     </item>
     <item>
       <title>Wallets</title>
-      <link>http://localhost:65053/categories/wallets/</link>
+      <link>http://localhost:1313/categories/wallets/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/categories/wallets/</guid>
+      <guid>http://localhost:1313/categories/wallets/</guid>
       <description></description>
     </item>
   </channel>

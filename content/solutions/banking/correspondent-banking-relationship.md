@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with correspondent banking relationship (cbr)? Contact Faisal Khan LLC for expert consultation."
----
-# Correspondent Banking Relationship (CBR)
-
-Professional correspondent banking relationship (cbr) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Correspondent Banking Relationship (CBR) and how Faisal Khan LLC can help]
 

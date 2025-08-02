@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with cross-border payments strategy consulting? Contact Faisal Khan LLC for expert consultation."
----
-# Cross-Border Payments Strategy Consulting
-
-Professional cross-border payments strategy consulting services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Cross-Border Payments Strategy Consulting and how Faisal Khan LLC can help]
 

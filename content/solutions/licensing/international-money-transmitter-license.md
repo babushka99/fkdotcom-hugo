@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with international money transmitter license? Contact Faisal Khan LLC for expert consultation."
----
-# International Money Transmitter License
-
-Professional international money transmitter license services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of International Money Transmitter License and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with non-banking financial institutions? Contact Faisal Khan LLC for expert consultation."
----
-# Non-Banking Financial Institutions
-
-Professional non-banking financial institutions services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Non-Banking Financial Institutions and how Faisal Khan LLC can help]
 

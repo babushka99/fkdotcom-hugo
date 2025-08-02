@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with corporate bank account? Contact Faisal Khan LLC for expert consultation."
----
-# Corporate Bank Account
-
-Professional corporate bank account services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Corporate Bank Account and how Faisal Khan LLC can help]
 

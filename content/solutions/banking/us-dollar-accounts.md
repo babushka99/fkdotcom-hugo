@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with us dollar accounts? Contact Faisal Khan LLC for expert consultation."
----
-# US Dollar Accounts
-
-Professional us dollar accounts services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of US Dollar Accounts and how Faisal Khan LLC can help]
 

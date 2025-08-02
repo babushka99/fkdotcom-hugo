@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with venezuela? Contact Faisal Khan LLC for expert consultation."
----
-# Venezuela
-
-Professional venezuela services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Venezuela and how Faisal Khan LLC can help]
 

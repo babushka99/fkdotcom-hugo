@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with financial institutions? Contact Faisal Khan LLC for expert consultation."
----
-# Financial Institutions
-
-Professional financial institutions services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Financial Institutions and how Faisal Khan LLC can help]
 

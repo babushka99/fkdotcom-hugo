@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with starting a neo bank? Contact Faisal Khan LLC for expert consultation."
----
-# Starting a Neo Bank
-
-Professional starting a neo bank services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Starting a Neo Bank and how Faisal Khan LLC can help]
 

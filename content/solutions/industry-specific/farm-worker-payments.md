@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with farm worker payments? Contact Faisal Khan LLC for expert consultation."
----
-# Farm Worker Payments
-
-Professional farm worker payments services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Farm Worker Payments and how Faisal Khan LLC can help]
 

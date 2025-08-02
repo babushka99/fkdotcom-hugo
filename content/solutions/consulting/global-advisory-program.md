@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with global advisory program? Contact Faisal Khan LLC for expert consultation."
----
-# Global Advisory Program
-
-Professional global advisory program services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Global Advisory Program and how Faisal Khan LLC can help]
 

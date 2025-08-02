@@ -1,25 +1,238 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=65053&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Solutions | Faisal Khan LLC</title>
-<meta name="keywords" content="solutions, licensing, banking, payments, compliance, faisal khan">
-<meta name="description" content="Comprehensive solutions for licensing, banking, payments, and compliance in regulated financial services">
+<title>Faisal Khan LLC</title>
+<meta name="keywords" content="">
+<meta name="description" content="#!/usr/bin/env python3
+&quot;&quot;&quot;
+Hugo Solutions Pages Bulk Generator for Faisal Khan LLC - FIXED VERSION
+Creates all solution pages with proper front matter and structure
+FIXED: Removed duplicate titles and descriptions to prevent duplication
+&quot;&quot;&quot;
+import os
+import re
+from datetime import datetime
+Base content directory (adjust path as needed)
+CONTENT_DIR = &ldquo;/Users/faisalkhan/Dropbox/Hugoproject/faisalkhan/content&rdquo;
+Solution categories and their pages
+SOLUTIONS_DATA = {
+&ldquo;licensing&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Licensing &amp; License Sponsorship&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Comprehensive licensing solutions for regulated financial services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Money Transmitter License (MTL)&rdquo;,
+&ldquo;Money Services Business (MSB)&rdquo;,
+&ldquo;Electronic Money Institution (EMI)&rdquo;,
+&ldquo;Payment Institution (PI)&rdquo;,
+&ldquo;Small Payment Institution (SPI)&rdquo;,
+&ldquo;Authorized Payment Institution (API)&rdquo;,
+&ldquo;Cryptocurrency Licensing&rdquo;,
+&ldquo;Crypto Exchange License&rdquo;,
+&ldquo;Crypto Wallet License&rdquo;,
+&ldquo;License as a Service (LaaS)&rdquo;,
+&ldquo;Rent-a-License&rdquo;,
+&ldquo;Bank Sponsorship&rdquo;,
+&ldquo;Agent of Payee Exemption&rdquo;,
+&ldquo;International Money Transmitter License&rdquo;,
+&ldquo;Gambling &amp; Sports Betting Licensing&rdquo;,
+&ldquo;Marketplace Licensing&rdquo;
+]
+},
+&ldquo;banking&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Banking &amp; Access to Banking&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Banking solutions for high-risk and regulated businesses&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;MSB-Friendly Bank Accounts&rdquo;,
+&ldquo;Banking-as-a-Service (BaaS)&rdquo;,
+&ldquo;Multi-Currency IBANs&rdquo;,
+&ldquo;SWIFT Access&rdquo;,
+&ldquo;US Dollar Accounts&rdquo;,
+&ldquo;Crypto Bank Accounts&rdquo;,
+&ldquo;High-Risk Banking&rdquo;,
+&ldquo;Correspondent Banking Relationship (CBR)&rdquo;,
+&ldquo;Offshore Banking License&rdquo;,
+&ldquo;Individual Bank Account&rdquo;,
+&ldquo;Corporate Bank Account&rdquo;
+]
+},
+&ldquo;money-transfer&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Money Transfer &amp; Remittances&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Cross-border payment and remittance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Money Transfer Business&rdquo;,
+&ldquo;Cross-Border Payments&rdquo;,
+&ldquo;Remittance-as-a-Service (RaaS)&rdquo;,
+&ldquo;Money Transfer as a Service (MTaaS)&rdquo;,
+&ldquo;Money Transfer Agent&rdquo;,
+&ldquo;Money Transfer Operator (MTO)&rdquo;
+]
+},
+&ldquo;payments&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Payments &amp; Payment Processing&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Comprehensive payment processing and facilitation services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;B2B Payments&rdquo;,
+&ldquo;Payment Facilitator (PayFac)&rdquo;,
+&ldquo;Payment Networks&rdquo;,
+&ldquo;Tax Payment&rdquo;,
+&ldquo;Tuition Payment&rdquo;,
+&ldquo;Payroll FX Solutions&rdquo;,
+&ldquo;Farm Worker Payment&rdquo;,
+&ldquo;Major Telco Payments&rdquo;,
+&ldquo;Healthcare Payments&rdquo;,
+&ldquo;Seafarer Payment Solutions&rdquo;,
+&ldquo;Car Auction Payment&rdquo;,
+&ldquo;Trade Payments&rdquo;,
+&ldquo;Travel Industry Payments&rdquo;,
+&ldquo;POBO / COBO&rdquo;
+]
+},
+&ldquo;crypto&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Crypto &amp; Blockchain&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Cryptocurrency and blockchain compliance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Crypto Licensing&rdquo;,
+&ldquo;Stablecoins Payments&rdquo;,
+&ldquo;Crypto-based Debit Cards&rdquo;,
+&ldquo;Bitcoin Money Transmitter License&rdquo;,
+&ldquo;Crypto OTC License&rdquo;,
+&ldquo;DeFi License&rdquo;,
+&ldquo;Central Bank Digital Currencies (CBDCs)&rdquo;,
+&ldquo;Initial Coin Offering (ICO)&rdquo;,
+&ldquo;Decentralized Autonomous Organization (DAO)&rdquo;
+]
+},
+&ldquo;compliance&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Risk &amp; Compliance&rdquo;,
+&ldquo;description&rdquo;: &ldquo;AML, KYC, and regulatory compliance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Anti-Money Laundering (AML)&rdquo;,
+&ldquo;Know Your Customer (KYC)&rdquo;,
+&ldquo;Know Your Business (KYB)&rdquo;,
+&ldquo;Enhanced Due Diligence (EDD)&rdquo;,
+&ldquo;Politically Exposed Person (PEP)&rdquo;,
+&ldquo;Sanctions Screening&rdquo;,
+&ldquo;Risk Assessment&rdquo;,
+&ldquo;Compliance Training&rdquo;,
+&ldquo;Surety Bonds&rdquo;
+]
+},
+&ldquo;cards&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Card Services&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Card processing, issuance, and merchant services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Card Processing&rdquo;,
+&ldquo;Card Issuance&rdquo;,
+&ldquo;Merchant Accounts&rdquo;,
+&ldquo;BIN Sponsorship&rdquo;,
+&ldquo;Acquiring&rdquo;,
+&ldquo;Issuing/Issuance&rdquo;
+]
+},
+&ldquo;wallets&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Wallet Solutions&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Digital wallet and e-money solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;E-Money Wallet&rdquo;,
+&ldquo;Crypto Wallet&rdquo;,
+&ldquo;Fiat Wallet&rdquo;,
+&ldquo;Local Wallet Funding&rdquo;,
+&ldquo;Readymade Solutions&rdquo;
+]
+},
+&ldquo;fintech&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Fintech &amp; Startups&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Solutions for fintech startups and embedded finance&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Build Your Own Bank (BYOB)&rdquo;,
+&ldquo;Embedded Finance&rdquo;,
+&ldquo;Crypto-based Projects&rdquo;,
+&ldquo;Starting a Neo Bank&rdquo;
+]
+},
+&ldquo;industry-specific&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Industry Specific Solutions&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Specialized payment solutions for specific industries&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Tax Payment&rdquo;,
+&ldquo;Bill Payment&rdquo;,
+&ldquo;Marketplace&rdquo;,
+&ldquo;Tuition Payment&rdquo;,
+&ldquo;Payroll&rdquo;,
+&ldquo;Farm Worker Payments&rdquo;,
+&ldquo;Local Wallet Funding&rdquo;,
+&ldquo;Major Telco Payment&rdquo;,
+&ldquo;Healthcare&rdquo;,
+&ldquo;Seafarer Payments&rdquo;,
+&ldquo;Car Auction Payment&rdquo;,
+&ldquo;POBO/COBO&rdquo;,
+&ldquo;Trade Payments&rdquo;,
+&ldquo;Travel Industry&rdquo;
+]
+},
+&ldquo;geographic&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Country Specific Solutions&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Jurisdiction-specific licensing and compliance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;USA&rdquo;, &ldquo;UK&rdquo;, &ldquo;Canada&rdquo;, &ldquo;Europe/EEA&rdquo;, &ldquo;Lithuania&rdquo;, &ldquo;Estonia&rdquo;,
+&ldquo;Turkey&rdquo;, &ldquo;India&rdquo;, &ldquo;Pakistan&rdquo;, &ldquo;Bangladesh&rdquo;, &ldquo;Nepal&rdquo;, &ldquo;Japan&rdquo;,
+&ldquo;South Korea&rdquo;, &ldquo;China&rdquo;, &ldquo;Africa&rdquo;, &ldquo;Sub-Saharan Africa&rdquo;, &ldquo;South Asia&rdquo;,
+&ldquo;South-East Asia&rdquo;, &ldquo;Latin America&rdquo;, &ldquo;Gulf Cooperation Council (GCC)&rdquo;,
+&ldquo;NZ/Australia&rdquo;, &ldquo;Nigeria&rdquo;, &ldquo;Somalia&rdquo;, &ldquo;Venezuela&rdquo;, &ldquo;Georgia&rdquo;,
+&ldquo;High-Risk Countries&rdquo;, &ldquo;Sanctioned Countries&rdquo;, &ldquo;FATF Grey List Countries&rdquo;
+]
+},
+&ldquo;providers&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Solution Providers&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Vetted partners and service providers&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Payment Processors &amp; Aggregators&rdquo;,
+&ldquo;Principle License Holders&rdquo;,
+&ldquo;Financial Institutions&rdquo;,
+&ldquo;Non-Banking Financial Institutions&rdquo;
+]
+},
+&ldquo;high-risk&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;High-Risk Businesses&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Solutions for high-risk business models&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Licensed Gaming&rdquo;,
+&ldquo;Sports Betting&rdquo;,
+&ldquo;Gambling&rdquo;,
+&ldquo;Cryptocurrency Trading&rdquo;,
+&ldquo;Check Cashing Business&rdquo;,
+&ldquo;Bitcoin ATM Business&rdquo;
+]
+},
+&ldquo;consulting&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Consulting Services&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Strategic consulting and advisory services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Product Development Consulting&rdquo;,
+&ldquo;Licensing Application Strategy Consulting&rdquo;,
+&ldquo;Advisory Consultancy Services&rdquo;,
+&ldquo;Cross-Border Payments Strategy Consulting&rdquo;,
+&ldquo;Project Evaluation &amp; Advisory Consulting&rdquo;,
+&ldquo;Global Advisory Program&rdquo;
+]
+}
+}">
 <meta name="author" content="Faisal Khan">
-<link rel="canonical" href="http://localhost:65053/solutions/">
+<link rel="canonical" href="http://localhost:1313/solutions/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:65053/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:65053/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:65053/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:65053/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:65053/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:65053/solutions/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:65053/solutions/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/solutions/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/solutions/">
 <noscript>
     <style>
         #theme-toggle,
@@ -78,6 +291,12 @@ body {
 
 [data-theme="dark"] body {
     background: var(--theme) !important;
+}
+
+ 
+.main, .post-content, .page-content, article {
+    max-width: 900px !important;
+    margin: 0 auto !important;
 }
 
  
@@ -150,7 +369,7 @@ body {
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:65053/" accesskey="h" title="Faisal Khan LLC (Alt + H)">Faisal Khan LLC</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Faisal Khan LLC (Alt + H)">Faisal Khan LLC</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -176,42 +395,42 @@ body {
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:65053/" title="Home">
+                <a href="http://localhost:1313/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:65053/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:65053/solutions/" title="Solutions">
+                <a href="http://localhost:1313/solutions/" title="Solutions">
                     <span class="active">Solutions</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:65053/resources/" title="Resources">
+                <a href="http://localhost:1313/resources/" title="Resources">
                     <span>Resources</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:65053/clients/" title="Clients">
+                <a href="http://localhost:1313/clients/" title="Clients">
                     <span>Clients</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:65053/pricing/" title="Pricing">
+                <a href="http://localhost:1313/pricing/" title="Pricing">
                     <span>Pricing</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:65053/blog/" title="Blog">
+                <a href="http://localhost:1313/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:65053/contact/" title="Contact">
+                <a href="http://localhost:1313/contact/" title="Contact">
                     <span>Contact</span>
                 </a>
             </li>
@@ -219,32 +438,408 @@ body {
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:65053/">Home</a></div>
-  <h1>
-    Solutions
-  </h1>
-  <div class="post-description">
-    Comprehensive solutions for licensing, banking, payments, and compliance in regulated financial services
-  </div>
-</header>
-<div class="post-content"><h1 id="our-solutions">Our Solutions<a hidden class="anchor" aria-hidden="true" href="#our-solutions">#</a></h1>
+<div class="post-content"><p>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Hugo Solutions Pages Bulk Generator for Faisal Khan LLC - FIXED VERSION
+Creates all solution pages with proper front matter and structure
+FIXED: Removed duplicate titles and descriptions to prevent duplication
+&quot;&quot;&quot;</p>
+<p>import os
+import re
+from datetime import datetime</p>
+<h1 id="base-content-directory-adjust-path-as-needed">Base content directory (adjust path as needed)<a hidden class="anchor" aria-hidden="true" href="#base-content-directory-adjust-path-as-needed">#</a></h1>
+<p>CONTENT_DIR = &ldquo;/Users/faisalkhan/Dropbox/Hugoproject/faisalkhan/content&rdquo;</p>
+<h1 id="solution-categories-and-their-pages">Solution categories and their pages<a hidden class="anchor" aria-hidden="true" href="#solution-categories-and-their-pages">#</a></h1>
+<p>SOLUTIONS_DATA = {
+&ldquo;licensing&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Licensing &amp; License Sponsorship&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Comprehensive licensing solutions for regulated financial services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Money Transmitter License (MTL)&rdquo;,
+&ldquo;Money Services Business (MSB)&rdquo;,
+&ldquo;Electronic Money Institution (EMI)&rdquo;,
+&ldquo;Payment Institution (PI)&rdquo;,
+&ldquo;Small Payment Institution (SPI)&rdquo;,
+&ldquo;Authorized Payment Institution (API)&rdquo;,
+&ldquo;Cryptocurrency Licensing&rdquo;,
+&ldquo;Crypto Exchange License&rdquo;,
+&ldquo;Crypto Wallet License&rdquo;,
+&ldquo;License as a Service (LaaS)&rdquo;,
+&ldquo;Rent-a-License&rdquo;,
+&ldquo;Bank Sponsorship&rdquo;,
+&ldquo;Agent of Payee Exemption&rdquo;,
+&ldquo;International Money Transmitter License&rdquo;,
+&ldquo;Gambling &amp; Sports Betting Licensing&rdquo;,
+&ldquo;Marketplace Licensing&rdquo;
+]
+},
+&ldquo;banking&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Banking &amp; Access to Banking&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Banking solutions for high-risk and regulated businesses&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;MSB-Friendly Bank Accounts&rdquo;,
+&ldquo;Banking-as-a-Service (BaaS)&rdquo;,
+&ldquo;Multi-Currency IBANs&rdquo;,
+&ldquo;SWIFT Access&rdquo;,
+&ldquo;US Dollar Accounts&rdquo;,
+&ldquo;Crypto Bank Accounts&rdquo;,
+&ldquo;High-Risk Banking&rdquo;,
+&ldquo;Correspondent Banking Relationship (CBR)&rdquo;,
+&ldquo;Offshore Banking License&rdquo;,
+&ldquo;Individual Bank Account&rdquo;,
+&ldquo;Corporate Bank Account&rdquo;
+]
+},
+&ldquo;money-transfer&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Money Transfer &amp; Remittances&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Cross-border payment and remittance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Money Transfer Business&rdquo;,
+&ldquo;Cross-Border Payments&rdquo;,
+&ldquo;Remittance-as-a-Service (RaaS)&rdquo;,
+&ldquo;Money Transfer as a Service (MTaaS)&rdquo;,
+&ldquo;Money Transfer Agent&rdquo;,
+&ldquo;Money Transfer Operator (MTO)&rdquo;
+]
+},
+&ldquo;payments&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Payments &amp; Payment Processing&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Comprehensive payment processing and facilitation services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;B2B Payments&rdquo;,
+&ldquo;Payment Facilitator (PayFac)&rdquo;,
+&ldquo;Payment Networks&rdquo;,
+&ldquo;Tax Payment&rdquo;,
+&ldquo;Tuition Payment&rdquo;,
+&ldquo;Payroll FX Solutions&rdquo;,
+&ldquo;Farm Worker Payment&rdquo;,
+&ldquo;Major Telco Payments&rdquo;,
+&ldquo;Healthcare Payments&rdquo;,
+&ldquo;Seafarer Payment Solutions&rdquo;,
+&ldquo;Car Auction Payment&rdquo;,
+&ldquo;Trade Payments&rdquo;,
+&ldquo;Travel Industry Payments&rdquo;,
+&ldquo;POBO / COBO&rdquo;
+]
+},
+&ldquo;crypto&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Crypto &amp; Blockchain&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Cryptocurrency and blockchain compliance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Crypto Licensing&rdquo;,
+&ldquo;Stablecoins Payments&rdquo;,
+&ldquo;Crypto-based Debit Cards&rdquo;,
+&ldquo;Bitcoin Money Transmitter License&rdquo;,
+&ldquo;Crypto OTC License&rdquo;,
+&ldquo;DeFi License&rdquo;,
+&ldquo;Central Bank Digital Currencies (CBDCs)&rdquo;,
+&ldquo;Initial Coin Offering (ICO)&rdquo;,
+&ldquo;Decentralized Autonomous Organization (DAO)&rdquo;
+]
+},
+&ldquo;compliance&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Risk &amp; Compliance&rdquo;,
+&ldquo;description&rdquo;: &ldquo;AML, KYC, and regulatory compliance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Anti-Money Laundering (AML)&rdquo;,
+&ldquo;Know Your Customer (KYC)&rdquo;,
+&ldquo;Know Your Business (KYB)&rdquo;,
+&ldquo;Enhanced Due Diligence (EDD)&rdquo;,
+&ldquo;Politically Exposed Person (PEP)&rdquo;,
+&ldquo;Sanctions Screening&rdquo;,
+&ldquo;Risk Assessment&rdquo;,
+&ldquo;Compliance Training&rdquo;,
+&ldquo;Surety Bonds&rdquo;
+]
+},
+&ldquo;cards&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Card Services&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Card processing, issuance, and merchant services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Card Processing&rdquo;,
+&ldquo;Card Issuance&rdquo;,
+&ldquo;Merchant Accounts&rdquo;,
+&ldquo;BIN Sponsorship&rdquo;,
+&ldquo;Acquiring&rdquo;,
+&ldquo;Issuing/Issuance&rdquo;
+]
+},
+&ldquo;wallets&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Wallet Solutions&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Digital wallet and e-money solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;E-Money Wallet&rdquo;,
+&ldquo;Crypto Wallet&rdquo;,
+&ldquo;Fiat Wallet&rdquo;,
+&ldquo;Local Wallet Funding&rdquo;,
+&ldquo;Readymade Solutions&rdquo;
+]
+},
+&ldquo;fintech&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Fintech &amp; Startups&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Solutions for fintech startups and embedded finance&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Build Your Own Bank (BYOB)&rdquo;,
+&ldquo;Embedded Finance&rdquo;,
+&ldquo;Crypto-based Projects&rdquo;,
+&ldquo;Starting a Neo Bank&rdquo;
+]
+},
+&ldquo;industry-specific&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Industry Specific Solutions&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Specialized payment solutions for specific industries&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Tax Payment&rdquo;,
+&ldquo;Bill Payment&rdquo;,
+&ldquo;Marketplace&rdquo;,
+&ldquo;Tuition Payment&rdquo;,
+&ldquo;Payroll&rdquo;,
+&ldquo;Farm Worker Payments&rdquo;,
+&ldquo;Local Wallet Funding&rdquo;,
+&ldquo;Major Telco Payment&rdquo;,
+&ldquo;Healthcare&rdquo;,
+&ldquo;Seafarer Payments&rdquo;,
+&ldquo;Car Auction Payment&rdquo;,
+&ldquo;POBO/COBO&rdquo;,
+&ldquo;Trade Payments&rdquo;,
+&ldquo;Travel Industry&rdquo;
+]
+},
+&ldquo;geographic&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Country Specific Solutions&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Jurisdiction-specific licensing and compliance solutions&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;USA&rdquo;, &ldquo;UK&rdquo;, &ldquo;Canada&rdquo;, &ldquo;Europe/EEA&rdquo;, &ldquo;Lithuania&rdquo;, &ldquo;Estonia&rdquo;,
+&ldquo;Turkey&rdquo;, &ldquo;India&rdquo;, &ldquo;Pakistan&rdquo;, &ldquo;Bangladesh&rdquo;, &ldquo;Nepal&rdquo;, &ldquo;Japan&rdquo;,
+&ldquo;South Korea&rdquo;, &ldquo;China&rdquo;, &ldquo;Africa&rdquo;, &ldquo;Sub-Saharan Africa&rdquo;, &ldquo;South Asia&rdquo;,
+&ldquo;South-East Asia&rdquo;, &ldquo;Latin America&rdquo;, &ldquo;Gulf Cooperation Council (GCC)&rdquo;,
+&ldquo;NZ/Australia&rdquo;, &ldquo;Nigeria&rdquo;, &ldquo;Somalia&rdquo;, &ldquo;Venezuela&rdquo;, &ldquo;Georgia&rdquo;,
+&ldquo;High-Risk Countries&rdquo;, &ldquo;Sanctioned Countries&rdquo;, &ldquo;FATF Grey List Countries&rdquo;
+]
+},
+&ldquo;providers&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Solution Providers&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Vetted partners and service providers&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Payment Processors &amp; Aggregators&rdquo;,
+&ldquo;Principle License Holders&rdquo;,
+&ldquo;Financial Institutions&rdquo;,
+&ldquo;Non-Banking Financial Institutions&rdquo;
+]
+},
+&ldquo;high-risk&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;High-Risk Businesses&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Solutions for high-risk business models&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Licensed Gaming&rdquo;,
+&ldquo;Sports Betting&rdquo;,
+&ldquo;Gambling&rdquo;,
+&ldquo;Cryptocurrency Trading&rdquo;,
+&ldquo;Check Cashing Business&rdquo;,
+&ldquo;Bitcoin ATM Business&rdquo;
+]
+},
+&ldquo;consulting&rdquo;: {
+&ldquo;title&rdquo;: &ldquo;Consulting Services&rdquo;,
+&ldquo;description&rdquo;: &ldquo;Strategic consulting and advisory services&rdquo;,
+&ldquo;pages&rdquo;: [
+&ldquo;Product Development Consulting&rdquo;,
+&ldquo;Licensing Application Strategy Consulting&rdquo;,
+&ldquo;Advisory Consultancy Services&rdquo;,
+&ldquo;Cross-Border Payments Strategy Consulting&rdquo;,
+&ldquo;Project Evaluation &amp; Advisory Consulting&rdquo;,
+&ldquo;Global Advisory Program&rdquo;
+]
+}
+}</p>
+<p>def slugify(text):
+&ldquo;&ldquo;&ldquo;Convert text to URL-friendly slug&rdquo;&rdquo;&rdquo;
+# Remove parentheses and their contents
+text = re.sub(r&rsquo;([^)]*)&rsquo;, &lsquo;&rsquo;, text)
+# Convert to lowercase and replace spaces/special chars with hyphens
+text = re.sub(r&rsquo;[^\w\s-]&rsquo;, &lsquo;&rsquo;, text.lower())
+text = re.sub(r&rsquo;[\s_-]+&rsquo;, &lsquo;-&rsquo;, text)
+return text.strip(&rsquo;-&rsquo;)</p>
+<p>def create_front_matter(title, category, description, parent_section):
+&ldquo;&ldquo;&ldquo;Create Hugo front matter for a solution page&rdquo;&rdquo;&rdquo;
+slug = slugify(title)
+date = datetime.now().strftime(&quot;%Y-%m-%d&quot;)  # YYYY-MM-DD format (Hugo standard)</p>
+<pre><code># Determine service type and jurisdictions based on content
+services = [&quot;licensing&quot;, &quot;compliance&quot;, &quot;payments&quot;]
+jurisdictions = [&quot;usa&quot;, &quot;uk&quot;, &quot;eu&quot;] if &quot;International&quot; in title else [&quot;usa&quot;]
+
+if &quot;crypto&quot; in title.lower() or &quot;bitcoin&quot; in title.lower():
+    services.append(&quot;crypto&quot;)
+if &quot;bank&quot; in title.lower():
+    services.append(&quot;banking&quot;)
+if &quot;compliance&quot; in category or &quot;aml&quot; in title.lower() or &quot;kyc&quot; in title.lower():
+    services = [&quot;compliance&quot;, &quot;risk-management&quot;]
+    
+front_matter = f'''---
+</code></pre>
+<p>title: &ldquo;{title}&rdquo;
+date: {date}
+draft: false
+description: &ldquo;{description}&rdquo;
+keywords: [&quot;{title.lower()}&quot;, &ldquo;{category}&rdquo;, &ldquo;licensing&rdquo;, &ldquo;compliance&rdquo;, &ldquo;faisal khan&rdquo;]</p>
+<h1 id="taxonomies">Taxonomies<a hidden class="anchor" aria-hidden="true" href="#taxonomies">#</a></h1>
+<p>categories: [&quot;{category}&quot;]
+tags: [&quot;{slugify(title)}&quot;, &ldquo;{category}&rdquo;, &ldquo;financial-services&rdquo;]
+services: {services}
+jurisdictions: {jurisdictions}</p>
+<h1 id="seo">SEO<a hidden class="anchor" aria-hidden="true" href="#seo">#</a></h1>
+<p>canonicalURL: &ldquo;<a href="https://faisalkhan.com/solutions/%7Bcategory%7D/%7Bslug%7D/%22">https://faisalkhan.com/solutions/{category}/{slug}/&quot;</a>
+images: [&quot;/images/solutions/{category}/{slug}.webp&rdquo;]</p>
+<h1 id="page-settings">Page settings<a hidden class="anchor" aria-hidden="true" href="#page-settings">#</a></h1>
+<p>ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false</p>
+<h1 id="schema-markup">Schema markup<a hidden class="anchor" aria-hidden="true" href="#schema-markup">#</a></h1>
+<p>type: &ldquo;service&rdquo;
+provider: &ldquo;Faisal Khan LLC&rdquo;
+areaServed: &ldquo;Global&rdquo;</p>
+<h1 id="contact-cta">Contact CTA<a hidden class="anchor" aria-hidden="true" href="#contact-cta">#</a></h1>
+<p>showContactCTA: true
+contactText: &ldquo;Ready to get started with {title.lower()}? Contact Faisal Khan LLC for expert consultation.&rdquo;
+&mdash;&rsquo;&rsquo;&rsquo;</p>
+<pre><code>return front_matter
+</code></pre>
+<p>def create_page_content(title, category, description):
+&ldquo;&ldquo;&ldquo;Create basic content template for solution pages - NO DUPLICATE TITLE/DESCRIPTION&rdquo;&rdquo;&rdquo;
+content = f&rsquo;&rsquo;&rsquo;## Overview</p>
+<p>[Brief overview of {title} and how Faisal Khan LLC can help]</p>
+<h2 id="key-features">Key Features<a hidden class="anchor" aria-hidden="true" href="#key-features">#</a></h2>
+<ul>
+<li>Feature 1</li>
+<li>Feature 2</li>
+<li>Feature 3</li>
+<li>Feature 4</li>
+</ul>
+<h2 id="who-this-is-for">Who This Is For<a hidden class="anchor" aria-hidden="true" href="#who-this-is-for">#</a></h2>
+<p>This solution is ideal for:</p>
+<ul>
+<li>Business type 1</li>
+<li>Business type 2</li>
+<li>Business type 3</li>
+</ul>
+<h2 id="process">Process<a hidden class="anchor" aria-hidden="true" href="#process">#</a></h2>
+<ol>
+<li><strong>Initial Consultation</strong> - We assess your specific needs</li>
+<li><strong>Strategy Development</strong> - Custom approach for your situation</li>
+<li><strong>Implementation</strong> - Execute the solution with our partners</li>
+<li><strong>Ongoing Support</strong> - Continued guidance and support</li>
+</ol>
+<h2 id="why-choose-faisal-khan-llc">Why Choose Faisal Khan LLC<a hidden class="anchor" aria-hidden="true" href="#why-choose-faisal-khan-llc">#</a></h2>
+<ul>
+<li>15+ years of experience in regulated financial services</li>
+<li>Global network of trusted partners and providers</li>
+<li>Deep expertise in cross-border payments and licensing</li>
+<li>Track record of successful implementations</li>
+</ul>
+<h2 id="getting-started">Getting Started<a hidden class="anchor" aria-hidden="true" href="#getting-started">#</a></h2>
+<p>Ready to explore {title.lower()} options? Contact Faisal Khan LLC for expert consultation and implementation support.</p>
+<p><strong><a href="mailto:contact@faisalkhan.com">Contact us today →</a></strong></p>
+<h2 id="related-solutions">Related Solutions<a hidden class="anchor" aria-hidden="true" href="#related-solutions">#</a></h2>
+<p>Browse our other solutions in this category or <a href="/solutions/">view all solutions</a> to find the right fit for your business.
+&rsquo;&rsquo;'
+return content</p>
+<p>def create_category_index(category, data):
+&ldquo;&ldquo;&ldquo;Create index page for each solution category with dark red square bullet links&rdquo;&rdquo;&rdquo;
+title = data[&ldquo;title&rdquo;]
+description = data[&ldquo;description&rdquo;]
+date = datetime.now().strftime(&quot;%Y-%m-%d&quot;)  # YYYY-MM-DD format (Hugo standard)</p>
+<pre><code>front_matter = f'''---
+</code></pre>
+<p>title: &ldquo;{title}&rdquo;
+date: {date}
+draft: false
+description: &ldquo;{description}&rdquo;
+keywords: [&quot;{category}&quot;, &ldquo;{title.lower()}&rdquo;, &ldquo;faisal khan&rdquo;, &ldquo;consulting&rdquo;]</p>
+<h1 id="taxonomies-1">Taxonomies<a hidden class="anchor" aria-hidden="true" href="#taxonomies-1">#</a></h1>
+<p>categories: [&quot;{category}&quot;]
+tags: [&quot;{category}&quot;, &ldquo;solutions&rdquo;, &ldquo;financial-services&rdquo;]</p>
+<h1 id="seo-1">SEO<a hidden class="anchor" aria-hidden="true" href="#seo-1">#</a></h1>
+<p>canonicalURL: &ldquo;<a href="https://faisalkhan.com/solutions/%7Bcategory%7D/%22">https://faisalkhan.com/solutions/{category}/&quot;</a>
+images: [&quot;/images/solutions/{category}/overview.webp&rdquo;]</p>
+<h1 id="page-settings-1">Page settings<a hidden class="anchor" aria-hidden="true" href="#page-settings-1">#</a></h1>
+<p>ShowToc: true
+TocOpen: true
+ShowBreadCrumbs: true
+type: &ldquo;page&rdquo;
+layout: &ldquo;single&rdquo;</p>
+<h1 id="schema">Schema<a hidden class="anchor" aria-hidden="true" href="#schema">#</a></h1>
+<p>provider: &ldquo;Faisal Khan LLC&rdquo;
+&mdash;&rsquo;''</p>
+<pre><code># Generate bullet list with dark red square bullets and links
+solutions_list = &quot;&quot;
+for page_title in data[&quot;pages&quot;]:
+    slug = slugify(page_title)
+    solutions_list += f'&lt;li style=&quot;list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;&quot;&gt;&lt;span style=&quot;position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;&quot;&gt;&lt;/span&gt;&lt;a href=&quot;/solutions/{category}/{slug}/&quot; style=&quot;text-decoration: none; color: inherit;&quot;&gt;{page_title}&lt;/a&gt;&lt;/li&gt;\n'
+
+content = f'''## Available Solutions
+</code></pre>
+<ul style="padding-left: 0; margin: 20px 0;">
+{solutions_list}
+</ul>
+<h2 id="why-choose-our-title">Why Choose Our {title}<a hidden class="anchor" aria-hidden="true" href="#why-choose-our-title">#</a></h2>
+<p>[Category-specific value proposition]</p>
+<h2 id="get-started">Get Started<a hidden class="anchor" aria-hidden="true" href="#get-started">#</a></h2>
+<p>Contact Faisal Khan LLC to discuss which {title.lower()} option is right for your business.</p>
+<p><strong><a href="mailto:contact@faisalkhan.com">Contact us today →</a></strong>
+&rsquo;''</p>
+<pre><code>return front_matter + content
+</code></pre>
+<p>def create_directory_structure():
+&ldquo;&ldquo;&ldquo;Create the directory structure for all solutions&rdquo;&rdquo;&rdquo;
+solutions_dir = os.path.join(CONTENT_DIR, &ldquo;solutions&rdquo;)</p>
+<pre><code># Create main solutions directory
+os.makedirs(solutions_dir, exist_ok=True)
+
+# Create category directories
+for category in SOLUTIONS_DATA.keys():
+    category_dir = os.path.join(solutions_dir, category)
+    os.makedirs(category_dir, exist_ok=True)
+    print(f&quot;Created directory: {category_dir}&quot;)
+
+return solutions_dir
+</code></pre>
+<p>def generate_all_pages():
+&ldquo;&ldquo;&ldquo;Generate all solution pages and category indexes&rdquo;&rdquo;&rdquo;
+solutions_dir = create_directory_structure()</p>
+<pre><code># Create main solutions index
+main_index_content = '''---
+</code></pre>
+<p>title: &ldquo;Solutions&rdquo;
+date: 2025-08-02
+draft: false
+description: &ldquo;Comprehensive solutions for licensing, banking, payments, and compliance in regulated financial services&rdquo;
+keywords: [&ldquo;solutions&rdquo;, &ldquo;licensing&rdquo;, &ldquo;banking&rdquo;, &ldquo;payments&rdquo;, &ldquo;compliance&rdquo;, &ldquo;faisal khan&rdquo;]</p>
+<h1 id="page-settings---disable-auto-listing">Page settings - DISABLE AUTO-LISTING<a hidden class="anchor" aria-hidden="true" href="#page-settings---disable-auto-listing">#</a></h1>
+<h2 id="layout-single">ShowToc: true
+TocOpen: true
+type: &ldquo;page&rdquo;
+layout: &ldquo;single&rdquo;</h2>
+<h2 id="our-solutions">Our Solutions<a hidden class="anchor" aria-hidden="true" href="#our-solutions">#</a></h2>
 <p>Faisal Khan LLC provides comprehensive solutions across the regulated financial services spectrum. From licensing and compliance to banking access and payment processing, we help businesses navigate complex regulatory environments globally.</p>
 <h2 id="solution-categories">Solution Categories<a hidden class="anchor" aria-hidden="true" href="#solution-categories">#</a></h2>
-<ul>
-<li><strong><a href="/solutions/licensing/">Licensing &amp; License Sponsorship</a></strong> - MTL, MSB, EMI, and more</li>
-<li><strong><a href="/solutions/banking/">Banking &amp; Access</a></strong> - MSB-friendly accounts and banking solutions</li>
-<li><strong><a href="/solutions/money-transfer/">Money Transfer &amp; Remittances</a></strong> - Cross-border payment solutions</li>
-<li><strong><a href="/solutions/payments/">Payments &amp; Processing</a></strong> - B2B payments and payment facilitation</li>
-<li><strong><a href="/solutions/crypto/">Crypto &amp; Blockchain</a></strong> - Cryptocurrency compliance and licensing</li>
-<li><strong><a href="/solutions/compliance/">Risk &amp; Compliance</a></strong> - AML, KYC, and regulatory compliance</li>
-<li><strong><a href="/solutions/cards/">Card Services</a></strong> - Card processing and issuance</li>
-<li><strong><a href="/solutions/wallets/">Wallet Solutions</a></strong> - Digital wallet implementations</li>
-<li><strong><a href="/solutions/fintech/">Fintech &amp; Startups</a></strong> - Solutions for emerging fintech companies</li>
-<li><strong><a href="/solutions/industry-specific/">Industry Specific</a></strong> - Specialized industry solutions</li>
-<li><strong><a href="/solutions/geographic/">Geographic Solutions</a></strong> - Country-specific licensing and compliance</li>
-<li><strong><a href="/solutions/providers/">Solution Providers</a></strong> - Vetted partner network</li>
-<li><strong><a href="/solutions/high-risk/">High-Risk Businesses</a></strong> - Solutions for challenging business models</li>
-<li><strong><a href="/solutions/consulting/">Consulting Services</a></strong> - Strategic advisory and consulting</li>
+<ul style="padding-left: 0; margin: 20px 0;">
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/licensing/" style="text-decoration: none; color: inherit;">Licensing & License Sponsorship</a> - MTL, MSB, EMI, and more</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/banking/" style="text-decoration: none; color: inherit;">Banking & Access to Banking</a> - MSB-friendly accounts and banking solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/money-transfer/" style="text-decoration: none; color: inherit;">Money Transfer & Remittances</a> - Cross-border payment solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/payments/" style="text-decoration: none; color: inherit;">Payments & Payment Processing</a> - B2B payments and payment facilitation</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/crypto/" style="text-decoration: none; color: inherit;">Crypto & Blockchain</a> - Cryptocurrency compliance and licensing</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/compliance/" style="text-decoration: none; color: inherit;">Risk & Compliance</a> - AML, KYC, and regulatory compliance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/cards/" style="text-decoration: none; color: inherit;">Card Services</a> - Card processing and issuance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/wallets/" style="text-decoration: none; color: inherit;">Wallet Solutions</a> - Digital wallet implementations</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/fintech/" style="text-decoration: none; color: inherit;">Fintech & Startups</a> - Solutions for emerging fintech companies</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/industry-specific/" style="text-decoration: none; color: inherit;">Industry Specific Solutions</a> - Specialized industry solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/geographic/" style="text-decoration: none; color: inherit;">Country Specific Solutions</a> - Country-specific licensing and compliance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/providers/" style="text-decoration: none; color: inherit;">Solution Providers</a> - Vetted partner network</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/high-risk/" style="text-decoration: none; color: inherit;">High-Risk Businesses</a> - Solutions for challenging business models</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #8B0000; display: inline-block;"></span><a href="/solutions/consulting/" style="text-decoration: none; color: inherit;">Consulting Services</a> - Strategic advisory and consulting</li>
 </ul>
 <h2 id="how-we-help">How We Help<a hidden class="anchor" aria-hidden="true" href="#how-we-help">#</a></h2>
 <ul>
@@ -253,9 +848,58 @@ body {
 <li><strong>Partner Network</strong> - Access to vetted service providers</li>
 <li><strong>Ongoing Compliance</strong> - Continued support for regulatory requirements</li>
 </ul>
-<h2 id="get-started">Get Started<a hidden class="anchor" aria-hidden="true" href="#get-started">#</a></h2>
+<h2 id="get-started-1">Get Started<a hidden class="anchor" aria-hidden="true" href="#get-started-1">#</a></h2>
 <p>Ready to explore our solutions? Contact Faisal Khan LLC for expert consultation tailored to your specific needs.</p>
-<p><strong><a href="mailto:contact@faisalkhan.com">Contact us today →</a></strong></p>
+<p><strong><a href="mailto:contact@faisalkhan.com">Contact us today →</a></strong>
+&rsquo;''</p>
+<pre><code>with open(os.path.join(solutions_dir, &quot;_index.md&quot;), &quot;w&quot;) as f:
+    f.write(main_index_content)
+print(&quot;Created main solutions index&quot;)
+
+# Generate category pages and individual solution pages
+for category, data in SOLUTIONS_DATA.items():
+    category_dir = os.path.join(solutions_dir, category)
+    
+    # Create category index
+    category_index = create_category_index(category, data)
+    with open(os.path.join(category_dir, &quot;_index.md&quot;), &quot;w&quot;) as f:
+        f.write(category_index)
+    print(f&quot;Created category index: {category}&quot;)
+    
+    # Create individual solution pages
+    for page_title in data[&quot;pages&quot;]:
+        slug = slugify(page_title)
+        front_matter = create_front_matter(page_title, category, f&quot;Expert {page_title.lower()} solutions from Faisal Khan LLC&quot;, data[&quot;title&quot;])
+        content = create_page_content(page_title, category, f&quot;Professional {page_title.lower()} services tailored to your business needs.&quot;)
+        
+        page_content = front_matter + content
+        
+        page_file = os.path.join(category_dir, f&quot;{slug}.md&quot;)
+        with open(page_file, &quot;w&quot;) as f:
+            f.write(page_content)
+        print(f&quot;Created page: {category}/{slug}.md&quot;)
+</code></pre>
+<p>if <strong>name</strong> == &ldquo;<strong>main</strong>&rdquo;:
+print(&quot;🚀 Generating Hugo solution pages - FIXED VERSION (No Duplication)&hellip;&quot;)
+print(f&quot;📁 Target directory: {CONTENT_DIR}&quot;)</p>
+<pre><code># Check if content directory exists
+if not os.path.exists(CONTENT_DIR):
+    print(f&quot;❌ ERROR: Content directory does not exist: {CONTENT_DIR}&quot;)
+    print(&quot;💡 Please update CONTENT_DIR variable to match your Hugo project path&quot;)
+    exit(1)
+
+generate_all_pages()
+print(&quot;\n✅ All solution pages generated successfully!&quot;)
+print(f&quot;📁 Total categories: {len(SOLUTIONS_DATA)}&quot;)
+print(f&quot;📄 Total pages: {sum(len(data['pages']) for data in SOLUTIONS_DATA.values())}&quot;)
+print(&quot;\n🎯 Features included:&quot;)
+print(&quot;✅ YYYY-MM-DD date format (Hugo standard)&quot;)
+print(&quot;✅ No problematic layouts&quot;)
+print(&quot;✅ No broken shortcodes&quot;)
+print(&quot;✅ Clean Hugo front matter&quot;)
+print(&quot;✅ NO DUPLICATE TITLES/DESCRIPTIONS - FIXED!&quot;)
+print(&quot;\n🚀 Ready to test with: hugo server&quot;)
+</code></pre>
 
 
 </div>
@@ -266,15 +910,11 @@ body {
     </h2>
   </header>
   <div class="entry-content">
-    <p>Payments &amp; Payment Processing Comprehensive payment processing and facilitation services
-Available Solutions Solutions in this category will be listed below - check back soon or contact us for specific options.
-Why Choose Our Payments &amp; Payment Processing [Category-specific value proposition]
-Get Started Contact Faisal Khan LLC to discuss which payments &amp; payment processing option is right for your business.
-Contact us today →
-</p>
+    <p>Available Solutions B2B Payments Payment Facilitator (PayFac) Payment Networks Tax Payment Tuition Payment Payroll FX Solutions Farm Worker Payment Major Telco Payments Healthcare Payments Seafarer Payment Solutions Car Auction Payment Trade Payments Travel Industry Payments POBO / COBO Why Choose Our Payments &amp; Payment Processing [Category-specific value proposition]
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;63 words&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Payments & Payment Processing" href="http://localhost:65053/solutions/payments/"></a>
+  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;71 words&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Payments & Payment Processing" href="http://localhost:1313/solutions/payments/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -283,15 +923,11 @@ Contact us today →
     </h2>
   </header>
   <div class="entry-content">
-    <p>Risk &amp; Compliance AML, KYC, and regulatory compliance solutions
-Available Solutions Solutions in this category will be listed below - check back soon or contact us for specific options.
-Why Choose Our Risk &amp; Compliance [Category-specific value proposition]
-Get Started Contact Faisal Khan LLC to discuss which risk &amp; compliance option is right for your business.
-Contact us today →
-</p>
+    <p>Available Solutions Anti-Money Laundering (AML) Know Your Customer (KYC) Know Your Business (KYB) Enhanced Due Diligence (EDD) Politically Exposed Person (PEP) Sanctions Screening Risk Assessment Compliance Training Surety Bonds Why Choose Our Risk &amp; Compliance [Category-specific value proposition]
+...</p>
   </div>
   <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;60 words&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Risk & Compliance" href="http://localhost:65053/solutions/compliance/"></a>
+  <a class="entry-link" aria-label="post link to Risk & Compliance" href="http://localhost:1313/solutions/compliance/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -300,15 +936,11 @@ Contact us today →
     </h2>
   </header>
   <div class="entry-content">
-    <p>Solution Providers Vetted partners and service providers
-Available Solutions Solutions in this category will be listed below - check back soon or contact us for specific options.
-Why Choose Our Solution Providers [Category-specific value proposition]
-Get Started Contact Faisal Khan LLC to discuss which solution providers option is right for your business.
-Contact us today →
-</p>
+    <p>Available Solutions Payment Processors &amp; Aggregators Principle License Holders Financial Institutions Non-Banking Financial Institutions Why Choose Our Solution Providers [Category-specific value proposition]
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;56 words&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Solution Providers" href="http://localhost:65053/solutions/providers/"></a>
+  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;43 words&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Solution Providers" href="http://localhost:1313/solutions/providers/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -317,19 +949,15 @@ Contact us today →
     </h2>
   </header>
   <div class="entry-content">
-    <p>Wallet Solutions Digital wallet and e-money solutions
-Available Solutions Solutions in this category will be listed below - check back soon or contact us for specific options.
-Why Choose Our Wallet Solutions [Category-specific value proposition]
-Get Started Contact Faisal Khan LLC to discuss which wallet solutions option is right for your business.
-Contact us today →
-</p>
+    <p>Available Solutions E-Money Wallet Crypto Wallet Fiat Wallet Local Wallet Funding Readymade Solutions Why Choose Our Wallet Solutions [Category-specific value proposition]
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;56 words&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Wallet Solutions" href="http://localhost:65053/solutions/wallets/"></a>
+  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;42 words&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Wallet Solutions" href="http://localhost:1313/solutions/wallets/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:65053/solutions/">
+    <a class="prev" href="http://localhost:1313/solutions/">
       «&nbsp;Prev&nbsp;
     </a>
   </nav>
@@ -338,15 +966,15 @@ Contact us today →
     
 <footer class="footer custom-footer">
     <div class="footer-content">
-        <span>&copy; 2005-2025 <a href="http://localhost:65053/">Faisal Khan LLC</a>. All Rights Reserved.</span> · 
+        <span>&copy; 2005-2025 <a href="http://localhost:1313/">Faisal Khan LLC</a>. All Rights Reserved.</span> · 
         <div class="footer-nav">
-            <a href="http://localhost:65053/book-a-call/" title="">Book A Call</a> ·
-            <a href="http://localhost:65053/legal/disclaimer/" title="">Legal Disclaimer</a> ·
-            <a href="http://localhost:65053/legal/privacy/" title="">Privacy Policy</a> ·
-            <a href="http://localhost:65053/legal/terms/" title="">Terms of Service</a> ·
-            <a href="http://localhost:65053/legal/refund/" title="">Refund</a> ·
-            <a href="http://localhost:65053/support/" title="">Support</a> ·
-            <a href="http://localhost:65053/sitemap/" title="">Sitemap</a>
+            <a href="http://localhost:1313/book-a-call/" title="">Book A Call</a> ·
+            <a href="http://localhost:1313/legal/disclaimer/" title="">Legal Disclaimer</a> ·
+            <a href="http://localhost:1313/legal/privacy/" title="">Privacy Policy</a> ·
+            <a href="http://localhost:1313/legal/terms/" title="">Terms of Service</a> ·
+            <a href="http://localhost:1313/legal/refund/" title="">Refund</a> ·
+            <a href="http://localhost:1313/support/" title="">Support</a> ·
+            <a href="http://localhost:1313/sitemap/" title="">Sitemap</a>
         </div>
 
 

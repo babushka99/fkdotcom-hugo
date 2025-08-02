@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with uk? Contact Faisal Khan LLC for expert consultation."
----
-# UK
-
-Professional uk services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of UK and how Faisal Khan LLC can help]
 

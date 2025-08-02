@@ -22,7 +22,62 @@ body {
     background: var(--theme) !important;
 }
 
-/* Custom Footer Styling - Force full width */
+/* Content Width - Set to 900px */
+.main, .post-content, .page-content, article {
+    max-width: 900px !important;
+    margin: 0 auto !important;
+}
+
+/* Breadcrumb Styling - Smaller font and better spacing */
+.breadcrumbs {
+    font-size: 0.85rem !important;
+    color: #666 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+.breadcrumbs a {
+    color: #666 !important;
+    text-decoration: none !important;
+}
+
+.breadcrumbs a:hover {
+    color: #333 !important;
+    text-decoration: underline !important;
+}
+
+.breadcrumb-separator {
+    margin: 0 8px !important;
+    color: #999 !important;
+}
+
+.breadcrumb-current {
+    color: #333 !important;
+    font-weight: 500 !important;
+}
+
+/* Dark mode breadcrumbs */
+.dark .breadcrumbs {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a:hover {
+    color: #fff !important;
+}
+
+.dark .breadcrumb-separator {
+    color: #888 !important;
+}
+
+.dark .breadcrumb-current {
+    color: #fff !important;
+}
+
+/* Custom Footer Styling - SIMPLE APPROACH - Only colors, no layout changes */
 .custom-footer {
     background-color: #f5f5f5 !important;
     width: 100vw !important;
@@ -61,17 +116,22 @@ body {
     text-decoration: underline;
 }
 
-/* Dark mode footer */
+/* Dark mode footer - CORRECT SELECTOR - Use .dark not [data-theme="dark"] */
 .dark .custom-footer {
-    background-color: #2d2d2d;
-    border-top: 1px solid #404040;
+    background-color: #1f1f1f !important;
+    border-top: 1px solid #404040 !important;
 }
 
 .dark .footer-nav a {
-    color: #ccc;
+    color: #ccc !important;
 }
 
 .dark .footer-nav a:hover {
-    color: #fff;
+    color: #fff !important;
+}
+
+/* Page Last Updated styling */
+.dark div[style*="Page Last Updated"] {
+    color: #fff !important;
 }
 </style>

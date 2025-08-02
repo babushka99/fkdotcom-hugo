@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with georgia? Contact Faisal Khan LLC for expert consultation."
----
-# Georgia
-
-Professional georgia services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Georgia and how Faisal Khan LLC can help]
 

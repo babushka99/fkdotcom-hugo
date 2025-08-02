@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with tuition payment? Contact Faisal Khan LLC for expert consultation."
----
-# Tuition Payment
-
-Professional tuition payment services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Tuition Payment and how Faisal Khan LLC can help]
 

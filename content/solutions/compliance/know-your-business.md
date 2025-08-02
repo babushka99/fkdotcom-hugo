@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with know your business (kyb)? Contact Faisal Khan LLC for expert consultation."
----
-# Know Your Business (KYB)
-
-Professional know your business (kyb) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Know Your Business (KYB) and how Faisal Khan LLC can help]
 

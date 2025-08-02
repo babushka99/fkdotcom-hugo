@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with anti-money laundering (aml)? Contact Faisal Khan LLC for expert consultation."
----
-# Anti-Money Laundering (AML)
-
-Professional anti-money laundering (aml) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Anti-Money Laundering (AML) and how Faisal Khan LLC can help]
 

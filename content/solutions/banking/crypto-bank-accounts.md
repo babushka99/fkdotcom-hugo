@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with crypto bank accounts? Contact Faisal Khan LLC for expert consultation."
----
-# Crypto Bank Accounts
-
-Professional crypto bank accounts services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Crypto Bank Accounts and how Faisal Khan LLC can help]
 

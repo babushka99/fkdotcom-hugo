@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Education on Faisal Khan LLC</title>
+    <link>http://localhost:1313/tags/education/</link>
+    <description>Recent content in Education on Faisal Khan LLC</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bootcamp</title>
+      <link>http://localhost:1313/resources/bootcamp/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/bootcamp/</guid>
+      <description>Expert bootcamp resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Case Studies</title>
+      <link>http://localhost:1313/resources/case-studies/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/case-studies/</guid>
+      <description>Expert case studies resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Diagrams</title>
+      <link>http://localhost:1313/resources/diagrams/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/diagrams/</guid>
+      <description>Expert diagrams resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Documents</title>
+      <link>http://localhost:1313/resources/documents/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/documents/</guid>
+      <description>Expert documents resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/resources/education/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/education/</guid>
+      <description>Expert education resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Financial Modeling</title>
+      <link>http://localhost:1313/resources/financial-modeling/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/financial-modeling/</guid>
+      <description>Expert financial modeling resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Forms</title>
+      <link>http://localhost:1313/resources/forms/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/forms/</guid>
+      <description>Expert forms resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>How-To&#39;s</title>
+      <link>http://localhost:1313/resources/how-tos/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/how-tos/</guid>
+      <description>Expert how-to&amp;#39;s resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Knowledge-Base</title>
+      <link>http://localhost:1313/resources/knowledge-base/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/knowledge-base/</guid>
+      <description>Expert knowledge-base resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Online Training</title>
+      <link>http://localhost:1313/resources/online-training/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/online-training/</guid>
+      <description>Expert online training resources from Faisal Khan LLC</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/resources/tools/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/tools/</guid>
+      <description>Expert tools resources from Faisal Khan LLC</description>
+    </item>
+  </channel>
+</rss>

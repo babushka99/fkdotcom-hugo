@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with sub-saharan africa? Contact Faisal Khan LLC for expert consultation."
----
-# Sub-Saharan Africa
-
-Professional sub-saharan africa services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Sub-Saharan Africa and how Faisal Khan LLC can help]
 

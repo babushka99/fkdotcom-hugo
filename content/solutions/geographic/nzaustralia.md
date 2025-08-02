@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with nz/australia? Contact Faisal Khan LLC for expert consultation."
----
-# NZ/Australia
-
-Professional nz/australia services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of NZ/Australia and how Faisal Khan LLC can help]
 

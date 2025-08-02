@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with crypto licensing? Contact Faisal Khan LLC for expert consultation."
----
-# Crypto Licensing
-
-Professional crypto licensing services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Crypto Licensing and how Faisal Khan LLC can help]
 

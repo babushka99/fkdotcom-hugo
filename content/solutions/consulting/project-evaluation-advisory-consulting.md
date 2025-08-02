@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with project evaluation & advisory consulting? Contact Faisal Khan LLC for expert consultation."
----
-# Project Evaluation & Advisory Consulting
-
-Professional project evaluation & advisory consulting services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Project Evaluation & Advisory Consulting and how Faisal Khan LLC can help]
 

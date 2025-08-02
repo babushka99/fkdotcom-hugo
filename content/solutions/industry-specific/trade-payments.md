@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with trade payments? Contact Faisal Khan LLC for expert consultation."
----
-# Trade Payments
-
-Professional trade payments services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Trade Payments and how Faisal Khan LLC can help]
 

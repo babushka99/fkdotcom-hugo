@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with money transfer agent? Contact Faisal Khan LLC for expert consultation."
----
-# Money Transfer Agent
-
-Professional money transfer agent services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Money Transfer Agent and how Faisal Khan LLC can help]
 

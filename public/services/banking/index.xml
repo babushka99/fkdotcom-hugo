@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Banking on Faisal Khan LLC</title>
-    <link>http://localhost:65053/services/banking/</link>
+    <link>http://localhost:1313/services/banking/</link>
     <description>Recent content in Banking on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/services/banking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/services/banking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bank Sponsorship</title>
-      <link>http://localhost:65053/solutions/licensing/bank-sponsorship/</link>
+      <link>http://localhost:1313/solutions/licensing/bank-sponsorship/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/licensing/bank-sponsorship/</guid>
+      <guid>http://localhost:1313/solutions/licensing/bank-sponsorship/</guid>
       <description>Expert bank sponsorship solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Banking-as-a-Service (BaaS)</title>
-      <link>http://localhost:65053/solutions/banking/banking-as-a-service/</link>
+      <link>http://localhost:1313/solutions/banking/banking-as-a-service/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/banking-as-a-service/</guid>
+      <guid>http://localhost:1313/solutions/banking/banking-as-a-service/</guid>
       <description>Expert banking-as-a-service (baas) solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Build Your Own Bank (BYOB)</title>
-      <link>http://localhost:65053/solutions/fintech/build-your-own-bank/</link>
+      <link>http://localhost:1313/solutions/fintech/build-your-own-bank/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/fintech/build-your-own-bank/</guid>
+      <guid>http://localhost:1313/solutions/fintech/build-your-own-bank/</guid>
       <description>Expert build your own bank (byob) solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Central Bank Digital Currencies (CBDCs)</title>
-      <link>http://localhost:65053/solutions/crypto/central-bank-digital-currencies/</link>
+      <link>http://localhost:1313/solutions/crypto/central-bank-digital-currencies/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/crypto/central-bank-digital-currencies/</guid>
+      <guid>http://localhost:1313/solutions/crypto/central-bank-digital-currencies/</guid>
       <description>Expert central bank digital currencies (cbdcs) solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Corporate Bank Account</title>
-      <link>http://localhost:65053/solutions/banking/corporate-bank-account/</link>
+      <link>http://localhost:1313/solutions/banking/corporate-bank-account/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/corporate-bank-account/</guid>
+      <guid>http://localhost:1313/solutions/banking/corporate-bank-account/</guid>
       <description>Expert corporate bank account solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Correspondent Banking Relationship (CBR)</title>
-      <link>http://localhost:65053/solutions/banking/correspondent-banking-relationship/</link>
+      <link>http://localhost:1313/solutions/banking/correspondent-banking-relationship/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/correspondent-banking-relationship/</guid>
+      <guid>http://localhost:1313/solutions/banking/correspondent-banking-relationship/</guid>
       <description>Expert correspondent banking relationship (cbr) solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Crypto Bank Accounts</title>
-      <link>http://localhost:65053/solutions/banking/crypto-bank-accounts/</link>
+      <link>http://localhost:1313/solutions/banking/crypto-bank-accounts/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/crypto-bank-accounts/</guid>
+      <guid>http://localhost:1313/solutions/banking/crypto-bank-accounts/</guid>
       <description>Expert crypto bank accounts solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>High-Risk Banking</title>
-      <link>http://localhost:65053/solutions/banking/high-risk-banking/</link>
+      <link>http://localhost:1313/solutions/banking/high-risk-banking/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/high-risk-banking/</guid>
+      <guid>http://localhost:1313/solutions/banking/high-risk-banking/</guid>
       <description>Expert high-risk banking solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Individual Bank Account</title>
-      <link>http://localhost:65053/solutions/banking/individual-bank-account/</link>
+      <link>http://localhost:1313/solutions/banking/individual-bank-account/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/individual-bank-account/</guid>
+      <guid>http://localhost:1313/solutions/banking/individual-bank-account/</guid>
       <description>Expert individual bank account solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>MSB-Friendly Bank Accounts</title>
-      <link>http://localhost:65053/solutions/banking/msb-friendly-bank-accounts/</link>
+      <link>http://localhost:1313/solutions/banking/msb-friendly-bank-accounts/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/msb-friendly-bank-accounts/</guid>
+      <guid>http://localhost:1313/solutions/banking/msb-friendly-bank-accounts/</guid>
       <description>Expert msb-friendly bank accounts solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Non-Banking Financial Institutions</title>
-      <link>http://localhost:65053/solutions/providers/non-banking-financial-institutions/</link>
+      <link>http://localhost:1313/solutions/providers/non-banking-financial-institutions/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/providers/non-banking-financial-institutions/</guid>
+      <guid>http://localhost:1313/solutions/providers/non-banking-financial-institutions/</guid>
       <description>Expert non-banking financial institutions solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Offshore Banking License</title>
-      <link>http://localhost:65053/solutions/banking/offshore-banking-license/</link>
+      <link>http://localhost:1313/solutions/banking/offshore-banking-license/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/banking/offshore-banking-license/</guid>
+      <guid>http://localhost:1313/solutions/banking/offshore-banking-license/</guid>
       <description>Expert offshore banking license solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Starting a Neo Bank</title>
-      <link>http://localhost:65053/solutions/fintech/starting-a-neo-bank/</link>
+      <link>http://localhost:1313/solutions/fintech/starting-a-neo-bank/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/fintech/starting-a-neo-bank/</guid>
+      <guid>http://localhost:1313/solutions/fintech/starting-a-neo-bank/</guid>
       <description>Expert starting a neo bank solutions from Faisal Khan LLC</description>
     </item>
   </channel>

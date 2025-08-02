@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with healthcare payments? Contact Faisal Khan LLC for expert consultation."
----
-# Healthcare Payments
-
-Professional healthcare payments services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Healthcare Payments and how Faisal Khan LLC can help]
 

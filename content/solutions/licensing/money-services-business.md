@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with money services business (msb)? Contact Faisal Khan LLC for expert consultation."
----
-# Money Services Business (MSB)
-
-Professional money services business (msb) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Money Services Business (MSB) and how Faisal Khan LLC can help]
 

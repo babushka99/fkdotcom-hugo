@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with money transfer business? Contact Faisal Khan LLC for expert consultation."
----
-# Money Transfer Business
-
-Professional money transfer business services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Money Transfer Business and how Faisal Khan LLC can help]
 

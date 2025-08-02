@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with gambling & sports betting licensing? Contact Faisal Khan LLC for expert consultation."
----
-# Gambling & Sports Betting Licensing
-
-Professional gambling & sports betting licensing services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Gambling & Sports Betting Licensing and how Faisal Khan LLC can help]
 

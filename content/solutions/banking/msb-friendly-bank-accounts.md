@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with msb-friendly bank accounts? Contact Faisal Khan LLC for expert consultation."
----
-# MSB-Friendly Bank Accounts
-
-Professional msb-friendly bank accounts services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of MSB-Friendly Bank Accounts and how Faisal Khan LLC can help]
 

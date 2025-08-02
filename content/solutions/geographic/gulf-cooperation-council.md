@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with gulf cooperation council (gcc)? Contact Faisal Khan LLC for expert consultation."
----
-# Gulf Cooperation Council (GCC)
-
-Professional gulf cooperation council (gcc) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Gulf Cooperation Council (GCC) and how Faisal Khan LLC can help]
 

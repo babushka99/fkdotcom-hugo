@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with card processing? Contact Faisal Khan LLC for expert consultation."
----
-# Card Processing
-
-Professional card processing services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Card Processing and how Faisal Khan LLC can help]
 

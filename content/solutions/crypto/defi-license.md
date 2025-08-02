@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with defi license? Contact Faisal Khan LLC for expert consultation."
----
-# DeFi License
-
-Professional defi license services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of DeFi License and how Faisal Khan LLC can help]
 

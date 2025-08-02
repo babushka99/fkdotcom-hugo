@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with politically exposed person (pep)? Contact Faisal Khan LLC for expert consultation."
----
-# Politically Exposed Person (PEP)
-
-Professional politically exposed person (pep) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Politically Exposed Person (PEP) and how Faisal Khan LLC can help]
 

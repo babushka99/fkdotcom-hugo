@@ -5,30 +5,46 @@ draft: false
 description: "Comprehensive solutions for licensing, banking, payments, and compliance in regulated financial services"
 keywords: ["solutions", "licensing", "banking", "payments", "compliance", "faisal khan"]
 
-ShowToc: true
-TocOpen: true
+# COMPLETELY DISABLE AUTO-LISTING
+type: "page"
+layout: "single"
+_build:
+  list: false
 ---
 
-# Our Solutions
+<style>
+/* Theme-responsive bullet colors */
+.theme-bullet {
+  background-color: #000000 !important; /* Black in light mode */
+}
+
+.dark .theme-bullet {
+  background-color: #ffffff !important; /* White in dark mode */
+}
+</style>
+
+## Our Solutions
 
 Faisal Khan LLC provides comprehensive solutions across the regulated financial services spectrum. From licensing and compliance to banking access and payment processing, we help businesses navigate complex regulatory environments globally.
 
 ## Solution Categories
 
-- **[Licensing & License Sponsorship](/solutions/licensing/)** - MTL, MSB, EMI, and more
-- **[Banking & Access](/solutions/banking/)** - MSB-friendly accounts and banking solutions  
-- **[Money Transfer & Remittances](/solutions/money-transfer/)** - Cross-border payment solutions
-- **[Payments & Processing](/solutions/payments/)** - B2B payments and payment facilitation
-- **[Crypto & Blockchain](/solutions/crypto/)** - Cryptocurrency compliance and licensing
-- **[Risk & Compliance](/solutions/compliance/)** - AML, KYC, and regulatory compliance
-- **[Card Services](/solutions/cards/)** - Card processing and issuance
-- **[Wallet Solutions](/solutions/wallets/)** - Digital wallet implementations
-- **[Fintech & Startups](/solutions/fintech/)** - Solutions for emerging fintech companies
-- **[Industry Specific](/solutions/industry-specific/)** - Specialized industry solutions
-- **[Geographic Solutions](/solutions/geographic/)** - Country-specific licensing and compliance
-- **[Solution Providers](/solutions/providers/)** - Vetted partner network
-- **[High-Risk Businesses](/solutions/high-risk/)** - Solutions for challenging business models
-- **[Consulting Services](/solutions/consulting/)** - Strategic advisory and consulting
+<ul style="padding-left: 0; margin: 20px 0;">
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/licensing/" style="text-decoration: none; color: inherit;">Licensing & License Sponsorship</a> - MTL, MSB, EMI, and more</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/banking/" style="text-decoration: none; color: inherit;">Banking & Access to Banking</a> - MSB-friendly accounts and banking solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/money-transfer/" style="text-decoration: none; color: inherit;">Money Transfer & Remittances</a> - Cross-border payment solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/payments/" style="text-decoration: none; color: inherit;">Payments & Payment Processing</a> - B2B payments and payment facilitation</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/crypto/" style="text-decoration: none; color: inherit;">Crypto & Blockchain</a> - Cryptocurrency compliance and licensing</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/compliance/" style="text-decoration: none; color: inherit;">Risk & Compliance</a> - AML, KYC, and regulatory compliance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/cards/" style="text-decoration: none; color: inherit;">Card Services</a> - Card processing and issuance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/wallets/" style="text-decoration: none; color: inherit;">Wallet Solutions</a> - Digital wallet implementations</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/fintech/" style="text-decoration: none; color: inherit;">Fintech & Startups</a> - Solutions for emerging fintech companies</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/industry-specific/" style="text-decoration: none; color: inherit;">Industry Specific Solutions</a> - Specialized industry solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/geographic/" style="text-decoration: none; color: inherit;">Country Specific Solutions</a> - Country-specific licensing and compliance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/providers/" style="text-decoration: none; color: inherit;">Solution Providers</a> - Vetted partner network</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/high-risk/" style="text-decoration: none; color: inherit;">High-Risk Businesses</a> - Solutions for challenging business models</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/consulting/" style="text-decoration: none; color: inherit;">Consulting Services</a> - Strategic advisory and consulting</li>
+</ul>
 
 ## How We Help
 

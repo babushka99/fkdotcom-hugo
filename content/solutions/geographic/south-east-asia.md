@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with south-east asia? Contact Faisal Khan LLC for expert consultation."
----
-# South-East Asia
-
-Professional south-east asia services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of South-East Asia and how Faisal Khan LLC can help]
 

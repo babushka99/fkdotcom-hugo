@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with build your own bank (byob)? Contact Faisal Khan LLC for expert consultation."
----
-# Build Your Own Bank (BYOB)
-
-Professional build your own bank (byob) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Build Your Own Bank (BYOB) and how Faisal Khan LLC can help]
 

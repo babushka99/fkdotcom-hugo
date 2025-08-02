@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with fatf grey list countries? Contact Faisal Khan LLC for expert consultation."
----
-# FATF Grey List Countries
-
-Professional fatf grey list countries services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of FATF Grey List Countries and how Faisal Khan LLC can help]
 

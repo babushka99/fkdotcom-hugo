@@ -144,7 +144,7 @@ enableRobotsTXT = true
   
   # Social media profiles
   [params.profileMode]
-    enabled = false
+    enabled = true
     
   # Home page settings
   [params.homeInfoParams]

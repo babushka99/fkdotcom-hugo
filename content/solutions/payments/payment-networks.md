@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with payment networks? Contact Faisal Khan LLC for expert consultation."
----
-# Payment Networks
-
-Professional payment networks services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Payment Networks and how Faisal Khan LLC can help]
 

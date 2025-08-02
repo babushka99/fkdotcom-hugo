@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with payment facilitator (payfac)? Contact Faisal Khan LLC for expert consultation."
----
-# Payment Facilitator (PayFac)
-
-Professional payment facilitator (payfac) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Payment Facilitator (PayFac) and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with money transfer operator (mto)? Contact Faisal Khan LLC for expert consultation."
----
-# Money Transfer Operator (MTO)
-
-Professional money transfer operator (mto) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Money Transfer Operator (MTO) and how Faisal Khan LLC can help]
 

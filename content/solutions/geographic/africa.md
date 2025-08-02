@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with africa? Contact Faisal Khan LLC for expert consultation."
----
-# Africa
-
-Professional africa services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Africa and how Faisal Khan LLC can help]
 

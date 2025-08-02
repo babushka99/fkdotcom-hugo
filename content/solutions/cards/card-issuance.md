@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with card issuance? Contact Faisal Khan LLC for expert consultation."
----
-# Card Issuance
-
-Professional card issuance services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Card Issuance and how Faisal Khan LLC can help]
 

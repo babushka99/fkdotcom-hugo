@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with b2b payments? Contact Faisal Khan LLC for expert consultation."
----
-# B2B Payments
-
-Professional b2b payments services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of B2B Payments and how Faisal Khan LLC can help]
 

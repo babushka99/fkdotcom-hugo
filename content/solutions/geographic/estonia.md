@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with estonia? Contact Faisal Khan LLC for expert consultation."
----
-# Estonia
-
-Professional estonia services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Estonia and how Faisal Khan LLC can help]
 

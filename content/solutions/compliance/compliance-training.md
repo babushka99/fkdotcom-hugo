@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with compliance training? Contact Faisal Khan LLC for expert consultation."
----
-# Compliance Training
-
-Professional compliance training services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Compliance Training and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with cross-border payments? Contact Faisal Khan LLC for expert consultation."
----
-# Cross-Border Payments
-
-Professional cross-border payments services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Cross-Border Payments and how Faisal Khan LLC can help]
 

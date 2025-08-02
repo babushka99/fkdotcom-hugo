@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with high-risk banking? Contact Faisal Khan LLC for expert consultation."
----
-# High-Risk Banking
-
-Professional high-risk banking services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of High-Risk Banking and how Faisal Khan LLC can help]
 

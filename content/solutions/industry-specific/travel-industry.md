@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with travel industry? Contact Faisal Khan LLC for expert consultation."
----
-# Travel Industry
-
-Professional travel industry services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Travel Industry and how Faisal Khan LLC can help]
 

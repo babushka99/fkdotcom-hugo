@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with major telco payment? Contact Faisal Khan LLC for expert consultation."
----
-# Major Telco Payment
-
-Professional major telco payment services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Major Telco Payment and how Faisal Khan LLC can help]
 

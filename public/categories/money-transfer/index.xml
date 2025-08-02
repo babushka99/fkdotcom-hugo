@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Money-Transfer on Faisal Khan LLC</title>
-    <link>http://localhost:65053/categories/money-transfer/</link>
+    <link>http://localhost:1313/categories/money-transfer/</link>
     <description>Recent content in Money-Transfer on Faisal Khan LLC</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:65053/categories/money-transfer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/money-transfer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cross-Border Payments</title>
-      <link>http://localhost:65053/solutions/money-transfer/cross-border-payments/</link>
+      <link>http://localhost:1313/solutions/money-transfer/cross-border-payments/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/money-transfer/cross-border-payments/</guid>
+      <guid>http://localhost:1313/solutions/money-transfer/cross-border-payments/</guid>
       <description>Expert cross-border payments solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Money Transfer Agent</title>
-      <link>http://localhost:65053/solutions/money-transfer/money-transfer-agent/</link>
+      <link>http://localhost:1313/solutions/money-transfer/money-transfer-agent/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/money-transfer/money-transfer-agent/</guid>
+      <guid>http://localhost:1313/solutions/money-transfer/money-transfer-agent/</guid>
       <description>Expert money transfer agent solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Money Transfer as a Service (MTaaS)</title>
-      <link>http://localhost:65053/solutions/money-transfer/money-transfer-as-a-service/</link>
+      <link>http://localhost:1313/solutions/money-transfer/money-transfer-as-a-service/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/money-transfer/money-transfer-as-a-service/</guid>
+      <guid>http://localhost:1313/solutions/money-transfer/money-transfer-as-a-service/</guid>
       <description>Expert money transfer as a service (mtaas) solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Money Transfer Business</title>
-      <link>http://localhost:65053/solutions/money-transfer/money-transfer-business/</link>
+      <link>http://localhost:1313/solutions/money-transfer/money-transfer-business/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/money-transfer/money-transfer-business/</guid>
+      <guid>http://localhost:1313/solutions/money-transfer/money-transfer-business/</guid>
       <description>Expert money transfer business solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Money Transfer Operator (MTO)</title>
-      <link>http://localhost:65053/solutions/money-transfer/money-transfer-operator/</link>
+      <link>http://localhost:1313/solutions/money-transfer/money-transfer-operator/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/money-transfer/money-transfer-operator/</guid>
+      <guid>http://localhost:1313/solutions/money-transfer/money-transfer-operator/</guid>
       <description>Expert money transfer operator (mto) solutions from Faisal Khan LLC</description>
     </item>
     <item>
       <title>Remittance-as-a-Service (RaaS)</title>
-      <link>http://localhost:65053/solutions/money-transfer/remittance-as-a-service/</link>
+      <link>http://localhost:1313/solutions/money-transfer/remittance-as-a-service/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:65053/solutions/money-transfer/remittance-as-a-service/</guid>
+      <guid>http://localhost:1313/solutions/money-transfer/remittance-as-a-service/</guid>
       <description>Expert remittance-as-a-service (raas) solutions from Faisal Khan LLC</description>
     </item>
   </channel>

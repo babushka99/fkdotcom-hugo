@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with advisory consultancy services? Contact Faisal Khan LLC for expert consultation."
----
-# Advisory Consultancy Services
-
-Professional advisory consultancy services services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Advisory Consultancy Services and how Faisal Khan LLC can help]
 

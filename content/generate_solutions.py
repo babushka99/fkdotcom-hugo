@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Hugo Solutions Pages Bulk Generator for Faisal Khan LLC - CORRECTED VERSION
+Hugo Solutions Pages Bulk Generator for Faisal Khan LLC - FIXED VERSION
 Creates all solution pages with proper front matter and structure
-Fixed: Date format, layouts, shortcodes
+FIXED: Removed duplicate titles and descriptions to prevent duplication
 """
 
 import os
@@ -279,13 +279,8 @@ contactText: "Ready to get started with {title.lower()}? Contact Faisal Khan LLC
     return front_matter
 
 def create_page_content(title, category, description):
-    """Create basic content template for solution pages"""
-    content = f'''
-# {title}
-
-{description}
-
-## Overview
+    """Create basic content template for solution pages - NO DUPLICATE TITLE/DESCRIPTION"""
+    content = f'''## Overview
 
 [Brief overview of {title} and how Faisal Khan LLC can help]
 
@@ -331,7 +326,7 @@ Browse our other solutions in this category or [view all solutions](/solutions/)
     return content
 
 def create_category_index(category, data):
-    """Create index page for each solution category"""
+    """Create index page for each solution category with black square bullet links"""
     title = data["title"]
     description = data["description"]
     date = datetime.now().strftime("%Y-%m-%d")  # YYYY-MM-DD format (Hugo standard)
@@ -351,24 +346,38 @@ tags: ["{category}", "solutions", "financial-services"]
 canonicalURL: "https://faisalkhan.com/solutions/{category}/"
 images: ["/images/solutions/{category}/overview.webp"]
 
-# Page settings
-ShowToc: true
-TocOpen: true
-ShowBreadCrumbs: true
+# COMPLETELY DISABLE AUTO-LISTING
+type: "page"
+layout: "single"
+_build:
+  list: false
 
 # Schema
-type: "CollectionPage"
 provider: "Faisal Khan LLC"
 ---'''
 
-    content = f'''
-# {title}
+    # Generate bullet list with black square bullets and links
+    solutions_list = ""
+    for page_title in data["pages"]:
+        slug = slugify(page_title)
+        solutions_list += f'<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/{category}/{slug}/" style="text-decoration: none; color: inherit;">{page_title}</a></li>\n'
 
-{description}
+    content = f'''<style>
+/* Theme-responsive bullet colors */
+.theme-bullet {{
+  background-color: #000000 !important; /* Black in light mode */
+}}
+
+.dark .theme-bullet {{
+  background-color: #ffffff !important; /* White in dark mode */
+}}
+</style>
 
 ## Available Solutions
 
-*Solutions in this category will be listed below - check back soon or contact us for specific options.*
+<ul style="padding-left: 0; margin: 20px 0;">
+{solutions_list}
+</ul>
 
 ## Why Choose Our {title}
 
@@ -410,30 +419,46 @@ draft: false
 description: "Comprehensive solutions for licensing, banking, payments, and compliance in regulated financial services"
 keywords: ["solutions", "licensing", "banking", "payments", "compliance", "faisal khan"]
 
-ShowToc: true
-TocOpen: true
+# COMPLETELY DISABLE AUTO-LISTING
+type: "page"
+layout: "single"
+_build:
+  list: false
 ---
 
-# Our Solutions
+<style>
+/* Theme-responsive bullet colors */
+.theme-bullet {
+  background-color: #000000 !important; /* Black in light mode */
+}
+
+.dark .theme-bullet {
+  background-color: #ffffff !important; /* White in dark mode */
+}
+</style>
+
+## Our Solutions
 
 Faisal Khan LLC provides comprehensive solutions across the regulated financial services spectrum. From licensing and compliance to banking access and payment processing, we help businesses navigate complex regulatory environments globally.
 
 ## Solution Categories
 
-- **[Licensing & License Sponsorship](/solutions/licensing/)** - MTL, MSB, EMI, and more
-- **[Banking & Access](/solutions/banking/)** - MSB-friendly accounts and banking solutions  
-- **[Money Transfer & Remittances](/solutions/money-transfer/)** - Cross-border payment solutions
-- **[Payments & Processing](/solutions/payments/)** - B2B payments and payment facilitation
-- **[Crypto & Blockchain](/solutions/crypto/)** - Cryptocurrency compliance and licensing
-- **[Risk & Compliance](/solutions/compliance/)** - AML, KYC, and regulatory compliance
-- **[Card Services](/solutions/cards/)** - Card processing and issuance
-- **[Wallet Solutions](/solutions/wallets/)** - Digital wallet implementations
-- **[Fintech & Startups](/solutions/fintech/)** - Solutions for emerging fintech companies
-- **[Industry Specific](/solutions/industry-specific/)** - Specialized industry solutions
-- **[Geographic Solutions](/solutions/geographic/)** - Country-specific licensing and compliance
-- **[Solution Providers](/solutions/providers/)** - Vetted partner network
-- **[High-Risk Businesses](/solutions/high-risk/)** - Solutions for challenging business models
-- **[Consulting Services](/solutions/consulting/)** - Strategic advisory and consulting
+<ul style="padding-left: 0; margin: 20px 0;">
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/licensing/" style="text-decoration: none; color: inherit;">Licensing & License Sponsorship</a> - MTL, MSB, EMI, and more</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/banking/" style="text-decoration: none; color: inherit;">Banking & Access to Banking</a> - MSB-friendly accounts and banking solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/money-transfer/" style="text-decoration: none; color: inherit;">Money Transfer & Remittances</a> - Cross-border payment solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/payments/" style="text-decoration: none; color: inherit;">Payments & Payment Processing</a> - B2B payments and payment facilitation</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/crypto/" style="text-decoration: none; color: inherit;">Crypto & Blockchain</a> - Cryptocurrency compliance and licensing</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/compliance/" style="text-decoration: none; color: inherit;">Risk & Compliance</a> - AML, KYC, and regulatory compliance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/cards/" style="text-decoration: none; color: inherit;">Card Services</a> - Card processing and issuance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/wallets/" style="text-decoration: none; color: inherit;">Wallet Solutions</a> - Digital wallet implementations</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/fintech/" style="text-decoration: none; color: inherit;">Fintech & Startups</a> - Solutions for emerging fintech companies</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/industry-specific/" style="text-decoration: none; color: inherit;">Industry Specific Solutions</a> - Specialized industry solutions</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/geographic/" style="text-decoration: none; color: inherit;">Country Specific Solutions</a> - Country-specific licensing and compliance</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/providers/" style="text-decoration: none; color: inherit;">Solution Providers</a> - Vetted partner network</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/high-risk/" style="text-decoration: none; color: inherit;">High-Risk Businesses</a> - Solutions for challenging business models</li>
+<li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/consulting/" style="text-decoration: none; color: inherit;">Consulting Services</a> - Strategic advisory and consulting</li>
+</ul>
 
 ## How We Help
 
@@ -477,7 +502,7 @@ Ready to explore our solutions? Contact Faisal Khan LLC for expert consultation 
             print(f"Created page: {category}/{slug}.md")
 
 if __name__ == "__main__":
-    print("🚀 Generating Hugo solution pages - CORRECTED VERSION...")
+    print("🚀 Generating Hugo solution pages - FIXED VERSION (No Duplication)...")
     print(f"📁 Target directory: {CONTENT_DIR}")
     
     # Check if content directory exists
@@ -495,4 +520,5 @@ if __name__ == "__main__":
     print("✅ No problematic layouts")
     print("✅ No broken shortcodes")
     print("✅ Clean Hugo front matter")
+    print("✅ BLACK SQUARE BULLETS with clean links - FIXED!")
     print("\n🚀 Ready to test with: hugo server")

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with small payment institution (spi)? Contact Faisal Khan LLC for expert consultation."
----
-# Small Payment Institution (SPI)
-
-Professional small payment institution (spi) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Small Payment Institution (SPI) and how Faisal Khan LLC can help]
 

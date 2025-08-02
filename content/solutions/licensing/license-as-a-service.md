@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with license as a service (laas)? Contact Faisal Khan LLC for expert consultation."
----
-# License as a Service (LaaS)
-
-Professional license as a service (laas) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of License as a Service (LaaS) and how Faisal Khan LLC can help]
 

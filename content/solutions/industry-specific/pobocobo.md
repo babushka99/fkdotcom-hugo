@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with pobo/cobo? Contact Faisal Khan LLC for expert consultation."
----
-# POBO/COBO
-
-Professional pobo/cobo services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of POBO/COBO and how Faisal Khan LLC can help]
 

@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with risk assessment? Contact Faisal Khan LLC for expert consultation."
----
-# Risk Assessment
-
-Professional risk assessment services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Risk Assessment and how Faisal Khan LLC can help]
 

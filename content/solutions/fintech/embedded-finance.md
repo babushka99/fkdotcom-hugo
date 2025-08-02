@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with embedded finance? Contact Faisal Khan LLC for expert consultation."
----
-# Embedded Finance
-
-Professional embedded finance services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Embedded Finance and how Faisal Khan LLC can help]
 

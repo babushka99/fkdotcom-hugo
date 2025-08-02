@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with seafarer payments? Contact Faisal Khan LLC for expert consultation."
----
-# Seafarer Payments
-
-Professional seafarer payments services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Seafarer Payments and how Faisal Khan LLC can help]
 

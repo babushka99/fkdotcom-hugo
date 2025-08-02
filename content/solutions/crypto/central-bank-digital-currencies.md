@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with central bank digital currencies (cbdcs)? Contact Faisal Khan LLC for expert consultation."
----
-# Central Bank Digital Currencies (CBDCs)
-
-Professional central bank digital currencies (cbdcs) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Central Bank Digital Currencies (CBDCs) and how Faisal Khan LLC can help]
 

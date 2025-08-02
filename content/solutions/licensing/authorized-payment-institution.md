@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with authorized payment institution (api)? Contact Faisal Khan LLC for expert consultation."
----
-# Authorized Payment Institution (API)
-
-Professional authorized payment institution (api) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Authorized Payment Institution (API) and how Faisal Khan LLC can help]
 

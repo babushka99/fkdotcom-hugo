@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with payment institution (pi)? Contact Faisal Khan LLC for expert consultation."
----
-# Payment Institution (PI)
-
-Professional payment institution (pi) services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Payment Institution (PI) and how Faisal Khan LLC can help]
 

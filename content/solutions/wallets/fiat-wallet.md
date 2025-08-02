@@ -31,12 +31,7 @@ areaServed: "Global"
 # Contact CTA
 showContactCTA: true
 contactText: "Ready to get started with fiat wallet? Contact Faisal Khan LLC for expert consultation."
----
-# Fiat Wallet
-
-Professional fiat wallet services tailored to your business needs.
-
-## Overview
+---## Overview
 
 [Brief overview of Fiat Wallet and how Faisal Khan LLC can help]
 
