@@ -123,7 +123,8 @@ enableRobotsTXT = true
   # Social and contact
   email = "your-email@faisalkhan.com"
   
-  # Theme settings
+  # Theme settings - DARK MODE DEFAULT
+  defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true

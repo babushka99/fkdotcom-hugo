@@ -27,34 +27,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><style>
  
 :root {
@@ -135,6 +107,100 @@ body {
 }
 
  
+ 
+article.post-single div.post-content ul li a[href],
+article.post-single div.post-content p a[href],
+article.post-single div.post-content div a[href],
+div.post-content ul li a[href],
+div.post-content p a[href],
+div.post-content div a[href] {
+    color: #0000EE !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+article.post-single div.post-content ul li a[href]:visited,
+article.post-single div.post-content p a[href]:visited,
+article.post-single div.post-content div a[href]:visited,
+div.post-content ul li a[href]:visited,
+div.post-content p a[href]:visited,
+div.post-content div a[href]:visited {
+    color: #551A8B !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+article.post-single div.post-content ul li a[href]:hover,
+article.post-single div.post-content p a[href]:hover,
+article.post-single div.post-content div a[href]:hover,
+div.post-content ul li a[href]:hover,
+div.post-content p a[href]:hover,
+div.post-content div a[href]:hover {
+    color: #0000CC !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+ 
+.dark article.post-single div.post-content ul li a[href],
+.dark article.post-single div.post-content p a[href],
+.dark article.post-single div.post-content div a[href],
+.dark div.post-content ul li a[href],
+.dark div.post-content p a[href],
+.dark div.post-content div a[href] {
+    color: #6699FF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:visited,
+.dark article.post-single div.post-content p a[href]:visited,
+.dark article.post-single div.post-content div a[href]:visited,
+.dark div.post-content ul li a[href]:visited,
+.dark div.post-content p a[href]:visited,
+.dark div.post-content div a[href]:visited {
+    color: #CC99FF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:hover,
+.dark article.post-single div.post-content p a[href]:hover,
+.dark article.post-single div.post-content div a[href]:hover,
+.dark div.post-content ul li a[href]:hover,
+.dark div.post-content p a[href]:hover,
+.dark div.post-content div a[href]:hover {
+    color: #99CCFF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+ 
+.menu a, 
+.footer-nav a,
+nav a,
+header a,
+.breadcrumbs a {
+    color: inherit !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+ 
 .custom-footer {
     background-color: #f5f5f5 !important;
     width: 100vw !important;
@@ -194,14 +260,10 @@ body {
 </style>
 </head>
 
-<body class="list" id="top">
+<body class="list dark" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
 
 </script>
