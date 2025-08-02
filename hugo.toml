@@ -147,9 +147,9 @@ enableRobotsTXT = true
     enabled = true
     
   # Home page settings
-  [params.homeInfoParams]
-    Title = "Faisal Khan LLC"
-    Content = "Expert consulting in cross-border payments, banking access, licensing, and crypto compliance. Helping businesses navigate regulated financial services globally."
+  # [params.homeInfoParams]
+  #  Title = "Faisal Khan LLC"
+  #  Content = "Expert consulting in cross-border payments, banking access, licensing, and crypto compliance. Helping businesses navigate regulated financial services globally."
 
   # Footer social links for your website
   [[params.socialIcons]]
