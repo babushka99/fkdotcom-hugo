@@ -1,4 +1,4 @@
-baseURL = 'https://faisalkhan.com'  # Replace with your actual domain
+baseURL = 'https://faisalkhan.com'
 languageCode = 'en-us'
 title = 'Faisal Khan LLC'
 theme = "PaperMod"
@@ -18,27 +18,27 @@ enableRobotsTXT = true
 [taxonomies]
   category = "categories"
   tag = "tags"
-  jurisdiction = "jurisdictions"  # Custom taxonomy for licensing content
-  service = "services"           # Custom taxonomy for service types
+  jurisdiction = "jurisdictions"
+  service = "services"
 
-# Main menu structure aligned with your business
+# TOP NAVIGATION MENU
 [menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
   [[menu.main]]
     identifier = "solutions"
     name = "Solutions"
     url = "/solutions/"
-    weight = 10
-  
-  [[menu.main]]
-    identifier = "licensing"
-    name = "Licensing"
-    url = "/licensing/"
-    weight = 20
-
-  [[menu.main]]
-    identifier = "compliance"
-    name = "Compliance"
-    url = "/compliance/"
     weight = 30
 
   [[menu.main]]
@@ -48,16 +48,71 @@ enableRobotsTXT = true
     weight = 40
 
   [[menu.main]]
-    identifier = "insights"
-    name = "Insights"
-    url = "/insights/"
+    identifier = "clients"
+    name = "Clients"
+    url = "/clients/"
     weight = 50
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "pricing"
+    name = "Pricing"
+    url = "/pricing/"
     weight = 60
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 70
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 80
+
+# BOTTOM NAVIGATION MENU (Footer)
+  [[menu.footer]]
+    identifier = "book-call"
+    name = "Book A Call"
+    url = "/book-a-call/"
+    weight = 10
+
+  [[menu.footer]]
+    identifier = "legal-disclaimer"
+    name = "Legal Disclaimer"
+    url = "/legal/disclaimer/"
+    weight = 20
+
+  [[menu.footer]]
+    identifier = "privacy-policy"
+    name = "Privacy Policy"
+    url = "/legal/privacy/"
+    weight = 30
+
+  [[menu.footer]]
+    identifier = "terms-service"
+    name = "Terms of Service"
+    url = "/legal/terms/"
+    weight = 40
+
+  [[menu.footer]]
+    identifier = "refund"
+    name = "Refund"
+    url = "/legal/refund/"
+    weight = 50
+
+  [[menu.footer]]
+    identifier = "support"
+    name = "Support"
+    url = "/support/"
+    weight = 60
+
+  [[menu.footer]]
+    identifier = "sitemap"
+    name = "Sitemap"
+    url = "/sitemap/"
+    weight = 70
 
 # PaperMod theme specific parameters
 [params]
@@ -66,7 +121,7 @@ enableRobotsTXT = true
   description = "Cross-border payments, banking access, licensing, and crypto compliance consulting"
   
   # Social and contact
-  email = "your-email@faisalkhan.com"  # Replace with actual email
+  email = "your-email@faisalkhan.com"
   
   # Theme settings
   ShowReadingTime = true
@@ -78,11 +133,14 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = false
   
+  # Custom CSS
+  assets = {css = ["css/custom.css"]}
+  
   # Search
   disableFingerprinting = false
   
   # SEO and analytics
-  googleAnalytics = "G-XXXXXXXXXX"  # Replace with your GA4 ID
+  googleAnalytics = "G-XXXXXXXXXX"
   
   # Social media profiles
   [params.profileMode]
@@ -96,17 +154,17 @@ enableRobotsTXT = true
   # Footer social links
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://linkedin.com/in/faisalkhan"  # Replace with actual
+    url = "https://linkedin.com/in/faisalkhan"
   
   [[params.socialIcons]]
     name = "twitter"
-    url = "https://twitter.com/faisalkhan"      # Replace with actual
+    url = "https://twitter.com/faisalkhan"
 
 # Markup configuration for proper rendering
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  # Allows HTML in markdown
+      unsafe = true
   [markup.highlight]
     style = "github"
     lineNos = true

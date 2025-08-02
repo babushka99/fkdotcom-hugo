@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rent-a-License on Faisal Khan LLC</title>
+    <link>http://localhost:65053/tags/rent-a-license/</link>
+    <description>Recent content in Rent-a-License on Faisal Khan LLC</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:65053/tags/rent-a-license/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rent-a-License</title>
+      <link>http://localhost:65053/solutions/licensing/rent-a-license/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:65053/solutions/licensing/rent-a-license/</guid>
+      <description>Expert rent-a-license solutions from Faisal Khan LLC</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+/* Classic Blue Links Override for PaperMod Theme */
+
+/* Content links (inside posts and pages) */
+.post-content a,
+.page-content a,
+main a {
+    color: #0066cc !important;
+    text-decoration: underline !important;
+}
+
+.post-content a:hover,
+.page-content a:hover,
+main a:hover {
+    color: #0052a3 !important;
+    text-decoration: underline !important;
+}
+
+.post-content a:visited,
+.page-content a:visited,
+main a:visited {
+    color: #551a8b !important;
+    text-decoration: underline !important;
+}
+
+/* Specific targeting for solution pages */
+.solutions-content a,
+article a {
+    color: #0066cc !important;
+    text-decoration: underline !important;
+}
+
+.solutions-content a:hover,
+article a:hover {
+    color: #0052a3 !important;
+}
+
+.solutions-content a:visited,
+article a:visited {
+    color: #551a8b !important;
+}
+
+/* Override PaperMod's default link styling */
+a {
+    color: #0066cc !important;
+    text-decoration: underline !important;
+}
+
+a:hover {
+    color: #0052a3 !important;
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #551a8b !important;
+    text-decoration: underline !important;
+}
+
+/* Keep navigation menu links as they are (optional) */
+.nav a,
+header a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* Exception for buttons - keep theme styling */
+.button,
+.btn,
+button a {
+    color: inherit !important;
+    text-decoration: none !important;
+}

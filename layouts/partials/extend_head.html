@@ -1,0 +1,77 @@
+<style>
+/* Light mode - ensure white background */
+:root {
+    --theme: #ffffff;
+    --bg: #ffffff;
+    --border: #e5e5e5;
+}
+
+/* Force white background in light mode */
+body {
+    background: var(--theme) !important;
+}
+
+/* Keep dark mode working when toggled */
+[data-theme="dark"] {
+    --theme: #1d1d1d;
+    --bg: #1d1d1d;
+    --border: #333;
+}
+
+[data-theme="dark"] body {
+    background: var(--theme) !important;
+}
+
+/* Custom Footer Styling - Force full width */
+.custom-footer {
+    background-color: #f5f5f5 !important;
+    width: 100vw !important;
+    max-width: none !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    margin-top: 40px !important;
+    margin-bottom: 0 !important;
+    padding: 20px 0 !important;
+    border-top: 1px solid #e0e0e0;
+    box-sizing: border-box !important;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-nav {
+    margin: 10px 0;
+}
+
+.footer-nav a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-nav a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Dark mode footer */
+.dark .custom-footer {
+    background-color: #2d2d2d;
+    border-top: 1px solid #404040;
+}
+
+.dark .footer-nav a {
+    color: #ccc;
+}
+
+.dark .footer-nav a:hover {
+    color: #fff;
+}
+</style>

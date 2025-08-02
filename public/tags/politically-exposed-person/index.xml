@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Politically-Exposed-Person on Faisal Khan LLC</title>
+    <link>http://localhost:65053/tags/politically-exposed-person/</link>
+    <description>Recent content in Politically-Exposed-Person on Faisal Khan LLC</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:65053/tags/politically-exposed-person/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Politically Exposed Person (PEP)</title>
+      <link>http://localhost:65053/solutions/compliance/politically-exposed-person/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:65053/solutions/compliance/politically-exposed-person/</guid>
+      <description>Expert politically exposed person (pep) solutions from Faisal Khan LLC</description>
+    </item>
+  </channel>
+</rss>

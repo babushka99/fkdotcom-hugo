@@ -1,0 +1,12 @@
+/* Super aggressive yellow test */
+* {
+    background: yellow !important;
+}
+
+html, body {
+    background: yellow !important;
+}
+
+.main {
+    background: yellow !important;
+}

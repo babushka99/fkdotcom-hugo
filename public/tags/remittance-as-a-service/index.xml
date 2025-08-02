@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Remittance-as-a-Service on Faisal Khan LLC</title>
+    <link>http://localhost:65053/tags/remittance-as-a-service/</link>
+    <description>Recent content in Remittance-as-a-Service on Faisal Khan LLC</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:65053/tags/remittance-as-a-service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remittance-as-a-Service (RaaS)</title>
+      <link>http://localhost:65053/solutions/money-transfer/remittance-as-a-service/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:65053/solutions/money-transfer/remittance-as-a-service/</guid>
+      <description>Expert remittance-as-a-service (raas) solutions from Faisal Khan LLC</description>
+    </item>
+  </channel>
+</rss>
