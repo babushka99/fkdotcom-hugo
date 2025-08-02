@@ -967,6 +967,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/legal/disclaimer/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/solutions/licensing/license-as-a-service/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1377,6 +1382,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/legal/privacy/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/privacy-policy/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1418,6 +1428,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/readymade-solutions/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/legal/refund/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1663,6 +1678,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/legal/terms-of-service/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/legal/terms/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

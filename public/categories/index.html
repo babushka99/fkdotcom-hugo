@@ -176,7 +176,7 @@ body {
 
  
 .dark .custom-footer {
-    background-color: #2d2d2d !important;
+    background-color: #1f1f1f !important;
     border-top: 1px solid #404040 !important;
 }
 
@@ -185,6 +185,11 @@ body {
 }
 
 .dark .footer-nav a:hover {
+    color: #fff !important;
+}
+
+ 
+.dark div[style*="Page Last Updated"] {
     color: #fff !important;
 }
 </style>
@@ -319,6 +324,9 @@ body {
         <a href="http://localhost:1313/categories/providers/">providers <sup><strong><sup>5</sup></strong></sup> </a>
     </li>
     <li>
+        <a href="http://localhost:1313/categories/resources/">resources <sup><strong><sup>12</sup></strong></sup> </a>
+    </li>
+    <li>
         <a href="http://localhost:1313/categories/wallets/">wallets <sup><strong><sup>6</sup></strong></sup> </a>
     </li>
 </ul>
@@ -326,7 +334,7 @@ body {
     
 <footer class="footer custom-footer">
     <div class="footer-content">
-        <span>&copy; 2005-2025 <a href="http://localhost:1313/">Faisal Khan LLC</a>. All Rights Reserved.</span> · 
+        <span>&copy; 2005-2025 <a href="http://localhost:1313/">Faisal Khan LLC</a>. All Rights Reserved.</span>
         <div class="footer-nav">
             <a href="http://localhost:1313/book-a-call/" title="">Book A Call</a> ·
             <a href="http://localhost:1313/legal/disclaimer/" title="">Legal Disclaimer</a> ·
@@ -345,6 +353,31 @@ body {
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important; color: #000 !important;">
+  —
+  <p>
+    Page Last Updated: August 2, 2025
+</div>
+
+<style>
+.dark .page-last-updated-auto {
+  color: #fff !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  
+  const lastUpdated = document.querySelector('.page-last-updated-auto');
+  
+  const main = document.querySelector('main');
+  
+  if (lastUpdated && main) {
+    
+    main.appendChild(lastUpdated);
+  }
+});
+</script>
 
 <script>
     let menu = document.getElementById('menu')

@@ -187,6 +187,11 @@ body {
 .dark .footer-nav a:hover {
     color: #fff !important;
 }
+
+ 
+.dark div[style*="Page Last Updated"] {
+    color: #fff !important;
+}
 </style>
 </head>
 
@@ -335,6 +340,31 @@ body {
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important; color: #000 !important;">
+  —
+  <p>
+    Page Last Updated: August 2, 2025
+</div>
+
+<style>
+.dark .page-last-updated-auto {
+  color: #fff !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  
+  const lastUpdated = document.querySelector('.page-last-updated-auto');
+  
+  const main = document.querySelector('main');
+  
+  if (lastUpdated && main) {
+    
+    main.appendChild(lastUpdated);
+  }
+});
+</script>
 
 <script>
     let menu = document.getElementById('menu')
