@@ -1,0 +1,139 @@
+baseURL = 'https://faisalkhan.com'  # Replace with your actual domain
+languageCode = 'en-us'
+title = 'Faisal Khan LLC'
+theme = "PaperMod"
+
+# Enable emoji support
+enableEmoji = true
+# Enable syntax highlighting
+pygmentsUseClasses = true
+# Enable RSS
+enableRobotsTXT = true
+
+# Pagination
+[pagination]
+  pagerSize = 10
+
+# Taxonomies (categories and tags)
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  jurisdiction = "jurisdictions"  # Custom taxonomy for licensing content
+  service = "services"           # Custom taxonomy for service types
+
+# Main menu structure aligned with your business
+[menu]
+  [[menu.main]]
+    identifier = "solutions"
+    name = "Solutions"
+    url = "/solutions/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "licensing"
+    name = "Licensing"
+    url = "/licensing/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "compliance"
+    name = "Compliance"
+    url = "/compliance/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "insights"
+    name = "Insights"
+    url = "/insights/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 60
+
+# PaperMod theme specific parameters
+[params]
+  # Site identity
+  author = "Faisal Khan"
+  description = "Cross-border payments, banking access, licensing, and crypto compliance consulting"
+  
+  # Social and contact
+  email = "your-email@faisalkhan.com"  # Replace with actual email
+  
+  # Theme settings
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  
+  # Search
+  disableFingerprinting = false
+  
+  # SEO and analytics
+  googleAnalytics = "G-XXXXXXXXXX"  # Replace with your GA4 ID
+  
+  # Social media profiles
+  [params.profileMode]
+    enabled = false
+    
+  # Home page settings
+  [params.homeInfoParams]
+    Title = "Faisal Khan LLC"
+    Content = "Expert consulting in cross-border payments, banking access, licensing, and crypto compliance. Helping businesses navigate regulated financial services globally."
+
+  # Footer social links
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/faisalkhan"  # Replace with actual
+  
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/faisalkhan"      # Replace with actual
+
+# Markup configuration for proper rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows HTML in markdown
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    codeFences = true
+
+# Output formats (for RSS, search, etc.)
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# Related content configuration
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 80
+  [[related.indices]]
+    name = "jurisdictions"
+    weight = 60
+
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5

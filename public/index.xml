@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Faisal Khan LLC</title>
+    <link>http://localhost:49924/</link>
+    <description>Recent content on Faisal Khan LLC</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2025 01:43:39 +0300</lastBuildDate>
+    <atom:link href="http://localhost:49924/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our First Post</title>
+      <link>http://localhost:49924/posts/first/</link>
+      <pubDate>Mon, 12 May 2025 01:43:39 +0300</pubDate>
+      <guid>http://localhost:49924/posts/first/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;faq-what-does-it-cost-to-launch-a-us-baas-based-banking--payment-platform-as-a-foreign-entity&#34;&gt;FAQ: What Does It Cost to Launch a U.S. BaaS-Based Banking &amp;amp; Payment Platform as a Foreign Entity?&lt;/h2&gt;
+&lt;h3 id=&#34;q1-what-is-the-most-cost-effective-way-for-a-non-us-entrepreneur-to-access-us-banking-infrastructure&#34;&gt;Q1: What is the most cost-effective way for a non-U.S. entrepreneur to access U.S. banking infrastructure?&lt;/h3&gt;
+&lt;p&gt;Instead of applying for your own U.S. money transmitter licenses—which can cost between $1.7 million and $2.3 million for nationwide coverage—the more affordable and faster route is to partner with a licensed Banking-as-a-Service (BaaS) provider. This allows you to offer U.S. bank accounts and related services to international clients, such as freelancers in Bangladesh, Nigeria, India, and other countries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Our Second Post</title>
+      <link>http://localhost:49924/posts/second/</link>
+      <pubDate>Mon, 12 May 2025 01:43:39 +0300</pubDate>
+      <guid>http://localhost:49924/posts/second/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;faq-what-does-it-cost-to-launch-a-us-baas-based-banking--payment-platform-as-a-foreign-entity&#34;&gt;FAQ: What Does It Cost to Launch a U.S. BaaS-Based Banking &amp;amp; Payment Platform as a Foreign Entity?&lt;/h2&gt;
+&lt;h3 id=&#34;q1-what-is-the-most-cost-effective-way-for-a-non-us-entrepreneur-to-access-us-banking-infrastructure&#34;&gt;Q1: What is the most cost-effective way for a non-U.S. entrepreneur to access U.S. banking infrastructure?&lt;/h3&gt;
+&lt;p&gt;Instead of applying for your own U.S. money transmitter licenses—which can cost between $1.7 million and $2.3 million for nationwide coverage—the more affordable and faster route is to partner with a licensed Banking-as-a-Service (BaaS) provider. This allows you to offer U.S. bank accounts and related services to international clients, such as freelancers in Bangladesh, Nigeria, India, and other countries.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
