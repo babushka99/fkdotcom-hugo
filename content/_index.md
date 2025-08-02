@@ -48,4 +48,4 @@ With over 10,000 discovery calls, we bring experience and insights that set us a
 
 Take the first step towards unlocking your business's potential. [Contact us](/contact/) to schedule a consultation.
 
-**[Book A Call →](/book-a-call/)**
+[Book A Call →](/book-a-call/)
