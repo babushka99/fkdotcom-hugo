@@ -101,4 +101,4 @@ Latest insights and industry analysis
 
 ---
 
-*Site last updated: {datetime.now().strftime("%B %d, %Y")}*
+
