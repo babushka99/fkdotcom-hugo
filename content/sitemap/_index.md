@@ -6,7 +6,7 @@ description: "Complete sitemap of all pages and resources on Faisal Khan LLC web
 keywords: ['sitemap', 'site map', 'navigation', 'pages', 'structure']
 
 # SEO
-canonicalURL: "https://faisalkhan.com/sitemap/"
+canonicalURL: "https://faisalkhanlls.xyz/sitemap/"
 images: ["/images/sitemap.webp"]
 
 # Page settings
