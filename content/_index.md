@@ -5,7 +5,7 @@ draft: false
 description: "Expert consulting in cross-border payments, banking access, licensing, and crypto compliance. Helping businesses navigate regulated financial services globally."
 
 # SEO
-images: ["/images/banking-payments-money-transfer-license-crypto-mtl-remittances-msb-friendly-banks.webp"]
+# images: ["/images/banking-payments-money-transfer-license-crypto-mtl-remittances-msb-friendly-banks.webp"]
 canonicalURL: "https://faisalkhanllc.xyz/"
 
 # Page settings
@@ -21,7 +21,6 @@ type: "website"
 provider: "Faisal Khan LLC"
 ---
 
-![Faisal Khan LLC - Banking and Payments Consulting](/images/banking-payments-money-transfer-license-crypto-mtl-remittances-msb-friendly-banks.webp)
 
 ## We Solve This and Problems Far More Complex
 
