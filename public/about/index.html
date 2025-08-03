@@ -421,6 +421,36 @@ header a,
 .dark div[style*="Page Last Updated"] {
     color: #fff !important;
 }
+
+ 
+.search-page-intro {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: var(--code-bg);
+    border-radius: 6px;
+    color: var(--content);
+}
+
+.search-page-intro p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.search-page-intro strong {
+    color: var(--primary);
+}
+
+ 
+#searchInput {
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+#searchInput:focus {
+    outline: none !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: none !important;
+}
 </style>
 
 <script>
@@ -483,7 +513,8 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: 'Clients', url: '/clients/' },
             { name: 'Pricing', url: '/pricing/' },
             { name: 'Blog', url: '/blog/' },
-            { name: 'Contact', url: '/contact/' }
+            { name: 'Contact', url: '/contact/' },
+            { name: 'Search', url: '/search/' }
         ];
         
         const mobileMenuContent = document.createElement('div');
@@ -535,6 +566,42 @@ document.addEventListener('DOMContentLoaded', function() {
                 mobileOverlay.classList.remove('open');
                 document.body.style.overflow = '';
             });
+        });
+    }
+    
+    
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    
+    
+    if (window.location.pathname.includes('/search/') && searchInput) {
+        const searchContent = document.createElement('div');
+        searchContent.className = 'search-page-intro';
+        searchContent.innerHTML = `
+            <p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>
+            <p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>
+        `;
+        
+        
+        searchInput.parentNode.insertBefore(searchContent, searchInput);
+        
+        
+        setTimeout(() => searchInput.focus(), 100);
+    }
+    
+    if (searchInput) {
+        
+        searchInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                
+                
+                const firstResult = document.querySelector('#searchResults .search-result a');
+                if (firstResult) {
+                    firstResult.click();
+                    return;
+                }
+            }
         });
     }
 });
@@ -615,6 +682,11 @@ document.addEventListener('DOMContentLoaded', function() {
             <li>
                 <a href="http://localhost:1313/contact/" title="Contact">
                     <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
         </ul>

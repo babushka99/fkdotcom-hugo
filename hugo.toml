@@ -71,6 +71,12 @@ enableRobotsTXT = true
     url = "/contact/"
     weight = 80
 
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 90
+
 # BOTTOM NAVIGATION MENU (Footer)
   [[menu.footer]]
     identifier = "book-call"
@@ -126,13 +132,17 @@ enableRobotsTXT = true
   # Theme settings - DARK MODE DEFAULT
   defaultTheme = "dark"
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false  # CHANGED: This removes the social media bar
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
   ShowToc = true
   TocOpen = false
+  
+  # SEARCH FUNCTIONALITY - NEW ADDITION
+  ShowSearch = true
+  SearchPlaceholder = "Search consulting services, licensing, compliance..."
   
   # Custom CSS
   assets = {css = ["css/custom.css"]}
@@ -143,7 +153,7 @@ enableRobotsTXT = true
   # SEO and analytics
   googleAnalytics = "G-XXXXXXXXXX"
   
-  # Social media profiles
+  # Social media profiles - COMMENTED OUT
   [params.profileMode]
     enabled = false
     
@@ -152,14 +162,24 @@ enableRobotsTXT = true
   #  Title = "Faisal Khan LLC"
   #  Content = "Expert consulting in cross-border payments, banking access, licensing, and crypto compliance. Helping businesses navigate regulated financial services globally."
 
-  # Footer social links for your website
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/faisalkhan"
+  # Footer social links - COMMENTED OUT TO REMOVE COMPLETELY
+  # [[params.socialIcons]]
+  #   name = "linkedin"
+  #   url = "https://linkedin.com/in/faisalkhan"
   
-  [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/faisalkhan"
+  # [[params.socialIcons]]
+  #   name = "twitter"
+  #   url = "https://twitter.com/faisalkhan"
+
+# Search configuration for Fuse.js
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
 
 # Markup configuration for proper rendering
 [markup]

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Enhanced SEO Hugo File Scanner with CSV Output
+Enhanced SEO Hugo File Scanner with CSV Output and Directory Organization
 Better checks for meta descriptions, keywords, and content issues
-Now outputs both .md and .csv files with same timestamp
+Now outputs both .md and .csv files with same timestamp in /seo_analysis directory
 """
 
 import os
@@ -10,6 +10,14 @@ import re
 import csv
 from datetime import datetime
 from pathlib import Path
+
+def ensure_analysis_directory():
+    """Create seo_analysis directory if it doesn't exist"""
+    analysis_dir = "seo_analysis"
+    if not os.path.exists(analysis_dir):
+        os.makedirs(analysis_dir)
+        print(f"📁 Created directory: {analysis_dir}/")
+    return analysis_dir
 
 def parse_front_matter_detailed(content):
     """Extract detailed front matter including SEO fields"""
@@ -249,11 +257,11 @@ def scan_hugo_with_enhanced_seo(content_dir):
     
     return all_pages
 
-def create_enhanced_csv_report(pages, timestamp):
-    """Create CSV report with all SEO analysis data"""
+def create_enhanced_csv_report(pages, timestamp, analysis_dir):
+    """Create CSV report with all SEO analysis data in seo_analysis directory"""
     
-    csv_filename = f"seo_analysis_{timestamp}.csv"
-    csv_latest = "latest_seo_analysis.csv"
+    csv_filename = os.path.join(analysis_dir, f"seo_analysis_{timestamp}.csv")
+    csv_latest = os.path.join(analysis_dir, "latest_seo_analysis.csv")
     
     print(f"📊 Creating CSV report: {csv_filename}")
     
@@ -409,12 +417,12 @@ def create_enhanced_csv_report(pages, timestamp):
         print(f"❌ Error creating CSV: {e}")
         return False
 
-def create_enhanced_seo_report(pages, timestamp):
-    """Create enhanced SEO report with timestamp"""
+def create_enhanced_seo_report(pages, timestamp, analysis_dir):
+    """Create enhanced SEO report with timestamp in seo_analysis directory"""
     
-    # Generate timestamped filename
-    timestamped_filename = f"seo_analysis_{timestamp}.md"
-    latest_filename = "latest_seo_analysis.md"
+    # Generate timestamped filename in analysis directory
+    timestamped_filename = os.path.join(analysis_dir, f"seo_analysis_{timestamp}.md")
+    latest_filename = os.path.join(analysis_dir, "latest_seo_analysis.md")
     
     print(f"\n📝 Creating timestamped SEO report:")
     print(f"📄 Main file: {timestamped_filename}")
@@ -739,6 +747,7 @@ keywords: ["main keyword", "secondary keyword", "location", "service"]
 
 *This enhanced SEO analysis was automatically generated*  
 *Last updated: {datetime.now().strftime('%B %d, %Y at %I:%M %p')}*
+*Files saved in: seo_analysis/ directory*
 """
     
     # Write the timestamped report
@@ -758,8 +767,8 @@ keywords: ["main keyword", "secondary keyword", "location", "service"]
         
         # Show file tracking message
         print(f"\n📈 Progress Tracking:")
-        print(f"   Keep this file to track SEO improvements over time!")
-        print(f"   Next run will create: seo_analysis_{datetime.now().strftime('%Y-%m-%d')}_XX-XX.md")
+        print(f"   Keep files in seo_analysis/ to track SEO improvements over time!")
+        print(f"   Next run will create: seo_analysis/seo_analysis_{datetime.now().strftime('%Y-%m-%d')}_XX-XX.md")
         
         return True
         
@@ -770,8 +779,8 @@ keywords: ["main keyword", "secondary keyword", "location", "service"]
 def main():
     """Main function"""
     
-    print("🚀 Enhanced Hugo SEO Scanner with CSV Export")
-    print("=" * 50)
+    print("🚀 Enhanced Hugo SEO Scanner with CSV Export & Directory Organization")
+    print("=" * 70)
     
     hugo_project_path = "/Users/faisalkhan/Dropbox/Hugoproject/faisalkhan"
     content_dir = os.path.join(hugo_project_path, "content")
@@ -780,32 +789,41 @@ def main():
         print(f"❌ Content directory not found: {content_dir}")
         return
     
+    # Ensure analysis directory exists
+    analysis_dir = ensure_analysis_directory()
+    
     # Enhanced SEO analysis
     pages = scan_hugo_with_enhanced_seo(content_dir)
     
     # Generate timestamp for both files
     timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M')
     
-    # Create both reports with same timestamp
-    md_success = create_enhanced_seo_report(pages, timestamp)
-    csv_success = create_enhanced_csv_report(pages, timestamp)
+    # Create both reports with same timestamp in analysis directory
+    md_success = create_enhanced_seo_report(pages, timestamp, analysis_dir)
+    csv_success = create_enhanced_csv_report(pages, timestamp, analysis_dir)
     
     if md_success and csv_success:
         print("\n🎉 Enhanced SEO analysis completed!")
+        print(f"📁 All files saved in: {analysis_dir}/")
         print(f"📋 Check your timestamped files:")
-        print(f"   📄 Markdown: seo_analysis_{timestamp}.md")
-        print(f"   📊 CSV: seo_analysis_{timestamp}.csv")
+        print(f"   📄 Markdown: {analysis_dir}/seo_analysis_{timestamp}.md")
+        print(f"   📊 CSV: {analysis_dir}/seo_analysis_{timestamp}.csv")
         print(f"🔍 Analyzed {len(pages)} pages with priority-based recommendations")
         
-        # Show existing SEO analysis files
-        seo_files = [f for f in os.listdir('.') if f.startswith('seo_analysis_') and (f.endswith('.md') or f.endswith('.csv'))]
-        if len(seo_files) > 2:
-            print(f"\n📚 SEO Analysis History ({len(seo_files)} files):")
-            for seo_file in sorted(seo_files)[-10:]:  # Show last 10 files
-                file_size = os.path.getsize(seo_file)
-                print(f"   📄 {seo_file} ({file_size:,} bytes)")
-            if len(seo_files) > 10:
-                print(f"   ... and {len(seo_files) - 10} older files")
+        # Show existing SEO analysis files in the directory
+        try:
+            seo_files = [f for f in os.listdir(analysis_dir) if f.startswith('seo_analysis_') and (f.endswith('.md') or f.endswith('.csv'))]
+            if len(seo_files) > 2:
+                print(f"\n📚 SEO Analysis History in {analysis_dir}/ ({len(seo_files)} files):")
+                for seo_file in sorted(seo_files)[-10:]:  # Show last 10 files
+                    file_path = os.path.join(analysis_dir, seo_file)
+                    file_size = os.path.getsize(file_path)
+                    print(f"   📄 {seo_file} ({file_size:,} bytes)")
+                if len(seo_files) > 10:
+                    print(f"   ... and {len(seo_files) - 10} older files")
+        except Exception as e:
+            print(f"⚠️ Could not list existing files: {e}")
+            
     elif md_success:
         print("\n⚠️ Markdown report created but CSV failed")
     elif csv_success:

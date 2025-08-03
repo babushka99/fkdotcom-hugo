@@ -31,301 +31,403 @@
 </noscript><style>
  
 :root {
-    --theme: #ffffff;
-    --bg: #ffffff;
-    --border: #e5e5e5;
+    --main-bg: #ffffff;
 }
 
- 
-body {
-    background: var(--theme) !important;
-}
-
- 
 [data-theme="dark"] {
-    --theme: #1d1d1d;
-    --bg: #1d1d1d;
-    --border: #333;
+    --main-bg: var(--entry);
 }
 
-[data-theme="dark"] body {
-    background: var(--theme) !important;
+body {
+    background-color: var(--main-bg) !important;
 }
 
  
-header.header {
+.post-content a:link,
+.post-content a:visited:not(:hover),
+article a:link,
+article a:visited:not(:hover),
+.post-single a:link,
+.post-single a:visited:not(:hover) {
+    color: #0000EE !important;  
+    text-decoration: underline !important;
+}
+
+.post-content a:visited,
+article a:visited,
+.post-single a:visited {
+    color: #551A8B !important;  
+    text-decoration: underline !important;
+}
+
+ 
+[data-theme="dark"] .post-content a:link,
+[data-theme="dark"] article a:link,
+[data-theme="dark"] .post-single a:link {
+    color: #6BB6FF !important;  
+}
+
+[data-theme="dark"] .post-content a:visited,
+[data-theme="dark"] article a:visited,
+[data-theme="dark"] .post-single a:visited {
+    color: #DA70D6 !important;  
+}
+
+ 
+.header.header.header {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
-    width: 100% !important;
     z-index: 1000 !important;
+    transform: translateY(0) !important;
+    transition: transform 0.3s ease !important;
     background-color: var(--theme) !important;
-    border-bottom: none !important;  
-    box-shadow: none !important;  
+    border-bottom: 1px solid var(--border) !important;
+}
+
+.header.header.header.header-hidden {
+    transform: translateY(-100%) !important;
 }
 
  
 body {
-    padding-top: 70px !important;  
+    padding-top: 70px !important;
 }
 
  
-header.page-header {
-    position: relative !important;
-    top: auto !important;
+@media (max-width: 768px) {
+    .main-nav {
+        display: none !important;
+    }
+    
+    .burger-menu {
+        display: block !important;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .burger-menu span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: var(--primary);
+        margin: 5px 0;
+        transition: 0.3s;
+    }
+    
+    .burger-menu.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .burger-menu.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .burger-menu.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: var(--theme);
+        z-index: 999;
+        padding: 20px;
+        overflow-y: auto;
+    }
+    
+    .mobile-menu.active {
+        display: block;
+        animation: slideIn 0.3s ease;
+    }
+    
+    .mobile-menu a {
+        display: block;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--border);
+        color: var(--primary);
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    body.mobile-menu-open {
+        overflow: hidden;
+    }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
 }
 
  
-.dark header.header {
-    background-color: var(--theme) !important;
-    border-bottom: none !important;
+.search-page-intro {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: var(--code-bg);
+    border-radius: 6px;
+    color: var(--content);
+}
+
+.search-page-intro p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.search-page-intro strong {
+    color: var(--primary);
+}
+
+ 
+.no-results {
+    padding: 20px;
+    text-align: center;
+    color: var(--content);
+    background: var(--code-bg);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.no-results ul {
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.no-results li {
+    padding: 5px 0;
+    color: var(--secondary);
+}
+
+#searchResults .search-result a:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    background: var(--hover);
+}
+
+#searchInput:focus {
+    outline: none !important;
+    border: 1px solid var(--border) !important;
     box-shadow: none !important;
 }
 
  
-.main, .post-content, .page-content, article {
-    max-width: 900px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
- 
-.breadcrumbs {
-    font-size: 0.85rem !important;
-    color: #666 !important;
-    margin-bottom: 1rem !important;
-    line-height: 1.4 !important;
-}
-
-.breadcrumbs a {
-    color: #666 !important;
-    text-decoration: none !important;
-}
-
-.breadcrumbs a:hover {
-    color: #333 !important;
-    text-decoration: underline !important;
-}
-
-.breadcrumb-separator {
-    margin: 0 8px !important;
-    color: #999 !important;
-}
-
-.breadcrumb-current {
-    color: #333 !important;
-    font-weight: 500 !important;
-}
-
- 
-.dark .breadcrumbs {
-    color: #ccc !important;
-}
-
-.dark .breadcrumbs a {
-    color: #ccc !important;
-}
-
-.dark .breadcrumbs a:hover {
-    color: #fff !important;
-}
-
-.dark .breadcrumb-separator {
-    color: #888 !important;
-}
-
-.dark .breadcrumb-current {
-    color: #fff !important;
-}
-
- 
-h1, h2, h3, h4, h5, h6 {
+#searchInput {
     font-weight: normal !important;
+    font-size: 16px !important;
 }
 
  
-.post-content h1,
-.post-content h2, 
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6,
-.page-content h1,
-.page-content h2,
-.page-content h3,
-.page-content h4,
-.page-content h5,
-.page-content h6,
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-    font-weight: normal !important;
+[data-theme="dark"] .page-last-updated {
+    color: #cccccc !important;
 }
 
  
-.post-title,
-.page-title,
-h1.post-title,
-h1.page-title {
-    font-weight: normal !important;
-}
-
- 
- 
-article.post-single div.post-content ul li a[href],
-article.post-single div.post-content p a[href],
-article.post-single div.post-content div a[href],
-div.post-content ul li a[href],
-div.post-content p a[href],
-div.post-content div a[href] {
-    color: #0000EE !important;  
-    text-decoration: underline !important;
-    text-decoration-line: underline !important;
-    text-decoration-style: solid !important;
-    text-decoration-thickness: 1px !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
-}
-
-article.post-single div.post-content ul li a[href]:visited,
-article.post-single div.post-content p a[href]:visited,
-article.post-single div.post-content div a[href]:visited,
-div.post-content ul li a[href]:visited,
-div.post-content p a[href]:visited,
-div.post-content div a[href]:visited {
-    color: #551A8B !important;  
-    text-decoration: underline !important;
-    text-decoration-line: underline !important;
-    text-decoration-style: solid !important;
-    text-decoration-thickness: 1px !important;
-}
-
-article.post-single div.post-content ul li a[href]:hover,
-article.post-single div.post-content p a[href]:hover,
-article.post-single div.post-content div a[href]:hover,
-div.post-content ul li a[href]:hover,
-div.post-content p a[href]:hover,
-div.post-content div a[href]:hover {
-    color: #0000CC !important;  
-    text-decoration: underline !important;
-    text-decoration-line: underline !important;
-    text-decoration-style: solid !important;
-    text-decoration-thickness: 1px !important;
-}
-
- 
-.dark article.post-single div.post-content ul li a[href],
-.dark article.post-single div.post-content p a[href],
-.dark article.post-single div.post-content div a[href],
-.dark div.post-content ul li a[href],
-.dark div.post-content p a[href],
-.dark div.post-content div a[href] {
-    color: #6699FF !important;  
-    text-decoration: underline !important;
-    text-decoration-line: underline !important;
-    text-decoration-style: solid !important;
-    text-decoration-thickness: 1px !important;
-}
-
-.dark article.post-single div.post-content ul li a[href]:visited,
-.dark article.post-single div.post-content p a[href]:visited,
-.dark article.post-single div.post-content div a[href]:visited,
-.dark div.post-content ul li a[href]:visited,
-.dark div.post-content p a[href]:visited,
-.dark div.post-content div a[href]:visited {
-    color: #CC99FF !important;  
-    text-decoration: underline !important;
-    text-decoration-line: underline !important;
-    text-decoration-style: solid !important;
-    text-decoration-thickness: 1px !important;
-}
-
-.dark article.post-single div.post-content ul li a[href]:hover,
-.dark article.post-single div.post-content p a[href]:hover,
-.dark article.post-single div.post-content div a[href]:hover,
-.dark div.post-content ul li a[href]:hover,
-.dark div.post-content p a[href]:hover,
-.dark div.post-content div a[href]:hover {
-    color: #99CCFF !important;  
-    text-decoration: underline !important;
-    text-decoration-line: underline !important;
-    text-decoration-style: solid !important;
-    text-decoration-thickness: 1px !important;
-}
-
- 
-.menu a, 
-.footer-nav a,
-nav a,
-header a,
-.breadcrumbs a {
-    color: inherit !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
-}
-
- 
-.custom-footer {
+.footer.custom-footer {
     background-color: #f5f5f5 !important;
+    padding: 20px 0 !important;
+    border-top: 1px solid #e0e0e0 !important;
     width: 100vw !important;
-    max-width: none !important;
     position: relative !important;
     left: 50% !important;
     right: 50% !important;
     margin-left: -50vw !important;
     margin-right: -50vw !important;
-    margin-top: 40px !important;
+    margin-top: 30px !important;
     margin-bottom: 0 !important;
-    padding: 20px 0 !important;
-    border-top: 1px solid #e0e0e0;
-    box-sizing: border-box !important;
+    text-align: center !important;
 }
 
+ 
+[data-theme="dark"] .footer.custom-footer,
+body.dark .footer.custom-footer,
+html.dark .footer.custom-footer {
+    background-color: #2d2d2d !important;
+    border-top: 1px solid #444 !important;
+}
+
+ 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: center;
+    text-align: center !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
 }
 
-.footer-nav {
-    margin: 10px 0;
-}
-
-.footer-nav a {
-    color: #666;
-    text-decoration: none;
-    margin: 0 5px;
-}
-
-.footer-nav a:hover {
-    color: #333;
-    text-decoration: underline;
-}
-
- 
-.dark .custom-footer {
-    background-color: #1f1f1f !important;
-    border-top: 1px solid #404040 !important;
-}
-
-.dark .footer-nav a {
-    color: #ccc !important;
-}
-
-.dark .footer-nav a:hover {
-    color: #fff !important;
-}
-
- 
-.dark div[style*="Page Last Updated"] {
-    color: #fff !important;
+.footer-content * {
+    text-align: center !important;
 }
 </style>
+
+<script>
+
+let lastScrollTop = 0;
+let scrollThreshold = 50;
+
+window.addEventListener('scroll', function() {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    let header = document.querySelector('.header');
+    
+    if (!header) return;
+    
+    if (Math.abs(scrollTop - lastScrollTop) < scrollThreshold) {
+        return;
+    }
+    
+    if (scrollTop > lastScrollTop && scrollTop > 100) {
+        
+        header.classList.add('header-hidden');
+    } else {
+        
+        header.classList.remove('header-hidden');
+    }
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    
+    const header = document.querySelector('.header');
+    const nav = document.querySelector('.main-nav');
+    
+    if (header && !document.querySelector('.burger-menu')) {
+        
+        const burgerMenu = document.createElement('div');
+        burgerMenu.className = 'burger-menu';
+        burgerMenu.innerHTML = '<span></span><span></span><span></span>';
+        
+        
+        const mobileMenu = document.createElement('div');
+        mobileMenu.className = 'mobile-menu';
+        
+        
+        if (nav) {
+            const navLinks = nav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                const mobileLink = link.cloneNode(true);
+                mobileMenu.appendChild(mobileLink);
+            });
+        }
+        
+        
+        header.appendChild(burgerMenu);
+        document.body.appendChild(mobileMenu);
+        
+        
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            document.body.classList.toggle('mobile-menu-open');
+        });
+        
+        
+        document.addEventListener('click', function(e) {
+            if (!burgerMenu.contains(e.target) && !mobileMenu.contains(e.target)) {
+                burgerMenu.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                document.body.classList.remove('mobile-menu-open');
+            }
+        });
+        
+        
+        mobileMenu.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') {
+                burgerMenu.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                document.body.classList.remove('mobile-menu-open');
+            }
+        });
+    }
+    
+    
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    
+    
+    if (window.location.pathname.includes('/search/') && searchInput) {
+        const searchContent = document.createElement('div');
+        searchContent.className = 'search-page-intro';
+        searchContent.innerHTML = `
+            <p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>
+            <p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>
+        `;
+        
+        
+        searchInput.parentNode.insertBefore(searchContent, searchInput);
+    }
+    
+    if (searchInput) {
+        
+        searchInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                
+                
+                const firstResult = document.querySelector('#searchResults .search-result a');
+                if (firstResult) {
+                    firstResult.click();
+                    return;
+                }
+                
+                
+                const searchTerm = searchInput.value.trim();
+                if (searchTerm && searchResults) {
+                    searchResults.innerHTML = `
+                        <div class="no-results">
+                            <p>No results found for "<strong>${searchTerm}</strong>"</p>
+                            <p>Try searching for:</p>
+                            <ul>
+                                <li>banking, license, compliance</li>
+                                <li>crypto, payments, MSB</li>
+                                <li>EMI, MTL, KYC, AML</li>
+                            </ul>
+                        </div>
+                    `;
+                }
+            }
+        });
+        
+        
+        if (window.location.pathname.includes('/search/')) {
+            setTimeout(() => searchInput.focus(), 100);
+        }
+        
+        
+        searchInput.addEventListener('keydown', function(e) {
+            const results = document.querySelectorAll('#searchResults .search-result a');
+            let currentIndex = -1;
+            
+            
+            results.forEach((result, index) => {
+                if (result === document.activeElement) {
+                    currentIndex = index;
+                }
+            });
+            
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                const nextIndex = Math.min(currentIndex + 1, results.length - 1);
+                if (results[nextIndex]) {
+                    results[nextIndex].focus();
+                }
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                const prevIndex = Math.max(currentIndex - 1, 0);
+                if (results[prevIndex]) {
+                    results[prevIndex].focus();
+                } else {
+                    searchInput.focus();
+                }
+            }
+        });
+    }
+});
+</script>
 </head>
 
 <body class="list dark" id="top">
@@ -402,6 +504,11 @@ header a,
             <li>
                 <a href="http://localhost:1313/contact/" title="Contact">
                     <span class="active">Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
         </ul>
