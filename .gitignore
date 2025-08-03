@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 .env
-.py
+*.py
 Progress.md
 listofpages.md
 seo_analysis*.md
