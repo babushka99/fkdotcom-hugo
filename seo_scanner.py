@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Enhanced SEO Hugo File Scanner
+Enhanced SEO Hugo File Scanner with CSV Output
 Better checks for meta descriptions, keywords, and content issues
+Now outputs both .md and .csv files with same timestamp
 """
 
 import os
 import re
+import csv
 from datetime import datetime
 from pathlib import Path
 
@@ -247,18 +249,171 @@ def scan_hugo_with_enhanced_seo(content_dir):
     
     return all_pages
 
-def create_enhanced_seo_report(pages, output_filename=None):
+def create_enhanced_csv_report(pages, timestamp):
+    """Create CSV report with all SEO analysis data"""
+    
+    csv_filename = f"seo_analysis_{timestamp}.csv"
+    csv_latest = "latest_seo_analysis.csv"
+    
+    print(f"📊 Creating CSV report: {csv_filename}")
+    
+    published_pages = [p for p in pages if p['seo']['draft'].lower() != 'true']
+    
+    # Define CSV columns
+    fieldnames = [
+        'file_path', 'url_path', 'section', 'priority',
+        'title', 'title_length', 'has_title',
+        'description', 'meta_description', 'summary', 'best_description', 'description_length', 'has_description',
+        'keywords', 'meta_keywords', 'best_keywords', 'has_keywords',
+        'word_count', 'clean_preview', 'has_css_in_content', 'has_html_in_content',
+        'canonical', 'robots', 'date', 'lastmod', 'draft', 'weight',
+        'seo_issues_list', 'content_issues_list', 'total_issues', 'seo_score'
+    ]
+    
+    try:
+        # Create timestamped CSV
+        with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for page in published_pages:
+                seo = page['seo']
+                
+                # Calculate total issues and score
+                seo_issue_count = len([i for i in seo['seo_issues'] if not i.startswith('✅')])
+                content_issue_count = len([i for i in seo['content_issues'] if not i.startswith('✅')])
+                total_issues = seo_issue_count + content_issue_count
+                
+                # Simple SEO score (0-100)
+                seo_score = max(0, 100 - (total_issues * 10))
+                if seo['priority'] == 'critical':
+                    seo_score = min(seo_score, 30)
+                elif seo['priority'] == 'high':
+                    seo_score = min(seo_score, 60)
+                elif seo['priority'] == 'medium':
+                    seo_score = min(seo_score, 80)
+                
+                # Join issues into pipe-separated strings for CSV
+                seo_issues_str = ' | '.join(seo['seo_issues'])
+                content_issues_str = ' | '.join(seo['content_issues'])
+                
+                # Clean preview for CSV (remove commas and quotes)
+                clean_preview_csv = seo['clean_preview'].replace(',', ';').replace('"', "'").replace('\n', ' ')
+                
+                row = {
+                    'file_path': page['file_path'],
+                    'url_path': page['url_path'],
+                    'section': page['section'],
+                    'priority': seo['priority'],
+                    'title': seo['title'],
+                    'title_length': seo['title_length'],
+                    'has_title': seo['has_title'],
+                    'description': seo['description'],
+                    'meta_description': seo['meta_description'],
+                    'summary': seo['summary'],
+                    'best_description': seo['best_description'],
+                    'description_length': seo['description_length'],
+                    'has_description': seo['has_description'],
+                    'keywords': seo['keywords'],
+                    'meta_keywords': seo['meta_keywords'],
+                    'best_keywords': seo['best_keywords'],
+                    'has_keywords': seo['has_keywords'],
+                    'word_count': seo['word_count'],
+                    'clean_preview': clean_preview_csv,
+                    'has_css_in_content': seo['has_css_in_content'],
+                    'has_html_in_content': seo['has_html_in_content'],
+                    'canonical': seo['canonical'],
+                    'robots': seo['robots'],
+                    'date': seo['date'],
+                    'lastmod': seo['lastmod'],
+                    'draft': seo['draft'],
+                    'weight': seo['weight'],
+                    'seo_issues_list': seo_issues_str,
+                    'content_issues_list': content_issues_str,
+                    'total_issues': total_issues,
+                    'seo_score': seo_score
+                }
+                
+                writer.writerow(row)
+        
+        # Create latest copy
+        with open(csv_latest, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for page in published_pages:
+                seo = page['seo']
+                
+                # Calculate total issues and score
+                seo_issue_count = len([i for i in seo['seo_issues'] if not i.startswith('✅')])
+                content_issue_count = len([i for i in seo['content_issues'] if not i.startswith('✅')])
+                total_issues = seo_issue_count + content_issue_count
+                
+                # Simple SEO score (0-100)
+                seo_score = max(0, 100 - (total_issues * 10))
+                if seo['priority'] == 'critical':
+                    seo_score = min(seo_score, 30)
+                elif seo['priority'] == 'high':
+                    seo_score = min(seo_score, 60)
+                elif seo['priority'] == 'medium':
+                    seo_score = min(seo_score, 80)
+                
+                # Join issues into pipe-separated strings for CSV
+                seo_issues_str = ' | '.join(seo['seo_issues'])
+                content_issues_str = ' | '.join(seo['content_issues'])
+                
+                # Clean preview for CSV (remove commas and quotes)
+                clean_preview_csv = seo['clean_preview'].replace(',', ';').replace('"', "'").replace('\n', ' ')
+                
+                row = {
+                    'file_path': page['file_path'],
+                    'url_path': page['url_path'],
+                    'section': page['section'],
+                    'priority': seo['priority'],
+                    'title': seo['title'],
+                    'title_length': seo['title_length'],
+                    'has_title': seo['has_title'],
+                    'description': seo['description'],
+                    'meta_description': seo['meta_description'],
+                    'summary': seo['summary'],
+                    'best_description': seo['best_description'],
+                    'description_length': seo['description_length'],
+                    'has_description': seo['has_description'],
+                    'keywords': seo['keywords'],
+                    'meta_keywords': seo['meta_keywords'],
+                    'best_keywords': seo['best_keywords'],
+                    'has_keywords': seo['has_keywords'],
+                    'word_count': seo['word_count'],
+                    'clean_preview': clean_preview_csv,
+                    'has_css_in_content': seo['has_css_in_content'],
+                    'has_html_in_content': seo['has_html_in_content'],
+                    'canonical': seo['canonical'],
+                    'robots': seo['robots'],
+                    'date': seo['date'],
+                    'lastmod': seo['lastmod'],
+                    'draft': seo['draft'],
+                    'weight': seo['weight'],
+                    'seo_issues_list': seo_issues_str,
+                    'content_issues_list': content_issues_str,
+                    'total_issues': total_issues,
+                    'seo_score': seo_score
+                }
+                
+                writer.writerow(row)
+        
+        print(f"✅ CSV created: {csv_filename}")
+        print(f"✅ Latest CSV: {csv_latest}")
+        return True
+        
+    except Exception as e:
+        print(f"❌ Error creating CSV: {e}")
+        return False
+
+def create_enhanced_seo_report(pages, timestamp):
     """Create enhanced SEO report with timestamp"""
     
     # Generate timestamped filename
-    timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M')
-    if output_filename is None:
-        timestamped_filename = f"seo_analysis_{timestamp}.md"
-    else:
-        # Extract base name and add timestamp
-        base_name = output_filename.replace('.md', '')
-        timestamped_filename = f"{base_name}_{timestamp}.md"
-    
+    timestamped_filename = f"seo_analysis_{timestamp}.md"
     latest_filename = "latest_seo_analysis.md"
     
     print(f"\n📝 Creating timestamped SEO report:")
@@ -615,8 +770,8 @@ keywords: ["main keyword", "secondary keyword", "location", "service"]
 def main():
     """Main function"""
     
-    print("🚀 Enhanced Hugo SEO Scanner")
-    print("=" * 40)
+    print("🚀 Enhanced Hugo SEO Scanner with CSV Export")
+    print("=" * 50)
     
     hugo_project_path = "/Users/faisalkhan/Dropbox/Hugoproject/faisalkhan"
     content_dir = os.path.join(hugo_project_path, "content")
@@ -628,23 +783,35 @@ def main():
     # Enhanced SEO analysis
     pages = scan_hugo_with_enhanced_seo(content_dir)
     
-    # Create enhanced report with timestamp
-    success = create_enhanced_seo_report(pages)
+    # Generate timestamp for both files
+    timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M')
     
-    if success:
+    # Create both reports with same timestamp
+    md_success = create_enhanced_seo_report(pages, timestamp)
+    csv_success = create_enhanced_csv_report(pages, timestamp)
+    
+    if md_success and csv_success:
         print("\n🎉 Enhanced SEO analysis completed!")
-        print(f"📋 Check your timestamped file for detailed findings")
+        print(f"📋 Check your timestamped files:")
+        print(f"   📄 Markdown: seo_analysis_{timestamp}.md")
+        print(f"   📊 CSV: seo_analysis_{timestamp}.csv")
         print(f"🔍 Analyzed {len(pages)} pages with priority-based recommendations")
         
         # Show existing SEO analysis files
-        seo_files = [f for f in os.listdir('.') if f.startswith('seo_analysis_') and f.endswith('.md')]
-        if len(seo_files) > 1:
+        seo_files = [f for f in os.listdir('.') if f.startswith('seo_analysis_') and (f.endswith('.md') or f.endswith('.csv'))]
+        if len(seo_files) > 2:
             print(f"\n📚 SEO Analysis History ({len(seo_files)} files):")
-            for seo_file in sorted(seo_files)[-5:]:  # Show last 5 files
+            for seo_file in sorted(seo_files)[-10:]:  # Show last 10 files
                 file_size = os.path.getsize(seo_file)
                 print(f"   📄 {seo_file} ({file_size:,} bytes)")
-            if len(seo_files) > 5:
-                print(f"   ... and {len(seo_files) - 5} older files")
+            if len(seo_files) > 10:
+                print(f"   ... and {len(seo_files) - 10} older files")
+    elif md_success:
+        print("\n⚠️ Markdown report created but CSV failed")
+    elif csv_success:
+        print("\n⚠️ CSV report created but Markdown failed")
+    else:
+        print("\n❌ Both reports failed to create")
 
 if __name__ == "__main__":
     main()
