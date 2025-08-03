@@ -30,62 +30,73 @@
 </noscript><style>
  
 :root {
-    --main-bg: #ffffff;
+    --theme: #ffffff;
+    --bg: #ffffff;
+    --border: #e5e5e5;
 }
 
-[data-theme="dark"] {
-    --main-bg: var(--entry);
-}
-
+ 
 body {
-    background-color: var(--main-bg) !important;
+    background: var(--theme) !important;
+    color: #222222 !important;
 }
 
  
-.post-content a:link,
-.post-content a:visited:not(:hover),
-article a:link,
-article a:visited:not(:hover),
-.post-single a:link,
-.post-single a:visited:not(:hover) {
-    color: #0000EE !important;  
-    text-decoration: underline !important;
-}
-
-.post-content a:visited,
-article a:visited,
-.post-single a:visited {
-    color: #551A8B !important;  
-    text-decoration: underline !important;
+:root {
+    --content: #222222;
+    --primary: #222222;
 }
 
  
-[data-theme="dark"] .post-content a:link,
-[data-theme="dark"] article a:link,
-[data-theme="dark"] .post-single a:link {
-    color: #6BB6FF !important;  
+body:not(.dark) {
+    color: #222222 !important;
 }
 
-[data-theme="dark"] .post-content a:visited,
-[data-theme="dark"] article a:visited,
-[data-theme="dark"] .post-single a:visited {
-    color: #DA70D6 !important;  
+body:not(.dark) *,
+body:not(.dark) p,
+body:not(.dark) div,
+body:not(.dark) span,
+body:not(.dark) h1,
+body:not(.dark) h2,
+body:not(.dark) h3,
+body:not(.dark) h4,
+body:not(.dark) h5,
+body:not(.dark) h6,
+body:not(.dark) li,
+body:not(.dark) .post-content,
+body:not(.dark) .page-content,
+body:not(.dark) article {
+    color: #222222 !important;
 }
 
  
-.header.header.header {
+[data-theme="dark"] {
+    --theme: #1d1d1d;
+    --bg: #1d1d1d;
+    --border: #333;
+}
+
+[data-theme="dark"] body {
+    background: var(--theme) !important;
+}
+
+ 
+header.header {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
+    width: 100% !important;
     z-index: 1000 !important;
-    transform: translateY(0) !important;
-    transition: transform 0.3s ease !important;
     background-color: var(--theme) !important;
-    border-bottom: 1px solid var(--border) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    transition: transform 0.3s ease-in-out !important;
+    transform: translateY(0) !important;
 }
 
-.header.header.header.header-hidden {
+ 
+header.header.hidden {
     transform: translateY(-100%) !important;
 }
 
@@ -95,73 +106,348 @@ body {
 }
 
  
+header.page-header {
+    position: relative !important;
+    top: auto !important;
+}
+
+ 
+.dark header.header {
+    background-color: var(--theme) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+ 
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: auto;
+}
+
+.burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--content);
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+ 
+.burger-menu.open .burger-line:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-menu.open .burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open .burger-line:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+ 
+.mobile-menu-overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--theme);
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.mobile-menu-overlay.open {
+    transform: translateX(0);
+}
+
+.mobile-menu-content {
+    padding: 20px;
+}
+
+.mobile-menu-item {
+    display: block;
+    padding: 15px 0;
+    color: var(--content);
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-item:hover {
+    color: var(--primary);
+}
+
+ 
 @media (max-width: 768px) {
-    .main-nav {
-        display: none !important;
-    }
-    
     .burger-menu {
-        display: block !important;
-        cursor: pointer;
-        padding: 10px;
+        display: flex !important;
     }
     
-    .burger-menu span {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background: var(--primary);
-        margin: 5px 0;
-        transition: 0.3s;
-    }
-    
-    .burger-menu.active span:nth-child(1) {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-    
-    .burger-menu.active span:nth-child(2) {
-        opacity: 0;
-    }
-    
-    .burger-menu.active span:nth-child(3) {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
-    
-    .mobile-menu {
-        display: none;
-        position: fixed;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        height: calc(100vh - 70px);
-        background: var(--theme);
-        z-index: 999;
-        padding: 20px;
-        overflow-y: auto;
-    }
-    
-    .mobile-menu.active {
-        display: block;
-        animation: slideIn 0.3s ease;
-    }
-    
-    .mobile-menu a {
-        display: block;
-        padding: 15px 0;
-        border-bottom: 1px solid var(--border);
-        color: var(--primary);
-        text-decoration: none;
-        font-size: 18px;
-    }
-    
-    body.mobile-menu-open {
-        overflow: hidden;
+     
+    header.header .logo + nav,
+    header.header nav.main-nav,
+    header.header .menu,
+    header.header ul {
+        display: none !important;
     }
 }
 
-@keyframes slideIn {
-    from { transform: translateX(-100%); }
-    to { transform: translateX(0); }
+ 
+@media (min-width: 769px) {
+    .burger-menu,
+    .mobile-menu-overlay {
+        display: none !important;
+    }
+}
+
+ 
+.main, .post-content, .page-content, article {
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+ 
+.breadcrumbs {
+    font-size: 0.85rem !important;
+    color: #666 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+.breadcrumbs a {
+    color: #666 !important;
+    text-decoration: none !important;
+}
+
+.breadcrumbs a:hover {
+    color: #333 !important;
+    text-decoration: underline !important;
+}
+
+.breadcrumb-separator {
+    margin: 0 8px !important;
+    color: #999 !important;
+}
+
+.breadcrumb-current {
+    color: #333 !important;
+    font-weight: 500 !important;
+}
+
+ 
+.dark .breadcrumbs {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a:hover {
+    color: #fff !important;
+}
+
+.dark .breadcrumb-separator {
+    color: #888 !important;
+}
+
+.dark .breadcrumb-current {
+    color: #fff !important;
+}
+
+ 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal !important;
+}
+
+ 
+.post-content h1,
+.post-content h2, 
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    font-weight: normal !important;
+}
+
+ 
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title {
+    font-weight: normal !important;
+}
+
+ 
+ 
+article.post-single div.post-content ul li a[href],
+article.post-single div.post-content p a[href],
+article.post-single div.post-content div a[href],
+div.post-content ul li a[href],
+div.post-content p a[href],
+div.post-content div a[href] {
+    color: #0000EE !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+article.post-single div.post-content ul li a[href]:visited,
+article.post-single div.post-content p a[href]:visited,
+article.post-single div.post-content div a[href]:visited,
+div.post-content ul li a[href]:visited,
+div.post-content p a[href]:visited,
+div.post-content div a[href]:visited {
+    color: #551A8B !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+article.post-single div.post-content ul li a[href]:hover,
+article.post-single div.post-content p a[href]:hover,
+article.post-single div.post-content div a[href]:hover,
+div.post-content ul li a[href]:hover,
+div.post-content p a[href]:hover,
+div.post-content div a[href]:hover {
+    color: #0000CC !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+ 
+.dark article.post-single div.post-content ul li a[href],
+.dark article.post-single div.post-content p a[href],
+.dark article.post-single div.post-content div a[href],
+.dark div.post-content ul li a[href],
+.dark div.post-content p a[href],
+.dark div.post-content div a[href] {
+    color: #6699FF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:visited,
+.dark article.post-single div.post-content p a[href]:visited,
+.dark article.post-single div.post-content div a[href]:visited,
+.dark div.post-content ul li a[href]:visited,
+.dark div.post-content p a[href]:visited,
+.dark div.post-content div a[href]:visited {
+    color: #CC99FF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:hover,
+.dark article.post-single div.post-content p a[href]:hover,
+.dark article.post-single div.post-content div a[href]:hover,
+.dark div.post-content ul li a[href]:hover,
+.dark div.post-content p a[href]:hover,
+.dark div.post-content div a[href]:hover {
+    color: #99CCFF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+ 
+.menu a, 
+.footer-nav a,
+nav a,
+header a,
+.breadcrumbs a {
+    color: inherit !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+ 
+.custom-footer {
+    background-color: #f5f5f5 !important;
+    width: 100vw !important;
+    max-width: none !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    margin-top: 40px !important;
+    margin-bottom: 0 !important;
+    padding: 20px 0 !important;
+    border-top: 1px solid #e0e0e0;
+    box-sizing: border-box !important;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-nav {
+    margin: 10px 0;
+}
+
+.footer-nav a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-nav a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+ 
+.dark .custom-footer {
+    background-color: #1f1f1f !important;
+    border-top: 1px solid #404040 !important;
+}
+
+.dark .footer-nav a {
+    color: #ccc !important;
+}
+
+.dark .footer-nav a:hover {
+    color: #fff !important;
+}
+
+ 
+.dark div[style*="Page Last Updated"] {
+    color: #fff !important;
 }
 
  
@@ -183,30 +469,9 @@ body {
 }
 
  
-.no-results {
-    padding: 20px;
-    text-align: center;
-    color: var(--content);
-    background: var(--code-bg);
-    border-radius: 8px;
-    margin: 20px 0;
-}
-
-.no-results ul {
-    text-align: left;
-    display: inline-block;
-    margin: 10px 0;
-}
-
-.no-results li {
-    padding: 5px 0;
-    color: var(--secondary);
-}
-
-#searchResults .search-result a:focus {
-    outline: 2px solid var(--primary);
-    outline-offset: 2px;
-    background: var(--hover);
+#searchInput {
+    font-weight: normal !important;
+    font-size: 16px !important;
 }
 
 #searchInput:focus {
@@ -214,132 +479,121 @@ body {
     border: 1px solid var(--border) !important;
     box-shadow: none !important;
 }
-
- 
-#searchInput {
-    font-weight: normal !important;
-    font-size: 16px !important;
-}
-
- 
-[data-theme="dark"] .page-last-updated {
-    color: #cccccc !important;
-}
-
- 
-.footer.custom-footer {
-    background-color: #f5f5f5 !important;
-    padding: 20px 0 !important;
-    border-top: 1px solid #e0e0e0 !important;
-    width: 100vw !important;
-    position: relative !important;
-    left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
-    margin-top: 30px !important;
-    margin-bottom: 0 !important;
-    text-align: center !important;
-}
-
- 
-[data-theme="dark"] .footer.custom-footer,
-body.dark .footer.custom-footer,
-html.dark .footer.custom-footer {
-    background-color: #2d2d2d !important;
-    border-top: 1px solid #444 !important;
-}
-
- 
-.footer-content {
-    text-align: center !important;
-    max-width: 900px !important;
-    margin: 0 auto !important;
-    padding: 0 20px !important;
-}
-
-.footer-content * {
-    text-align: center !important;
-}
 </style>
 
 <script>
 
-let lastScrollTop = 0;
-let scrollThreshold = 50;
-
-window.addEventListener('scroll', function() {
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    let header = document.querySelector('.header');
-    
-    if (!header) return;
-    
-    if (Math.abs(scrollTop - lastScrollTop) < scrollThreshold) {
-        return;
-    }
-    
-    if (scrollTop > lastScrollTop && scrollTop > 100) {
-        
-        header.classList.add('header-hidden');
-    } else {
-        
-        header.classList.remove('header-hidden');
-    }
-    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
-});
-
-
 document.addEventListener('DOMContentLoaded', function() {
+    let lastScrollTop = 0;
+    let header = document.querySelector('header.header');
     
-    const header = document.querySelector('.header');
-    const nav = document.querySelector('.main-nav');
+    if (!header) return; 
     
-    if (header && !document.querySelector('.burger-menu')) {
-        
-        const burgerMenu = document.createElement('div');
-        burgerMenu.className = 'burger-menu';
-        burgerMenu.innerHTML = '<span></span><span></span><span></span>';
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         
         
-        const mobileMenu = document.createElement('div');
-        mobileMenu.className = 'mobile-menu';
-        
-        
-        if (nav) {
-            const navLinks = nav.querySelectorAll('a');
-            navLinks.forEach(link => {
-                const mobileLink = link.cloneNode(true);
-                mobileMenu.appendChild(mobileLink);
-            });
+        if (scrollTop <= 50) {
+            header.classList.remove('hidden');
+            return;
         }
         
         
+        if (scrollTop > lastScrollTop && !header.classList.contains('hidden')) {
+            header.classList.add('hidden');
+        } 
+        
+        else if (scrollTop < lastScrollTop && header.classList.contains('hidden')) {
+            header.classList.remove('hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+    
+    
+    
+    addBurgerMenu();
+    
+    function addBurgerMenu() {
+        
+        const header = document.querySelector('header.header');
+        if (!header) return;
+        
+        
+        const burgerMenu = document.createElement('div');
+        burgerMenu.className = 'burger-menu';
+        burgerMenu.innerHTML = `
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        `;
+        
+        
+        const mobileOverlay = document.createElement('div');
+        mobileOverlay.className = 'mobile-menu-overlay';
+        
+        
+        const menuItems = [
+            { name: 'Home', url: '/' },
+            { name: 'About', url: '/about/' },
+            { name: 'Solutions', url: '/solutions/' },
+            { name: 'Resources', url: '/resources/' },
+            { name: 'Clients', url: '/clients/' },
+            { name: 'Pricing', url: '/pricing/' },
+            { name: 'Blog', url: '/blog/' },
+            { name: 'Contact', url: '/contact/' },
+            { name: 'Search', url: '/search/' }
+        ];
+        
+        const mobileMenuContent = document.createElement('div');
+        mobileMenuContent.className = 'mobile-menu-content';
+        
+        menuItems.forEach(item => {
+            const link = document.createElement('a');
+            link.href = item.url;
+            link.className = 'mobile-menu-item';
+            link.textContent = item.name;
+            mobileMenuContent.appendChild(link);
+        });
+        
+        mobileOverlay.appendChild(mobileMenuContent);
+        
+        
         header.appendChild(burgerMenu);
-        document.body.appendChild(mobileMenu);
+        
+        
+        document.body.appendChild(mobileOverlay);
         
         
         burgerMenu.addEventListener('click', function() {
-            burgerMenu.classList.toggle('active');
-            mobileMenu.classList.toggle('active');
-            document.body.classList.toggle('mobile-menu-open');
-        });
-        
-        
-        document.addEventListener('click', function(e) {
-            if (!burgerMenu.contains(e.target) && !mobileMenu.contains(e.target)) {
-                burgerMenu.classList.remove('active');
-                mobileMenu.classList.remove('active');
-                document.body.classList.remove('mobile-menu-open');
+            burgerMenu.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+            
+            
+            if (mobileOverlay.classList.contains('open')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
             }
         });
         
         
-        mobileMenu.addEventListener('click', function(e) {
-            if (e.target.tagName === 'A') {
-                burgerMenu.classList.remove('active');
-                mobileMenu.classList.remove('active');
-                document.body.classList.remove('mobile-menu-open');
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay) {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
             }
+        });
+        
+        
+        const mobileMenuItems = mobileOverlay.querySelectorAll('.mobile-menu-item');
+        mobileMenuItems.forEach(item => {
+            item.addEventListener('click', function() {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            });
         });
     }
     
@@ -358,6 +612,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
         searchInput.parentNode.insertBefore(searchContent, searchInput);
+        
+        
+        setTimeout(() => searchInput.focus(), 100);
     }
     
     if (searchInput) {
@@ -371,56 +628,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (firstResult) {
                     firstResult.click();
                     return;
-                }
-                
-                
-                const searchTerm = searchInput.value.trim();
-                if (searchTerm && searchResults) {
-                    searchResults.innerHTML = `
-                        <div class="no-results">
-                            <p>No results found for "<strong>${searchTerm}</strong>"</p>
-                            <p>Try searching for:</p>
-                            <ul>
-                                <li>banking, license, compliance</li>
-                                <li>crypto, payments, MSB</li>
-                                <li>EMI, MTL, KYC, AML</li>
-                            </ul>
-                        </div>
-                    `;
-                }
-            }
-        });
-        
-        
-        if (window.location.pathname.includes('/search/')) {
-            setTimeout(() => searchInput.focus(), 100);
-        }
-        
-        
-        searchInput.addEventListener('keydown', function(e) {
-            const results = document.querySelectorAll('#searchResults .search-result a');
-            let currentIndex = -1;
-            
-            
-            results.forEach((result, index) => {
-                if (result === document.activeElement) {
-                    currentIndex = index;
-                }
-            });
-            
-            if (e.key === 'ArrowDown') {
-                e.preventDefault();
-                const nextIndex = Math.min(currentIndex + 1, results.length - 1);
-                if (results[nextIndex]) {
-                    results[nextIndex].focus();
-                }
-            } else if (e.key === 'ArrowUp') {
-                e.preventDefault();
-                const prevIndex = Math.max(currentIndex - 1, 0);
-                if (results[prevIndex]) {
-                    results[prevIndex].focus();
-                } else {
-                    searchInput.focus();
                 }
             }
         });
