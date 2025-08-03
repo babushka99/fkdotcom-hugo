@@ -51,6 +51,11 @@ body:not(.dark) article {
     background: var(--theme) !important;
 }
 
+/* HIDE TAGS FROM DISPLAYING ON PAGES */
+.post-tags {
+    display: none !important;
+}
+
 /* AUTO-HIDE HEADER STYLING - Target the navigation header specifically */
 header.header {
     position: fixed !important;
@@ -82,11 +87,25 @@ header.page-header {
     top: auto !important;
 }
 
-/* Dark mode header - no shadow */
+/* Dark mode header - match page background color */
 .dark header.header {
-    background-color: var(--theme) !important;
-    border-bottom: none !important;
+    background-color: #1d1d1d !important;
+    border-bottom: 1px solid #404040 !important;
     box-shadow: none !important;
+}
+
+/* Dark mode header text - make links and logo visible */
+.dark header.header .logo,
+.dark header.header .logo a,
+.dark header.header nav a,
+.dark header.header .menu a {
+    color: #ffffff !important;
+}
+
+.dark header.header .logo a:hover,
+.dark header.header nav a:hover,
+.dark header.header .menu a:hover {
+    color: #cccccc !important;
 }
 
 /* BURGER MENU STYLES */

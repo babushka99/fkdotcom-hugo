@@ -84,6 +84,11 @@ body:not(.dark) article {
 }
 
  
+.post-tags {
+    display: none !important;
+}
+
+ 
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -116,9 +121,23 @@ header.page-header {
 
  
 .dark header.header {
-    background-color: var(--theme) !important;
-    border-bottom: none !important;
+    background-color: #1d1d1d !important;
+    border-bottom: 1px solid #404040 !important;
     box-shadow: none !important;
+}
+
+ 
+.dark header.header .logo,
+.dark header.header .logo a,
+.dark header.header nav a,
+.dark header.header .menu a {
+    color: #ffffff !important;
+}
+
+.dark header.header .logo a:hover,
+.dark header.header nav a:hover,
+.dark header.header .menu a:hover {
+    color: #cccccc !important;
 }
 
  

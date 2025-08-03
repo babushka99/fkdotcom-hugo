@@ -139,6 +139,7 @@ enableRobotsTXT = true
   ShowWordCount = true
   ShowToc = true
   TocOpen = false
+  ShowTags = false  # NEW: This hides tags from showing on pages
   
   # SEARCH FUNCTIONALITY - NEW ADDITION
   ShowSearch = true

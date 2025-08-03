@@ -13,7 +13,7 @@ jurisdictions: ['bolivia']
 
 # SEO
 canonicalURL: "https://faisalkhan.com/solutions/geographic/bolivia/"
-images: ["/images/solutions/geographic/bolivia.webp"]
+images: ["bolivia.webp"]
 
 # Page settings
 ShowToc: true
