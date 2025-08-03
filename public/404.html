@@ -60,13 +60,20 @@ header.header {
     width: 100% !important;
     z-index: 1000 !important;
     background-color: var(--theme) !important;
-    border-bottom: none !important;  
-    box-shadow: none !important;  
+    border-bottom: none !important;
+    box-shadow: none !important;
+    transition: transform 0.3s ease-in-out !important;
+    transform: translateY(0) !important;
+}
+
+ 
+header.header.hidden {
+    transform: translateY(-100%) !important;
 }
 
  
 body {
-    padding-top: 70px !important;  
+    padding-top: 70px !important;
 }
 
  
@@ -80,6 +87,95 @@ header.page-header {
     background-color: var(--theme) !important;
     border-bottom: none !important;
     box-shadow: none !important;
+}
+
+ 
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: auto;
+}
+
+.burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--content);
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+ 
+.burger-menu.open .burger-line:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-menu.open .burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open .burger-line:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+ 
+.mobile-menu-overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--theme);
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.mobile-menu-overlay.open {
+    transform: translateX(0);
+}
+
+.mobile-menu-content {
+    padding: 20px;
+}
+
+.mobile-menu-item {
+    display: block;
+    padding: 15px 0;
+    color: var(--content);
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-item:hover {
+    color: var(--primary);
+}
+
+ 
+@media (max-width: 768px) {
+    .burger-menu {
+        display: flex !important;
+    }
+    
+     
+    header.header .logo + nav,
+    header.header nav.main-nav,
+    header.header .menu,
+    header.header ul {
+        display: none !important;
+    }
+}
+
+ 
+@media (min-width: 769px) {
+    .burger-menu,
+    .mobile-menu-overlay {
+        display: none !important;
+    }
 }
 
  
@@ -325,6 +421,123 @@ header a,
     color: #fff !important;
 }
 </style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    let lastScrollTop = 0;
+    let header = document.querySelector('header.header');
+    
+    if (!header) return; 
+    
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        
+        if (scrollTop <= 50) {
+            header.classList.remove('hidden');
+            return;
+        }
+        
+        
+        if (scrollTop > lastScrollTop && !header.classList.contains('hidden')) {
+            header.classList.add('hidden');
+        } 
+        
+        else if (scrollTop < lastScrollTop && header.classList.contains('hidden')) {
+            header.classList.remove('hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+    
+    
+    
+    addBurgerMenu();
+    
+    function addBurgerMenu() {
+        
+        const header = document.querySelector('header.header');
+        if (!header) return;
+        
+        
+        const burgerMenu = document.createElement('div');
+        burgerMenu.className = 'burger-menu';
+        burgerMenu.innerHTML = `
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        `;
+        
+        
+        const mobileOverlay = document.createElement('div');
+        mobileOverlay.className = 'mobile-menu-overlay';
+        
+        
+        const menuItems = [
+            { name: 'Home', url: '/' },
+            { name: 'About', url: '/about/' },
+            { name: 'Solutions', url: '/solutions/' },
+            { name: 'Resources', url: '/resources/' },
+            { name: 'Clients', url: '/clients/' },
+            { name: 'Pricing', url: '/pricing/' },
+            { name: 'Blog', url: '/blog/' },
+            { name: 'Contact', url: '/contact/' }
+        ];
+        
+        const mobileMenuContent = document.createElement('div');
+        mobileMenuContent.className = 'mobile-menu-content';
+        
+        menuItems.forEach(item => {
+            const link = document.createElement('a');
+            link.href = item.url;
+            link.className = 'mobile-menu-item';
+            link.textContent = item.name;
+            mobileMenuContent.appendChild(link);
+        });
+        
+        mobileOverlay.appendChild(mobileMenuContent);
+        
+        
+        header.appendChild(burgerMenu);
+        
+        
+        document.body.appendChild(mobileOverlay);
+        
+        
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+            
+            
+            if (mobileOverlay.classList.contains('open')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        });
+        
+        
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay) {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
+        
+        
+        const mobileMenuItems = mobileOverlay.querySelectorAll('.mobile-menu-item');
+        mobileMenuItems.forEach(item => {
+            item.addEventListener('click', function() {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            });
+        });
+    }
+});
+</script>
 </head>
 
 <body class="list dark" id="top">

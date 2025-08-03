@@ -22,7 +22,7 @@ body {
     background: var(--theme) !important;
 }
 
-/* FIXED HEADER STYLING - Target the navigation header specifically */
+/* AUTO-HIDE HEADER STYLING - Target the navigation header specifically */
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -31,13 +31,20 @@ header.header {
     width: 100% !important;
     z-index: 1000 !important;
     background-color: var(--theme) !important;
-    border-bottom: none !important; /* Remove any border lines */
-    box-shadow: none !important; /* Remove shadow */
+    border-bottom: none !important;
+    box-shadow: none !important;
+    transition: transform 0.3s ease-in-out !important;
+    transform: translateY(0) !important;
+}
+
+/* Hidden state - slides up out of view */
+header.header.hidden {
+    transform: translateY(-100%) !important;
 }
 
 /* Add top padding to body to account for fixed header */
 body {
-    padding-top: 70px !important; /* Space for fixed header */
+    padding-top: 70px !important;
 }
 
 /* Make sure page header (inside main) is NOT fixed */
@@ -51,6 +58,95 @@ header.page-header {
     background-color: var(--theme) !important;
     border-bottom: none !important;
     box-shadow: none !important;
+}
+
+/* BURGER MENU STYLES */
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: auto;
+}
+
+.burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--content);
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+/* Burger animation when open */
+.burger-menu.open .burger-line:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-menu.open .burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open .burger-line:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+/* Mobile menu overlay */
+.mobile-menu-overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--theme);
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.mobile-menu-overlay.open {
+    transform: translateX(0);
+}
+
+.mobile-menu-content {
+    padding: 20px;
+}
+
+.mobile-menu-item {
+    display: block;
+    padding: 15px 0;
+    color: var(--content);
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-item:hover {
+    color: var(--primary);
+}
+
+/* Hide desktop menu on mobile, show burger */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: flex !important;
+    }
+    
+    /* Hide the original PaperMod navigation menu on mobile */
+    header.header .logo + nav,
+    header.header nav.main-nav,
+    header.header .menu,
+    header.header ul {
+        display: none !important;
+    }
+}
+
+/* Show desktop menu on larger screens */
+@media (min-width: 769px) {
+    .burger-menu,
+    .mobile-menu-overlay {
+        display: none !important;
+    }
 }
 
 /* Content Width - Set to 900px */
@@ -296,3 +392,120 @@ header a,
     color: #fff !important;
 }
 </style>
+
+<script>
+// AUTO-HIDE HEADER FUNCTIONALITY
+document.addEventListener('DOMContentLoaded', function() {
+    let lastScrollTop = 0;
+    let header = document.querySelector('header.header');
+    
+    if (!header) return; // Exit if header not found
+    
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // If we're at the very top, always show header
+        if (scrollTop <= 50) {
+            header.classList.remove('hidden');
+            return;
+        }
+        
+        // If scrolling down, hide header
+        if (scrollTop > lastScrollTop && !header.classList.contains('hidden')) {
+            header.classList.add('hidden');
+        } 
+        // If scrolling up, show header
+        else if (scrollTop < lastScrollTop && header.classList.contains('hidden')) {
+            header.classList.remove('hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+    
+    // BURGER MENU FUNCTIONALITY
+    // Add burger menu to header
+    addBurgerMenu();
+    
+    function addBurgerMenu() {
+        // Find the header
+        const header = document.querySelector('header.header');
+        if (!header) return;
+        
+        // Create burger menu button
+        const burgerMenu = document.createElement('div');
+        burgerMenu.className = 'burger-menu';
+        burgerMenu.innerHTML = `
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        `;
+        
+        // Create mobile menu overlay
+        const mobileOverlay = document.createElement('div');
+        mobileOverlay.className = 'mobile-menu-overlay';
+        
+        // Get menu items from the existing navigation
+        const menuItems = [
+            { name: 'Home', url: '/' },
+            { name: 'About', url: '/about/' },
+            { name: 'Solutions', url: '/solutions/' },
+            { name: 'Resources', url: '/resources/' },
+            { name: 'Clients', url: '/clients/' },
+            { name: 'Pricing', url: '/pricing/' },
+            { name: 'Blog', url: '/blog/' },
+            { name: 'Contact', url: '/contact/' }
+        ];
+        
+        const mobileMenuContent = document.createElement('div');
+        mobileMenuContent.className = 'mobile-menu-content';
+        
+        menuItems.forEach(item => {
+            const link = document.createElement('a');
+            link.href = item.url;
+            link.className = 'mobile-menu-item';
+            link.textContent = item.name;
+            mobileMenuContent.appendChild(link);
+        });
+        
+        mobileOverlay.appendChild(mobileMenuContent);
+        
+        // Add burger menu to header
+        header.appendChild(burgerMenu);
+        
+        // Add overlay to body
+        document.body.appendChild(mobileOverlay);
+        
+        // Burger menu toggle functionality
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+            
+            // Prevent scrolling when menu is open
+            if (mobileOverlay.classList.contains('open')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        });
+        
+        // Close menu when clicking on overlay
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay) {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
+        
+        // Close menu when clicking on menu item
+        const mobileMenuItems = mobileOverlay.querySelectorAll('.mobile-menu-item');
+        mobileMenuItems.forEach(item => {
+            item.addEventListener('click', function() {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            });
+        });
+    }
+});
+</script>
