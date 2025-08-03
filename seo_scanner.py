@@ -34,7 +34,7 @@ def parse_front_matter_detailed(content):
     return front_matter
 
 def extract_clean_content_preview(content):
-    """Extract clean content preview without CSS/HTML"""
+    """Extract content preview and highlight CSS if present"""
     if content.startswith('---'):
         # Skip front matter
         end_marker = content.find('---', 3)
@@ -45,14 +45,27 @@ def extract_clean_content_preview(content):
     else:
         actual_content = content
     
-    # Remove HTML/CSS styling
-    clean_content = re.sub(r'<style>.*?</style>', '', actual_content, flags=re.DOTALL | re.IGNORECASE)
-    clean_content = re.sub(r'<[^>]+>', '', clean_content)  # Remove HTML tags
-    clean_content = re.sub(r'\s+', ' ', clean_content)  # Normalize whitespace
+    # Check for CSS in content before cleaning
+    has_css = '<style>' in actual_content or 'background-color:' in actual_content or '.theme-bullet' in actual_content
     
-    # Get first 200 characters of clean content
-    preview = clean_content[:200].strip()
-    return preview
+    if has_css:
+        # Highlight CSS code with triple alerts
+        highlighted_content = actual_content
+        highlighted_content = re.sub(r'<style>', '🚨🚨🚨 <style>', highlighted_content, flags=re.IGNORECASE)
+        highlighted_content = re.sub(r'</style>', '</style> 🚨🚨🚨', highlighted_content, flags=re.IGNORECASE)
+        highlighted_content = re.sub(r'(background-color:[^;]*;)', r'🚨🚨 \1 🚨🚨', highlighted_content)
+        highlighted_content = re.sub(r'(\.theme-bullet[^}]*})', r'🚨🚨 \1 🚨🚨', highlighted_content)
+        
+        # Get preview with CSS highlighted
+        preview = highlighted_content[:300].replace('\n', ' ').strip()
+    else:
+        # Clean content normally
+        clean_content = re.sub(r'<style>.*?</style>', '', actual_content, flags=re.DOTALL | re.IGNORECASE)
+        clean_content = re.sub(r'<[^>]+>', '', clean_content)  # Remove HTML tags
+        clean_content = re.sub(r'\s+', ' ', clean_content)  # Normalize whitespace
+        preview = clean_content[:200].strip()
+    
+    return preview, has_css
 
 def analyze_enhanced_seo(front_matter, content, file_path):
     """Enhanced SEO analysis with better checks"""
@@ -70,11 +83,11 @@ def analyze_enhanced_seo(front_matter, content, file_path):
     best_keywords = keywords or meta_keywords
     
     # Content analysis
-    clean_preview = extract_clean_content_preview(content)
+    clean_preview, has_css_detected = extract_clean_content_preview(content)
     word_count = len(content.split())
     
-    # Check for CSS in content (problem indicator)
-    has_css_in_content = '<style>' in content or 'background-color:' in content
+    # Check for CSS in content (enhanced detection)
+    has_css_in_content = has_css_detected or '<style>' in content or 'background-color:' in content
     has_html_in_content = bool(re.search(r'<[^>]+>', content))
     
     seo_data = {
@@ -297,13 +310,49 @@ def create_enhanced_seo_report(pages, output_filename=None):
 """
     
     if critical_pages:
-        for page in critical_pages:
-            report_content += f"### 🔴 {page['file_path']}\n"
+        for page in critical_pages:  # Show ALL critical pages with comprehensive details
+            seo = page['seo']
+            report_content += f"#### 🔴 {seo['title'] or 'NO TITLE'}\n"
             report_content += f"**URL:** `{page['url_path']}`  \n"
-            report_content += "**Issues:**\n"
-            for issue in page['seo']['seo_issues']:
+            report_content += f"**File:** `{page['file_path']}`  \n"
+            report_content += f"**Description:** {seo['best_description'] or 'No description'}  \n"
+            report_content += f"**Word Count:** {seo['word_count']} words  \n"
+            report_content += f"**Keywords:** {seo['best_keywords'] or 'No keywords'}  \n"
+            report_content += f"**Date:** {seo['date'] or 'No date'}  \n"
+            
+            # Preview with CSS highlighting if present
+            if seo['has_css_in_content']:
+                report_content += f"**Preview:** 🚨🚨🚨 CSS DETECTED IN CONTENT 🚨🚨🚨 {seo['clean_preview'][:200]}{'...' if len(seo['clean_preview']) > 200 else ''}  \n"
+            else:
+                report_content += f"**Preview:** {seo['clean_preview'][:150]}{'...' if len(seo['clean_preview']) > 150 else ''}  \n"
+            
+            # SEO Field Details
+            report_content += f"**Has Meta Description:** {'Yes' if seo['has_description'] else 'No'}  \n"
+            if seo['description']:
+                report_content += f"**Meta Description:** {seo['description']}  \n"
+            if seo['meta_description']:
+                report_content += f"**Meta Description Field:** {seo['meta_description']}  \n"
+            if seo['summary']:
+                report_content += f"**Summary Field:** {seo['summary']}  \n"
+            
+            report_content += f"**Has SEO Keywords:** {'Yes' if seo['has_keywords'] else 'No'}  \n"
+            if seo['keywords']:
+                report_content += f"**Keywords Field:** {seo['keywords']}  \n"
+            if seo['meta_keywords']:
+                report_content += f"**Meta Keywords Field:** {seo['meta_keywords']}  \n"
+            
+            report_content += f"**Has CSS in Content:** {'Yes' if seo['has_css_in_content'] else 'No'}  \n"
+            report_content += f"**Has HTML in Content:** {'Yes' if seo['has_html_in_content'] else 'No'}  \n"
+            report_content += f"**Canonical URL:** {seo['canonical'] or 'Not set'}  \n"
+            report_content += f"**Robots:** {seo['robots'] or 'Not set'}  \n"
+            
+            report_content += "**SEO Issues:**\n"
+            for issue in seo['seo_issues']:
                 if not issue.startswith('✅'):
-                    report_content += f"- {issue}\n"
+                    report_content += f"  - {issue}\n"
+            for issue in seo['content_issues']:
+                if not issue.startswith('✅'):
+                    report_content += f"  - {issue}\n"
             report_content += "\n"
     else:
         report_content += "✅ **No critical issues found!**\n\n"
@@ -315,36 +364,187 @@ def create_enhanced_seo_report(pages, output_filename=None):
 """
     
     if high_priority:
-        for page in high_priority[:10]:  # Show first 10
+        for page in high_priority:  # Show ALL high priority pages with comprehensive details
             seo = page['seo']
-            report_content += f"### 🟠 {seo['title'] or 'NO TITLE'}\n"
-            report_content += f"**File:** `{page['file_path']}`  \n"
+            issues_count = len([i for i in seo['seo_issues'] if not i.startswith('✅')]) + \
+                         len([i for i in seo['content_issues'] if not i.startswith('✅')])
+            
+            report_content += f"#### ⚠️({issues_count}) {seo['title'] or 'NO TITLE'}\n"
             report_content += f"**URL:** `{page['url_path']}`  \n"
+            report_content += f"**File:** `{page['file_path']}`  \n"
+            report_content += f"**Description:** {seo['best_description'] or 'No description'}  \n"
+            report_content += f"**Word Count:** {seo['word_count']} words  \n"
+            report_content += f"**Keywords:** {seo['best_keywords'] or 'No keywords'}  \n"
+            report_content += f"**Date:** {seo['date'] or 'No date'}  \n"
             
-            # Show what's missing
-            report_content += "**Missing/Issues:**\n"
-            if not seo['has_title']:
-                report_content += "- ❌ Title missing\n"
-            elif seo['title_length'] < 30:
-                report_content += f"- ⚠️ Title too short: '{seo['title']}' ({seo['title_length']} chars)\n"
-                
-            if not seo['has_description']:
-                report_content += "- ❌ Meta description missing\n"
-            elif seo['description_length'] > 160:
-                report_content += f"- ⚠️ Description too long ({seo['description_length']} chars)\n"
-                
-            if not seo['has_keywords']:
-                report_content += "- ⚠️ SEO keywords missing\n"
-                
+            # Preview with CSS highlighting if present
             if seo['has_css_in_content']:
-                report_content += "- 🚨 CSS code in content (move to theme files)\n"
+                report_content += f"**Preview:** 🚨🚨🚨 CSS DETECTED IN CONTENT 🚨🚨🚨 {seo['clean_preview'][:200]}{'...' if len(seo['clean_preview']) > 200 else ''}  \n"
+            else:
+                report_content += f"**Preview:** {seo['clean_preview'][:150]}{'...' if len(seo['clean_preview']) > 150 else ''}  \n"
             
+            # SEO Field Details
+            report_content += f"**Has Meta Description:** {'Yes' if seo['has_description'] else 'No'}  \n"
+            if seo['description']:
+                report_content += f"**Meta Description:** {seo['description']}  \n"
+            if seo['meta_description']:
+                report_content += f"**Meta Description Field:** {seo['meta_description']}  \n"
+            if seo['summary']:
+                report_content += f"**Summary Field:** {seo['summary']}  \n"
+            
+            report_content += f"**Has SEO Keywords:** {'Yes' if seo['has_keywords'] else 'No'}  \n"
+            if seo['keywords']:
+                report_content += f"**Keywords Field:** {seo['keywords']}  \n"
+            if seo['meta_keywords']:
+                report_content += f"**Meta Keywords Field:** {seo['meta_keywords']}  \n"
+            
+            report_content += f"**Has CSS in Content:** {'Yes' if seo['has_css_in_content'] else 'No'}  \n"
+            report_content += f"**Has HTML in Content:** {'Yes' if seo['has_html_in_content'] else 'No'}  \n"
+            report_content += f"**Canonical URL:** {seo['canonical'] or 'Not set'}  \n"
+            report_content += f"**Robots:** {seo['robots'] or 'Not set'}  \n"
+            
+            report_content += "**SEO Issues:**\n"
+            for issue in seo['seo_issues']:
+                if not issue.startswith('✅'):
+                    report_content += f"  - {issue}\n"
+            for issue in seo['content_issues']:
+                if not issue.startswith('✅'):
+                    report_content += f"  - {issue}\n"
             report_content += "\n"
-        
-        if len(high_priority) > 10:
-            report_content += f"*... and {len(high_priority) - 10} more high priority pages*\n\n"
     else:
         report_content += "✅ **No high priority issues!**\n\n"
+    
+    report_content += f"""---
+
+## 🟡 Medium Priority Issues (Fix When You Have Time)
+
+"""
+    
+    if medium_priority:
+        for page in medium_priority:  # Show ALL medium priority pages with comprehensive details
+            seo = page['seo']
+            issues_count = len([i for i in seo['seo_issues'] if not i.startswith('✅')]) + \
+                         len([i for i in seo['content_issues'] if not i.startswith('✅')])
+            
+            report_content += f"#### 🟡({issues_count}) {seo['title'] or 'NO TITLE'}\n"
+            report_content += f"**URL:** `{page['url_path']}`  \n"
+            report_content += f"**File:** `{page['file_path']}`  \n"
+            report_content += f"**Description:** {seo['best_description'] or 'No description'}  \n"
+            report_content += f"**Word Count:** {seo['word_count']} words  \n"
+            report_content += f"**Keywords:** {seo['best_keywords'] or 'No keywords'}  \n"
+            report_content += f"**Date:** {seo['date'] or 'No date'}  \n"
+            
+            # Preview with CSS highlighting if present
+            if seo['has_css_in_content']:
+                report_content += f"**Preview:** 🚨🚨🚨 CSS DETECTED IN CONTENT 🚨🚨🚨 {seo['clean_preview'][:200]}{'...' if len(seo['clean_preview']) > 200 else ''}  \n"
+            else:
+                report_content += f"**Preview:** {seo['clean_preview'][:150]}{'...' if len(seo['clean_preview']) > 150 else ''}  \n"
+            
+            # SEO Field Details
+            report_content += f"**Has Meta Description:** {'Yes' if seo['has_description'] else 'No'}  \n"
+            if seo['description']:
+                report_content += f"**Meta Description:** {seo['description']}  \n"
+            if seo['meta_description']:
+                report_content += f"**Meta Description Field:** {seo['meta_description']}  \n"
+            if seo['summary']:
+                report_content += f"**Summary Field:** {seo['summary']}  \n"
+            
+            report_content += f"**Has SEO Keywords:** {'Yes' if seo['has_keywords'] else 'No'}  \n"
+            if seo['keywords']:
+                report_content += f"**Keywords Field:** {seo['keywords']}  \n"
+            if seo['meta_keywords']:
+                report_content += f"**Meta Keywords Field:** {seo['meta_keywords']}  \n"
+            
+            report_content += f"**Has CSS in Content:** {'Yes' if seo['has_css_in_content'] else 'No'}  \n"
+            report_content += f"**Has HTML in Content:** {'Yes' if seo['has_html_in_content'] else 'No'}  \n"
+            report_content += f"**Canonical URL:** {seo['canonical'] or 'Not set'}  \n"
+            report_content += f"**Robots:** {seo['robots'] or 'Not set'}  \n"
+            
+            report_content += "**SEO Issues:**\n"
+            for issue in seo['seo_issues']:
+                if not issue.startswith('✅'):
+                    report_content += f"  - {issue}\n"
+            for issue in seo['content_issues']:
+                if not issue.startswith('✅'):
+                    report_content += f"  - {issue}\n"
+            
+            # If no issues, show what could be improved
+            if issues_count == 0:
+                report_content += "  - No major issues (minor optimizations possible)\n"
+            
+            report_content += "\n"
+    else:
+        report_content += "✅ **No medium priority issues!**\n\n"
+    
+    report_content += f"""---
+
+## 🟢 Pages in Excellent Shape
+
+"""
+    
+    if low_priority:
+        for page in low_priority:  # Show ALL pages in good shape with comprehensive details
+            seo = page['seo']
+            
+            report_content += f"#### ✅ {seo['title'] or 'NO TITLE'}\n"
+            report_content += f"**URL:** `{page['url_path']}`  \n"
+            report_content += f"**File:** `{page['file_path']}`  \n"
+            report_content += f"**Description:** {seo['best_description'] or 'No description'}  \n"
+            report_content += f"**Word Count:** {seo['word_count']} words  \n"
+            report_content += f"**Keywords:** {seo['best_keywords'] or 'No keywords'}  \n"
+            report_content += f"**Date:** {seo['date'] or 'No date'}  \n"
+            
+            # Preview with CSS highlighting if present
+            if seo['has_css_in_content']:
+                report_content += f"**Preview:** 🚨🚨🚨 CSS DETECTED IN CONTENT 🚨🚨🚨 {seo['clean_preview'][:200]}{'...' if len(seo['clean_preview']) > 200 else ''}  \n"
+            else:
+                report_content += f"**Preview:** {seo['clean_preview'][:150]}{'...' if len(seo['clean_preview']) > 150 else ''}  \n"
+            
+            # SEO Field Details
+            report_content += f"**Has Meta Description:** {'Yes' if seo['has_description'] else 'No'}  \n"
+            if seo['description']:
+                report_content += f"**Meta Description:** {seo['description']}  \n"
+            if seo['meta_description']:
+                report_content += f"**Meta Description Field:** {seo['meta_description']}  \n"
+            if seo['summary']:
+                report_content += f"**Summary Field:** {seo['summary']}  \n"
+            
+            report_content += f"**Has SEO Keywords:** {'Yes' if seo['has_keywords'] else 'No'}  \n"
+            if seo['keywords']:
+                report_content += f"**Keywords Field:** {seo['keywords']}  \n"
+            if seo['meta_keywords']:
+                report_content += f"**Meta Keywords Field:** {seo['meta_keywords']}  \n"
+            
+            report_content += f"**Has CSS in Content:** {'Yes' if seo['has_css_in_content'] else 'No'}  \n"
+            report_content += f"**Has HTML in Content:** {'Yes' if seo['has_html_in_content'] else 'No'}  \n"
+            report_content += f"**Canonical URL:** {seo['canonical'] or 'Not set'}  \n"
+            report_content += f"**Robots:** {seo['robots'] or 'Not set'}  \n"
+            
+            # Show SEO strengths instead of issues
+            report_content += "**SEO Strengths:**\n"
+            if seo['has_title'] and 30 <= seo['title_length'] <= 60:
+                report_content += f"  - ✅ Good title length ({seo['title_length']} chars)\n"
+            
+            if seo['has_description'] and 120 <= seo['description_length'] <= 160:
+                report_content += f"  - ✅ Optimal description length ({seo['description_length']} chars)\n"
+            elif seo['has_description']:
+                report_content += f"  - ✅ Has description ({seo['description_length']} chars)\n"
+            
+            if seo['has_keywords']:
+                report_content += "  - ✅ Has SEO keywords\n"
+            
+            if seo['word_count'] >= 200:
+                report_content += f"  - ✅ Good content length ({seo['word_count']} words)\n"
+            
+            if not seo['has_css_in_content']:
+                report_content += "  - ✅ Clean content (no CSS issues)\n"
+            
+            if not seo['has_html_in_content']:
+                report_content += "  - ✅ No HTML issues\n"
+            
+            report_content += "\n"
+    else:
+        report_content += "✅ **All pages need some SEO work!**\n\n"
     
     report_content += f"""---
 
