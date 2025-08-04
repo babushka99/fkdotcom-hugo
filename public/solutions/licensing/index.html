@@ -123,15 +123,6 @@ header.header {
     background-color: var(--theme) !important;
     border-bottom: none !important;
     box-shadow: none !important;
-    transition: transform 0.3s ease-in-out !important;
-    transform: translateY(0) !important;
-     
-    will-change: transform !important;
-}
-
- 
-header.header.hidden {
-    transform: translateY(-100%) !important;
 }
 
  
@@ -201,9 +192,6 @@ header.page-header {
     cursor: pointer;
     padding: 8px;
     margin-left: auto;
-     
-    opacity: 1;
-    visibility: visible;
 }
 
 .burger-line {
@@ -240,8 +228,6 @@ header.page-header {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
-     
-    will-change: transform;
 }
 
 .mobile-menu-overlay.open {
@@ -569,43 +555,6 @@ header a,
     'use strict';
     
     
-    let lastScrollTop = 0;
-    let ticking = false;
-    let header = null;
-    
-    function updateHeader() {
-        if (!header) {
-            header = document.querySelector('header.header');
-            if (!header) return;
-        }
-        
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        
-        if (scrollTop <= 50) {
-            header.classList.remove('hidden');
-        } 
-        
-        else if (scrollTop > lastScrollTop + 10 && !header.classList.contains('hidden')) {
-            header.classList.add('hidden');
-        } 
-        
-        else if (scrollTop < lastScrollTop - 10 && header.classList.contains('hidden')) {
-            header.classList.remove('hidden');
-        }
-        
-        lastScrollTop = scrollTop;
-        ticking = false;
-    }
-    
-    function onScroll() {
-        if (!ticking) {
-            requestAnimationFrame(updateHeader);
-            ticking = true;
-        }
-    }
-    
-    
     function initializeBurgerMenu() {
         const header = document.querySelector('header.header');
         if (!header || header.querySelector('.burger-menu')) return; 
@@ -686,7 +635,6 @@ header a,
     
     
     function initialize() {
-        window.addEventListener('scroll', onScroll, { passive: true });
         initializeBurgerMenu();
         initializeSearch();
     }

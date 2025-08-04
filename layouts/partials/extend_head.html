@@ -82,7 +82,7 @@ body:not(.dark) article {
     display: none !important;
 }
 
-/* AUTO-HIDE HEADER STYLING - IMMEDIATE NO-FLASH APPROACH */
+/* FIXED HEADER STYLING - SIMPLIFIED (NO AUTO-HIDE) */
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -93,18 +93,9 @@ header.header {
     background-color: var(--theme) !important;
     border-bottom: none !important;
     box-shadow: none !important;
-    transition: transform 0.3s ease-in-out !important;
-    transform: translateY(0) !important;
-    /* CRITICAL: Prevent initial layout shift */
-    will-change: transform !important;
 }
 
-/* Hidden state - slides up out of view */
-header.header.hidden {
-    transform: translateY(-100%) !important;
-}
-
-/* Add top padding to body to account for fixed header - IMMEDIATE */
+/* Add top padding to body to account for fixed header */
 body {
     padding-top: 70px !important;
 }
@@ -164,16 +155,13 @@ header.page-header {
     color: #ffffff !important;
 }
 
-/* BURGER MENU STYLES - PRE-LOADED TO PREVENT FLASH */
+/* BURGER MENU STYLES */
 .burger-menu {
     display: none;
     flex-direction: column;
     cursor: pointer;
     padding: 8px;
     margin-left: auto;
-    /* CRITICAL: Prevent layout shift */
-    opacity: 1;
-    visibility: visible;
 }
 
 .burger-line {
@@ -198,7 +186,7 @@ header.page-header {
     transform: rotate(45deg) translate(-6px, -6px);
 }
 
-/* Mobile menu overlay - PRE-STYLED TO PREVENT FLASH */
+/* Mobile menu overlay */
 .mobile-menu-overlay {
     position: fixed;
     top: 70px;
@@ -210,8 +198,6 @@ header.page-header {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
-    /* CRITICAL: Prevent initial flash */
-    will-change: transform;
 }
 
 .mobile-menu-overlay.open {
@@ -532,50 +518,13 @@ header a,
 }
 </style>
 
-<!-- FIXED JAVASCRIPT - BURGER MENU WORKS PROPERLY -->
+<!-- OPTIMIZED JAVASCRIPT - BURGER MENU ONLY (NO AUTO-HIDE) -->
 <script>
 // IMMEDIATE EXECUTION - No waiting for DOMContentLoaded
 (function() {
     'use strict';
     
-    // FASTER HEADER AUTO-HIDE - Optimized scroll handler
-    let lastScrollTop = 0;
-    let ticking = false;
-    let header = null;
-    
-    function updateHeader() {
-        if (!header) {
-            header = document.querySelector('header.header');
-            if (!header) return;
-        }
-        
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        // If we're at the very top, always show header
-        if (scrollTop <= 50) {
-            header.classList.remove('hidden');
-        } 
-        // If scrolling down significantly, hide header
-        else if (scrollTop > lastScrollTop + 10 && !header.classList.contains('hidden')) {
-            header.classList.add('hidden');
-        } 
-        // If scrolling up, show header
-        else if (scrollTop < lastScrollTop - 10 && header.classList.contains('hidden')) {
-            header.classList.remove('hidden');
-        }
-        
-        lastScrollTop = scrollTop;
-        ticking = false;
-    }
-    
-    function onScroll() {
-        if (!ticking) {
-            requestAnimationFrame(updateHeader);
-            ticking = true;
-        }
-    }
-    
-    // BURGER MENU - FIXED VERSION - Overlay goes to body, not header
+    // BURGER MENU - ESSENTIAL FOR MOBILE NAVIGATION
     function initializeBurgerMenu() {
         const header = document.querySelector('header.header');
         if (!header || header.querySelector('.burger-menu')) return; // Already exists
@@ -656,7 +605,6 @@ header a,
     
     // INITIALIZE EVERYTHING - As soon as possible
     function initialize() {
-        window.addEventListener('scroll', onScroll, { passive: true });
         initializeBurgerMenu();
         initializeSearch();
     }

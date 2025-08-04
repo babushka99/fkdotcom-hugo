@@ -1,54 +1,24 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Pricing | Faisal Khan LLC</title>
-<meta name="keywords" content="pricing, consulting fees, cost, investment, value">
-<meta name="description" content="Transparent pricing for consulting services, licensing support, and strategic advisory">
-<meta name="author" content="Faisal Khan">
-<link rel="canonical" href="https://faisalkhan.com/pricing/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/pricing/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/pricing/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-</noscript><style>
- 
+<style>
+/* Light mode - ensure white background */
 :root {
     --theme: #ffffff;
     --bg: #ffffff;
     --border: #e5e5e5;
 }
 
- 
+/* Force white background in light mode */
 body {
     background: var(--theme) !important;
     color: #222222 !important;
 }
 
- 
+/* Light mode text color - target all text elements */
 :root {
     --content: #222222;
     --primary: #222222;
 }
 
- 
+/* Ensure all text in light mode is #222222 */
 body:not(.dark) {
     color: #222222 !important;
 }
@@ -70,7 +40,7 @@ body:not(.dark) article {
     color: #222222 !important;
 }
 
- 
+/* Keep dark mode working when toggled */
 [data-theme="dark"] {
     --theme: #1d1d1d;
     --bg: #1d1d1d;
@@ -81,7 +51,7 @@ body:not(.dark) article {
     background: var(--theme) !important;
 }
 
- 
+/* DARK MODE TEXT - COMPREHENSIVE COVERAGE INCLUDING SUBTITLES */
 .dark,
 .dark *,
 .dark p,
@@ -107,12 +77,12 @@ body:not(.dark) article {
     color: #ffffff !important;
 }
 
- 
+/* HIDE TAGS FROM DISPLAYING ON PAGES */
 .post-tags {
     display: none !important;
 }
 
- 
+/* AUTO-HIDE HEADER STYLING - IMMEDIATE NO-FLASH APPROACH */
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -123,27 +93,36 @@ header.header {
     background-color: var(--theme) !important;
     border-bottom: none !important;
     box-shadow: none !important;
+    transition: transform 0.3s ease-in-out !important;
+    transform: translateY(0) !important;
+    /* CRITICAL: Prevent initial layout shift */
+    will-change: transform !important;
 }
 
- 
+/* Hidden state - slides up out of view */
+header.header.hidden {
+    transform: translateY(-100%) !important;
+}
+
+/* Add top padding to body to account for fixed header - IMMEDIATE */
 body {
     padding-top: 70px !important;
 }
 
- 
+/* Make sure page header (inside main) is NOT fixed */
 header.page-header {
     position: relative !important;
     top: auto !important;
 }
 
- 
+/* Dark mode header - match page background color */
 .dark header.header {
     background-color: #1d1d1d !important;
     border-bottom: 1px solid #404040 !important;
     box-shadow: none !important;
 }
 
- 
+/* Dark mode header text - make links and logo visible */
 .dark header.header .logo,
 .dark header.header .logo a,
 .dark header.header nav a,
@@ -157,7 +136,7 @@ header.page-header {
     color: #cccccc !important;
 }
 
- 
+/* Dark mode Table of Contents styling */
 .dark .toc,
 .dark .post-toc,
 .dark details.toc {
@@ -185,13 +164,16 @@ header.page-header {
     color: #ffffff !important;
 }
 
- 
+/* BURGER MENU STYLES - PRE-LOADED TO PREVENT FLASH */
 .burger-menu {
     display: none;
     flex-direction: column;
     cursor: pointer;
     padding: 8px;
     margin-left: auto;
+    /* CRITICAL: Prevent layout shift */
+    opacity: 1;
+    visibility: visible;
 }
 
 .burger-line {
@@ -203,7 +185,7 @@ header.page-header {
     border-radius: 2px;
 }
 
- 
+/* Burger animation when open */
 .burger-menu.open .burger-line:nth-child(1) {
     transform: rotate(-45deg) translate(-6px, 6px);
 }
@@ -216,7 +198,7 @@ header.page-header {
     transform: rotate(45deg) translate(-6px, -6px);
 }
 
- 
+/* Mobile menu overlay - PRE-STYLED TO PREVENT FLASH */
 .mobile-menu-overlay {
     position: fixed;
     top: 70px;
@@ -228,6 +210,8 @@ header.page-header {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
+    /* CRITICAL: Prevent initial flash */
+    will-change: transform;
 }
 
 .mobile-menu-overlay.open {
@@ -251,13 +235,13 @@ header.page-header {
     color: var(--primary);
 }
 
- 
+/* Hide desktop menu on mobile, show burger */
 @media (max-width: 768px) {
     .burger-menu {
         display: flex !important;
     }
     
-     
+    /* Hide the original PaperMod navigation menu on mobile */
     header.header .logo + nav,
     header.header nav.main-nav,
     header.header .menu,
@@ -266,7 +250,7 @@ header.page-header {
     }
 }
 
- 
+/* Show desktop menu on larger screens */
 @media (min-width: 769px) {
     .burger-menu,
     .mobile-menu-overlay {
@@ -274,14 +258,14 @@ header.page-header {
     }
 }
 
- 
+/* Content Width - Set to 900px */
 .main, .post-content, .page-content, article {
     max-width: 900px !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
 
- 
+/* Breadcrumb Styling - Smaller font and better spacing */
 .breadcrumbs {
     font-size: 0.85rem !important;
     color: #666 !important;
@@ -309,7 +293,7 @@ header.page-header {
     font-weight: 500 !important;
 }
 
- 
+/* Dark mode breadcrumbs */
 .dark .breadcrumbs {
     color: #ccc !important;
 }
@@ -330,12 +314,12 @@ header.page-header {
     color: #fff !important;
 }
 
- 
+/* MAKE ALL HEADINGS NOT BOLD */
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal !important;
 }
 
- 
+/* Target all possible heading contexts */
 .post-content h1,
 .post-content h2, 
 .post-content h3,
@@ -357,7 +341,7 @@ article h6 {
     font-weight: normal !important;
 }
 
- 
+/* Target page titles specifically */
 .post-title,
 .page-title,
 h1.post-title,
@@ -365,15 +349,15 @@ h1.page-title {
     font-weight: normal !important;
 }
 
- 
- 
+/* MAXIMUM SPECIFICITY TO OVERRIDE INLINE STYLES */
+/* Target specific post-content structure with highest specificity */
 article.post-single div.post-content ul li a[href],
 article.post-single div.post-content p a[href],
 article.post-single div.post-content div a[href],
 div.post-content ul li a[href],
 div.post-content p a[href],
 div.post-content div a[href] {
-    color: #0000EE !important;  
+    color: #0000EE !important; /* Traditional blue */
     text-decoration: underline !important;
     text-decoration-line: underline !important;
     text-decoration-style: solid !important;
@@ -388,7 +372,7 @@ article.post-single div.post-content div a[href]:visited,
 div.post-content ul li a[href]:visited,
 div.post-content p a[href]:visited,
 div.post-content div a[href]:visited {
-    color: #551A8B !important;  
+    color: #551A8B !important; /* Traditional purple for visited */
     text-decoration: underline !important;
     text-decoration-line: underline !important;
     text-decoration-style: solid !important;
@@ -401,21 +385,21 @@ article.post-single div.post-content div a[href]:hover,
 div.post-content ul li a[href]:hover,
 div.post-content p a[href]:hover,
 div.post-content div a[href]:hover {
-    color: #0000CC !important;  
+    color: #0000CC !important; /* Darker blue on hover */
     text-decoration: underline !important;
     text-decoration-line: underline !important;
     text-decoration-style: solid !important;
     text-decoration-thickness: 1px !important;
 }
 
- 
+/* Dark mode with maximum specificity */
 .dark article.post-single div.post-content ul li a[href],
 .dark article.post-single div.post-content p a[href],
 .dark article.post-single div.post-content div a[href],
 .dark div.post-content ul li a[href],
 .dark div.post-content p a[href],
 .dark div.post-content div a[href] {
-    color: #6699FF !important;  
+    color: #6699FF !important; /* Light blue for dark mode */
     text-decoration: underline !important;
     text-decoration-line: underline !important;
     text-decoration-style: solid !important;
@@ -428,7 +412,7 @@ div.post-content div a[href]:hover {
 .dark div.post-content ul li a[href]:visited,
 .dark div.post-content p a[href]:visited,
 .dark div.post-content div a[href]:visited {
-    color: #CC99FF !important;  
+    color: #CC99FF !important; /* Light purple for dark mode visited */
     text-decoration: underline !important;
     text-decoration-line: underline !important;
     text-decoration-style: solid !important;
@@ -441,14 +425,14 @@ div.post-content div a[href]:hover {
 .dark div.post-content ul li a[href]:hover,
 .dark div.post-content p a[href]:hover,
 .dark div.post-content div a[href]:hover {
-    color: #99CCFF !important;  
+    color: #99CCFF !important; /* Even lighter blue on hover */
     text-decoration: underline !important;
     text-decoration-line: underline !important;
     text-decoration-style: solid !important;
     text-decoration-thickness: 1px !important;
 }
 
- 
+/* EXCLUDE navigation and footer from blue links */
 .menu a, 
 .footer-nav a,
 nav a,
@@ -459,7 +443,7 @@ header a,
     border-bottom: none !important;
 }
 
- 
+/* Custom Footer Styling - SIMPLE APPROACH - Only colors, no layout changes */
 .custom-footer {
     background-color: #f5f5f5 !important;
     width: 100vw !important;
@@ -498,7 +482,7 @@ header a,
     text-decoration: underline;
 }
 
- 
+/* Dark mode footer - CORRECT SELECTOR - Use .dark not [data-theme="dark"] */
 .dark .custom-footer {
     background-color: #1f1f1f !important;
     border-top: 1px solid #404040 !important;
@@ -512,12 +496,12 @@ header a,
     color: #fff !important;
 }
 
- 
+/* Page Last Updated styling */
 .dark div[style*="Page Last Updated"] {
     color: #fff !important;
 }
 
- 
+/* Search page styling */
 .search-page-intro {
     margin-bottom: 20px;
     padding: 15px;
@@ -535,7 +519,7 @@ header a,
     color: var(--primary);
 }
 
- 
+/* Search input styling - no bold text, no thick border */
 #searchInput {
     font-weight: normal !important;
     font-size: 16px !important;
@@ -548,18 +532,55 @@ header a,
 }
 </style>
 
-
+<!-- FIXED JAVASCRIPT - BURGER MENU WORKS PROPERLY -->
 <script>
-
+// IMMEDIATE EXECUTION - No waiting for DOMContentLoaded
 (function() {
     'use strict';
     
+    // FASTER HEADER AUTO-HIDE - Optimized scroll handler
+    let lastScrollTop = 0;
+    let ticking = false;
+    let header = null;
     
+    function updateHeader() {
+        if (!header) {
+            header = document.querySelector('header.header');
+            if (!header) return;
+        }
+        
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // If we're at the very top, always show header
+        if (scrollTop <= 50) {
+            header.classList.remove('hidden');
+        } 
+        // If scrolling down significantly, hide header
+        else if (scrollTop > lastScrollTop + 10 && !header.classList.contains('hidden')) {
+            header.classList.add('hidden');
+        } 
+        // If scrolling up, show header
+        else if (scrollTop < lastScrollTop - 10 && header.classList.contains('hidden')) {
+            header.classList.remove('hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+        ticking = false;
+    }
+    
+    function onScroll() {
+        if (!ticking) {
+            requestAnimationFrame(updateHeader);
+            ticking = true;
+        }
+    }
+    
+    // BURGER MENU - FIXED VERSION - Overlay goes to body, not header
     function initializeBurgerMenu() {
         const header = document.querySelector('header.header');
-        if (!header || header.querySelector('.burger-menu')) return; 
+        if (!header || header.querySelector('.burger-menu')) return; // Already exists
         
-        
+        // Create burger menu for header
         const burgerMenu = document.createElement('div');
         burgerMenu.className = 'burger-menu';
         burgerMenu.innerHTML = `
@@ -568,7 +589,7 @@ header a,
             <div class="burger-line"></div>
         `;
         
-        
+        // Create mobile overlay for body
         const mobileOverlay = document.createElement('div');
         mobileOverlay.className = 'mobile-menu-overlay';
         mobileOverlay.innerHTML = `
@@ -585,18 +606,18 @@ header a,
             </div>
         `;
         
-        
+        // Add burger to header, overlay to body
         header.appendChild(burgerMenu);
         document.body.appendChild(mobileOverlay);
         
-        
+        // Toggle functionality
         burgerMenu.addEventListener('click', function() {
             burgerMenu.classList.toggle('open');
             mobileOverlay.classList.toggle('open');
             document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
         });
         
-        
+        // Close on overlay click or menu item click
         mobileOverlay.addEventListener('click', function(e) {
             if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
                 burgerMenu.classList.remove('open');
@@ -606,12 +627,12 @@ header a,
         });
     }
     
-    
+    // SEARCH FUNCTIONALITY - Minimal approach
     function initializeSearch() {
         const searchInput = document.getElementById('searchInput');
         if (!searchInput) return;
         
-        
+        // Add search intro only if on search page
         if (window.location.pathname.includes('/search/')) {
             const intro = document.createElement('div');
             intro.className = 'search-page-intro';
@@ -623,7 +644,7 @@ header a,
             setTimeout(() => searchInput.focus(), 50);
         }
         
-        
+        // Enter key handling
         searchInput.addEventListener('keydown', function(e) {
             if (e.key === 'Enter') {
                 e.preventDefault();
@@ -633,13 +654,14 @@ header a,
         });
     }
     
-    
+    // INITIALIZE EVERYTHING - As soon as possible
     function initialize() {
+        window.addEventListener('scroll', onScroll, { passive: true });
         initializeBurgerMenu();
         initializeSearch();
     }
     
-    
+    // Run immediately if DOM ready, otherwise wait
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initialize);
     } else {
@@ -647,253 +669,3 @@ header a,
     }
 })();
 </script>
-</head>
-
-<body class="list dark" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Faisal Khan LLC (Alt + H)">Faisal Khan LLC</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/" title="Home">
-                    <span>Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/solutions/" title="Solutions">
-                    <span>Solutions</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/resources/" title="Resources">
-                    <span>Resources</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/clients/" title="Clients">
-                    <span>Clients</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/pricing/" title="Pricing">
-                    <span class="active">Pricing</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/blog/" title="Blog">
-                    <span>Blog</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/contact/" title="Contact">
-                    <span>Contact</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<header class="page-header">
-<div class="breadcrumbs">
-    <a href="http://localhost:1313/">Home</a>
-    <span class="breadcrumb-separator">»</span>
-    <a href="http://localhost:1313/">Faisal Khan LLC</a>
-    <span class="breadcrumb-separator">»</span>
-    <span class="breadcrumb-current">Pricing</span>
-</div>
-  <h1>
-    Pricing
-  </h1>
-  <div class="post-description">
-    Transparent pricing for consulting services, licensing support, and strategic advisory
-  </div>
-</header>
-<div class="post-content"><h2 id="pricing">Pricing<a hidden class="anchor" aria-hidden="true" href="#pricing">#</a></h2>
-<p>Faisal Khan LLC offers transparent, value-based pricing for our consulting services. Our fees are structured to align with the complexity and value of each engagement.</p>
-<h2 id="consulting-services">Consulting Services<a hidden class="anchor" aria-hidden="true" href="#consulting-services">#</a></h2>
-<h3 id="strategy-consulting">Strategy Consulting<a hidden class="anchor" aria-hidden="true" href="#strategy-consulting">#</a></h3>
-<ul>
-<li><strong>Hourly Rate</strong>: $500-750/hour</li>
-<li><strong>Project-Based</strong>: $5,000-25,000 depending on scope</li>
-<li><strong>Retainer</strong>: $10,000-50,000/month for ongoing advisory</li>
-</ul>
-<h3 id="licensing-support">Licensing Support<a hidden class="anchor" aria-hidden="true" href="#licensing-support">#</a></h3>
-<ul>
-<li><strong>MTL Applications</strong>: $15,000-50,000 per jurisdiction</li>
-<li><strong>EMI/PI Licensing</strong>: $25,000-75,000 per application</li>
-<li><strong>Compliance Framework</strong>: $10,000-30,000 per project</li>
-</ul>
-<h3 id="implementation-support">Implementation Support<a hidden class="anchor" aria-hidden="true" href="#implementation-support">#</a></h3>
-<ul>
-<li><strong>Banking Introductions</strong>: Success-based fees</li>
-<li><strong>Ongoing Compliance</strong>: $5,000-15,000/month</li>
-<li><strong>Training Programs</strong>: $2,500-10,000 per session</li>
-</ul>
-<h2 id="value-proposition">Value Proposition<a hidden class="anchor" aria-hidden="true" href="#value-proposition">#</a></h2>
-<p>Our fees represent exceptional value considering:</p>
-<ul>
-<li>15+ years of specialized experience</li>
-<li>Proven track record of success</li>
-<li>Access to exclusive partner network</li>
-<li>Ongoing support and guidance</li>
-</ul>
-<h2 id="custom-proposals">Custom Proposals<a hidden class="anchor" aria-hidden="true" href="#custom-proposals">#</a></h2>
-<p>Every engagement is unique. We provide detailed proposals outlining scope, timeline, and investment for your specific requirements.</p>
-<h2 id="get-started">Get Started<a hidden class="anchor" aria-hidden="true" href="#get-started">#</a></h2>
-<p>Ready to discuss pricing for your specific needs? <a href="mailto:contact@faisalkhan.com">Contact us today</a> for a custom proposal.</p>
-
-
-</div>
-    </main>
-    
-<footer class="footer custom-footer">
-    <div class="footer-content">
-        <span>&copy; 2005-2025 <a href="http://localhost:1313/">Faisal Khan LLC</a>. All Rights Reserved.</span>
-        <div class="footer-nav">
-            <a href="http://localhost:1313/book-a-call/" title="">Book A Call</a> ·
-            <a href="http://localhost:1313/legal/disclaimer/" title="">Legal Disclaimer</a> ·
-            <a href="http://localhost:1313/legal/privacy/" title="">Privacy Policy</a> ·
-            <a href="http://localhost:1313/legal/terms/" title="">Terms of Service</a> ·
-            <a href="http://localhost:1313/legal/refund/" title="">Refund</a> ·
-            <a href="http://localhost:1313/support/" title="">Support</a> ·
-            <a href="http://localhost:1313/sitemap/" title="">Sitemap</a>
-        </div>
-
-
-    </div>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-<div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important;">
-  —
-  <p>
-  Page Last Updated: August 2, 2025
-</div>
-
-<style>
-.page-last-updated-auto {
-  color: #000 !important;
-}
-
-.dark .page-last-updated-auto {
-  color: #fff !important;
-}
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  
-  const lastUpdated = document.querySelector('.page-last-updated-auto');
-  
-  const main = document.querySelector('main');
-  
-  if (lastUpdated && main) {
-    
-    main.appendChild(lastUpdated);
-  }
-});
-</script>
-
-
-
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script></body>
-
-</html>
