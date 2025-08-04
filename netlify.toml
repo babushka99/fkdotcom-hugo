@@ -8,15 +8,13 @@
 [context.production.environment]
   HUGO_ENV = "production"
 
-# PERFORMANCE OPTIMIZATIONS
+# PERFORMANCE OPTIMIZATIONS - FIXED VERSION
 
-# Enable gzip compression for all file types
+# Security and basic headers
 [[headers]]
   for = "/*"
   [headers.values]
-    # Enable compression
-    Content-Encoding = "gzip"
-    # Security headers
+    # Security headers (no manual gzip - Netlify handles this automatically)
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
@@ -89,13 +87,6 @@
   for = "/"
   [headers.values]
     Cache-Control = "public, max-age=3600"
-
-# Preload critical resources
-[[headers]]
-  for = "/"
-  [headers.values]
-    Link = '''</css/extended/blank.css>; rel=preload; as=style,
-              </images/faisal-khan-banking-payments.webp>; rel=preload; as=image'''
 
 # Force HTTPS redirects (avoid redirect performance hit)
 [[redirects]]
