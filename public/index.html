@@ -84,6 +84,32 @@ body:not(.dark) article {
 }
 
  
+.dark,
+.dark *,
+.dark p,
+.dark div,
+.dark span,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark li,
+.dark .post-content,
+.dark .page-content,
+.dark article,
+.dark .post-meta,
+.dark .page-meta,
+.dark .post-description,
+.dark .page-description,
+.dark .description,
+.dark .summary,
+.dark .excerpt {
+    color: #ffffff !important;
+}
+
+ 
 .post-tags {
     display: none !important;
 }
@@ -101,6 +127,8 @@ header.header {
     box-shadow: none !important;
     transition: transform 0.3s ease-in-out !important;
     transform: translateY(0) !important;
+     
+    will-change: transform !important;
 }
 
  
@@ -175,6 +203,9 @@ header.page-header {
     cursor: pointer;
     padding: 8px;
     margin-left: auto;
+     
+    opacity: 1;
+    visibility: visible;
 }
 
 .burger-line {
@@ -211,6 +242,8 @@ header.page-header {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
+     
+    will-change: transform;
 }
 
 .mobile-menu-overlay.open {
@@ -531,43 +564,53 @@ header a,
 }
 </style>
 
+
 <script>
 
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
+    'use strict';
+    
+    
     let lastScrollTop = 0;
-    let header = document.querySelector('header.header');
+    let ticking = false;
+    let header = null;
     
-    if (!header) return; 
-    
-    window.addEventListener('scroll', function() {
+    function updateHeader() {
+        if (!header) {
+            header = document.querySelector('header.header');
+            if (!header) return;
+        }
+        
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         
         
         if (scrollTop <= 50) {
             header.classList.remove('hidden');
-            return;
-        }
+        } 
         
-        
-        if (scrollTop > lastScrollTop && !header.classList.contains('hidden')) {
+        else if (scrollTop > lastScrollTop + 10 && !header.classList.contains('hidden')) {
             header.classList.add('hidden');
         } 
         
-        else if (scrollTop < lastScrollTop && header.classList.contains('hidden')) {
+        else if (scrollTop < lastScrollTop - 10 && header.classList.contains('hidden')) {
             header.classList.remove('hidden');
         }
         
         lastScrollTop = scrollTop;
-    });
+        ticking = false;
+    }
+    
+    function onScroll() {
+        if (!ticking) {
+            requestAnimationFrame(updateHeader);
+            ticking = true;
+        }
+    }
     
     
-    
-    addBurgerMenu();
-    
-    function addBurgerMenu() {
-        
+    function initializeBurgerMenu() {
         const header = document.querySelector('header.header');
-        if (!header) return;
+        if (!header || header.querySelector('.burger-menu')) return; 
         
         
         const burgerMenu = document.createElement('div');
@@ -581,108 +624,82 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const mobileOverlay = document.createElement('div');
         mobileOverlay.className = 'mobile-menu-overlay';
-        
-        
-        const menuItems = [
-            { name: 'Home', url: '/' },
-            { name: 'About', url: '/about/' },
-            { name: 'Solutions', url: '/solutions/' },
-            { name: 'Resources', url: '/resources/' },
-            { name: 'Clients', url: '/clients/' },
-            { name: 'Pricing', url: '/pricing/' },
-            { name: 'Blog', url: '/blog/' },
-            { name: 'Contact', url: '/contact/' },
-            { name: 'Search', url: '/search/' }
-        ];
-        
-        const mobileMenuContent = document.createElement('div');
-        mobileMenuContent.className = 'mobile-menu-content';
-        
-        menuItems.forEach(item => {
-            const link = document.createElement('a');
-            link.href = item.url;
-            link.className = 'mobile-menu-item';
-            link.textContent = item.name;
-            mobileMenuContent.appendChild(link);
-        });
-        
-        mobileOverlay.appendChild(mobileMenuContent);
+        mobileOverlay.innerHTML = `
+            <div class="mobile-menu-content">
+                <a href="/" class="mobile-menu-item">Home</a>
+                <a href="/about/" class="mobile-menu-item">About</a>
+                <a href="/solutions/" class="mobile-menu-item">Solutions</a>
+                <a href="/resources/" class="mobile-menu-item">Resources</a>
+                <a href="/clients/" class="mobile-menu-item">Clients</a>
+                <a href="/pricing/" class="mobile-menu-item">Pricing</a>
+                <a href="/blog/" class="mobile-menu-item">Blog</a>
+                <a href="/contact/" class="mobile-menu-item">Contact</a>
+                <a href="/search/" class="mobile-menu-item">Search</a>
+            </div>
+        `;
         
         
         header.appendChild(burgerMenu);
-        
-        
         document.body.appendChild(mobileOverlay);
         
         
         burgerMenu.addEventListener('click', function() {
             burgerMenu.classList.toggle('open');
             mobileOverlay.classList.toggle('open');
-            
-            
-            if (mobileOverlay.classList.contains('open')) {
-                document.body.style.overflow = 'hidden';
-            } else {
-                document.body.style.overflow = '';
-            }
+            document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
         });
         
         
         mobileOverlay.addEventListener('click', function(e) {
-            if (e.target === mobileOverlay) {
+            if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
                 burgerMenu.classList.remove('open');
                 mobileOverlay.classList.remove('open');
                 document.body.style.overflow = '';
             }
         });
-        
-        
-        const mobileMenuItems = mobileOverlay.querySelectorAll('.mobile-menu-item');
-        mobileMenuItems.forEach(item => {
-            item.addEventListener('click', function() {
-                burgerMenu.classList.remove('open');
-                mobileOverlay.classList.remove('open');
-                document.body.style.overflow = '';
-            });
-        });
     }
     
     
-    const searchInput = document.getElementById('searchInput');
-    const searchResults = document.getElementById('searchResults');
-    
-    
-    if (window.location.pathname.includes('/search/') && searchInput) {
-        const searchContent = document.createElement('div');
-        searchContent.className = 'search-page-intro';
-        searchContent.innerHTML = `
-            <p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>
-            <p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>
-        `;
+    function initializeSearch() {
+        const searchInput = document.getElementById('searchInput');
+        if (!searchInput) return;
         
         
-        searchInput.parentNode.insertBefore(searchContent, searchInput);
+        if (window.location.pathname.includes('/search/')) {
+            const intro = document.createElement('div');
+            intro.className = 'search-page-intro';
+            intro.innerHTML = `
+                <p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>
+                <p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>
+            `;
+            searchInput.parentNode.insertBefore(intro, searchInput);
+            setTimeout(() => searchInput.focus(), 50);
+        }
         
-        
-        setTimeout(() => searchInput.focus(), 100);
-    }
-    
-    if (searchInput) {
         
         searchInput.addEventListener('keydown', function(e) {
             if (e.key === 'Enter') {
                 e.preventDefault();
-                
-                
                 const firstResult = document.querySelector('#searchResults .search-result a');
-                if (firstResult) {
-                    firstResult.click();
-                    return;
-                }
+                if (firstResult) firstResult.click();
             }
         });
     }
-});
+    
+    
+    function initialize() {
+        window.addEventListener('scroll', onScroll, { passive: true });
+        initializeBurgerMenu();
+        initializeSearch();
+    }
+    
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+})();
 </script>
 </head>
 
