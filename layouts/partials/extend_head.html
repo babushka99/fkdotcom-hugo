@@ -56,7 +56,7 @@ body:not(.dark) article {
     display: none !important;
 }
 
-/* AUTO-HIDE HEADER STYLING - Target the navigation header specifically */
+/* AUTO-HIDE HEADER STYLING - IMMEDIATE NO-FLASH APPROACH */
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -69,6 +69,8 @@ header.header {
     box-shadow: none !important;
     transition: transform 0.3s ease-in-out !important;
     transform: translateY(0) !important;
+    /* CRITICAL: Prevent initial layout shift */
+    will-change: transform !important;
 }
 
 /* Hidden state - slides up out of view */
@@ -76,7 +78,7 @@ header.header.hidden {
     transform: translateY(-100%) !important;
 }
 
-/* Add top padding to body to account for fixed header */
+/* Add top padding to body to account for fixed header - IMMEDIATE */
 body {
     padding-top: 70px !important;
 }
@@ -136,13 +138,16 @@ header.page-header {
     color: #ffffff !important;
 }
 
-/* BURGER MENU STYLES */
+/* BURGER MENU STYLES - PRE-LOADED TO PREVENT FLASH */
 .burger-menu {
     display: none;
     flex-direction: column;
     cursor: pointer;
     padding: 8px;
     margin-left: auto;
+    /* CRITICAL: Prevent layout shift */
+    opacity: 1;
+    visibility: visible;
 }
 
 .burger-line {
@@ -167,7 +172,7 @@ header.page-header {
     transform: rotate(45deg) translate(-6px, -6px);
 }
 
-/* Mobile menu overlay */
+/* Mobile menu overlay - PRE-STYLED TO PREVENT FLASH */
 .mobile-menu-overlay {
     position: fixed;
     top: 70px;
@@ -179,6 +184,8 @@ header.page-header {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
+    /* CRITICAL: Prevent initial flash */
+    will-change: transform;
 }
 
 .mobile-menu-overlay.open {
@@ -499,156 +506,141 @@ header a,
 }
 </style>
 
+<!-- OPTIMIZED JAVASCRIPT - FASTER EXECUTION, NO VISUAL DELAYS -->
 <script>
-// AUTO-HIDE HEADER FUNCTIONALITY
-document.addEventListener('DOMContentLoaded', function() {
+// IMMEDIATE EXECUTION - No waiting for DOMContentLoaded
+(function() {
+    'use strict';
+    
+    // FASTER HEADER AUTO-HIDE - Optimized scroll handler
     let lastScrollTop = 0;
-    let header = document.querySelector('header.header');
+    let ticking = false;
+    let header = null;
     
-    if (!header) return; // Exit if header not found
-    
-    window.addEventListener('scroll', function() {
+    function updateHeader() {
+        if (!header) {
+            header = document.querySelector('header.header');
+            if (!header) return;
+        }
+        
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         
         // If we're at the very top, always show header
         if (scrollTop <= 50) {
             header.classList.remove('hidden');
-            return;
-        }
-        
-        // If scrolling down, hide header
-        if (scrollTop > lastScrollTop && !header.classList.contains('hidden')) {
+        } 
+        // If scrolling down significantly, hide header
+        else if (scrollTop > lastScrollTop + 10 && !header.classList.contains('hidden')) {
             header.classList.add('hidden');
         } 
         // If scrolling up, show header
-        else if (scrollTop < lastScrollTop && header.classList.contains('hidden')) {
+        else if (scrollTop < lastScrollTop - 10 && header.classList.contains('hidden')) {
             header.classList.remove('hidden');
         }
         
         lastScrollTop = scrollTop;
-    });
+        ticking = false;
+    }
     
-    // BURGER MENU FUNCTIONALITY
-    // Add burger menu to header
-    addBurgerMenu();
+    function onScroll() {
+        if (!ticking) {
+            requestAnimationFrame(updateHeader);
+            ticking = true;
+        }
+    }
     
-    function addBurgerMenu() {
-        // Find the header
+    // BURGER MENU - Streamlined approach
+    function initializeBurgerMenu() {
         const header = document.querySelector('header.header');
-        if (!header) return;
+        if (!header || header.querySelector('.burger-menu')) return; // Already exists
         
-        // Create burger menu button
-        const burgerMenu = document.createElement('div');
-        burgerMenu.className = 'burger-menu';
-        burgerMenu.innerHTML = `
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
+        // Create burger menu HTML
+        const burgerHTML = `
+            <div class="burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            <div class="mobile-menu-overlay">
+                <div class="mobile-menu-content">
+                    <a href="/" class="mobile-menu-item">Home</a>
+                    <a href="/about/" class="mobile-menu-item">About</a>
+                    <a href="/solutions/" class="mobile-menu-item">Solutions</a>
+                    <a href="/resources/" class="mobile-menu-item">Resources</a>
+                    <a href="/clients/" class="mobile-menu-item">Clients</a>
+                    <a href="/pricing/" class="mobile-menu-item">Pricing</a>
+                    <a href="/blog/" class="mobile-menu-item">Blog</a>
+                    <a href="/contact/" class="mobile-menu-item">Contact</a>
+                    <a href="/search/" class="mobile-menu-item">Search</a>
+                </div>
+            </div>
         `;
         
-        // Create mobile menu overlay
-        const mobileOverlay = document.createElement('div');
-        mobileOverlay.className = 'mobile-menu-overlay';
+        // Add to header and body in one operation
+        header.insertAdjacentHTML('beforeend', burgerHTML);
         
-        // Get menu items from the existing navigation
-        const menuItems = [
-            { name: 'Home', url: '/' },
-            { name: 'About', url: '/about/' },
-            { name: 'Solutions', url: '/solutions/' },
-            { name: 'Resources', url: '/resources/' },
-            { name: 'Clients', url: '/clients/' },
-            { name: 'Pricing', url: '/pricing/' },
-            { name: 'Blog', url: '/blog/' },
-            { name: 'Contact', url: '/contact/' },
-            { name: 'Search', url: '/search/' }
-        ];
+        // Get elements and add event listeners
+        const burgerMenu = header.querySelector('.burger-menu');
+        const mobileOverlay = document.querySelector('.mobile-menu-overlay');
         
-        const mobileMenuContent = document.createElement('div');
-        mobileMenuContent.className = 'mobile-menu-content';
-        
-        menuItems.forEach(item => {
-            const link = document.createElement('a');
-            link.href = item.url;
-            link.className = 'mobile-menu-item';
-            link.textContent = item.name;
-            mobileMenuContent.appendChild(link);
-        });
-        
-        mobileOverlay.appendChild(mobileMenuContent);
-        
-        // Add burger menu to header
-        header.appendChild(burgerMenu);
-        
-        // Add overlay to body
-        document.body.appendChild(mobileOverlay);
-        
-        // Burger menu toggle functionality
-        burgerMenu.addEventListener('click', function() {
-            burgerMenu.classList.toggle('open');
-            mobileOverlay.classList.toggle('open');
-            
-            // Prevent scrolling when menu is open
-            if (mobileOverlay.classList.contains('open')) {
-                document.body.style.overflow = 'hidden';
-            } else {
-                document.body.style.overflow = '';
-            }
-        });
-        
-        // Close menu when clicking on overlay
-        mobileOverlay.addEventListener('click', function(e) {
-            if (e.target === mobileOverlay) {
-                burgerMenu.classList.remove('open');
-                mobileOverlay.classList.remove('open');
-                document.body.style.overflow = '';
-            }
-        });
-        
-        // Close menu when clicking on menu item
-        const mobileMenuItems = mobileOverlay.querySelectorAll('.mobile-menu-item');
-        mobileMenuItems.forEach(item => {
-            item.addEventListener('click', function() {
-                burgerMenu.classList.remove('open');
-                mobileOverlay.classList.remove('open');
-                document.body.style.overflow = '';
+        if (burgerMenu && mobileOverlay) {
+            // Toggle functionality
+            burgerMenu.addEventListener('click', function() {
+                burgerMenu.classList.toggle('open');
+                mobileOverlay.classList.toggle('open');
+                document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
             });
-        });
+            
+            // Close on overlay click or menu item click
+            mobileOverlay.addEventListener('click', function(e) {
+                if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
+                    burgerMenu.classList.remove('open');
+                    mobileOverlay.classList.remove('open');
+                    document.body.style.overflow = '';
+                }
+            });
+        }
     }
     
-    // SEARCH FUNCTIONALITY
-    const searchInput = document.getElementById('searchInput');
-    const searchResults = document.getElementById('searchResults');
-    
-    // Add search page content if on search page
-    if (window.location.pathname.includes('/search/') && searchInput) {
-        const searchContent = document.createElement('div');
-        searchContent.className = 'search-page-intro';
-        searchContent.innerHTML = `
-            <p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>
-            <p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>
-        `;
+    // SEARCH FUNCTIONALITY - Minimal approach
+    function initializeSearch() {
+        const searchInput = document.getElementById('searchInput');
+        if (!searchInput) return;
         
-        // Insert before the search input
-        searchInput.parentNode.insertBefore(searchContent, searchInput);
+        // Add search intro only if on search page
+        if (window.location.pathname.includes('/search/')) {
+            const intro = document.createElement('div');
+            intro.className = 'search-page-intro';
+            intro.innerHTML = `
+                <p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>
+                <p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>
+            `;
+            searchInput.parentNode.insertBefore(intro, searchInput);
+            setTimeout(() => searchInput.focus(), 50);
+        }
         
-        // Focus search input
-        setTimeout(() => searchInput.focus(), 100);
-    }
-    
-    if (searchInput) {
-        // Handle Enter key press
+        // Enter key handling
         searchInput.addEventListener('keydown', function(e) {
             if (e.key === 'Enter') {
                 e.preventDefault();
-                
-                // If there are search results visible, click the first one
                 const firstResult = document.querySelector('#searchResults .search-result a');
-                if (firstResult) {
-                    firstResult.click();
-                    return;
-                }
+                if (firstResult) firstResult.click();
             }
         });
     }
-});
+    
+    // INITIALIZE EVERYTHING - As soon as possible
+    function initialize() {
+        window.addEventListener('scroll', onScroll, { passive: true });
+        initializeBurgerMenu();
+        initializeSearch();
+    }
+    
+    // Run immediately if DOM ready, otherwise wait
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+})();
 </script>
