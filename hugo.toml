@@ -172,6 +172,12 @@ enableRobotsTXT = true
   #   name = "twitter"
   #   url = "https://twitter.com/faisalkhan"
 
+# LOGO CONFIGURATION - FIXED: CORRECT TOML STRUCTURE
+[params.label]
+  text = " "  # Empty to hide text title completely
+  icon = "/images/Faisal_Khan_LLC_light.png"  # Your logo file
+  iconHeight = 50  # Logo height in pixels
+
 # Search configuration for Fuse.js
 [params.fuseOpts]
   isCaseSensitive = false

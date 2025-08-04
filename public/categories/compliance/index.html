@@ -82,6 +82,32 @@ body:not(.dark) article {
 }
 
  
+.dark,
+.dark *,
+.dark p,
+.dark div,
+.dark span,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark li,
+.dark .post-content,
+.dark .page-content,
+.dark article,
+.dark .post-meta,
+.dark .page-meta,
+.dark .post-description,
+.dark .page-description,
+.dark .description,
+.dark .summary,
+.dark .excerpt {
+    color: #ffffff !important;
+}
+
+ 
 .post-tags {
     display: none !important;
 }
@@ -97,15 +123,6 @@ header.header {
     background-color: var(--theme) !important;
     border-bottom: none !important;
     box-shadow: none !important;
-    transition: transform 0.3s ease-in-out !important;
-    transform: translateY(0) !important;
-     
-    will-change: transform !important;
-}
-
- 
-header.header.hidden {
-    transform: translateY(-100%) !important;
 }
 
  
@@ -175,9 +192,6 @@ header.page-header {
     cursor: pointer;
     padding: 8px;
     margin-left: auto;
-     
-    opacity: 1;
-    visibility: visible;
 }
 
 .burger-line {
@@ -214,8 +228,6 @@ header.page-header {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
-     
-    will-change: transform;
 }
 
 .mobile-menu-overlay.open {
@@ -543,43 +555,6 @@ header a,
     'use strict';
     
     
-    let lastScrollTop = 0;
-    let ticking = false;
-    let header = null;
-    
-    function updateHeader() {
-        if (!header) {
-            header = document.querySelector('header.header');
-            if (!header) return;
-        }
-        
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        
-        if (scrollTop <= 50) {
-            header.classList.remove('hidden');
-        } 
-        
-        else if (scrollTop > lastScrollTop + 10 && !header.classList.contains('hidden')) {
-            header.classList.add('hidden');
-        } 
-        
-        else if (scrollTop < lastScrollTop - 10 && header.classList.contains('hidden')) {
-            header.classList.remove('hidden');
-        }
-        
-        lastScrollTop = scrollTop;
-        ticking = false;
-    }
-    
-    function onScroll() {
-        if (!ticking) {
-            requestAnimationFrame(updateHeader);
-            ticking = true;
-        }
-    }
-    
-    
     function initializeBurgerMenu() {
         const header = document.querySelector('header.header');
         if (!header || header.querySelector('.burger-menu')) return; 
@@ -660,7 +635,6 @@ header a,
     
     
     function initialize() {
-        window.addEventListener('scroll', onScroll, { passive: true });
         initializeBurgerMenu();
         initializeSearch();
     }
@@ -686,7 +660,9 @@ header a,
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Faisal Khan LLC (Alt + H)">Faisal Khan LLC</a>
+            <a href="http://localhost:1313/" accesskey="h" title="  (Alt + H)">
+                <img src="http://localhost:1313/images/Faisal_Khan_LLC_light.png" alt="" aria-label="logo"
+                    height="50"> </a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
