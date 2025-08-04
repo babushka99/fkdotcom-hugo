@@ -506,7 +506,7 @@ header a,
 }
 </style>
 
-<!-- OPTIMIZED JAVASCRIPT - FASTER EXECUTION, NO VISUAL DELAYS -->
+<!-- FIXED JAVASCRIPT - BURGER MENU WORKS PROPERLY -->
 <script>
 // IMMEDIATE EXECUTION - No waiting for DOMContentLoaded
 (function() {
@@ -549,57 +549,56 @@ header a,
         }
     }
     
-    // BURGER MENU - Streamlined approach
+    // BURGER MENU - FIXED VERSION - Overlay goes to body, not header
     function initializeBurgerMenu() {
         const header = document.querySelector('header.header');
         if (!header || header.querySelector('.burger-menu')) return; // Already exists
         
-        // Create burger menu HTML
-        const burgerHTML = `
-            <div class="burger-menu">
-                <div class="burger-line"></div>
-                <div class="burger-line"></div>
-                <div class="burger-line"></div>
-            </div>
-            <div class="mobile-menu-overlay">
-                <div class="mobile-menu-content">
-                    <a href="/" class="mobile-menu-item">Home</a>
-                    <a href="/about/" class="mobile-menu-item">About</a>
-                    <a href="/solutions/" class="mobile-menu-item">Solutions</a>
-                    <a href="/resources/" class="mobile-menu-item">Resources</a>
-                    <a href="/clients/" class="mobile-menu-item">Clients</a>
-                    <a href="/pricing/" class="mobile-menu-item">Pricing</a>
-                    <a href="/blog/" class="mobile-menu-item">Blog</a>
-                    <a href="/contact/" class="mobile-menu-item">Contact</a>
-                    <a href="/search/" class="mobile-menu-item">Search</a>
-                </div>
+        // Create burger menu for header
+        const burgerMenu = document.createElement('div');
+        burgerMenu.className = 'burger-menu';
+        burgerMenu.innerHTML = `
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        `;
+        
+        // Create mobile overlay for body
+        const mobileOverlay = document.createElement('div');
+        mobileOverlay.className = 'mobile-menu-overlay';
+        mobileOverlay.innerHTML = `
+            <div class="mobile-menu-content">
+                <a href="/" class="mobile-menu-item">Home</a>
+                <a href="/about/" class="mobile-menu-item">About</a>
+                <a href="/solutions/" class="mobile-menu-item">Solutions</a>
+                <a href="/resources/" class="mobile-menu-item">Resources</a>
+                <a href="/clients/" class="mobile-menu-item">Clients</a>
+                <a href="/pricing/" class="mobile-menu-item">Pricing</a>
+                <a href="/blog/" class="mobile-menu-item">Blog</a>
+                <a href="/contact/" class="mobile-menu-item">Contact</a>
+                <a href="/search/" class="mobile-menu-item">Search</a>
             </div>
         `;
         
-        // Add to header and body in one operation
-        header.insertAdjacentHTML('beforeend', burgerHTML);
+        // Add burger to header, overlay to body
+        header.appendChild(burgerMenu);
+        document.body.appendChild(mobileOverlay);
         
-        // Get elements and add event listeners
-        const burgerMenu = header.querySelector('.burger-menu');
-        const mobileOverlay = document.querySelector('.mobile-menu-overlay');
+        // Toggle functionality
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+            document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
+        });
         
-        if (burgerMenu && mobileOverlay) {
-            // Toggle functionality
-            burgerMenu.addEventListener('click', function() {
-                burgerMenu.classList.toggle('open');
-                mobileOverlay.classList.toggle('open');
-                document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
-            });
-            
-            // Close on overlay click or menu item click
-            mobileOverlay.addEventListener('click', function(e) {
-                if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
-                    burgerMenu.classList.remove('open');
-                    mobileOverlay.classList.remove('open');
-                    document.body.style.overflow = '';
-                }
-            });
-        }
+        // Close on overlay click or menu item click
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
     }
     
     // SEARCH FUNCTIONALITY - Minimal approach
