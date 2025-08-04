@@ -1,48 +1,607 @@
-<script>
-console.log('🎯 Logo switcher loading...');
+<style>
+/* Light mode - ensure white background */
+:root {
+    --theme: #ffffff;
+    --bg: #ffffff;
+    --border: #e5e5e5;
+}
 
-function updateLogo() {
-    var logo = document.querySelector('.header .logo img');
-    if (!logo) {
-        console.log('❌ Logo not found');
-        return;
+/* Force white background in light mode */
+body {
+    background: var(--theme) !important;
+    color: #222222 !important;
+}
+
+/* Light mode text color - target all text elements */
+:root {
+    --content: #222222;
+    --primary: #222222;
+}
+
+/* Ensure all text in light mode is #222222 */
+body:not(.dark) {
+    color: #222222 !important;
+}
+
+body:not(.dark) *,
+body:not(.dark) p,
+body:not(.dark) div,
+body:not(.dark) span,
+body:not(.dark) h1,
+body:not(.dark) h2,
+body:not(.dark) h3,
+body:not(.dark) h4,
+body:not(.dark) h5,
+body:not(.dark) h6,
+body:not(.dark) li,
+body:not(.dark) .post-content,
+body:not(.dark) .page-content,
+body:not(.dark) article {
+    color: #222222 !important;
+}
+
+/* Keep dark mode working when toggled */
+[data-theme="dark"] {
+    --theme: #1d1d1d;
+    --bg: #1d1d1d;
+    --border: #333;
+}
+
+[data-theme="dark"] body {
+    background: var(--theme) !important;
+}
+
+/* DARK MODE TEXT - COMPREHENSIVE COVERAGE INCLUDING SUBTITLES */
+.dark,
+.dark *,
+.dark p,
+.dark div,
+.dark span,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark li,
+.dark .post-content,
+.dark .page-content,
+.dark article,
+.dark .post-meta,
+.dark .page-meta,
+.dark .post-description,
+.dark .page-description,
+.dark .description,
+.dark .summary,
+.dark .excerpt {
+    color: #ffffff !important;
+}
+
+/* HIDE TAGS FROM DISPLAYING ON PAGES */
+.post-tags {
+    display: none !important;
+}
+
+/* FIXED HEADER STYLING - SIMPLIFIED (NO AUTO-HIDE) */
+header.header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+    background-color: var(--theme) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* Add top padding to body to account for fixed header */
+body {
+    padding-top: 70px !important;
+}
+
+/* Make sure page header (inside main) is NOT fixed */
+header.page-header {
+    position: relative !important;
+    top: auto !important;
+}
+
+/* Dark mode header - match page background color */
+.dark header.header {
+    background-color: #1d1d1d !important;
+    border-bottom: 1px solid #404040 !important;
+    box-shadow: none !important;
+}
+
+/* Dark mode header text - make links and logo visible */
+.dark header.header .logo,
+.dark header.header .logo a,
+.dark header.header nav a,
+.dark header.header .menu a {
+    color: #ffffff !important;
+}
+
+.dark header.header .logo a:hover,
+.dark header.header nav a:hover,
+.dark header.header .menu a:hover {
+    color: #cccccc !important;
+}
+
+/* BURGER MENU STYLES */
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: auto;
+}
+
+.burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--content);
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+/* Burger animation when open */
+.burger-menu.open .burger-line:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-menu.open .burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open .burger-line:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+/* Mobile menu overlay */
+.mobile-menu-overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--theme);
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.mobile-menu-overlay.open {
+    transform: translateX(0);
+}
+
+.mobile-menu-content {
+    padding: 20px;
+}
+
+.mobile-menu-item {
+    display: block;
+    padding: 15px 0;
+    color: var(--content);
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-item:hover {
+    color: var(--primary);
+}
+
+/* Hide desktop menu on mobile, show burger */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: flex !important;
     }
     
-    var isDark = document.body.classList.contains('dark');
-    var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
-    
-    if (logo.src !== newSrc) {
-        logo.src = newSrc;
-        console.log('✅ Logo updated to:', newSrc, '(Dark mode:', isDark + ')');
+    /* Hide the original PaperMod navigation menu on mobile */
+    header.header .logo + nav,
+    header.header nav.main-nav,
+    header.header .menu,
+    header.header ul {
+        display: none !important;
     }
 }
 
-// Update logo immediately when page loads
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('📄 Page loaded, setting initial logo...');
-    updateLogo();
-});
-
-// Watch for theme toggle clicks
-document.addEventListener('click', function(e) {
-    var themeToggle = document.getElementById('theme-toggle');
-    if (e.target === themeToggle || e.target.closest('#theme-toggle')) {
-        console.log('🎛️ Theme toggle clicked');
-        // Small delay to let PaperMod change the body class first
-        setTimeout(updateLogo, 100);
+/* Show desktop menu on larger screens */
+@media (min-width: 769px) {
+    .burger-menu,
+    .mobile-menu-overlay {
+        display: none !important;
     }
-});
+}
 
-// Backup method: Watch for body class changes
-var observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-            console.log('👁️ Body class changed');
-            setTimeout(updateLogo, 50);
+/* Content Width - Set to 900px */
+.main, .post-content, .page-content, article {
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Breadcrumb Styling - Smaller font and better spacing */
+.breadcrumbs {
+    font-size: 0.85rem !important;
+    color: #666 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+.breadcrumbs a {
+    color: #666 !important;
+    text-decoration: none !important;
+}
+
+.breadcrumbs a:hover {
+    color: #333 !important;
+    text-decoration: underline !important;
+}
+
+.breadcrumb-separator {
+    margin: 0 8px !important;
+    color: #999 !important;
+}
+
+.breadcrumb-current {
+    color: #333 !important;
+    font-weight: 500 !important;
+}
+
+/* Dark mode breadcrumbs */
+.dark .breadcrumbs {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a:hover {
+    color: #fff !important;
+}
+
+.dark .breadcrumb-separator {
+    color: #888 !important;
+}
+
+.dark .breadcrumb-current {
+    color: #fff !important;
+}
+
+/* MAKE ALL HEADINGS NOT BOLD */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal !important;
+}
+
+/* Target all possible heading contexts */
+.post-content h1,
+.post-content h2, 
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    font-weight: normal !important;
+}
+
+/* Target page titles specifically */
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title {
+    font-weight: normal !important;
+}
+
+/* MAXIMUM SPECIFICITY TO OVERRIDE INLINE STYLES */
+/* Target specific post-content structure with highest specificity */
+article.post-single div.post-content ul li a[href],
+article.post-single div.post-content p a[href],
+article.post-single div.post-content div a[href],
+div.post-content ul li a[href],
+div.post-content p a[href],
+div.post-content div a[href] {
+    color: #0000EE !important; /* Traditional blue */
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+article.post-single div.post-content ul li a[href]:visited,
+article.post-single div.post-content p a[href]:visited,
+article.post-single div.post-content div a[href]:visited,
+div.post-content ul li a[href]:visited,
+div.post-content p a[href]:visited,
+div.post-content div a[href]:visited {
+    color: #551A8B !important; /* Traditional purple for visited */
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+article.post-single div.post-content ul li a[href]:hover,
+article.post-single div.post-content p a[href]:hover,
+article.post-single div.post-content div a[href]:hover,
+div.post-content ul li a[href]:hover,
+div.post-content p a[href]:hover,
+div.post-content div a[href]:hover {
+    color: #0000CC !important; /* Darker blue on hover */
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+/* Dark mode with maximum specificity */
+.dark article.post-single div.post-content ul li a[href],
+.dark article.post-single div.post-content p a[href],
+.dark article.post-single div.post-content div a[href],
+.dark div.post-content ul li a[href],
+.dark div.post-content p a[href],
+.dark div.post-content div a[href] {
+    color: #6699FF !important; /* Light blue for dark mode */
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:visited,
+.dark article.post-single div.post-content p a[href]:visited,
+.dark article.post-single div.post-content div a[href]:visited,
+.dark div.post-content ul li a[href]:visited,
+.dark div.post-content p a[href]:visited,
+.dark div.post-content div a[href]:visited {
+    color: #CC99FF !important; /* Light purple for dark mode visited */
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:hover,
+.dark article.post-single div.post-content p a[href]:hover,
+.dark article.post-single div.post-content div a[href]:hover,
+.dark div.post-content ul li a[href]:hover,
+.dark div.post-content p a[href]:hover,
+.dark div.post-content div a[href]:hover {
+    color: #99CCFF !important; /* Even lighter blue on hover */
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+/* EXCLUDE navigation and footer from blue links */
+.menu a, 
+.footer-nav a,
+nav a,
+header a,
+.breadcrumbs a {
+    color: inherit !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+/* Custom Footer Styling - SIMPLE APPROACH - Only colors, no layout changes */
+.custom-footer {
+    background-color: #f5f5f5 !important;
+    width: 100vw !important;
+    max-width: none !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    margin-top: 40px !important;
+    margin-bottom: 0 !important;
+    padding: 20px 0 !important;
+    border-top: 1px solid #e0e0e0;
+    box-sizing: border-box !important;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-nav {
+    margin: 10px 0;
+}
+
+.footer-nav a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-nav a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Dark mode footer - CORRECT SELECTOR - Use .dark not [data-theme="dark"] */
+.dark .custom-footer {
+    background-color: #1f1f1f !important;
+    border-top: 1px solid #404040 !important;
+}
+
+.dark .footer-nav a {
+    color: #ccc !important;
+}
+
+.dark .footer-nav a:hover {
+    color: #fff !important;
+}
+
+/* Page Last Updated styling */
+.dark div[style*="Page Last Updated"] {
+    color: #fff !important;
+}
+
+/* Search page styling */
+.search-page-intro {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: var(--code-bg);
+    border-radius: 6px;
+    color: var(--content);
+}
+
+.search-page-intro p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.search-page-intro strong {
+    color: var(--primary);
+}
+
+/* Search input styling - no bold text, no thick border */
+#searchInput {
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+#searchInput:focus {
+    outline: none !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: none !important;
+}
+</style>
+
+<!-- PRODUCTION JAVASCRIPT - LOGO SWITCHER + BURGER MENU -->
+<script>
+(function() {
+    'use strict';
+    
+    // LOGO SWITCHER - Clean production version
+    function updateLogo() {
+        var logo = document.querySelector('.header .logo img');
+        if (!logo) return;
+        
+        var isDark = document.body.classList.contains('dark');
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
+        
+        if (logo.src !== newSrc) {
+            logo.src = newSrc;
         }
-    });
-});
-observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
-
-console.log('✅ Logo switcher ready');
+    }
+    
+    // BURGER MENU FUNCTIONALITY
+    function initializeBurgerMenu() {
+        var header = document.querySelector('header.header');
+        if (!header || header.querySelector('.burger-menu')) return;
+        
+        var burgerMenu = document.createElement('div');
+        burgerMenu.className = 'burger-menu';
+        burgerMenu.innerHTML = '<div class="burger-line"></div><div class="burger-line"></div><div class="burger-line"></div>';
+        
+        var mobileOverlay = document.createElement('div');
+        mobileOverlay.className = 'mobile-menu-overlay';
+        mobileOverlay.innerHTML = '<div class="mobile-menu-content">' +
+            '<a href="/" class="mobile-menu-item">Home</a>' +
+            '<a href="/about/" class="mobile-menu-item">About</a>' +
+            '<a href="/solutions/" class="mobile-menu-item">Solutions</a>' +
+            '<a href="/resources/" class="mobile-menu-item">Resources</a>' +
+            '<a href="/clients/" class="mobile-menu-item">Clients</a>' +
+            '<a href="/pricing/" class="mobile-menu-item">Pricing</a>' +
+            '<a href="/blog/" class="mobile-menu-item">Blog</a>' +
+            '<a href="/contact/" class="mobile-menu-item">Contact</a>' +
+            '<a href="/search/" class="mobile-menu-item">Search</a>' +
+            '</div>';
+        
+        header.appendChild(burgerMenu);
+        document.body.appendChild(mobileOverlay);
+        
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+            document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
+        });
+        
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
+    }
+    
+    // SEARCH FUNCTIONALITY
+    function initializeSearch() {
+        var searchInput = document.getElementById('searchInput');
+        if (!searchInput) return;
+        
+        if (window.location.pathname.includes('/search/')) {
+            var intro = document.createElement('div');
+            intro.className = 'search-page-intro';
+            intro.innerHTML = '<p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>' +
+                '<p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>';
+            searchInput.parentNode.insertBefore(intro, searchInput);
+            setTimeout(function() { searchInput.focus(); }, 50);
+        }
+        
+        searchInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                var firstResult = document.querySelector('#searchResults .search-result a');
+                if (firstResult) firstResult.click();
+            }
+        });
+    }
+    
+    // INITIALIZE EVERYTHING
+    function initialize() {
+        updateLogo();
+        initializeBurgerMenu();
+        initializeSearch();
+        
+        // Listen for theme toggle clicks
+        document.addEventListener('click', function(e) {
+            var themeToggle = document.getElementById('theme-toggle');
+            if (e.target === themeToggle || e.target.closest('#theme-toggle')) {
+                setTimeout(updateLogo, 100);
+            }
+        });
+        
+        // Watch for body class changes (backup method)
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    setTimeout(updateLogo, 50);
+                }
+            });
+        });
+        observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    }
+    
+    // Run when ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+})();
 </script>
