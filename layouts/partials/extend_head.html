@@ -410,17 +410,31 @@ header a,
     border-bottom: none !important;
 }
 
-/* ROUNDED CORNERS FOR FEATURED IMAGE */
+/* PREVENT LAYOUT SHIFTS - Set explicit image dimensions */
 img[src*="We-Love-Solving-Complex-Problems.webp"] {
     border-radius: 15px !important;
     margin-bottom: 2rem !important;
+    width: 100% !important;
+    height: 500px !important; /* Set explicit height to prevent layout shift */
+    object-fit: cover !important;
+    aspect-ratio: 9/5 !important;
 }
 
-/* Also target any images in post content for general rounded corners */
+/* Also target any images in post content for general rounded corners and sizing */
 .post-content img,
 .page-content img,
 article img {
     border-radius: 18px !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: attr(width) / attr(height) !important;
+}
+
+/* Ensure all images have explicit dimensions to prevent CLS */
+img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
 }
 
 /* Custom Footer Styling - SIMPLE APPROACH - Only colors, no layout changes */
@@ -512,20 +526,42 @@ article img {
 }
 </style>
 
-<!-- JavaScript to force remove lazy loading attribute -->
+<!-- JavaScript to optimize image loading and prevent layout shifts -->
 <script>
-// Force remove lazy loading on page load and dynamically
+// Force remove lazy loading, add high fetch priority, and set dimensions to prevent layout shifts
 document.addEventListener('DOMContentLoaded', function() {
-    function removeImageLazyLoading() {
-        const images = document.querySelectorAll('img[loading="lazy"]');
+    function optimizeImageLoading() {
+        const images = document.querySelectorAll('img');
         images.forEach(img => {
-            img.removeAttribute('loading');
+            // Remove lazy loading
+            if (img.hasAttribute('loading')) {
+                img.removeAttribute('loading');
+            }
+            // Set eager loading and high fetch priority
             img.setAttribute('loading', 'eager');
+            img.setAttribute('fetchpriority', 'high');
+            
+            // Prevent layout shifts by setting explicit dimensions
+            if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
+                // For the main featured image, set specific dimensions
+                if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                    img.setAttribute('width', '900');
+                    img.setAttribute('height', '500');
+                } else {
+                    // For other images, try to determine dimensions or set defaults
+                    if (!img.hasAttribute('width')) {
+                        img.setAttribute('width', '100%');
+                    }
+                    if (!img.hasAttribute('height')) {
+                        img.setAttribute('height', 'auto');
+                    }
+                }
+            }
         });
     }
     
-    // Remove on initial load
-    removeImageLazyLoading();
+    // Optimize on initial load
+    optimizeImageLoading();
     
     // Watch for any new images added dynamically
     const observer = new MutationObserver(function(mutations) {
@@ -533,15 +569,49 @@ document.addEventListener('DOMContentLoaded', function() {
             if (mutation.type === 'childList') {
                 mutation.addedNodes.forEach(function(node) {
                     if (node.nodeType === 1) { // Element node
-                        if (node.tagName === 'IMG' && node.hasAttribute('loading')) {
-                            node.removeAttribute('loading');
+                        if (node.tagName === 'IMG') {
+                            // Remove lazy loading
+                            if (node.hasAttribute('loading')) {
+                                node.removeAttribute('loading');
+                            }
+                            // Set eager loading and high fetch priority
                             node.setAttribute('loading', 'eager');
+                            node.setAttribute('fetchpriority', 'high');
+                            
+                            // Set dimensions to prevent layout shifts
+                            if (node.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                                node.setAttribute('width', '900');
+                                node.setAttribute('height', '500');
+                            } else if (!node.hasAttribute('width') || !node.hasAttribute('height')) {
+                                if (!node.hasAttribute('width')) {
+                                    node.setAttribute('width', '100%');
+                                }
+                                if (!node.hasAttribute('height')) {
+                                    node.setAttribute('height', 'auto');
+                                }
+                            }
                         }
                         // Check children too
-                        const images = node.querySelectorAll ? node.querySelectorAll('img[loading="lazy"]') : [];
+                        const images = node.querySelectorAll ? node.querySelectorAll('img') : [];
                         images.forEach(img => {
-                            img.removeAttribute('loading');
+                            if (img.hasAttribute('loading')) {
+                                img.removeAttribute('loading');
+                            }
                             img.setAttribute('loading', 'eager');
+                            img.setAttribute('fetchpriority', 'high');
+                            
+                            // Set dimensions for layout shift prevention
+                            if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                                img.setAttribute('width', '900');
+                                img.setAttribute('height', '500');
+                            } else if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
+                                if (!img.hasAttribute('width')) {
+                                    img.setAttribute('width', '100%');
+                                }
+                                if (!img.hasAttribute('height')) {
+                                    img.setAttribute('height', 'auto');
+                                }
+                            }
                         });
                     }
                 });
