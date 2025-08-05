@@ -7,6 +7,13 @@ description: "Expert consulting in cross-border payments, banking access, licens
 # SEO
 canonicalURL: "https://faisalkhanllc.xyz/"
 
+# Featured Image
+cover:
+    image: "images/We-Love-Solving-Complex-Problems.webp"
+    alt: "Cross-border payments and banking consulting services"
+    caption: "Global financial services consulting and compliance expertise"
+    relative: true
+
 # Page settings
 ShowToc: true
 TocOpen: false
@@ -20,6 +27,7 @@ type: "website"
 provider: "Faisal Khan LLC"
 ---
 
+![Cross-border payments and banking consulting services](/images/We-Love-Solving-Complex-Problems.webp)
 
 ## We Solve This and Problems Far More Complex
 

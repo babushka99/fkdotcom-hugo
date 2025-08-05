@@ -157,34 +157,6 @@ header.page-header {
 }
 
  
-.dark .toc,
-.dark .post-toc,
-.dark details.toc {
-    background-color: #2d2d2d !important;
-    border: 1px solid #404040 !important;
-    color: #ffffff !important;
-}
-
-.dark .toc summary,
-.dark .post-toc summary,
-.dark details.toc summary {
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-
-.dark .toc a,
-.dark .post-toc a,
-.dark details.toc a {
-    color: #cccccc !important;
-}
-
-.dark .toc a:hover,
-.dark .post-toc a:hover,
-.dark details.toc a:hover {
-    color: #ffffff !important;
-}
-
- 
 .burger-menu {
     display: none;
     flex-direction: column;
@@ -549,52 +521,53 @@ header a,
 
 
 <script>
-
 (function() {
     'use strict';
     
     
+    function updateLogo() {
+        var logo = document.querySelector('.header .logo img');
+        if (!logo) return;
+        
+        var isDark = document.body.classList.contains('dark');
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
+        
+        if (logo.src !== newSrc) {
+            logo.src = newSrc;
+        }
+    }
+    
+    
     function initializeBurgerMenu() {
-        const header = document.querySelector('header.header');
-        if (!header || header.querySelector('.burger-menu')) return; 
+        var header = document.querySelector('header.header');
+        if (!header || header.querySelector('.burger-menu')) return;
         
-        
-        const burgerMenu = document.createElement('div');
+        var burgerMenu = document.createElement('div');
         burgerMenu.className = 'burger-menu';
-        burgerMenu.innerHTML = `
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
-        `;
+        burgerMenu.innerHTML = '<div class="burger-line"></div><div class="burger-line"></div><div class="burger-line"></div>';
         
-        
-        const mobileOverlay = document.createElement('div');
+        var mobileOverlay = document.createElement('div');
         mobileOverlay.className = 'mobile-menu-overlay';
-        mobileOverlay.innerHTML = `
-            <div class="mobile-menu-content">
-                <a href="/" class="mobile-menu-item">Home</a>
-                <a href="/about/" class="mobile-menu-item">About</a>
-                <a href="/solutions/" class="mobile-menu-item">Solutions</a>
-                <a href="/resources/" class="mobile-menu-item">Resources</a>
-                <a href="/clients/" class="mobile-menu-item">Clients</a>
-                <a href="/pricing/" class="mobile-menu-item">Pricing</a>
-                <a href="/blog/" class="mobile-menu-item">Blog</a>
-                <a href="/contact/" class="mobile-menu-item">Contact</a>
-                <a href="/search/" class="mobile-menu-item">Search</a>
-            </div>
-        `;
-        
+        mobileOverlay.innerHTML = '<div class="mobile-menu-content">' +
+            '<a href="/" class="mobile-menu-item">Home</a>' +
+            '<a href="/about/" class="mobile-menu-item">About</a>' +
+            '<a href="/solutions/" class="mobile-menu-item">Solutions</a>' +
+            '<a href="/resources/" class="mobile-menu-item">Resources</a>' +
+            '<a href="/clients/" class="mobile-menu-item">Clients</a>' +
+            '<a href="/pricing/" class="mobile-menu-item">Pricing</a>' +
+            '<a href="/blog/" class="mobile-menu-item">Blog</a>' +
+            '<a href="/contact/" class="mobile-menu-item">Contact</a>' +
+            '<a href="/search/" class="mobile-menu-item">Search</a>' +
+            '</div>';
         
         header.appendChild(burgerMenu);
         document.body.appendChild(mobileOverlay);
-        
         
         burgerMenu.addEventListener('click', function() {
             burgerMenu.classList.toggle('open');
             mobileOverlay.classList.toggle('open');
             document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
         });
-        
         
         mobileOverlay.addEventListener('click', function(e) {
             if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
@@ -607,26 +580,22 @@ header a,
     
     
     function initializeSearch() {
-        const searchInput = document.getElementById('searchInput');
+        var searchInput = document.getElementById('searchInput');
         if (!searchInput) return;
         
-        
         if (window.location.pathname.includes('/search/')) {
-            const intro = document.createElement('div');
+            var intro = document.createElement('div');
             intro.className = 'search-page-intro';
-            intro.innerHTML = `
-                <p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>
-                <p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>
-            `;
+            intro.innerHTML = '<p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>' +
+                '<p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>';
             searchInput.parentNode.insertBefore(intro, searchInput);
-            setTimeout(() => searchInput.focus(), 50);
+            setTimeout(function() { searchInput.focus(); }, 50);
         }
-        
         
         searchInput.addEventListener('keydown', function(e) {
             if (e.key === 'Enter') {
                 e.preventDefault();
-                const firstResult = document.querySelector('#searchResults .search-result a');
+                var firstResult = document.querySelector('#searchResults .search-result a');
                 if (firstResult) firstResult.click();
             }
         });
@@ -634,8 +603,27 @@ header a,
     
     
     function initialize() {
+        updateLogo();
         initializeBurgerMenu();
         initializeSearch();
+        
+        
+        document.addEventListener('click', function(e) {
+            var themeToggle = document.getElementById('theme-toggle');
+            if (e.target === themeToggle || e.target.closest('#theme-toggle')) {
+                setTimeout(updateLogo, 100);
+            }
+        });
+        
+        
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    setTimeout(updateLogo, 50);
+                }
+            });
+        });
+        observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
     }
     
     

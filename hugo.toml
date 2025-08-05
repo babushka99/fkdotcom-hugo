@@ -141,6 +141,10 @@ enableRobotsTXT = true
   TocOpen = false
   ShowTags = false  # NEW: This hides tags from showing on pages
   
+  # COVER IMAGE SETTINGS - NEW: Enable cover images
+  ShowCoverImage = true
+  ShowFullTextinRSS = true
+  
   # SEARCH FUNCTIONALITY - NEW ADDITION
   ShowSearch = true
   SearchPlaceholder = "Search consulting services, licensing, compliance..."
