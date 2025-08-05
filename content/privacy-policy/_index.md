@@ -11,9 +11,9 @@ keywords:
 canonicalURL: https://faisalkhanllc.xyz/privacy-policy/
 images:
   - /images/privacy-policy.webp
-ShowToc: true
+ShowToc: false
 TocOpen: false
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: false
 ShowWordCount: false
