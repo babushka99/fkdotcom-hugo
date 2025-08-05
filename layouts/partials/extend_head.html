@@ -420,6 +420,17 @@ img[src*="We-Love-Solving-Complex-Problems.webp"] {
     aspect-ratio: 9/5 !important;
 }
 
+/* HEADER LOGO IMAGES - Fixed dimensions to prevent layout shifts */
+.header .logo img,
+header .logo img,
+.logo img {
+    width: 200px !important;
+    height: 50px !important;
+    object-fit: contain !important;
+    max-width: 200px !important;
+    max-height: 50px !important;
+}
+
 /* Also target any images in post content for general rounded corners and sizing */
 .post-content img,
 .page-content img,
@@ -543,8 +554,13 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Prevent layout shifts by setting explicit dimensions
             if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
+                // For header logo images, set specific dimensions
+                if (img.closest('.logo') || img.closest('header') || img.src.includes('Faisal_Khan_LLC')) {
+                    img.setAttribute('width', '200');
+                    img.setAttribute('height', '50');
+                }
                 // For the main featured image, set specific dimensions
-                if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                else if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
                     img.setAttribute('width', '900');
                     img.setAttribute('height', '500');
                 } else {
@@ -579,7 +595,11 @@ document.addEventListener('DOMContentLoaded', function() {
                             node.setAttribute('fetchpriority', 'high');
                             
                             // Set dimensions to prevent layout shifts
-                            if (node.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                            if (node.closest('.logo') || node.closest('header') || node.src.includes('Faisal_Khan_LLC')) {
+                                node.setAttribute('width', '200');
+                                node.setAttribute('height', '50');
+                            }
+                            else if (node.src.includes('We-Love-Solving-Complex-Problems.webp')) {
                                 node.setAttribute('width', '900');
                                 node.setAttribute('height', '500');
                             } else if (!node.hasAttribute('width') || !node.hasAttribute('height')) {
@@ -601,7 +621,11 @@ document.addEventListener('DOMContentLoaded', function() {
                             img.setAttribute('fetchpriority', 'high');
                             
                             // Set dimensions for layout shift prevention
-                            if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                            if (img.closest('.logo') || img.closest('header') || img.src.includes('Faisal_Khan_LLC')) {
+                                img.setAttribute('width', '200');
+                                img.setAttribute('height', '50');
+                            }
+                            else if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
                                 img.setAttribute('width', '900');
                                 img.setAttribute('height', '500');
                             } else if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
