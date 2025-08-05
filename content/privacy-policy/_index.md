@@ -172,7 +172,7 @@ If you are a resident of the European Union (EU) and European Economic Area (EEA
 
 We aim to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.
 
-If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please email us at cs\@faisalkhan.com.
+If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please email us at [cs@faisalkhan.com](mailto\:cs@faisalkhan.com).
 
 In certain circumstances, you have the following data protection rights:
 
@@ -196,7 +196,7 @@ According to CalOPPA we agree to the following:
 * 11.1. users can visit our site anonymously;
 * 11.2. our Privacy Policy link includes the word "Privacy", and can easily be found on the home page of our website;
 * 11.3. users will be notified of any privacy policy changes on our Privacy Policy Page;
-* 11.4. users are able to change their personal information by emailing us at cs\@faisalkhan.com.
+* 11.4. users are able to change their personal information by emailing us at [cs@faisalkhan.com](mailto\:cs@faisalkhan.com).
 
 ### Our Policy on "Do Not Track" Signals:
 
