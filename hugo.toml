@@ -145,6 +145,9 @@ enableRobotsTXT = true
   ShowCoverImage = true
   ShowFullTextinRSS = true
   
+  # IMAGE SETTINGS - DISABLE LAZY LOADING
+  DisableImageLazyLoading = true
+  
   # SEARCH FUNCTIONALITY - NEW ADDITION
   ShowSearch = true
   SearchPlaceholder = "Search consulting services, licensing, compliance..."
@@ -192,7 +195,7 @@ enableRobotsTXT = true
   minMatchCharLength = 0
   keys = ["title", "permalink", "summary", "content"]
 
-# Markup configuration for proper rendering
+# Markup configuration for proper rendering - DISABLE LAZY LOADING
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -201,6 +204,17 @@ enableRobotsTXT = true
     style = "github"
     lineNos = true
     codeFences = true
+  # DISABLE IMAGE LAZY LOADING
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+
+# Image processing - DISABLE LAZY LOADING
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 95
+  anchor = "smart"
 
 # Output formats (for RSS, search, etc.)
 [outputs]
