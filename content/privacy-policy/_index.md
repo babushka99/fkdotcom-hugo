@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: 2025-08-02T00:00:00.000Z
+date: {}
 draft: false
 description: How we collect, use, and protect your personal information
 keywords:
@@ -8,7 +8,7 @@ keywords:
   - policy
   - data protection
   - personal information
-canonicalURL: https://faisalkhan.com/privacy-policy/
+canonicalURL: https://faisalkhanllc.xyz/privacy-policy/
 images:
   - /images/privacy-policy.webp
 ShowToc: true
