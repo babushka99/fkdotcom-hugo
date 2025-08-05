@@ -30,6 +30,15 @@
     </style>
 </noscript><style>
  
+img[loading="lazy"] {
+    loading: eager !important;
+}
+
+img {
+    loading: eager !important;
+}
+
+ 
 :root {
     --theme: #ffffff;
     --bg: #ffffff;
@@ -532,6 +541,50 @@ article img {
     box-shadow: none !important;
 }
 </style>
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    function removeImageLazyLoading() {
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        images.forEach(img => {
+            img.removeAttribute('loading');
+            img.setAttribute('loading', 'eager');
+        });
+    }
+    
+    
+    removeImageLazyLoading();
+    
+    
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'childList') {
+                mutation.addedNodes.forEach(function(node) {
+                    if (node.nodeType === 1) { 
+                        if (node.tagName === 'IMG' && node.hasAttribute('loading')) {
+                            node.removeAttribute('loading');
+                            node.setAttribute('loading', 'eager');
+                        }
+                        
+                        const images = node.querySelectorAll ? node.querySelectorAll('img[loading="lazy"]') : [];
+                        images.forEach(img => {
+                            img.removeAttribute('loading');
+                            img.setAttribute('loading', 'eager');
+                        });
+                    }
+                });
+            }
+        });
+    });
+    
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+});
+</script>
 
 
 <script>

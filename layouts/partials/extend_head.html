@@ -1,4 +1,13 @@
 <style>
+/* FORCE DISABLE LAZY LOADING - Override theme settings */
+img[loading="lazy"] {
+    loading: eager !important;
+}
+
+img {
+    loading: eager !important;
+}
+
 /* Light mode - ensure white background */
 :root {
     --theme: #ffffff;
@@ -502,6 +511,50 @@ article img {
     box-shadow: none !important;
 }
 </style>
+
+<!-- JavaScript to force remove lazy loading attribute -->
+<script>
+// Force remove lazy loading on page load and dynamically
+document.addEventListener('DOMContentLoaded', function() {
+    function removeImageLazyLoading() {
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        images.forEach(img => {
+            img.removeAttribute('loading');
+            img.setAttribute('loading', 'eager');
+        });
+    }
+    
+    // Remove on initial load
+    removeImageLazyLoading();
+    
+    // Watch for any new images added dynamically
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'childList') {
+                mutation.addedNodes.forEach(function(node) {
+                    if (node.nodeType === 1) { // Element node
+                        if (node.tagName === 'IMG' && node.hasAttribute('loading')) {
+                            node.removeAttribute('loading');
+                            node.setAttribute('loading', 'eager');
+                        }
+                        // Check children too
+                        const images = node.querySelectorAll ? node.querySelectorAll('img[loading="lazy"]') : [];
+                        images.forEach(img => {
+                            img.removeAttribute('loading');
+                            img.setAttribute('loading', 'eager');
+                        });
+                    }
+                });
+            }
+        });
+    });
+    
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+});
+</script>
 
 <!-- PRODUCTION JAVASCRIPT - LOGO SWITCHER + BURGER MENU -->
 <script>
