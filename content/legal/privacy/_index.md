@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-date: 2025-08-02
+date: 08-02-2025
 draft: false
 description: "Privacy policy for Faisal Khan LLC website and services"
 keywords: ['privacy', 'policy', 'data', 'protection', 'faisal khan']
