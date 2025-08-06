@@ -451,6 +451,17 @@ img[src*="We-Love-Solving-Complex-Problems.webp"] {
 }
 
  
+.header .logo img,
+header .logo img,
+.logo img {
+    width: 200px !important;
+    height: 50px !important;
+    object-fit: contain !important;
+    max-width: 200px !important;
+    max-height: 50px !important;
+}
+
+ 
 .post-content img,
 .page-content img,
 article img {
@@ -574,7 +585,12 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
                 
-                if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                if (img.closest('.logo') || img.closest('header') || img.src.includes('Faisal_Khan_LLC')) {
+                    img.setAttribute('width', '200');
+                    img.setAttribute('height', '50');
+                }
+                
+                else if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
                     img.setAttribute('width', '900');
                     img.setAttribute('height', '500');
                 } else {
@@ -609,7 +625,11 @@ document.addEventListener('DOMContentLoaded', function() {
                             node.setAttribute('fetchpriority', 'high');
                             
                             
-                            if (node.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                            if (node.closest('.logo') || node.closest('header') || node.src.includes('Faisal_Khan_LLC')) {
+                                node.setAttribute('width', '200');
+                                node.setAttribute('height', '50');
+                            }
+                            else if (node.src.includes('We-Love-Solving-Complex-Problems.webp')) {
                                 node.setAttribute('width', '900');
                                 node.setAttribute('height', '500');
                             } else if (!node.hasAttribute('width') || !node.hasAttribute('height')) {
@@ -631,7 +651,11 @@ document.addEventListener('DOMContentLoaded', function() {
                             img.setAttribute('fetchpriority', 'high');
                             
                             
-                            if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                            if (img.closest('.logo') || img.closest('header') || img.src.includes('Faisal_Khan_LLC')) {
+                                img.setAttribute('width', '200');
+                                img.setAttribute('height', '50');
+                            }
+                            else if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
                                 img.setAttribute('width', '900');
                                 img.setAttribute('height', '500');
                             } else if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
