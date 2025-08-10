@@ -1,6 +1,8 @@
 ---
 title: Privacy Policy
-date: {}
+date: 2025-08-06
+draft: false
+description: How 
 draft: false
 description: How we collect, use, and protect your personal information
 keywords:

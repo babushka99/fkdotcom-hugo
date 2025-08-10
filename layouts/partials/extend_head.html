@@ -91,6 +91,28 @@ body:not(.dark) article {
     display: none !important;
 }
 
+/* HIDE AUTOMATIC PAGE TITLES - NEW ADDITION */
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title,
+.post-header h1,
+.page-header h1,
+article.post-single .post-header h1,
+.post-single .post-title {
+    display: none !important;
+}
+
+/* HIDE PAGE DESCRIPTIONS/SUBTITLES TOO */
+.post-description,
+.page-description,
+.post-meta,
+.page-meta,
+.post-header .meta,
+.page-header .meta {
+    display: none !important;
+}
+
 /* FIXED HEADER STYLING - SIMPLIFIED (NO AUTO-HIDE) */
 header.header {
     position: fixed !important;
