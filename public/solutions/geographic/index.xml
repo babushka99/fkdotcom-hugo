@@ -102,15 +102,15 @@
       <description>Expert Bolivia solutions from Faisal Khan LLC</description>
       <content:encoded><![CDATA[<h1 id="bolivia---addressing-the-us-dollar-shortage-in-bolivia">Bolivia - Addressing the US Dollar Shortage in Bolivia</h1>
 <h2 id="usdusdt-cross-border-payment-enablement">USD/USDT Cross-Border Payment Enablement</h2>
-<h1 id="overview"><strong>Overview</strong></h1>
+<h1 id="overview">Overview</h1>
 <p>Amidst Bolivia&rsquo;s severe dollar shortage, restrictive capital controls, and increasing reliance on informal financial channels, there is a pressing need for legitimate, efficient, and compliant pathways to move money across borders. Entrepreneurs, exporters, and importers alike are seeking mechanisms to bypass the limitations of the local banking system and access U.S. dollars for trade, payments, and capital preservation. This project responds directly to that need by offering a dual-structure payments and compliance framework that enables cross-border settlements via both traditional fiat and crypto rails (specifically USDT).</p>
 <p>By combining regulated U.S.-based entities with offshore operational flexibility—backed by expert guidance and access to licensed providers—this solution creates an end-to-end model that is adaptable, fast to implement, and aligned with international financial compliance requirements. Whether the goal is to facilitate named account payments to U.S. vendors, or route payments to non-U.S. destinations such as China, Europe, or Latin America, this platform is built to scale with transparency, legality, and operational efficiency at its core.</p>
-<h1 id="solution-architecture"><strong>Solution Architecture:</strong></h1>
+<h1 id="solution-architecture">Solution Architecture:</h1>
 <p>This cross-border payment solution is structured around a dual-entity framework that enables legally compliant, operationally flexible payments from Bolivia to both U.S. and non-U.S. destinations, using either fiat or stablecoin rails. The structure is designed for B2B and high-value cross-border type payments.</p>
 <h2 id="flow-of-funds">Flow of Funds</h2>
 <p><img alt="Bolivia_Flow_of_Funds" loading="lazy" src="/images/Bolivia_Flow_of_Funds.png"></p>
-<h2 id="dual-entity-model"><strong>Dual-Entity Model</strong></h2>
-<h3 id="us-entity-regulated-pathway-for-us-bound-transactions"><strong>U.S. Entity (Regulated Pathway for U.S.-Bound Transactions)</strong></h3>
+<h2 id="dual-entity-model">Dual-Entity Model</h2>
+<h3 id="us-entity-regulated-pathway-for-us-bound-transactions">U.S. Entity (Regulated Pathway for U.S.-Bound Transactions)</h3>
 <ul>
 <li><strong>Legal Basis</strong>: Operates under a Money Services Business (MSB) registration and is covered by a licensed Money Transmitter (MTL) through an agent sponsorship model.</li>
 <li>Functionality:
@@ -127,7 +127,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="non-us-entity-flexible-international-settlement-path"><strong>Non-U.S. Entity (Flexible International Settlement Path)</strong></h3>
+<h3 id="non-us-entity-flexible-international-settlement-path">Non-U.S. Entity (Flexible International Settlement Path)</h3>
 <ul>
 <li><strong>Location</strong>: Jurisdictions include Canada (preferred), Malta, Turkey, Panama, or UAE</li>
 <li>Functionality:
@@ -145,8 +145,8 @@
 </ul>
 </li>
 </ul>
-<h2 id="fund-flow-variants"><strong>Fund Flow Variants</strong></h2>
-<h3 id="usd-offshore-flow-indirect-fiat-path"><strong>USD-Offshore Flow (Indirect Fiat Path)</strong></h3>
+<h2 id="fund-flow-variants">Fund Flow Variants</h2>
+<h3 id="usd-offshore-flow-indirect-fiat-path">USD-Offshore Flow (Indirect Fiat Path)</h3>
 <ol>
 <li>Importer in Bolivia pays a local exporter in BOB.</li>
 <li>Exporter transfers equivalent USD from offshore account (e.g., in Switzerland).</li>
@@ -154,7 +154,7 @@
 <li>Sponsor entity disburses funds to U.S. beneficiary (e.g., vendor, service provider).</li>
 </ol>
 <p><strong>Use Case</strong>: Ideal for transactions where importer wants to pay a U.S. entity without going through Bolivia’s central bank.</p>
-<h3 id="stablecoin-flow-usdt-path"><strong>Stablecoin Flow (USDT Path)</strong></h3>
+<h3 id="stablecoin-flow-usdt-path">Stablecoin Flow (USDT Path)</h3>
 <ol>
 <li>Importer purchases USDT locally via Binance P2P or OTC desk or local preferred crypto exchange.</li>
 <li>USDT is sent to solution provider’s wallet (U.S. or offshore).</li>
@@ -162,14 +162,14 @@
 <li>Fiat is delivered to the end vendor or credited to an IBAN or bank account.</li>
 </ol>
 <p><strong>Use Case</strong>: High speed, less dependency on correspondent banks, ideal for countries with currency controls.</p>
-<h3 id="non-us-routing-path-cross-border-b2b"><strong>Non-U.S. Routing Path (Cross-Border B2B)</strong></h3>
+<h3 id="non-us-routing-path-cross-border-b2b">Non-U.S. Routing Path (Cross-Border B2B)</h3>
 <ol>
 <li>BOB is converted into crypto or routed through informal channels.</li>
 <li>Non-U.S. entity receives USD/USDT and disburses payment to Europe, China, or LATAM.</li>
 <li>Payment is made from Canadian, Maltese, or Turkish PSP account depending on geography.</li>
 </ol>
 <p><strong>Use Case</strong>: Used for payments from Bolivia to Brazil, Argentina, Colombia, Peru, Chile, etc. where U.S. regulation is unnecessary or undesirable.</p>
-<h2 id="compliance-layer"><strong>Compliance Layer</strong></h2>
+<h2 id="compliance-layer">Compliance Layer</h2>
 <ul>
 <li>U.S. Entity:
 <ul>
@@ -187,20 +187,20 @@
 </ul>
 </li>
 </ul>
-<h2 id="technical-infrastructure-options"><strong>Technical Infrastructure Options</strong></h2>
+<h2 id="technical-infrastructure-options">Technical Infrastructure Options</h2>
 <ul>
 <li><strong>Custody</strong>: Hosted wallet providers, cold storage, or hybrid models (e.g., Fireblocks)</li>
 <li><strong>KYC Integration</strong>: Document upload + sanctions screening</li>
 <li><strong>Transaction Monitoring</strong>: Real-time rules engine for velocity, fraud, and sanctions triggers</li>
 <li><strong>Accounting</strong>: Sub-account ledgering for reconciliation of inbound/outbound flows</li>
 </ul>
-<h2 id="scalability-notes"><strong>Scalability Notes</strong></h2>
+<h2 id="scalability-notes">Scalability Notes</h2>
 <ul>
 <li>Suitable for MVP starting at $500K/month</li>
 <li>Scales cleanly to $10M+/month with better pricing, vendor trust, and liquidity access</li>
 <li>Modular expansion: additional corridors can be layered with provider consent</li>
 </ul>
-<h1 id="client-advisory-fee-faisal-khan-llc"><strong>Client Advisory Fee (Faisal Khan LLC)</strong></h1>
+<h1 id="client-advisory-fee-faisal-khan-llc">Client Advisory Fee (Faisal Khan LLC)</h1>
 <p>To assemble either the U.S. program, the non-U.S. program, or both, our consulting fee is <strong>US$ 15,000</strong>, covering:</p>
 <ul>
 <li>Flow structuring and entity mapping</li>
@@ -223,7 +223,7 @@
 <p>Estimated at <strong>95%</strong> based on experience and vetted partner access.</p>
 <p><strong>Money-Back Guarantee:</strong></p>
 <p>If no solution provider is secured within <strong>120 days</strong>, your <strong>entire advance will be refunded</strong>, no deductions.</p>
-<h1 id="solution-provider-pricing-estimated-commercials"><strong>Solution Provider Pricing (Estimated Commercials)</strong></h1>
+<h1 id="solution-provider-pricing-estimated-commercials">Solution Provider Pricing (Estimated Commercials)</h1>
 <blockquote>
 <p>The following are estimates only. Final pricing and obligations are outlined in the solution provider’s commercial term sheet.</p></blockquote>
 <ul>
