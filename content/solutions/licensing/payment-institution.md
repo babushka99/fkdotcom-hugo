@@ -5,6 +5,12 @@ draft: false
 description: "Expert payment institution (pi) solutions from Faisal Khan LLC"
 keywords: ["payment institution (pi)", "licensing", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/licensing/payment-institution.webp"
+    alt: "Payment Institution (PI) - Expert solutions from Faisal Khan LLC"
+    caption: "Payment Institution (PI) Expert Solutions"
+
 # Taxonomies
 categories: ["licensing"]
 tags: ["payment-institution", "licensing", "financial-services"]

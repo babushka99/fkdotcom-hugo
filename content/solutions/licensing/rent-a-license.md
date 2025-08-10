@@ -5,6 +5,12 @@ draft: false
 description: "Expert rent-a-license solutions from Faisal Khan LLC"
 keywords: ["rent-a-license", "licensing", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/licensing/rent-a-license.webp"
+    alt: "Rent-a-License - Expert solutions from Faisal Khan LLC"
+    caption: "Rent-a-License Expert Solutions"
+
 # Taxonomies
 categories: ["licensing"]
 tags: ["rent-a-license", "licensing", "financial-services"]

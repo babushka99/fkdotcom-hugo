@@ -5,6 +5,12 @@ draft: false
 description: "Expert payment facilitator (payfac) solutions from Faisal Khan LLC"
 keywords: ["payment facilitator (payfac)", "payments", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/payments/payment-facilitator.webp"
+    alt: "Payment Facilitator (PayFac) - Expert solutions from Faisal Khan LLC"
+    caption: "Payment Facilitator (PayFac) Expert Solutions"
+
 # Taxonomies
 categories: ["payments"]
 tags: ["payment-facilitator", "payments", "financial-services"]

@@ -5,6 +5,12 @@ draft: false
 description: "Expert agent of payee exemption solutions from Faisal Khan LLC"
 keywords: ["agent of payee exemption", "licensing", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/licensing/agent-of-payee-exemption.webp"
+    alt: "Agent of Payee Exemption - Expert solutions from Faisal Khan LLC"
+    caption: "Agent of Payee Exemption Expert Solutions"
+
 # Taxonomies
 categories: ["licensing"]
 tags: ["agent-of-payee-exemption", "licensing", "financial-services"]

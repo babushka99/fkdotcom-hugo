@@ -5,6 +5,12 @@ draft: false
 description: "Expert payment processors & aggregators solutions from Faisal Khan LLC"
 keywords: ["payment processors & aggregators", "providers", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/providers/payment-processors-aggregators.webp"
+    alt: "Payment Processors & Aggregators - Expert solutions from Faisal Khan LLC"
+    caption: "Payment Processors & Aggregators Expert Solutions"
+
 # Taxonomies
 categories: ["providers"]
 tags: ["payment-processors-aggregators", "providers", "financial-services"]

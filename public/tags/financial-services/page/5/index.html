@@ -122,6 +122,28 @@ body:not(.dark) article {
 }
 
  
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title,
+.post-header h1,
+.page-header h1,
+article.post-single .post-header h1,
+.post-single .post-title {
+    display: none !important;
+}
+
+ 
+.post-description,
+.page-description,
+.post-meta,
+.page-meta,
+.post-header .meta,
+.page-header .meta {
+    display: none !important;
+}
+
+ 
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -691,7 +713,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!logo) return;
         
         var isDark = document.body.classList.contains('dark');
-        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.webp' : '/images/Faisal_Khan_LLC_light.webp';
         
         if (logo.src !== newSrc) {
             logo.src = newSrc;
@@ -900,6 +922,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/crypto/defi-license.webp" alt="DeFi License - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">DeFi License
     </h2>
@@ -915,6 +940,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/wallets/e-money-wallet.webp" alt="E-Money Wallet - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">E-Money Wallet
     </h2>
@@ -930,6 +958,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/licensing/electronic-money-institution.webp" alt="Electronic Money Institution (EMI) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Electronic Money Institution (EMI)
     </h2>
@@ -945,6 +976,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/fintech/embedded-finance.webp" alt="Embedded Finance - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Embedded Finance
     </h2>
@@ -960,6 +994,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/compliance/enhanced-due-diligence.webp" alt="Enhanced Due Diligence (EDD) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Enhanced Due Diligence (EDD)
     </h2>
@@ -975,6 +1012,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/geographic/estonia.webp" alt="Estonia - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Estonia
     </h2>
@@ -990,6 +1030,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/geographic/europeeea.webp" alt="Europe/EEA - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Europe/EEA
     </h2>
@@ -1005,6 +1048,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/payments/farm-worker-payment.webp" alt="Farm Worker Payment - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Farm Worker Payment
     </h2>
@@ -1020,6 +1066,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/industry-specific/farm-worker-payments.webp" alt="Farm Worker Payments - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Farm Worker Payments
     </h2>
@@ -1035,6 +1084,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/geographic/fatf-grey-list-countries.webp" alt="FATF Grey List Countries - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">FATF Grey List Countries
     </h2>

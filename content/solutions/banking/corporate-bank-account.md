@@ -5,6 +5,12 @@ draft: false
 description: "Expert corporate bank account solutions from Faisal Khan LLC"
 keywords: ["corporate bank account", "banking", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/banking/corporate-bank-account.webp"
+    alt: "Corporate Bank Account - Expert solutions from Faisal Khan LLC"
+    caption: "Corporate Bank Account Expert Solutions"
+
 # Taxonomies
 categories: ["banking"]
 tags: ["corporate-bank-account", "banking", "financial-services"]

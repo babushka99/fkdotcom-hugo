@@ -5,6 +5,12 @@ draft: false
 description: "Expert gulf cooperation council (gcc) solutions from Faisal Khan LLC"
 keywords: ["gulf cooperation council (gcc)", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/gulf-cooperation-council.webp"
+    alt: "Gulf Cooperation Council (GCC) - Expert solutions from Faisal Khan LLC"
+    caption: "Gulf Cooperation Council (GCC) Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["gulf-cooperation-council", "geographic", "financial-services"]

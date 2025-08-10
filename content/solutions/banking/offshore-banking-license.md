@@ -5,6 +5,12 @@ draft: false
 description: "Expert offshore banking license solutions from Faisal Khan LLC"
 keywords: ["offshore banking license", "banking", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/banking/offshore-banking-license.webp"
+    alt: "Offshore Banking License - Expert solutions from Faisal Khan LLC"
+    caption: "Offshore Banking License Expert Solutions"
+
 # Taxonomies
 categories: ["banking"]
 tags: ["offshore-banking-license", "banking", "financial-services"]

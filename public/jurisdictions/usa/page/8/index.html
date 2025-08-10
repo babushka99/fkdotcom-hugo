@@ -122,6 +122,28 @@ body:not(.dark) article {
 }
 
  
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title,
+.post-header h1,
+.page-header h1,
+article.post-single .post-header h1,
+.post-single .post-title {
+    display: none !important;
+}
+
+ 
+.post-description,
+.page-description,
+.post-meta,
+.page-meta,
+.post-header .meta,
+.page-header .meta {
+    display: none !important;
+}
+
+ 
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -691,7 +713,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!logo) return;
         
         var isDark = document.body.classList.contains('dark');
-        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.webp' : '/images/Faisal_Khan_LLC_light.webp';
         
         if (logo.src !== newSrc) {
             logo.src = newSrc;
@@ -900,6 +922,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/high-risk/licensed-gaming.webp" alt="Licensed Gaming - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Licensed Gaming
     </h2>
@@ -915,6 +940,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/consulting/licensing-application-strategy-consulting.webp" alt="Licensing Application Strategy Consulting - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Licensing Application Strategy Consulting
     </h2>
@@ -930,6 +958,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/geographic/lithuania.webp" alt="Lithuania - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Lithuania
     </h2>
@@ -945,6 +976,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/industry-specific/local-wallet-funding.webp" alt="Local Wallet Funding - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Local Wallet Funding
     </h2>
@@ -960,6 +994,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/wallets/local-wallet-funding.webp" alt="Local Wallet Funding - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Local Wallet Funding
     </h2>
@@ -975,6 +1012,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/industry-specific/major-telco-payment.webp" alt="Major Telco Payment - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Major Telco Payment
     </h2>
@@ -990,6 +1030,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/payments/major-telco-payments.webp" alt="Major Telco Payments - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Major Telco Payments
     </h2>
@@ -1005,6 +1048,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/industry-specific/marketplace.webp" alt="Marketplace - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Marketplace
     </h2>
@@ -1020,6 +1066,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/licensing/marketplace-licensing.webp" alt="Marketplace Licensing - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Marketplace Licensing
     </h2>
@@ -1035,6 +1084,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/cards/merchant-accounts.webp" alt="Merchant Accounts - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Merchant Accounts
     </h2>

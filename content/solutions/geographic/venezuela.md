@@ -5,6 +5,12 @@ draft: false
 description: "Expert venezuela solutions from Faisal Khan LLC"
 keywords: ["venezuela", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/venezuela.webp"
+    alt: "Venezuela - Expert solutions from Faisal Khan LLC"
+    caption: "Venezuela Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["venezuela", "geographic", "financial-services"]

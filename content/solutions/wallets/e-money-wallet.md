@@ -5,6 +5,12 @@ draft: false
 description: "Expert e-money wallet solutions from Faisal Khan LLC"
 keywords: ["e-money wallet", "wallets", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/wallets/e-money-wallet.webp"
+    alt: "E-Money Wallet - Expert solutions from Faisal Khan LLC"
+    caption: "E-Money Wallet Expert Solutions"
+
 # Taxonomies
 categories: ["wallets"]
 tags: ["e-money-wallet", "wallets", "financial-services"]

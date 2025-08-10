@@ -5,6 +5,12 @@ draft: false
 description: "Expert local wallet funding solutions from Faisal Khan LLC"
 keywords: ["local wallet funding", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/local-wallet-funding.webp"
+    alt: "Local Wallet Funding - Expert solutions from Faisal Khan LLC"
+    caption: "Local Wallet Funding Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["local-wallet-funding", "industry-specific", "financial-services"]

@@ -5,6 +5,12 @@ draft: false
 description: "Expert msb-friendly bank accounts solutions from Faisal Khan LLC"
 keywords: ["msb-friendly bank accounts", "banking", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/banking/msb-friendly-bank-accounts.webp"
+    alt: "MSB-Friendly Bank Accounts - Expert solutions from Faisal Khan LLC"
+    caption: "MSB-Friendly Bank Accounts Expert Solutions"
+
 # Taxonomies
 categories: ["banking"]
 tags: ["msb-friendly-bank-accounts", "banking", "financial-services"]

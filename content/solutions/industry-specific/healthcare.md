@@ -5,6 +5,12 @@ draft: false
 description: "Expert healthcare solutions from Faisal Khan LLC"
 keywords: ["healthcare", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/healthcare.webp"
+    alt: "Healthcare - Expert solutions from Faisal Khan LLC"
+    caption: "Healthcare Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["healthcare", "industry-specific", "financial-services"]

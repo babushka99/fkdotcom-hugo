@@ -122,6 +122,28 @@ body:not(.dark) article {
 }
 
  
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title,
+.post-header h1,
+.page-header h1,
+article.post-single .post-header h1,
+.post-single .post-title {
+    display: none !important;
+}
+
+ 
+.post-description,
+.page-description,
+.post-meta,
+.page-meta,
+.post-header .meta,
+.page-header .meta {
+    display: none !important;
+}
+
+ 
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -691,7 +713,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!logo) return;
         
         var isDark = document.body.classList.contains('dark');
-        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.webp' : '/images/Faisal_Khan_LLC_light.webp';
         
         if (logo.src !== newSrc) {
             logo.src = newSrc;
@@ -900,6 +922,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/licensing/bank-sponsorship.webp" alt="Bank Sponsorship - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Bank Sponsorship
     </h2>
@@ -915,6 +940,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/banking/banking-as-a-service.webp" alt="Banking-as-a-Service (BaaS) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Banking-as-a-Service (BaaS)
     </h2>
@@ -930,6 +958,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/fintech/build-your-own-bank.webp" alt="Build Your Own Bank (BYOB) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Build Your Own Bank (BYOB)
     </h2>
@@ -945,6 +976,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/crypto/central-bank-digital-currencies.webp" alt="Central Bank Digital Currencies (CBDCs) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Central Bank Digital Currencies (CBDCs)
     </h2>
@@ -960,6 +994,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/banking/corporate-bank-account.webp" alt="Corporate Bank Account - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Corporate Bank Account
     </h2>
@@ -975,6 +1012,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/banking/correspondent-banking-relationship.webp" alt="Correspondent Banking Relationship (CBR) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Correspondent Banking Relationship (CBR)
     </h2>
@@ -990,6 +1030,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/banking/crypto-bank-accounts.webp" alt="Crypto Bank Accounts - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Crypto Bank Accounts
     </h2>
@@ -1005,6 +1048,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/banking/high-risk-banking.webp" alt="High-Risk Banking - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">High-Risk Banking
     </h2>
@@ -1020,6 +1066,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/banking/individual-bank-account.webp" alt="Individual Bank Account - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Individual Bank Account
     </h2>
@@ -1035,6 +1084,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/banking/msb-friendly-bank-accounts.webp" alt="MSB-Friendly Bank Accounts - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">MSB-Friendly Bank Accounts
     </h2>

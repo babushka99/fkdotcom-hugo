@@ -5,6 +5,12 @@ draft: false
 description: "Expert marketplace licensing solutions from Faisal Khan LLC"
 keywords: ["marketplace licensing", "licensing", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/licensing/marketplace-licensing.webp"
+    alt: "Marketplace Licensing - Expert solutions from Faisal Khan LLC"
+    caption: "Marketplace Licensing Expert Solutions"
+
 # Taxonomies
 categories: ["licensing"]
 tags: ["marketplace-licensing", "licensing", "financial-services"]

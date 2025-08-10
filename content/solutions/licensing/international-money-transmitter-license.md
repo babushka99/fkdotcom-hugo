@@ -5,6 +5,12 @@ draft: false
 description: "Expert international money transmitter license solutions from Faisal Khan LLC"
 keywords: ["international money transmitter license", "licensing", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/licensing/international-money-transmitter-license.webp"
+    alt: "International Money Transmitter License - Expert solutions from Faisal Khan LLC"
+    caption: "International Money Transmitter License Expert Solutions"
+
 # Taxonomies
 categories: ["licensing"]
 tags: ["international-money-transmitter-license", "licensing", "financial-services"]

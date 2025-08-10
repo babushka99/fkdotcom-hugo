@@ -5,6 +5,12 @@ draft: false
 description: "Expert car auction payment solutions from Faisal Khan LLC"
 keywords: ["car auction payment", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/car-auction-payment.webp"
+    alt: "Car Auction Payment - Expert solutions from Faisal Khan LLC"
+    caption: "Car Auction Payment Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["car-auction-payment", "industry-specific", "financial-services"]

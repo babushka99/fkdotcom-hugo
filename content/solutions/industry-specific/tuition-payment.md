@@ -5,6 +5,12 @@ draft: false
 description: "Expert tuition payment solutions from Faisal Khan LLC"
 keywords: ["tuition payment", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/tuition-payment.webp"
+    alt: "Tuition Payment - Expert solutions from Faisal Khan LLC"
+    caption: "Tuition Payment Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["tuition-payment", "industry-specific", "financial-services"]

@@ -5,6 +5,12 @@ draft: false
 description: "Expert crypto licensing solutions from Faisal Khan LLC"
 keywords: ["crypto licensing", "crypto", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/crypto/crypto-licensing.webp"
+    alt: "Crypto Licensing - Expert solutions from Faisal Khan LLC"
+    caption: "Crypto Licensing Expert Solutions"
+
 # Taxonomies
 categories: ["crypto"]
 tags: ["crypto-licensing", "crypto", "financial-services"]

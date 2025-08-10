@@ -5,6 +5,12 @@ draft: false
 description: "Expert seafarer payments solutions from Faisal Khan LLC"
 keywords: ["seafarer payments", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/seafarer-payments.webp"
+    alt: "Seafarer Payments - Expert solutions from Faisal Khan LLC"
+    caption: "Seafarer Payments Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["seafarer-payments", "industry-specific", "financial-services"]

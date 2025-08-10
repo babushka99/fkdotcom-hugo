@@ -5,6 +5,12 @@ draft: false
 description: "Expert politically exposed person (pep) solutions from Faisal Khan LLC"
 keywords: ["politically exposed person (pep)", "compliance", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/compliance/politically-exposed-person.webp"
+    alt: "Politically Exposed Person (PEP) - Expert solutions from Faisal Khan LLC"
+    caption: "Politically Exposed Person (PEP) Expert Solutions"
+
 # Taxonomies
 categories: ["compliance"]
 tags: ["politically-exposed-person", "compliance", "financial-services"]

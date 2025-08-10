@@ -5,6 +5,12 @@ draft: false
 description: "Expert risk assessment solutions from Faisal Khan LLC"
 keywords: ["risk assessment", "compliance", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/compliance/risk-assessment.webp"
+    alt: "Risk Assessment - Expert solutions from Faisal Khan LLC"
+    caption: "Risk Assessment Expert Solutions"
+
 # Taxonomies
 categories: ["compliance"]
 tags: ["risk-assessment", "compliance", "financial-services"]

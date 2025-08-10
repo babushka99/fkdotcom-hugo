@@ -5,6 +5,12 @@ draft: false
 description: "Expert acquiring solutions from Faisal Khan LLC"
 keywords: ["acquiring", "cards", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/cards/acquiring.webp"
+    alt: "Acquiring - Expert solutions from Faisal Khan LLC"
+    caption: "Acquiring Expert Solutions"
+
 # Taxonomies
 categories: ["cards"]
 tags: ["acquiring", "cards", "financial-services"]

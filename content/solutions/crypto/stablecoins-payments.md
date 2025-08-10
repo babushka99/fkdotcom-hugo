@@ -5,6 +5,12 @@ draft: false
 description: "Expert stablecoins payments solutions from Faisal Khan LLC"
 keywords: ["stablecoins payments", "crypto", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/crypto/stablecoins-payments.webp"
+    alt: "Stablecoins Payments - Expert solutions from Faisal Khan LLC"
+    caption: "Stablecoins Payments Expert Solutions"
+
 # Taxonomies
 categories: ["crypto"]
 tags: ["stablecoins-payments", "crypto", "financial-services"]

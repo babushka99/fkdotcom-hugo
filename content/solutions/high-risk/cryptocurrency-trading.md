@@ -5,6 +5,12 @@ draft: false
 description: "Expert cryptocurrency trading solutions from Faisal Khan LLC"
 keywords: ["cryptocurrency trading", "high-risk", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/high-risk/cryptocurrency-trading.webp"
+    alt: "Cryptocurrency Trading - Expert solutions from Faisal Khan LLC"
+    caption: "Cryptocurrency Trading Expert Solutions"
+
 # Taxonomies
 categories: ["high-risk"]
 tags: ["cryptocurrency-trading", "high-risk", "financial-services"]

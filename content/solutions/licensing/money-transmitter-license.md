@@ -5,6 +5,12 @@ draft: false
 description: "Expert money transmitter license (mtl) solutions from Faisal Khan LLC"
 keywords: ["money transmitter license (mtl)", "licensing", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/licensing/money-transmitter-license.webp"
+    alt: "Money Transmitter License (MTL) - Expert solutions from Faisal Khan LLC"
+    caption: "Money Transmitter License (MTL) Expert Solutions"
+
 # Taxonomies
 categories: ["licensing"]
 tags: ["money-transmitter-license", "licensing", "financial-services"]

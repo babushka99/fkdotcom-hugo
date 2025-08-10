@@ -5,6 +5,12 @@ draft: false
 description: "Expert us dollar accounts solutions from Faisal Khan LLC"
 keywords: ["us dollar accounts", "banking", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/banking/us-dollar-accounts.webp"
+    alt: "US Dollar Accounts - Expert solutions from Faisal Khan LLC"
+    caption: "US Dollar Accounts Expert Solutions"
+
 # Taxonomies
 categories: ["banking"]
 tags: ["us-dollar-accounts", "banking", "financial-services"]

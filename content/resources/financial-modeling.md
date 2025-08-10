@@ -5,6 +5,12 @@ draft: false
 description: "Expert financial modeling resources from Faisal Khan LLC"
 keywords: ["financial modeling", "resources", "education", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/resources/financial-modeling.webp"
+    alt: "Financial Modeling - Expert solutions from Faisal Khan LLC"
+    caption: "Financial Modeling Expert Solutions"
+
 # Taxonomies
 categories: ["resources"]
 tags: ["financial-modeling", "resources", "education"]

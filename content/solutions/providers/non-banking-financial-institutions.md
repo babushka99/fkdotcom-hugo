@@ -5,6 +5,12 @@ draft: false
 description: "Expert non-banking financial institutions solutions from Faisal Khan LLC"
 keywords: ["non-banking financial institutions", "providers", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/providers/non-banking-financial-institutions.webp"
+    alt: "Non-Banking Financial Institutions - Expert solutions from Faisal Khan LLC"
+    caption: "Non-Banking Financial Institutions Expert Solutions"
+
 # Taxonomies
 categories: ["providers"]
 tags: ["non-banking-financial-institutions", "providers", "financial-services"]

@@ -5,6 +5,12 @@ draft: false
 description: "Expert farm worker payment solutions from Faisal Khan LLC"
 keywords: ["farm worker payment", "payments", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/payments/farm-worker-payment.webp"
+    alt: "Farm Worker Payment - Expert solutions from Faisal Khan LLC"
+    caption: "Farm Worker Payment Expert Solutions"
+
 # Taxonomies
 categories: ["payments"]
 tags: ["farm-worker-payment", "payments", "financial-services"]

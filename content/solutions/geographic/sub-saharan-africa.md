@@ -5,6 +5,12 @@ draft: false
 description: "Expert sub-saharan africa solutions from Faisal Khan LLC"
 keywords: ["sub-saharan africa", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/sub-saharan-africa.webp"
+    alt: "Sub-Saharan Africa - Expert solutions from Faisal Khan LLC"
+    caption: "Sub-Saharan Africa Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["sub-saharan-africa", "geographic", "financial-services"]

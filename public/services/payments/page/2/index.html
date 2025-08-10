@@ -122,6 +122,28 @@ body:not(.dark) article {
 }
 
  
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title,
+.post-header h1,
+.page-header h1,
+article.post-single .post-header h1,
+.post-single .post-title {
+    display: none !important;
+}
+
+ 
+.post-description,
+.page-description,
+.post-meta,
+.page-meta,
+.post-header .meta,
+.page-header .meta {
+    display: none !important;
+}
+
+ 
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -691,7 +713,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!logo) return;
         
         var isDark = document.body.classList.contains('dark');
-        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.webp' : '/images/Faisal_Khan_LLC_light.webp';
         
         if (logo.src !== newSrc) {
             logo.src = newSrc;
@@ -900,6 +922,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/cards/bin-sponsorship.webp" alt="BIN Sponsorship - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">BIN Sponsorship
     </h2>
@@ -915,6 +940,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/high-risk/bitcoin-atm-business.webp" alt="Bitcoin ATM Business - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Bitcoin ATM Business
     </h2>
@@ -930,6 +958,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/crypto/bitcoin-money-transmitter-license.webp" alt="Bitcoin Money Transmitter License - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Bitcoin Money Transmitter License
     </h2>
@@ -945,21 +976,25 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/bolivia.webp" alt="Bolivia US Dollar Shortage">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Bolivia
     </h2>
   </header>
   <div class="entry-content">
-    <p>Overview [Brief overview of Bolivia and how Faisal Khan LLC can help]
-Key Features Feature 1 Feature 2 Feature 3 Feature 4 Who This Is For This solution is ideal for:
-Business type 1 Business type 2 Business type 3 Process Initial Consultation - We assess your specific needs Strategy Development - Custom approach for your situation Implementation - Execute the solution with our partners Ongoing Support - Continued guidance and support Why Choose Faisal Khan LLC 15&#43; years of experience in regulated financial services Global network of trusted partners and providers Deep expertise in cross-border payments and licensing Track record of successful implementations Getting Started Ready to explore Bolivia options? Contact Faisal Khan LLC for expert consultation and implementation support.
+    <p>Bolivia - Addressing the US Dollar Shortage in Bolivia USD/USDT Cross-Border Payment Enablement Overview Amidst Bolivia’s severe dollar shortage, restrictive capital controls, and increasing reliance on informal financial channels, there is a pressing need for legitimate, efficient, and compliant pathways to move money across borders. Entrepreneurs, exporters, and importers alike are seeking mechanisms to bypass the limitations of the local banking system and access U.S. dollars for trade, payments, and capital preservation. This project responds directly to that need by offering a dual-structure payments and compliance framework that enables cross-border settlements via both traditional fiat and crypto rails (specifically USDT).
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Faisal Khan</footer>
+  <footer class="entry-footer"><span title='2025-08-02 00:00:00 +0000 UTC'>August 2, 2025</span>&nbsp;·&nbsp;35 min&nbsp;·&nbsp;Faisal Khan</footer>
   <a class="entry-link" aria-label="post link to Bolivia" href="http://localhost:1313/solutions/geographic/bolivia/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/fintech/build-your-own-bank.webp" alt="Build Your Own Bank (BYOB) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Build Your Own Bank (BYOB)
     </h2>
@@ -975,6 +1010,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/geographic/canada.webp" alt="Canada - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Canada
     </h2>
@@ -990,6 +1028,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/industry-specific/car-auction-payment.webp" alt="Car Auction Payment - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Car Auction Payment
     </h2>
@@ -1005,6 +1046,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/payments/car-auction-payment.webp" alt="Car Auction Payment - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Car Auction Payment
     </h2>
@@ -1020,6 +1064,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/cards/card-issuance.webp" alt="Card Issuance - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Card Issuance
     </h2>
@@ -1035,6 +1082,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/cards/card-processing.webp" alt="Card Processing - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Card Processing
     </h2>

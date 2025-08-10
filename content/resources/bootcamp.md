@@ -5,6 +5,12 @@ draft: false
 description: "Expert bootcamp resources from Faisal Khan LLC"
 keywords: ["bootcamp", "resources", "education", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/resources/bootcamp.webp"
+    alt: "Bootcamp - Expert solutions from Faisal Khan LLC"
+    caption: "Bootcamp Expert Solutions"
+
 # Taxonomies
 categories: ["resources"]
 tags: ["bootcamp", "resources", "education"]

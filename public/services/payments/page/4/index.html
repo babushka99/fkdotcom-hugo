@@ -122,6 +122,28 @@ body:not(.dark) article {
 }
 
  
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title,
+.post-header h1,
+.page-header h1,
+article.post-single .post-header h1,
+.post-single .post-title {
+    display: none !important;
+}
+
+ 
+.post-description,
+.page-description,
+.post-meta,
+.page-meta,
+.post-header .meta,
+.page-header .meta {
+    display: none !important;
+}
+
+ 
 header.header {
     position: fixed !important;
     top: 0 !important;
@@ -691,7 +713,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!logo) return;
         
         var isDark = document.body.classList.contains('dark');
-        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.png' : '/images/Faisal_Khan_LLC_light.png';
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.webp' : '/images/Faisal_Khan_LLC_light.webp';
         
         if (logo.src !== newSrc) {
             logo.src = newSrc;
@@ -900,6 +922,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/crypto/crypto-otc-license.webp" alt="Crypto OTC License - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Crypto OTC License
     </h2>
@@ -915,6 +940,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/wallets/crypto-wallet.webp" alt="Crypto Wallet - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Crypto Wallet
     </h2>
@@ -930,6 +958,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/licensing/crypto-wallet-license.webp" alt="Crypto Wallet License - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Crypto Wallet License
     </h2>
@@ -945,6 +976,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/crypto/crypto-based-debit-cards.webp" alt="Crypto-based Debit Cards - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Crypto-based Debit Cards
     </h2>
@@ -960,6 +994,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/fintech/crypto-based-projects.webp" alt="Crypto-based Projects - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Crypto-based Projects
     </h2>
@@ -975,6 +1012,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/licensing/cryptocurrency-licensing.webp" alt="Cryptocurrency Licensing - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Cryptocurrency Licensing
     </h2>
@@ -990,6 +1030,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/high-risk/cryptocurrency-trading.webp" alt="Cryptocurrency Trading - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Cryptocurrency Trading
     </h2>
@@ -1005,6 +1048,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/crypto/decentralized-autonomous-organization.webp" alt="Decentralized Autonomous Organization (DAO) - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Decentralized Autonomous Organization (DAO)
     </h2>
@@ -1020,6 +1066,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/crypto/defi-license.webp" alt="DeFi License - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">DeFi License
     </h2>
@@ -1035,6 +1084,9 @@ Business type 1 Business type 2 Business type 3 Process Initial Consultation - W
 </article>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/solutions/wallets/e-money-wallet.webp" alt="E-Money Wallet - Expert solutions from Faisal Khan LLC">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">E-Money Wallet
     </h2>

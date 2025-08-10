@@ -5,6 +5,12 @@ draft: false
 description: "Expert case studies resources from Faisal Khan LLC"
 keywords: ["case studies", "resources", "education", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/resources/case-studies.webp"
+    alt: "Case Studies - Expert solutions from Faisal Khan LLC"
+    caption: "Case Studies Expert Solutions"
+
 # Taxonomies
 categories: ["resources"]
 tags: ["case-studies", "resources", "education"]

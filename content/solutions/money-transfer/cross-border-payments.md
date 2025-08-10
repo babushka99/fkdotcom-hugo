@@ -5,6 +5,12 @@ draft: false
 description: "Expert cross-border payments solutions from Faisal Khan LLC"
 keywords: ["cross-border payments", "money-transfer", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/money-transfer/cross-border-payments.webp"
+    alt: "Cross-Border Payments - Expert solutions from Faisal Khan LLC"
+    caption: "Cross-Border Payments Expert Solutions"
+
 # Taxonomies
 categories: ["money-transfer"]
 tags: ["cross-border-payments", "money-transfer", "financial-services"]

@@ -5,6 +5,12 @@ draft: false
 description: "Expert advisory consultancy services solutions from Faisal Khan LLC"
 keywords: ["advisory consultancy services", "consulting", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/consulting/advisory-consultancy-services.webp"
+    alt: "Advisory Consultancy Services - Expert solutions from Faisal Khan LLC"
+    caption: "Advisory Consultancy Services Expert Solutions"
+
 # Taxonomies
 categories: ["consulting"]
 tags: ["advisory-consultancy-services", "consulting", "financial-services"]

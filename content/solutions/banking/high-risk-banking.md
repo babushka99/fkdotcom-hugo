@@ -5,6 +5,12 @@ draft: false
 description: "Expert high-risk banking solutions from Faisal Khan LLC"
 keywords: ["high-risk banking", "banking", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/banking/high-risk-banking.webp"
+    alt: "High-Risk Banking - Expert solutions from Faisal Khan LLC"
+    caption: "High-Risk Banking Expert Solutions"
+
 # Taxonomies
 categories: ["banking"]
 tags: ["high-risk-banking", "banking", "financial-services"]

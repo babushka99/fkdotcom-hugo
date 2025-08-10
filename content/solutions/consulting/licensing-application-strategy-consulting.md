@@ -5,6 +5,12 @@ draft: false
 description: "Expert licensing application strategy consulting solutions from Faisal Khan LLC"
 keywords: ["licensing application strategy consulting", "consulting", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/consulting/licensing-application-strategy-consulting.webp"
+    alt: "Licensing Application Strategy Consulting - Expert solutions from Faisal Khan LLC"
+    caption: "Licensing Application Strategy Consulting Expert Solutions"
+
 # Taxonomies
 categories: ["consulting"]
 tags: ["licensing-application-strategy-consulting", "consulting", "financial-services"]

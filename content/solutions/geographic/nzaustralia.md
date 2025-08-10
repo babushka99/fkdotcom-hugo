@@ -5,6 +5,12 @@ draft: false
 description: "Expert nz/australia solutions from Faisal Khan LLC"
 keywords: ["nz/australia", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/nzaustralia.webp"
+    alt: "NZ/Australia - Expert solutions from Faisal Khan LLC"
+    caption: "NZ/Australia Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["nzaustralia", "geographic", "financial-services"]

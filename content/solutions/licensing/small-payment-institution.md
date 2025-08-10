@@ -5,6 +5,12 @@ draft: false
 description: "Expert small payment institution (spi) solutions from Faisal Khan LLC"
 keywords: ["small payment institution (spi)", "licensing", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/licensing/small-payment-institution.webp"
+    alt: "Small Payment Institution (SPI) - Expert solutions from Faisal Khan LLC"
+    caption: "Small Payment Institution (SPI) Expert Solutions"
+
 # Taxonomies
 categories: ["licensing"]
 tags: ["small-payment-institution", "licensing", "financial-services"]

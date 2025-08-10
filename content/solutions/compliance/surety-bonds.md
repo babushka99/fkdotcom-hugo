@@ -5,6 +5,12 @@ draft: false
 description: "Expert surety bonds solutions from Faisal Khan LLC"
 keywords: ["surety bonds", "compliance", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/compliance/surety-bonds.webp"
+    alt: "Surety Bonds - Expert solutions from Faisal Khan LLC"
+    caption: "Surety Bonds Expert Solutions"
+
 # Taxonomies
 categories: ["compliance"]
 tags: ["surety-bonds", "compliance", "financial-services"]

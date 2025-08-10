@@ -5,6 +5,12 @@ draft: false
 description: "Expert payment networks solutions from Faisal Khan LLC"
 keywords: ["payment networks", "payments", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/payments/payment-networks.webp"
+    alt: "Payment Networks - Expert solutions from Faisal Khan LLC"
+    caption: "Payment Networks Expert Solutions"
+
 # Taxonomies
 categories: ["payments"]
 tags: ["payment-networks", "payments", "financial-services"]

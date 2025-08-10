@@ -5,6 +5,12 @@ draft: false
 description: "Expert decentralized autonomous organization (dao) solutions from Faisal Khan LLC"
 keywords: ["decentralized autonomous organization (dao)", "crypto", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/crypto/decentralized-autonomous-organization.webp"
+    alt: "Decentralized Autonomous Organization (DAO) - Expert solutions from Faisal Khan LLC"
+    caption: "Decentralized Autonomous Organization (DAO) Expert Solutions"
+
 # Taxonomies
 categories: ["crypto"]
 tags: ["decentralized-autonomous-organization", "crypto", "financial-services"]

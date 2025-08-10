@@ -5,6 +5,12 @@ draft: false
 description: "Expert payroll solutions from Faisal Khan LLC"
 keywords: ["payroll", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/payroll.webp"
+    alt: "Payroll - Expert solutions from Faisal Khan LLC"
+    caption: "Payroll Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["payroll", "industry-specific", "financial-services"]

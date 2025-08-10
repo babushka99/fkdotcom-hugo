@@ -5,6 +5,12 @@ draft: false
 description: "Expert b2b payments solutions from Faisal Khan LLC"
 keywords: ["b2b payments", "payments", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/payments/b2b-payments.webp"
+    alt: "B2B Payments - Expert solutions from Faisal Khan LLC"
+    caption: "B2B Payments Expert Solutions"
+
 # Taxonomies
 categories: ["payments"]
 tags: ["b2b-payments", "payments", "financial-services"]

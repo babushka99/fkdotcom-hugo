@@ -5,6 +5,12 @@ draft: false
 description: "Expert turkey solutions from Faisal Khan LLC"
 keywords: ["turkey", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/turkey.webp"
+    alt: "Turkey - Expert solutions from Faisal Khan LLC"
+    caption: "Turkey Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["turkey", "geographic", "financial-services"]

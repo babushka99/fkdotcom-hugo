@@ -5,6 +5,12 @@ draft: false
 description: "Expert japan solutions from Faisal Khan LLC"
 keywords: ["japan", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/japan.webp"
+    alt: "Japan - Expert solutions from Faisal Khan LLC"
+    caption: "Japan Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["japan", "geographic", "financial-services"]

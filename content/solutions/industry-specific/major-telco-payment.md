@@ -5,6 +5,12 @@ draft: false
 description: "Expert major telco payment solutions from Faisal Khan LLC"
 keywords: ["major telco payment", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/major-telco-payment.webp"
+    alt: "Major Telco Payment - Expert solutions from Faisal Khan LLC"
+    caption: "Major Telco Payment Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["major-telco-payment", "industry-specific", "financial-services"]

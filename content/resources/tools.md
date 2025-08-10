@@ -5,6 +5,12 @@ draft: false
 description: "Expert tools resources from Faisal Khan LLC"
 keywords: ["tools", "resources", "education", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/resources/tools.webp"
+    alt: "Tools - Expert solutions from Faisal Khan LLC"
+    caption: "Tools Expert Solutions"
+
 # Taxonomies
 categories: ["resources"]
 tags: ["tools", "resources", "education"]

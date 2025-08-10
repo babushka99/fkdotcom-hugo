@@ -5,6 +5,12 @@ draft: false
 description: "Expert money transfer as a service (mtaas) solutions from Faisal Khan LLC"
 keywords: ["money transfer as a service (mtaas)", "money-transfer", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/money-transfer/money-transfer-as-a-service.webp"
+    alt: "Money Transfer as a Service (MTaaS) - Expert solutions from Faisal Khan LLC"
+    caption: "Money Transfer as a Service (MTaaS) Expert Solutions"
+
 # Taxonomies
 categories: ["money-transfer"]
 tags: ["money-transfer-as-a-service", "money-transfer", "financial-services"]

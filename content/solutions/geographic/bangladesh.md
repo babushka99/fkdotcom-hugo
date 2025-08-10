@@ -5,6 +5,12 @@ draft: false
 description: "Expert bangladesh solutions from Faisal Khan LLC"
 keywords: ["bangladesh", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/bangladesh.webp"
+    alt: "Bangladesh - Expert solutions from Faisal Khan LLC"
+    caption: "Bangladesh Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["bangladesh", "geographic", "financial-services"]

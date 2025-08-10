@@ -5,6 +5,12 @@ draft: false
 description: "Expert lithuania solutions from Faisal Khan LLC"
 keywords: ["lithuania", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/lithuania.webp"
+    alt: "Lithuania - Expert solutions from Faisal Khan LLC"
+    caption: "Lithuania Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["lithuania", "geographic", "financial-services"]

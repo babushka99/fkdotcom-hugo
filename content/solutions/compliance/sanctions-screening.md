@@ -5,6 +5,12 @@ draft: false
 description: "Expert sanctions screening solutions from Faisal Khan LLC"
 keywords: ["sanctions screening", "compliance", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/compliance/sanctions-screening.webp"
+    alt: "Sanctions Screening - Expert solutions from Faisal Khan LLC"
+    caption: "Sanctions Screening Expert Solutions"
+
 # Taxonomies
 categories: ["compliance"]
 tags: ["sanctions-screening", "compliance", "financial-services"]

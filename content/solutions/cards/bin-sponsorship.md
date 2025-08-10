@@ -5,6 +5,12 @@ draft: false
 description: "Expert bin sponsorship solutions from Faisal Khan LLC"
 keywords: ["bin sponsorship", "cards", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/cards/bin-sponsorship.webp"
+    alt: "BIN Sponsorship - Expert solutions from Faisal Khan LLC"
+    caption: "BIN Sponsorship Expert Solutions"
+
 # Taxonomies
 categories: ["cards"]
 tags: ["bin-sponsorship", "cards", "financial-services"]

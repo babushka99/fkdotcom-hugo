@@ -5,6 +5,12 @@ draft: false
 description: "Expert europe/eea solutions from Faisal Khan LLC"
 keywords: ["europe/eea", "geographic", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/geographic/europeeea.webp"
+    alt: "Europe/EEA - Expert solutions from Faisal Khan LLC"
+    caption: "Europe/EEA Expert Solutions"
+
 # Taxonomies
 categories: ["geographic"]
 tags: ["europeeea", "geographic", "financial-services"]

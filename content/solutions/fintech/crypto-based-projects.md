@@ -5,6 +5,12 @@ draft: false
 description: "Expert crypto-based projects solutions from Faisal Khan LLC"
 keywords: ["crypto-based projects", "fintech", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/fintech/crypto-based-projects.webp"
+    alt: "Crypto-based Projects - Expert solutions from Faisal Khan LLC"
+    caption: "Crypto-based Projects Expert Solutions"
+
 # Taxonomies
 categories: ["fintech"]
 tags: ["crypto-based-projects", "fintech", "financial-services"]

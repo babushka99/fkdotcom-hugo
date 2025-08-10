@@ -5,6 +5,12 @@ draft: false
 description: "Expert diagrams resources from Faisal Khan LLC"
 keywords: ["diagrams", "resources", "education", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/resources/diagrams.webp"
+    alt: "Diagrams - Expert solutions from Faisal Khan LLC"
+    caption: "Diagrams Expert Solutions"
+
 # Taxonomies
 categories: ["resources"]
 tags: ["diagrams", "resources", "education"]

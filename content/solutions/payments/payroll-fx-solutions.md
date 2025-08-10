@@ -5,6 +5,12 @@ draft: false
 description: "Expert payroll fx solutions solutions from Faisal Khan LLC"
 keywords: ["payroll fx solutions", "payments", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/payments/payroll-fx-solutions.webp"
+    alt: "Payroll FX Solutions - Expert solutions from Faisal Khan LLC"
+    caption: "Payroll FX Solutions Expert Solutions"
+
 # Taxonomies
 categories: ["payments"]
 tags: ["payroll-fx-solutions", "payments", "financial-services"]

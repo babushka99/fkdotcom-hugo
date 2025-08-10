@@ -5,6 +5,12 @@ draft: false
 description: "Expert principle license holders solutions from Faisal Khan LLC"
 keywords: ["principle license holders", "providers", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/providers/principle-license-holders.webp"
+    alt: "Principle License Holders - Expert solutions from Faisal Khan LLC"
+    caption: "Principle License Holders Expert Solutions"
+
 # Taxonomies
 categories: ["providers"]
 tags: ["principle-license-holders", "providers", "financial-services"]

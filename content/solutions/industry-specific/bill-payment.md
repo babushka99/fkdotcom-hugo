@@ -5,6 +5,12 @@ draft: false
 description: "Expert bill payment solutions from Faisal Khan LLC"
 keywords: ["bill payment", "industry-specific", "licensing", "compliance", "faisal khan"]
 
+# Featured Image
+cover:
+    image: "/images/solutions/industry-specific/bill-payment.webp"
+    alt: "Bill Payment - Expert solutions from Faisal Khan LLC"
+    caption: "Bill Payment Expert Solutions"
+
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["bill-payment", "industry-specific", "financial-services"]
