@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Blockchain | Faisal Khan LLC</title>
+<meta name="keywords" content="payments, fintech, money transfer, banking">
+<meta name="description" content="Blockchain - Payment industry knowledge and insights">
+<meta name="author" content="Faisal Khan">
+<link rel="canonical" href="http://localhost:1313/resources/payments-wiki/blockchain/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/resources/payments-wiki/blockchain/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><style>
+ 
+img[loading="lazy"] {
+    loading: eager !important;
+}
+
+img {
+    loading: eager !important;
+}
+
+ 
+:root {
+    --theme: #ffffff;
+    --bg: #ffffff;
+    --border: #e5e5e5;
+}
+
+ 
+body {
+    background: var(--theme) !important;
+    color: #222222 !important;
+}
+
+ 
+:root {
+    --content: #222222;
+    --primary: #222222;
+}
+
+ 
+body:not(.dark) {
+    color: #222222 !important;
+}
+
+body:not(.dark) *,
+body:not(.dark) p,
+body:not(.dark) div,
+body:not(.dark) span,
+body:not(.dark) h1,
+body:not(.dark) h2,
+body:not(.dark) h3,
+body:not(.dark) h4,
+body:not(.dark) h5,
+body:not(.dark) h6,
+body:not(.dark) li,
+body:not(.dark) .post-content,
+body:not(.dark) .page-content,
+body:not(.dark) article {
+    color: #222222 !important;
+}
+
+ 
+[data-theme="dark"] {
+    --theme: #1d1d1d;
+    --bg: #1d1d1d;
+    --border: #333;
+}
+
+[data-theme="dark"] body {
+    background: var(--theme) !important;
+}
+
+ 
+.dark,
+.dark *,
+.dark p,
+.dark div,
+.dark span,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark li,
+.dark .post-content,
+.dark .page-content,
+.dark article,
+.dark .post-meta,
+.dark .page-meta,
+.dark .post-description,
+.dark .page-description,
+.dark .description,
+.dark .summary,
+.dark .excerpt {
+    color: #ffffff !important;
+}
+
+ 
+.post-tags {
+    display: none !important;
+}
+
+ 
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title,
+.post-header h1,
+.page-header h1,
+article.post-single .post-header h1,
+.post-single .post-title {
+    display: none !important;
+}
+
+ 
+.post-description,
+.page-description,
+.post-meta,
+.page-meta,
+.post-header .meta,
+.page-header .meta {
+    display: none !important;
+}
+
+ 
+header.header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+    background-color: var(--theme) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+ 
+body {
+    padding-top: 70px !important;
+}
+
+ 
+header.page-header {
+    position: relative !important;
+    top: auto !important;
+}
+
+ 
+.dark header.header {
+    background-color: #1d1d1d !important;
+    border-bottom: 1px solid #404040 !important;
+    box-shadow: none !important;
+}
+
+ 
+.dark header.header .logo,
+.dark header.header .logo a,
+.dark header.header nav a,
+.dark header.header .menu a {
+    color: #ffffff !important;
+}
+
+.dark header.header .logo a:hover,
+.dark header.header nav a:hover,
+.dark header.header .menu a:hover {
+    color: #cccccc !important;
+}
+
+ 
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: auto;
+}
+
+.burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--content);
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+ 
+.burger-menu.open .burger-line:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-menu.open .burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open .burger-line:nth-child(3) {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+ 
+.mobile-menu-overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--theme);
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.mobile-menu-overlay.open {
+    transform: translateX(0);
+}
+
+.mobile-menu-content {
+    padding: 20px;
+}
+
+.mobile-menu-item {
+    display: block;
+    padding: 15px 0;
+    color: var(--content);
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-item:hover {
+    color: var(--primary);
+}
+
+ 
+@media (max-width: 768px) {
+    .burger-menu {
+        display: flex !important;
+    }
+    
+     
+    header.header .logo + nav,
+    header.header nav.main-nav,
+    header.header .menu,
+    header.header ul {
+        display: none !important;
+    }
+}
+
+ 
+@media (min-width: 769px) {
+    .burger-menu,
+    .mobile-menu-overlay {
+        display: none !important;
+    }
+}
+
+ 
+.main, .post-content, .page-content, article {
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+ 
+.breadcrumbs {
+    font-size: 0.85rem !important;
+    color: #666 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+.breadcrumbs a {
+    color: #666 !important;
+    text-decoration: none !important;
+}
+
+.breadcrumbs a:hover {
+    color: #333 !important;
+    text-decoration: underline !important;
+}
+
+.breadcrumb-separator {
+    margin: 0 8px !important;
+    color: #999 !important;
+}
+
+.breadcrumb-current {
+    color: #333 !important;
+    font-weight: 500 !important;
+}
+
+ 
+.dark .breadcrumbs {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a {
+    color: #ccc !important;
+}
+
+.dark .breadcrumbs a:hover {
+    color: #fff !important;
+}
+
+.dark .breadcrumb-separator {
+    color: #888 !important;
+}
+
+.dark .breadcrumb-current {
+    color: #fff !important;
+}
+
+ 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal !important;
+}
+
+ 
+.post-content h1,
+.post-content h2, 
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    font-weight: normal !important;
+}
+
+ 
+.post-title,
+.page-title,
+h1.post-title,
+h1.page-title {
+    font-weight: normal !important;
+}
+
+ 
+ 
+article.post-single div.post-content ul li a[href],
+article.post-single div.post-content p a[href],
+article.post-single div.post-content div a[href],
+div.post-content ul li a[href],
+div.post-content p a[href],
+div.post-content div a[href] {
+    color: #0000EE !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+article.post-single div.post-content ul li a[href]:visited,
+article.post-single div.post-content p a[href]:visited,
+article.post-single div.post-content div a[href]:visited,
+div.post-content ul li a[href]:visited,
+div.post-content p a[href]:visited,
+div.post-content div a[href]:visited {
+    color: #551A8B !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+article.post-single div.post-content ul li a[href]:hover,
+article.post-single div.post-content p a[href]:hover,
+article.post-single div.post-content div a[href]:hover,
+div.post-content ul li a[href]:hover,
+div.post-content p a[href]:hover,
+div.post-content div a[href]:hover {
+    color: #0000CC !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+ 
+.dark article.post-single div.post-content ul li a[href],
+.dark article.post-single div.post-content p a[href],
+.dark article.post-single div.post-content div a[href],
+.dark div.post-content ul li a[href],
+.dark div.post-content p a[href],
+.dark div.post-content div a[href] {
+    color: #6699FF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:visited,
+.dark article.post-single div.post-content p a[href]:visited,
+.dark article.post-single div.post-content div a[href]:visited,
+.dark div.post-content ul li a[href]:visited,
+.dark div.post-content p a[href]:visited,
+.dark div.post-content div a[href]:visited {
+    color: #CC99FF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+.dark article.post-single div.post-content ul li a[href]:hover,
+.dark article.post-single div.post-content p a[href]:hover,
+.dark article.post-single div.post-content div a[href]:hover,
+.dark div.post-content ul li a[href]:hover,
+.dark div.post-content p a[href]:hover,
+.dark div.post-content div a[href]:hover {
+    color: #99CCFF !important;  
+    text-decoration: underline !important;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 1px !important;
+}
+
+ 
+.menu a, 
+.footer-nav a,
+nav a,
+header a,
+.breadcrumbs a {
+    color: inherit !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+ 
+img[src*="We-Love-Solving-Complex-Problems.webp"] {
+    border-radius: 15px !important;
+    margin-bottom: 2rem !important;
+    width: 100% !important;
+    height: 500px !important;  
+    object-fit: cover !important;
+    aspect-ratio: 9/5 !important;
+}
+
+ 
+.header .logo img,
+header .logo img,
+.logo img {
+    width: 200px !important;
+    height: 50px !important;
+    object-fit: contain !important;
+    max-width: 200px !important;
+    max-height: 50px !important;
+}
+
+ 
+.post-content img,
+.page-content img,
+article img {
+    border-radius: 18px !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: attr(width) / attr(height) !important;
+}
+
+ 
+img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+ 
+.custom-footer {
+    background-color: #f5f5f5 !important;
+    width: 100vw !important;
+    max-width: none !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    margin-top: 40px !important;
+    margin-bottom: 0 !important;
+    padding: 20px 0 !important;
+    border-top: 1px solid #e0e0e0;
+    box-sizing: border-box !important;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-nav {
+    margin: 10px 0;
+}
+
+.footer-nav a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-nav a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+ 
+.dark .custom-footer {
+    background-color: #1f1f1f !important;
+    border-top: 1px solid #404040 !important;
+}
+
+.dark .footer-nav a {
+    color: #ccc !important;
+}
+
+.dark .footer-nav a:hover {
+    color: #fff !important;
+}
+
+ 
+.dark div[style*="Page Last Updated"] {
+    color: #fff !important;
+}
+
+ 
+.search-page-intro {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: var(--code-bg);
+    border-radius: 6px;
+    color: var(--content);
+}
+
+.search-page-intro p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.search-page-intro strong {
+    color: var(--primary);
+}
+
+ 
+#searchInput {
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+#searchInput:focus {
+    outline: none !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: none !important;
+}
+</style>
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    function optimizeImageLoading() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+            
+            if (img.hasAttribute('loading')) {
+                img.removeAttribute('loading');
+            }
+            
+            img.setAttribute('loading', 'eager');
+            img.setAttribute('fetchpriority', 'high');
+            
+            
+            if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
+                
+                if (img.closest('.logo') || img.closest('header') || img.src.includes('Faisal_Khan_LLC')) {
+                    img.setAttribute('width', '200');
+                    img.setAttribute('height', '50');
+                }
+                
+                else if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                    img.setAttribute('width', '900');
+                    img.setAttribute('height', '500');
+                } else {
+                    
+                    if (!img.hasAttribute('width')) {
+                        img.setAttribute('width', '100%');
+                    }
+                    if (!img.hasAttribute('height')) {
+                        img.setAttribute('height', 'auto');
+                    }
+                }
+            }
+        });
+    }
+    
+    
+    optimizeImageLoading();
+    
+    
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'childList') {
+                mutation.addedNodes.forEach(function(node) {
+                    if (node.nodeType === 1) { 
+                        if (node.tagName === 'IMG') {
+                            
+                            if (node.hasAttribute('loading')) {
+                                node.removeAttribute('loading');
+                            }
+                            
+                            node.setAttribute('loading', 'eager');
+                            node.setAttribute('fetchpriority', 'high');
+                            
+                            
+                            if (node.closest('.logo') || node.closest('header') || node.src.includes('Faisal_Khan_LLC')) {
+                                node.setAttribute('width', '200');
+                                node.setAttribute('height', '50');
+                            }
+                            else if (node.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                                node.setAttribute('width', '900');
+                                node.setAttribute('height', '500');
+                            } else if (!node.hasAttribute('width') || !node.hasAttribute('height')) {
+                                if (!node.hasAttribute('width')) {
+                                    node.setAttribute('width', '100%');
+                                }
+                                if (!node.hasAttribute('height')) {
+                                    node.setAttribute('height', 'auto');
+                                }
+                            }
+                        }
+                        
+                        const images = node.querySelectorAll ? node.querySelectorAll('img') : [];
+                        images.forEach(img => {
+                            if (img.hasAttribute('loading')) {
+                                img.removeAttribute('loading');
+                            }
+                            img.setAttribute('loading', 'eager');
+                            img.setAttribute('fetchpriority', 'high');
+                            
+                            
+                            if (img.closest('.logo') || img.closest('header') || img.src.includes('Faisal_Khan_LLC')) {
+                                img.setAttribute('width', '200');
+                                img.setAttribute('height', '50');
+                            }
+                            else if (img.src.includes('We-Love-Solving-Complex-Problems.webp')) {
+                                img.setAttribute('width', '900');
+                                img.setAttribute('height', '500');
+                            } else if (!img.hasAttribute('width') || !img.hasAttribute('height')) {
+                                if (!img.hasAttribute('width')) {
+                                    img.setAttribute('width', '100%');
+                                }
+                                if (!img.hasAttribute('height')) {
+                                    img.setAttribute('height', 'auto');
+                                }
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    });
+    
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+});
+</script>
+
+
+<script>
+(function() {
+    'use strict';
+    
+    
+    function updateLogo() {
+        var logo = document.querySelector('.header .logo img');
+        if (!logo) return;
+        
+        var isDark = document.body.classList.contains('dark');
+        var newSrc = isDark ? '/images/Faisal_Khan_LLC_dark.webp' : '/images/Faisal_Khan_LLC_light.webp';
+        
+        if (logo.src !== newSrc) {
+            logo.src = newSrc;
+        }
+    }
+    
+    
+    function initializeBurgerMenu() {
+        var header = document.querySelector('header.header');
+        if (!header || header.querySelector('.burger-menu')) return;
+        
+        var burgerMenu = document.createElement('div');
+        burgerMenu.className = 'burger-menu';
+        burgerMenu.innerHTML = '<div class="burger-line"></div><div class="burger-line"></div><div class="burger-line"></div>';
+        
+        var mobileOverlay = document.createElement('div');
+        mobileOverlay.className = 'mobile-menu-overlay';
+        mobileOverlay.innerHTML = '<div class="mobile-menu-content">' +
+            '<a href="/" class="mobile-menu-item">Home</a>' +
+            '<a href="/about/" class="mobile-menu-item">About</a>' +
+            '<a href="/solutions/" class="mobile-menu-item">Solutions</a>' +
+            '<a href="/resources/" class="mobile-menu-item">Resources</a>' +
+            '<a href="/clients/" class="mobile-menu-item">Clients</a>' +
+            '<a href="/pricing/" class="mobile-menu-item">Pricing</a>' +
+            '<a href="/blog/" class="mobile-menu-item">Blog</a>' +
+            '<a href="/contact/" class="mobile-menu-item">Contact</a>' +
+            '<a href="/search/" class="mobile-menu-item">Search</a>' +
+            '</div>';
+        
+        header.appendChild(burgerMenu);
+        document.body.appendChild(mobileOverlay);
+        
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+            document.body.style.overflow = mobileOverlay.classList.contains('open') ? 'hidden' : '';
+        });
+        
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay || e.target.classList.contains('mobile-menu-item')) {
+                burgerMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
+    }
+    
+    
+    function initializeSearch() {
+        var searchInput = document.getElementById('searchInput');
+        if (!searchInput) return;
+        
+        if (window.location.pathname.includes('/search/')) {
+            var intro = document.createElement('div');
+            intro.className = 'search-page-intro';
+            intro.innerHTML = '<p>Search our comprehensive knowledge base for cross-border payments, licensing, banking access, and crypto compliance solutions.</p>' +
+                '<p><strong>Popular searches:</strong> MTL licensing, MSB banking, crypto compliance, EU EMI, payment rails</p>';
+            searchInput.parentNode.insertBefore(intro, searchInput);
+            setTimeout(function() { searchInput.focus(); }, 50);
+        }
+        
+        searchInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                var firstResult = document.querySelector('#searchResults .search-result a');
+                if (firstResult) firstResult.click();
+            }
+        });
+    }
+    
+    
+    function initialize() {
+        updateLogo();
+        initializeBurgerMenu();
+        initializeSearch();
+        
+        
+        document.addEventListener('click', function(e) {
+            var themeToggle = document.getElementById('theme-toggle');
+            if (e.target === themeToggle || e.target.closest('#theme-toggle')) {
+                setTimeout(updateLogo, 100);
+            }
+        });
+        
+        
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    setTimeout(updateLogo, 50);
+                }
+            });
+        });
+        observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    }
+    
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+})();
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="  (Alt + H)">
+                <img src="http://localhost:1313/images/Faisal_Khan_LLC_light.png" alt="" aria-label="logo"
+                    height="50"> </a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/solutions/" title="Solutions">
+                    <span>Solutions</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/resources/" title="Resources">
+                    <span>Resources</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/clients/" title="Clients">
+                    <span>Clients</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/pricing/" title="Pricing">
+                    <span>Pricing</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+<div class="breadcrumbs">
+    <a href="http://localhost:1313/">Home</a>
+    <span class="breadcrumb-separator">»</span>
+    <a href="http://localhost:1313/">Faisal Khan LLC</a>
+    <span class="breadcrumb-separator">»</span>
+    <a href="http://localhost:1313/resources/">Resources</a>
+    <span class="breadcrumb-separator">»</span>
+    <span class="breadcrumb-current">Blockchain</span>
+</div>
+    <h1 class="post-title entry-hint-parent">
+      Blockchain
+    </h1>
+    <div class="post-description">
+      Blockchain - Payment industry knowledge and insights
+    </div>
+    <div class="post-meta"><span title='2024-03-10 18:19:38 +0000 +0000'>March 10, 2024</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1660 words&nbsp;·&nbsp;Faisal Khan
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#definition-and-origin-what-is-blockchain" aria-label="Definition and Origin: What is Blockchain?">Definition and Origin: What is Blockchain?</a></li>
+                <li>
+                    <a href="#simplest-explanation-in-payments" aria-label="Simplest Explanation in Payments">Simplest Explanation in Payments</a></li>
+                <li>
+                    <a href="#type-of-blockchain" aria-label="Type of Blockchain">Type of Blockchain</a></li>
+                <li>
+                    <a href="#everyday-life-usage" aria-label="Everyday Life Usage">Everyday Life Usage</a></li>
+                <li>
+                    <a href="#top-15-most-important-blockchains-in-the-world" aria-label="Top 15 Most Important Blockchains in the World">Top 15 Most Important Blockchains in the World</a></li>
+                <li>
+                    <a href="#usage-context-and-evolution-in-banking-and-finance" aria-label="Usage Context and Evolution in Banking and Finance">Usage Context and Evolution in Banking and Finance</a></li>
+                <li>
+                    <a href="#importance-and-impact" aria-label="Importance and Impact">Importance and Impact</a></li>
+                <li>
+                    <a href="#key-stakeholders-and-users" aria-label="Key Stakeholders and Users">Key Stakeholders and Users</a></li>
+                <li>
+                    <a href="#application-and-implementation" aria-label="Application and Implementation">Application and Implementation</a></li>
+                <li>
+                    <a href="#formula-if-applicable" aria-label="Formula (if applicable)">Formula (if applicable)</a></li>
+                <li>
+                    <a href="#terminology-and-variations" aria-label="Terminology and Variations">Terminology and Variations</a></li>
+                <li>
+                    <a href="#ethical-and-moral-considerations" aria-label="Ethical and Moral Considerations">Ethical and Moral Considerations</a></li>
+                <li>
+                    <a href="#advantages-and-disadvantages" aria-label="Advantages and Disadvantages">Advantages and Disadvantages</a></li>
+                <li>
+                    <a href="#real-world-applications-and-case-studies-of-blockchain" aria-label="Real-World Applications and Case Studies of Blockchain">Real-World Applications and Case Studies of Blockchain</a></li>
+                <li>
+                    <a href="#future-outlook-and-trends" aria-label="Future Outlook and Trends">Future Outlook and Trends</a></li>
+                <li>
+                    <a href="#analogies-and-metaphors-for-blockchain" aria-label="Analogies and Metaphors for Blockchain">Analogies and Metaphors for Blockchain</a></li>
+                <li>
+                    <a href="#official-website-and-authoritative-sources" aria-label="Official Website and Authoritative Sources">Official Website and Authoritative Sources</a></li>
+                <li>
+                    <a href="#further-reading" aria-label="Further Reading">Further Reading</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="definition-and-origin-what-is-blockchain">Definition and Origin: What is Blockchain?<a hidden class="anchor" aria-hidden="true" href="#definition-and-origin-what-is-blockchain">#</a></h2>
+<p>Blockchain technology, at its core, is a decentralized ledger that records transactions across multiple computers in such a manner that the registered transactions cannot be altered retroactively. This technology is the backbone of cryptocurrencies, like Bitcoin, and was first conceptualized by a person or group of people under the pseudonym Satoshi Nakamoto in 2008. Initially developed to serve as the public transaction ledger of Bitcoin, blockchain technology has since evolved beyond cryptocurrencies, underpinning various applications across numerous sectors.</p>
+<h2 id="simplest-explanation-in-payments">Simplest Explanation in Payments<a hidden class="anchor" aria-hidden="true" href="#simplest-explanation-in-payments">#</a></h2>
+<p>In the realm of payments, blockchain acts as a secure, transparent, and tamper-proof ledger. When a transaction is made, it is bundled with other transactions into a new block of data for the ledger. This block is then verified and sealed using cryptographic principles and added to the chain of previous transactions, creating a chain of blocks - or a blockchain. This process allows for peer-to-peer transactions without the need for a central authority, reducing the time and cost associated with traditional banking.</p>
+<h2 id="type-of-blockchain">Type of Blockchain<a hidden class="anchor" aria-hidden="true" href="#type-of-blockchain">#</a></h2>
+<p>It can broadly be categorized into three types:</p>
+<ul>
+<li>
+<p><strong>Public Blockchains</strong>: Open and decentralized networks where anyone can join and participate in the process of block verification. Examples include Bitcoin and Ethereum.</p>
+</li>
+<li>
+<p><strong>Private Blockchains</strong>: Controlled by a single entity, these are not open to the public. They are faster and more efficient but sacrifice some degree of decentralization.</p>
+</li>
+<li>
+<p><strong>Consortium Blockchains</strong>: Operated by a group of organizations rather than a single entity. They offer a balance between the high trust environment of private blockchains and the security and transparency of public blockchains.</p>
+</li>
+</ul>
+<h2 id="everyday-life-usage">Everyday Life Usage<a hidden class="anchor" aria-hidden="true" href="#everyday-life-usage">#</a></h2>
+<p>It finds applications in various aspects of everyday life, including:</p>
+<ul>
+<li>
+<p><strong>Digital Identities</strong>: Secure management of digital identities, providing a more efficient and fraud-proof identification process.</p>
+</li>
+<li>
+<p><strong>Supply Chain Management</strong>: Enhancing transparency and traceability in supply chains, ensuring the authenticity of products.</p>
+</li>
+<li>
+<p><strong>Voting Systems</strong>: Offering secure and tamper-proof voting mechanisms for elections, reducing the risk of fraud.</p>
+</li>
+<li>
+<p><strong>Financial Services</strong>: Beyond cryptocurrencies, blockchain facilitates faster and cheaper cross-border payments, loans, and fundraising through Initial Coin Offerings (ICOs).</p>
+</li>
+</ul>
+<h2 id="top-15-most-important-blockchains-in-the-world">Top 15 Most Important Blockchains in the World<a hidden class="anchor" aria-hidden="true" href="#top-15-most-important-blockchains-in-the-world">#</a></h2>
+<p>Based on the information gathered from various sources, here&rsquo;s a list of some top blockchains in the world by 2024, highlighting their unique features and potential applications. However, please note that the rankings and details can change due to the dynamic nature of the technology and market conditions. This list is not exhaustive and focuses on Layer 1 blockchains that are foundational in nature, offering a wide range of applications and functionalities.</p>
+<ul>
+<li>
+<p><strong>Ethereum (ETH)</strong> - Known for its smart contract functionality and a robust ecosystem for decentralized applications (DApps).</p>
+</li>
+<li>
+<p><strong>Binance Smart Chain (BNB)</strong> - Offers fast transaction times and low fees, with a strong focus on enabling smart contracts and attracting DeFi projects.</p>
+</li>
+<li>
+<p><strong>Polkadot (DOT)</strong> - Facilitates cross-chain transfers of any type of data or asset, enabling interoperability between blockchains.</p>
+</li>
+<li>
+<p><strong>Avalanche (AVAX)</strong> - Aims to address blockchain scalability issues, offering high throughput and quick finality.</p>
+</li>
+<li>
+<p><strong>Solana (SOL)</strong> - Known for its high performance and scalability, supporting thousands of transactions per second without sacrificing decentralization.</p>
+</li>
+<li>
+<p><strong>Cardano (ADA)</strong> - Focuses on a research-driven approach to design and build its blockchain, emphasizing security and scalability.</p>
+</li>
+<li>
+<p><strong>Tezos (XTZ)</strong> - Features on-chain governance and a unique self-amendment mechanism to upgrade itself without having to fork.</p>
+</li>
+<li>
+<p><strong>Algorand (ALGO)</strong> - Offers fast transaction speeds and immediate transaction finality while ensuring full participation, protection, and speed within a decentralized network.</p>
+</li>
+<li>
+<p><strong>Cosmos (ATOM)</strong> - Aims to create an Internet of Blockchains, enabling blockchains to communicate with each other in a decentralized way.</p>
+</li>
+<li>
+<p><strong>Chainlink (LINK)</strong> - Not a blockchain itself but a decentralized network designed to connect smart contracts with real-world data.</p>
+</li>
+<li>
+<p><strong>Near Protocol (NEAR)</strong> - Aims to offer a platform that is both developer-friendly and capable of handling high-value assets like money and identity.</p>
+</li>
+<li>
+<p><strong>Tron (TRX)</strong> - Focuses on creating a decentralized internet and its infrastructure, with high throughput and scalability.</p>
+</li>
+<li>
+<p><strong>EOS (EOS)</strong> - Offers scalable smart contracts and DApp hosting with an emphasis on eliminating transaction fees and conducting millions of transactions per second.</p>
+</li>
+<li>
+<p><strong>Hedera Hashgraph (HBAR)</strong> - Not a blockchain but a distributed ledger technology that offers high throughput, fairness in ordering transactions, and low-latency consensus.</p>
+</li>
+<li>
+<p><strong>Klaytn (KLAY)</strong> - Aims at offering an accessible user experience and development environment in order to convey the value of blockchain technology.</p>
+</li>
+</ul>
+<p>For the most up-to-date information, direct links to the blockchain projects, and deeper insights into their technology and application areas, it&rsquo;s recommended to visit authoritative sources like <a href="https://coinmarketcap.com/chain-ranking/">CoinMarketCap&rsquo;s chain ranking page</a> and <a href="https://www.coingecko.com/">CoinGecko</a>, as well as individual blockchain project websites.</p>
+<p>This list represents a mixture of well-established and emerging blockchains, each contributing to the diverse ecosystem of decentralized applications, financial services, and beyond. The landscape of Blockchain technology is rapidly evolving, with new projects and innovations continuously emerging.</p>
+<h2 id="usage-context-and-evolution-in-banking-and-finance">Usage Context and Evolution in Banking and Finance<a hidden class="anchor" aria-hidden="true" href="#usage-context-and-evolution-in-banking-and-finance">#</a></h2>
+<p>Initially, it was predominantly associated with cryptocurrencies within the financial industry. However, its application has significantly broadened, including securing digital identities, facilitating real-time, cross-border payments with lower transaction fees, and streamlining compliance through transparent and immutable record-keeping. This evolution marks a shift from traditional banking practices towards a more decentralized and efficient digital finance landscape.</p>
+<h2 id="importance-and-impact">Importance and Impact<a hidden class="anchor" aria-hidden="true" href="#importance-and-impact">#</a></h2>
+<p>Its importance in the banking and financial sector cannot be overstated. It offers unparalleled benefits such as increased security through cryptography, enhanced transparency and trust via an immutable ledger, reduced costs by eliminating intermediaries, and improved efficiency with faster transaction processing times. These advantages have the potential to transform the financial services industry by fostering greater inclusivity, reducing fraud, and enabling more direct peer-to-peer transactions.</p>
+<h2 id="key-stakeholders-and-users">Key Stakeholders and Users<a hidden class="anchor" aria-hidden="true" href="#key-stakeholders-and-users">#</a></h2>
+<p>It engages a diverse range of stakeholders, including:</p>
+<ul>
+<li>
+<p><strong>Financial Institutions</strong>: Banks and fintech companies utilize blockchain for secure transactions and as a tool for innovation.</p>
+</li>
+<li>
+<p><strong>Regulators</strong>: Government and regulatory bodies explore blockchain for its potential to improve transparency and compliance.</p>
+</li>
+<li>
+<p><strong>End-users</strong>: Both individuals and businesses benefit from blockchain through enhanced security, privacy, and efficiency in transactions.</p>
+</li>
+</ul>
+<h2 id="application-and-implementation">Application and Implementation<a hidden class="anchor" aria-hidden="true" href="#application-and-implementation">#</a></h2>
+<p>Implementing blockchain in banking and finance involves digitizing assets, establishing a consortium or private blockchain for transactions, and integrating blockchain solutions with existing financial processes. Challenges include scalability, regulatory compliance, interoperability among different blockchains, and achieving a consensus on technology standards.</p>
+<h2 id="formula-if-applicable">Formula (if applicable)<a hidden class="anchor" aria-hidden="true" href="#formula-if-applicable">#</a></h2>
+<p>Blockchain does not involve a specific formula but relies on cryptographic algorithms and consensus mechanisms (like Proof of Work or Proof of Stake) to validate transactions and secure the network.</p>
+<h2 id="terminology-and-variations">Terminology and Variations<a hidden class="anchor" aria-hidden="true" href="#terminology-and-variations">#</a></h2>
+<p>Blockchain is also known as Distributed Ledger Technology (DLT). Variations include &ldquo;smart contracts&rdquo; (self-executing contracts with the terms directly written into code) and &ldquo;tokens&rdquo; (digital assets on a blockchain).</p>
+<h2 id="ethical-and-moral-considerations">Ethical and Moral Considerations<a hidden class="anchor" aria-hidden="true" href="#ethical-and-moral-considerations">#</a></h2>
+<p>The decentralized nature of blockchain raises ethical and moral questions regarding regulatory oversight, the potential for illicit activities, environmental impact due to energy consumption (especially with Proof of Work blockchains), and the digital divide that could exacerbate social inequalities.</p>
+<h2 id="advantages-and-disadvantages">Advantages and Disadvantages<a hidden class="anchor" aria-hidden="true" href="#advantages-and-disadvantages">#</a></h2>
+<p>Blockchain technology is celebrated for its numerous advantages, including enhanced security, improved transparency, reduced transaction costs, and increased efficiency and speed. Its decentralized nature ensures that data is not stored in a single location, making it resistant to cyber attacks and fraud. The transparency provided by blockchain allows for seamless tracking of transaction histories, fostering trust among participants. Additionally, by eliminating the need for intermediaries, it can significantly reduce transaction costs and times.</p>
+<p>However, it has also faced several challenges and limitations. The technology&rsquo;s scalability issues, high energy consumption (particularly in proof-of-work systems), and complex integration with existing systems pose significant hurdles. Regulatory uncertainties and the lack of widespread understanding and acceptance further complicate its adoption. These drawbacks necessitate ongoing research and development to harness blockchain&rsquo;s full potential while mitigating its downsides.</p>
+<h2 id="real-world-applications-and-case-studies-of-blockchain">Real-World Applications and Case Studies of Blockchain<a hidden class="anchor" aria-hidden="true" href="#real-world-applications-and-case-studies-of-blockchain">#</a></h2>
+<p>It finds application across various domains, illustrating its versatility and impact.</p>
+<ul>
+<li>
+<p><strong>Financial Services:</strong> It has revolutionized the banking sector by facilitating faster and more secure transactions. Ripple, a blockchain-based payment system, enables instant cross-border payments with lower fees, demonstrating the technology&rsquo;s potential to transform international money transfers.</p>
+</li>
+<li>
+<p><strong>Supply Chain Management:</strong> Walmart&rsquo;s integration of blockchain into its supply chain operations exemplifies its utility in enhancing traceability and efficiency. By leveraging blockchain, Walmart can track the provenance of products, ensuring food safety and authenticity.</p>
+</li>
+<li>
+<p><strong>Healthcare:</strong> Blockchain&rsquo;s application in healthcare, as seen in Estonia&rsquo;s e-health system, ensures the secure and private storage of patient records. This system enables seamless access to medical histories, improving the quality of care and patient outcomes.</p>
+</li>
+</ul>
+<h2 id="future-outlook-and-trends">Future Outlook and Trends<a hidden class="anchor" aria-hidden="true" href="#future-outlook-and-trends">#</a></h2>
+<p>The future of blockchain technology is marked by several emerging trends and potential developments. The advent of more energy-efficient consensus mechanisms, such as proof-of-stake, addresses concerns over environmental sustainability. Additionally, the integration of blockchain with other cutting-edge technologies, like artificial intelligence and the Internet of Things (IoT), is anticipated to unlock new possibilities, from smarter supply chains to more secure IoT networks.</p>
+<p>The proliferation of <a href="https://faisalkhan.com/learn/payments-wiki/decentralized-finance-defi/">decentralized finance (DeFi)</a> and <a href="https://faisalkhan.com/learn/payments-wiki/nft-non-fungible-tokens/">non-fungible tokens (NFTs)</a> showcases blockchain&rsquo;s expanding role in creating open, inclusive financial systems and digital ownership models. As these trends evolve, it is expected to play a central role in shaping the digital economy, with continuous innovation driving its growth.</p>
+<h2 id="analogies-and-metaphors-for-blockchain">Analogies and Metaphors for Blockchain<a hidden class="anchor" aria-hidden="true" href="#analogies-and-metaphors-for-blockchain">#</a></h2>
+<p>Think of blockchain as a digital ledger, similar to a traditional ledger used in bookkeeping, but with enhanced features for the digital age. Each transaction is a &ldquo;page&rdquo; in the ledger, verified and agreed upon by all participants, creating a permanent, unchangeable record. This is akin to writing in a notebook with ink that cannot be erased, ensuring that every entry is permanent and transparent.</p>
+<h2 id="official-website-and-authoritative-sources">Official Website and Authoritative Sources<a hidden class="anchor" aria-hidden="true" href="#official-website-and-authoritative-sources">#</a></h2>
+<p>For authoritative information, the <a href="https://www.blockchainresearchinstitute.org/">Blockchain Research Institute</a> serves as a valuable resource. This organization conducts in-depth research on strategic implications and its potential impact across various industries.</p>
+<h2 id="further-reading">Further Reading<a hidden class="anchor" aria-hidden="true" href="#further-reading">#</a></h2>
+<ul>
+<li>
+<p><strong>Coindesk:</strong> <a href="https://www.coindesk.com/">A leading news website that covers blockchain technology, crypto assets, and emerging fintech trends</a>.</p>
+</li>
+<li>
+<p><strong>The Block:</strong> <a href="https://www.theblockcrypto.com/">Provides research, analysis, and news on digital assets and blockchain technology</a>.</p>
+</li>
+<li>
+<p><strong>Cointelegraph:</strong> <a href="https://cointelegraph.com/">Offers updates and expert insights on blockchain technology and the digital asset ecosystem</a>.</p>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/resources/payments-wiki/bitcoin/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Bitcoin</span>
+  </a>
+  <a class="next" href="http://localhost:1313/resources/payments-wiki/practical-byzantine-fault-tolerance-pbft/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Practical Byzantine Fault Tolerance (PBFT)</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer custom-footer">
+    <div class="footer-content">
+        <span>&copy; 2005-2025 <a href="http://localhost:1313/">Faisal Khan LLC</a>. All Rights Reserved.</span>
+        <div class="footer-nav">
+            <a href="http://localhost:1313/book-a-call/" title="">Book A Call</a> ·
+            <a href="http://localhost:1313/legal/disclaimer/" title="">Legal Disclaimer</a> ·
+            <a href="http://localhost:1313/legal/privacy/" title="">Privacy Policy</a> ·
+            <a href="http://localhost:1313/legal/terms/" title="">Terms of Service</a> ·
+            <a href="http://localhost:1313/legal/refund/" title="">Refund</a> ·
+            <a href="http://localhost:1313/support/" title="">Support</a> ·
+            <a href="http://localhost:1313/sitemap/" title="">Sitemap</a>
+        </div>
+
+
+    </div>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important;">
+  —
+  <p>
+  Page Last Updated: August 2, 2025
+</div>
+
+<style>
+.page-last-updated-auto {
+  color: #000 !important;
+}
+
+.dark .page-last-updated-auto {
+  color: #fff !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  
+  const lastUpdated = document.querySelector('.page-last-updated-auto');
+  
+  const main = document.querySelector('main');
+  
+  if (lastUpdated && main) {
+    
+    main.appendChild(lastUpdated);
+  }
+});
+</script>
+
+
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>
