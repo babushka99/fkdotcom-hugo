@@ -5,12 +5,6 @@ draft: false
 description: "Expert licensed gaming solutions from Faisal Khan LLC"
 keywords: ["licensed gaming", "high-risk", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/high-risk/licensed-gaming.webp"
-    alt: "Licensed Gaming - Expert solutions from Faisal Khan LLC"
-    caption: "Licensed Gaming Expert Solutions"
-
 # Taxonomies
 categories: ["high-risk"]
 tags: ["licensed-gaming", "high-risk", "financial-services"]

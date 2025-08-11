@@ -5,12 +5,6 @@ draft: false
 description: "Expert central bank digital currencies (cbdcs) solutions from Faisal Khan LLC"
 keywords: ["central bank digital currencies (cbdcs)", "crypto", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/crypto/central-bank-digital-currencies.webp"
-    alt: "Central Bank Digital Currencies (CBDCs) - Expert solutions from Faisal Khan LLC"
-    caption: "Central Bank Digital Currencies (CBDCs) Expert Solutions"
-
 # Taxonomies
 categories: ["crypto"]
 tags: ["central-bank-digital-currencies", "crypto", "financial-services"]

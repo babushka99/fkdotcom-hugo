@@ -5,12 +5,6 @@ draft: false
 description: "Expert knowledge-base resources from Faisal Khan LLC"
 keywords: ["knowledge-base", "resources", "education", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/resources/knowledge-base.webp"
-    alt: "Knowledge-Base - Expert solutions from Faisal Khan LLC"
-    caption: "Knowledge-Base Expert Solutions"
-
 # Taxonomies
 categories: ["resources"]
 tags: ["knowledge-base", "resources", "education"]

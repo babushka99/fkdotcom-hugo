@@ -5,12 +5,6 @@ draft: false
 description: "Expert electronic money institution (emi) solutions from Faisal Khan LLC"
 keywords: ["electronic money institution (emi)", "licensing", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/licensing/electronic-money-institution.webp"
-    alt: "Electronic Money Institution (EMI) - Expert solutions from Faisal Khan LLC"
-    caption: "Electronic Money Institution (EMI) Expert Solutions"
-
 # Taxonomies
 categories: ["licensing"]
 tags: ["electronic-money-institution", "licensing", "financial-services"]

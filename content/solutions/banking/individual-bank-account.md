@@ -5,12 +5,6 @@ draft: false
 description: "Expert individual bank account solutions from Faisal Khan LLC"
 keywords: ["individual bank account", "banking", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/banking/individual-bank-account.webp"
-    alt: "Individual Bank Account - Expert solutions from Faisal Khan LLC"
-    caption: "Individual Bank Account Expert Solutions"
-
 # Taxonomies
 categories: ["banking"]
 tags: ["individual-bank-account", "banking", "financial-services"]

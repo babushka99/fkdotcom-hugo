@@ -5,12 +5,6 @@ draft: false
 description: "Expert fatf grey list countries solutions from Faisal Khan LLC"
 keywords: ["fatf grey list countries", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/fatf-grey-list-countries.webp"
-    alt: "FATF Grey List Countries - Expert solutions from Faisal Khan LLC"
-    caption: "FATF Grey List Countries Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["fatf-grey-list-countries", "geographic", "financial-services"]

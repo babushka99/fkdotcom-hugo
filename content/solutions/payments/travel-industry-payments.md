@@ -5,12 +5,6 @@ draft: false
 description: "Expert travel industry payments solutions from Faisal Khan LLC"
 keywords: ["travel industry payments", "payments", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/payments/travel-industry-payments.webp"
-    alt: "Travel Industry Payments - Expert solutions from Faisal Khan LLC"
-    caption: "Travel Industry Payments Expert Solutions"
-
 # Taxonomies
 categories: ["payments"]
 tags: ["travel-industry-payments", "payments", "financial-services"]

@@ -5,12 +5,6 @@ draft: false
 description: "Expert fiat wallet solutions from Faisal Khan LLC"
 keywords: ["fiat wallet", "wallets", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/wallets/fiat-wallet.webp"
-    alt: "Fiat Wallet - Expert solutions from Faisal Khan LLC"
-    caption: "Fiat Wallet Expert Solutions"
-
 # Taxonomies
 categories: ["wallets"]
 tags: ["fiat-wallet", "wallets", "financial-services"]

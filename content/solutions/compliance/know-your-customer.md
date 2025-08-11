@@ -5,12 +5,6 @@ draft: false
 description: "Expert know your customer (kyc) solutions from Faisal Khan LLC"
 keywords: ["know your customer (kyc)", "compliance", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/compliance/know-your-customer.webp"
-    alt: "Know Your Customer (KYC) - Expert solutions from Faisal Khan LLC"
-    caption: "Know Your Customer (KYC) Expert Solutions"
-
 # Taxonomies
 categories: ["compliance"]
 tags: ["know-your-customer", "compliance", "financial-services"]

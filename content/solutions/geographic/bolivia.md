@@ -5,11 +5,11 @@ draft: false
 description: "Expert Bolivia solutions from Faisal Khan LLC"
 keywords: ["latin america", "bolivia",  "geographic", "licensing", "us dollars", "bolivianos", "faisal khan", "bob", "bolivia us dollars", "us dollar shortage bolivia"]
 
-# Featured Image (FIXED INDENTATION)
+# Featured Image
 cover:
     image: "/images/bolivia.webp"
-    alt: "Bolivia US Dollar Shortage"
-    caption: "Addressing Bolivia's US Dollar Shortage Problem"
+    alt: "Bolivia - Expert solutions from Faisal Khan LLC"
+    caption: "Bolivia Expert Solutions"
 
 # Taxonomies
 categories: ["geographic"]

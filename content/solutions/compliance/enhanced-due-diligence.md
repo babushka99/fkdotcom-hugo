@@ -5,12 +5,6 @@ draft: false
 description: "Expert enhanced due diligence (edd) solutions from Faisal Khan LLC"
 keywords: ["enhanced due diligence (edd)", "compliance", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/compliance/enhanced-due-diligence.webp"
-    alt: "Enhanced Due Diligence (EDD) - Expert solutions from Faisal Khan LLC"
-    caption: "Enhanced Due Diligence (EDD) Expert Solutions"
-
 # Taxonomies
 categories: ["compliance"]
 tags: ["enhanced-due-diligence", "compliance", "financial-services"]

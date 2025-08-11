@@ -5,12 +5,6 @@ draft: false
 description: "Expert georgia solutions from Faisal Khan LLC"
 keywords: ["georgia", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/georgia.webp"
-    alt: "Georgia - Expert solutions from Faisal Khan LLC"
-    caption: "Georgia Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["georgia", "geographic", "financial-services"]

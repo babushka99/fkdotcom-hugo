@@ -5,12 +5,6 @@ draft: false
 description: "Expert somalia solutions from Faisal Khan LLC"
 keywords: ["somalia", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/somalia.webp"
-    alt: "Somalia - Expert solutions from Faisal Khan LLC"
-    caption: "Somalia Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["somalia", "geographic", "financial-services"]

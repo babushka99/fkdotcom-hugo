@@ -5,12 +5,6 @@ draft: false
 description: "Expert bitcoin atm business solutions from Faisal Khan LLC"
 keywords: ["bitcoin atm business", "high-risk", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/high-risk/bitcoin-atm-business.webp"
-    alt: "Bitcoin ATM Business - Expert solutions from Faisal Khan LLC"
-    caption: "Bitcoin ATM Business Expert Solutions"
-
 # Taxonomies
 categories: ["high-risk"]
 tags: ["bitcoin-atm-business", "high-risk", "financial-services"]

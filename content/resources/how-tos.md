@@ -5,12 +5,6 @@ draft: false
 description: "Expert how-to's resources from Faisal Khan LLC"
 keywords: ["how-to's", "resources", "education", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/resources/how-tos.webp"
-    alt: "How-To - Expert solutions from Faisal Khan LLC"
-    caption: "How-To Expert Solutions"
-
 # Taxonomies
 categories: ["resources"]
 tags: ["how-tos", "resources", "education"]

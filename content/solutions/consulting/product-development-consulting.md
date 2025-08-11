@@ -5,12 +5,6 @@ draft: false
 description: "Expert product development consulting solutions from Faisal Khan LLC"
 keywords: ["product development consulting", "consulting", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/consulting/product-development-consulting.webp"
-    alt: "Product Development Consulting - Expert solutions from Faisal Khan LLC"
-    caption: "Product Development Consulting Expert Solutions"
-
 # Taxonomies
 categories: ["consulting"]
 tags: ["product-development-consulting", "consulting", "financial-services"]

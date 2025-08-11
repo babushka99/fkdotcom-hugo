@@ -5,12 +5,6 @@ draft: false
 description: "Expert swift access solutions from Faisal Khan LLC"
 keywords: ["swift access", "banking", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/banking/swift-access.webp"
-    alt: "SWIFT Access - Expert solutions from Faisal Khan LLC"
-    caption: "SWIFT Access Expert Solutions"
-
 # Taxonomies
 categories: ["banking"]
 tags: ["swift-access", "banking", "financial-services"]

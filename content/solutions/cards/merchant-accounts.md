@@ -5,12 +5,6 @@ draft: false
 description: "Expert merchant accounts solutions from Faisal Khan LLC"
 keywords: ["merchant accounts", "cards", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/cards/merchant-accounts.webp"
-    alt: "Merchant Accounts - Expert solutions from Faisal Khan LLC"
-    caption: "Merchant Accounts Expert Solutions"
-
 # Taxonomies
 categories: ["cards"]
 tags: ["merchant-accounts", "cards", "financial-services"]

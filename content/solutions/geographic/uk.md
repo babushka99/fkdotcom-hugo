@@ -5,12 +5,6 @@ draft: false
 description: "Expert uk solutions from Faisal Khan LLC"
 keywords: ["uk", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/uk.webp"
-    alt: "UK - Expert solutions from Faisal Khan LLC"
-    caption: "UK Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["uk", "geographic", "financial-services"]

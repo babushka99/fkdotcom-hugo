@@ -5,12 +5,6 @@ draft: false
 description: "Expert know your business (kyb) solutions from Faisal Khan LLC"
 keywords: ["know your business (kyb)", "compliance", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/compliance/know-your-business.webp"
-    alt: "Know Your Business (KYB) - Expert solutions from Faisal Khan LLC"
-    caption: "Know Your Business (KYB) Expert Solutions"
-
 # Taxonomies
 categories: ["compliance"]
 tags: ["know-your-business", "compliance", "financial-services"]

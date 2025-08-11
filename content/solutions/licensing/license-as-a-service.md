@@ -5,12 +5,6 @@ draft: false
 description: "Expert license as a service (laas) solutions from Faisal Khan LLC"
 keywords: ["license as a service (laas)", "licensing", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/licensing/license-as-a-service.webp"
-    alt: "License as a Service (LaaS) - Expert solutions from Faisal Khan LLC"
-    caption: "License as a Service (LaaS) Expert Solutions"
-
 # Taxonomies
 categories: ["licensing"]
 tags: ["license-as-a-service", "licensing", "financial-services"]

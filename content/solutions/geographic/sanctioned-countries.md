@@ -5,12 +5,6 @@ draft: false
 description: "Expert sanctioned countries solutions from Faisal Khan LLC"
 keywords: ["sanctioned countries", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/sanctioned-countries.webp"
-    alt: "Sanctioned Countries - Expert solutions from Faisal Khan LLC"
-    caption: "Sanctioned Countries Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["sanctioned-countries", "geographic", "financial-services"]

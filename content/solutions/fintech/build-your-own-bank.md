@@ -5,12 +5,6 @@ draft: false
 description: "Expert build your own bank (byob) solutions from Faisal Khan LLC"
 keywords: ["build your own bank (byob)", "fintech", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/fintech/build-your-own-bank.webp"
-    alt: "Build Your Own Bank (BYOB) - Expert solutions from Faisal Khan LLC"
-    caption: "Build Your Own Bank (BYOB) Expert Solutions"
-
 # Taxonomies
 categories: ["fintech"]
 tags: ["build-your-own-bank", "fintech", "financial-services"]

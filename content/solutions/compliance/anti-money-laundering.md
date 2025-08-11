@@ -5,12 +5,6 @@ draft: false
 description: "Expert anti-money laundering (aml) solutions from Faisal Khan LLC"
 keywords: ["anti-money laundering (aml)", "compliance", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/compliance/anti-money-laundering.webp"
-    alt: "Anti-Money Laundering (AML) - Expert solutions from Faisal Khan LLC"
-    caption: "Anti-Money Laundering (AML) Expert Solutions"
-
 # Taxonomies
 categories: ["compliance"]
 tags: ["anti-money-laundering", "compliance", "financial-services"]

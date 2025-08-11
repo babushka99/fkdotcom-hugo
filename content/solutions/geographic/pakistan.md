@@ -5,12 +5,6 @@ draft: false
 description: "Expert pakistan solutions from Faisal Khan LLC"
 keywords: ["pakistan", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/pakistan.webp"
-    alt: "Pakistan - Expert solutions from Faisal Khan LLC"
-    caption: "Pakistan Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["pakistan", "geographic", "financial-services"]

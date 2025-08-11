@@ -5,12 +5,6 @@ draft: false
 description: "Expert latin america solutions from Faisal Khan LLC"
 keywords: ["latin america", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/latin-america.webp"
-    alt: "Latin America - Expert solutions from Faisal Khan LLC"
-    caption: "Latin America Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["latin-america", "geographic", "financial-services"]

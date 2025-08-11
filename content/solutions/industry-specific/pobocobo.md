@@ -5,12 +5,6 @@ draft: false
 description: "Expert pobo/cobo solutions from Faisal Khan LLC"
 keywords: ["pobo/cobo", "industry-specific", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/industry-specific/pobocobo.webp"
-    alt: "POBO/COBO - Expert solutions from Faisal Khan LLC"
-    caption: "POBO/COBO Expert Solutions"
-
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["pobocobo", "industry-specific", "financial-services"]

@@ -5,12 +5,6 @@ draft: false
 description: "Expert bitcoin money transmitter license solutions from Faisal Khan LLC"
 keywords: ["bitcoin money transmitter license", "crypto", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/crypto/bitcoin-money-transmitter-license.webp"
-    alt: "Bitcoin Money Transmitter License - Expert solutions from Faisal Khan LLC"
-    caption: "Bitcoin Money Transmitter License Expert Solutions"
-
 # Taxonomies
 categories: ["crypto"]
 tags: ["bitcoin-money-transmitter-license", "crypto", "financial-services"]

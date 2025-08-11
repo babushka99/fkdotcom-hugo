@@ -5,12 +5,6 @@ draft: false
 description: "Expert embedded finance solutions from Faisal Khan LLC"
 keywords: ["embedded finance", "fintech", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/fintech/embedded-finance.webp"
-    alt: "Embedded Finance - Expert solutions from Faisal Khan LLC"
-    caption: "Embedded Finance Expert Solutions"
-
 # Taxonomies
 categories: ["fintech"]
 tags: ["embedded-finance", "fintech", "financial-services"]

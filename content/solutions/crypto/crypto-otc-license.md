@@ -5,12 +5,6 @@ draft: false
 description: "Expert crypto otc license solutions from Faisal Khan LLC"
 keywords: ["crypto otc license", "crypto", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/crypto/crypto-otc-license.webp"
-    alt: "Crypto OTC License - Expert solutions from Faisal Khan LLC"
-    caption: "Crypto OTC License Expert Solutions"
-
 # Taxonomies
 categories: ["crypto"]
 tags: ["crypto-otc-license", "crypto", "financial-services"]

@@ -5,12 +5,6 @@ draft: false
 description: "Expert south-east asia solutions from Faisal Khan LLC"
 keywords: ["south-east asia", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/south-east-asia.webp"
-    alt: "South-East Asia - Expert solutions from Faisal Khan LLC"
-    caption: "South-East Asia Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["south-east-asia", "geographic", "financial-services"]

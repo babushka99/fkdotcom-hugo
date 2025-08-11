@@ -5,12 +5,6 @@ draft: false
 description: "Expert card processing solutions from Faisal Khan LLC"
 keywords: ["card processing", "cards", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/cards/card-processing.webp"
-    alt: "Card Processing - Expert solutions from Faisal Khan LLC"
-    caption: "Card Processing Expert Solutions"
-
 # Taxonomies
 categories: ["cards"]
 tags: ["card-processing", "cards", "financial-services"]

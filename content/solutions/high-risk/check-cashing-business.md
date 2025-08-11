@@ -5,12 +5,6 @@ draft: false
 description: "Expert check cashing business solutions from Faisal Khan LLC"
 keywords: ["check cashing business", "high-risk", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/high-risk/check-cashing-business.webp"
-    alt: "Check Cashing Business - Expert solutions from Faisal Khan LLC"
-    caption: "Check Cashing Business Expert Solutions"
-
 # Taxonomies
 categories: ["high-risk"]
 tags: ["check-cashing-business", "high-risk", "financial-services"]

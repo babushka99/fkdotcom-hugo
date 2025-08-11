@@ -5,12 +5,6 @@ draft: false
 description: "Expert india solutions from Faisal Khan LLC"
 keywords: ["india", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/india.webp"
-    alt: "India - Expert solutions from Faisal Khan LLC"
-    caption: "India Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["india", "geographic", "financial-services"]

@@ -5,12 +5,6 @@ draft: false
 description: "Expert bank sponsorship solutions from Faisal Khan LLC"
 keywords: ["bank sponsorship", "licensing", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/licensing/bank-sponsorship.webp"
-    alt: "Bank Sponsorship - Expert solutions from Faisal Khan LLC"
-    caption: "Bank Sponsorship Expert Solutions"
-
 # Taxonomies
 categories: ["licensing"]
 tags: ["bank-sponsorship", "licensing", "financial-services"]

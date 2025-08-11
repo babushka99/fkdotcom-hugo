@@ -5,12 +5,6 @@ draft: false
 description: "Expert defi license solutions from Faisal Khan LLC"
 keywords: ["defi license", "crypto", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/crypto/defi-license.webp"
-    alt: "DeFi License - Expert solutions from Faisal Khan LLC"
-    caption: "DeFi License Expert Solutions"
-
 # Taxonomies
 categories: ["crypto"]
 tags: ["defi-license", "crypto", "financial-services"]

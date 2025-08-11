@@ -5,12 +5,6 @@ draft: false
 description: "Expert financial institutions solutions from Faisal Khan LLC"
 keywords: ["financial institutions", "providers", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/providers/financial-institutions.webp"
-    alt: "Financial Institutions - Expert solutions from Faisal Khan LLC"
-    caption: "Financial Institutions Expert Solutions"
-
 # Taxonomies
 categories: ["providers"]
 tags: ["financial-institutions", "providers", "financial-services"]

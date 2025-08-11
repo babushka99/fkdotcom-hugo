@@ -5,12 +5,6 @@ draft: false
 description: "Expert gambling & sports betting licensing solutions from Faisal Khan LLC"
 keywords: ["gambling & sports betting licensing", "licensing", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/licensing/gambling-sports-betting-licensing.webp"
-    alt: "Gambling & Sports Betting Licensing - Expert solutions from Faisal Khan LLC"
-    caption: "Gambling & Sports Betting Licensing Expert Solutions"
-
 # Taxonomies
 categories: ["licensing"]
 tags: ["gambling-sports-betting-licensing", "licensing", "financial-services"]

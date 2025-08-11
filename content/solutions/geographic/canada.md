@@ -5,12 +5,6 @@ draft: false
 description: "Expert canada solutions from Faisal Khan LLC"
 keywords: ["canada", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/canada.webp"
-    alt: "Canada - Expert solutions from Faisal Khan LLC"
-    caption: "Canada Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["canada", "geographic", "financial-services"]

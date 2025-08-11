@@ -5,12 +5,6 @@ draft: false
 description: "Expert africa solutions from Faisal Khan LLC"
 keywords: ["africa", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/africa.webp"
-    alt: "Africa - Expert solutions from Faisal Khan LLC"
-    caption: "Africa Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["africa", "geographic", "financial-services"]

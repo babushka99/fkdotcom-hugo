@@ -5,12 +5,6 @@ draft: false
 description: "Expert travel industry solutions from Faisal Khan LLC"
 keywords: ["travel industry", "industry-specific", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/industry-specific/travel-industry.webp"
-    alt: "Travel Industry - Expert solutions from Faisal Khan LLC"
-    caption: "Travel Industry Expert Solutions"
-
 # Taxonomies
 categories: ["industry-specific"]
 tags: ["travel-industry", "industry-specific", "financial-services"]

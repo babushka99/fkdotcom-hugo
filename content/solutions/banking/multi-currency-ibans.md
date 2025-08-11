@@ -5,12 +5,6 @@ draft: false
 description: "Expert multi-currency ibans solutions from Faisal Khan LLC"
 keywords: ["multi-currency ibans", "banking", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/banking/multi-currency-ibans.webp"
-    alt: "Multi-Currency IBANs - Expert solutions from Faisal Khan LLC"
-    caption: "Multi-Currency IBANs Expert Solutions"
-
 # Taxonomies
 categories: ["banking"]
 tags: ["multi-currency-ibans", "banking", "financial-services"]

@@ -5,12 +5,6 @@ draft: false
 description: "Expert nepal solutions from Faisal Khan LLC"
 keywords: ["nepal", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/nepal.webp"
-    alt: "Nepal - Expert solutions from Faisal Khan LLC"
-    caption: "Nepal Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["nepal", "geographic", "financial-services"]

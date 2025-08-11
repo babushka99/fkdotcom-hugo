@@ -5,12 +5,6 @@ draft: false
 description: "Expert initial coin offering (ico) solutions from Faisal Khan LLC"
 keywords: ["initial coin offering (ico)", "crypto", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/crypto/initial-coin-offering.webp"
-    alt: "Initial Coin Offering (ICO) - Expert solutions from Faisal Khan LLC"
-    caption: "Initial Coin Offering (ICO) Expert Solutions"
-
 # Taxonomies
 categories: ["crypto"]
 tags: ["initial-coin-offering", "crypto", "financial-services"]

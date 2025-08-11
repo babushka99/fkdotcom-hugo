@@ -5,12 +5,6 @@ draft: false
 description: "Expert correspondent banking relationship (cbr) solutions from Faisal Khan LLC"
 keywords: ["correspondent banking relationship (cbr)", "banking", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/banking/correspondent-banking-relationship.webp"
-    alt: "Correspondent Banking Relationship (CBR) - Expert solutions from Faisal Khan LLC"
-    caption: "Correspondent Banking Relationship (CBR) Expert Solutions"
-
 # Taxonomies
 categories: ["banking"]
 tags: ["correspondent-banking-relationship", "banking", "financial-services"]

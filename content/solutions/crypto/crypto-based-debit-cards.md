@@ -5,12 +5,6 @@ draft: false
 description: "Expert crypto-based debit cards solutions from Faisal Khan LLC"
 keywords: ["crypto-based debit cards", "crypto", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/crypto/crypto-based-debit-cards.webp"
-    alt: "Crypto-based Debit Cards - Expert solutions from Faisal Khan LLC"
-    caption: "Crypto-based Debit Cards Expert Solutions"
-
 # Taxonomies
 categories: ["crypto"]
 tags: ["crypto-based-debit-cards", "crypto", "financial-services"]

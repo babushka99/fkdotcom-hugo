@@ -5,12 +5,6 @@ draft: false
 description: "Expert crypto bank accounts solutions from Faisal Khan LLC"
 keywords: ["crypto bank accounts", "banking", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/banking/crypto-bank-accounts.webp"
-    alt: "Crypto Bank Accounts - Expert solutions from Faisal Khan LLC"
-    caption: "Crypto Bank Accounts Expert Solutions"
-
 # Taxonomies
 categories: ["banking"]
 tags: ["crypto-bank-accounts", "banking", "financial-services"]

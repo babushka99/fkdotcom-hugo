@@ -5,12 +5,6 @@ draft: false
 description: "Expert compliance training solutions from Faisal Khan LLC"
 keywords: ["compliance training", "compliance", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/compliance/compliance-training.webp"
-    alt: "Compliance Training - Expert solutions from Faisal Khan LLC"
-    caption: "Compliance Training Expert Solutions"
-
 # Taxonomies
 categories: ["compliance"]
 tags: ["compliance-training", "compliance", "financial-services"]

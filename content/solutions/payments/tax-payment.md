@@ -5,12 +5,6 @@ draft: false
 description: "Expert tax payment solutions from Faisal Khan LLC"
 keywords: ["tax payment", "payments", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/payments/tax-payment.webp"
-    alt: "Tax Payment - Expert solutions from Faisal Khan LLC"
-    caption: "Tax Payment Expert Solutions"
-
 # Taxonomies
 categories: ["payments"]
 tags: ["tax-payment", "payments", "financial-services"]

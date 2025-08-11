@@ -5,12 +5,6 @@ draft: false
 description: "Expert card issuance solutions from Faisal Khan LLC"
 keywords: ["card issuance", "cards", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/cards/card-issuance.webp"
-    alt: "Card Issuance - Expert solutions from Faisal Khan LLC"
-    caption: "Card Issuance Expert Solutions"
-
 # Taxonomies
 categories: ["cards"]
 tags: ["card-issuance", "cards", "financial-services"]

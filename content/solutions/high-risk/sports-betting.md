@@ -5,12 +5,6 @@ draft: false
 description: "Expert sports betting solutions from Faisal Khan LLC"
 keywords: ["sports betting", "high-risk", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/high-risk/sports-betting.webp"
-    alt: "Sports Betting - Expert solutions from Faisal Khan LLC"
-    caption: "Sports Betting Expert Solutions"
-
 # Taxonomies
 categories: ["high-risk"]
 tags: ["sports-betting", "high-risk", "financial-services"]

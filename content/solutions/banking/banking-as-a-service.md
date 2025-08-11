@@ -5,12 +5,6 @@ draft: false
 description: "Expert banking-as-a-service (baas) solutions from Faisal Khan LLC"
 keywords: ["banking-as-a-service (baas)", "banking", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/banking/banking-as-a-service.webp"
-    alt: "Banking-as-a-Service (BaaS) - Expert solutions from Faisal Khan LLC"
-    caption: "Banking-as-a-Service (BaaS) Expert Solutions"
-
 # Taxonomies
 categories: ["banking"]
 tags: ["banking-as-a-service", "banking", "financial-services"]

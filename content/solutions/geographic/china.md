@@ -5,12 +5,6 @@ draft: false
 description: "Expert china solutions from Faisal Khan LLC"
 keywords: ["china", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/china.webp"
-    alt: "China - Expert solutions from Faisal Khan LLC"
-    caption: "China Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["china", "geographic", "financial-services"]

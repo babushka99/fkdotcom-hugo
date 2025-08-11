@@ -5,12 +5,6 @@ draft: false
 description: "Expert gambling solutions from Faisal Khan LLC"
 keywords: ["gambling", "high-risk", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/high-risk/gambling.webp"
-    alt: "Gambling - Expert solutions from Faisal Khan LLC"
-    caption: "Gambling Expert Solutions"
-
 # Taxonomies
 categories: ["high-risk"]
 tags: ["gambling", "high-risk", "financial-services"]

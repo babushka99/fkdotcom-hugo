@@ -5,12 +5,6 @@ draft: false
 description: "Expert high-risk countries solutions from Faisal Khan LLC"
 keywords: ["high-risk countries", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/high-risk-countries.webp"
-    alt: "High-Risk Countries - Expert solutions from Faisal Khan LLC"
-    caption: "High-Risk Countries Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["high-risk-countries", "geographic", "financial-services"]

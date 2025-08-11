@@ -5,12 +5,6 @@ draft: false
 description: "Expert starting a neo bank solutions from Faisal Khan LLC"
 keywords: ["starting a neo bank", "fintech", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/fintech/starting-a-neo-bank.webp"
-    alt: "Starting a Neo Bank - Expert solutions from Faisal Khan LLC"
-    caption: "Starting a Neo Bank Expert Solutions"
-
 # Taxonomies
 categories: ["fintech"]
 tags: ["starting-a-neo-bank", "fintech", "financial-services"]

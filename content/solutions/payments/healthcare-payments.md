@@ -5,12 +5,6 @@ draft: false
 description: "Expert healthcare payments solutions from Faisal Khan LLC"
 keywords: ["healthcare payments", "payments", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/payments/healthcare-payments.webp"
-    alt: "Healthcare Payments - Expert solutions from Faisal Khan LLC"
-    caption: "Healthcare Payments Expert Solutions"
-
 # Taxonomies
 categories: ["payments"]
 tags: ["healthcare-payments", "payments", "financial-services"]

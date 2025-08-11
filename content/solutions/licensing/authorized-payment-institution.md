@@ -5,12 +5,6 @@ draft: false
 description: "Expert authorized payment institution (api) solutions from Faisal Khan LLC"
 keywords: ["authorized payment institution (api)", "licensing", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/licensing/authorized-payment-institution.webp"
-    alt: "Authorized Payment Institution (API) - Expert solutions from Faisal Khan LLC"
-    caption: "Authorized Payment Institution (API) Expert Solutions"
-
 # Taxonomies
 categories: ["licensing"]
 tags: ["authorized-payment-institution", "licensing", "financial-services"]

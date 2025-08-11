@@ -5,12 +5,6 @@ draft: false
 description: "Expert forms resources from Faisal Khan LLC"
 keywords: ["forms", "resources", "education", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/resources/forms.webp"
-    alt: "Forms - Expert solutions from Faisal Khan LLC"
-    caption: "Forms Expert Solutions"
-
 # Taxonomies
 categories: ["resources"]
 tags: ["forms", "resources", "education"]

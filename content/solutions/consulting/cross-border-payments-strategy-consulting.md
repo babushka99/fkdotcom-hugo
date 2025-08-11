@@ -5,12 +5,6 @@ draft: false
 description: "Expert cross-border payments strategy consulting solutions from Faisal Khan LLC"
 keywords: ["cross-border payments strategy consulting", "consulting", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/consulting/cross-border-payments-strategy-consulting.webp"
-    alt: "Cross-Border Payments Strategy Consulting - Expert solutions from Faisal Khan LLC"
-    caption: "Cross-Border Payments Strategy Consulting Expert Solutions"
-
 # Taxonomies
 categories: ["consulting"]
 tags: ["cross-border-payments-strategy-consulting", "consulting", "financial-services"]

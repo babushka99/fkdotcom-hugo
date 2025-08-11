@@ -5,12 +5,6 @@ draft: false
 description: "Expert nigeria solutions from Faisal Khan LLC"
 keywords: ["nigeria", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/nigeria.webp"
-    alt: "Nigeria - Expert solutions from Faisal Khan LLC"
-    caption: "Nigeria Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["nigeria", "geographic", "financial-services"]

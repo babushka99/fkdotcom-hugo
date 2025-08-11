@@ -5,12 +5,6 @@ draft: false
 description: "Expert project evaluation & advisory consulting solutions from Faisal Khan LLC"
 keywords: ["project evaluation & advisory consulting", "consulting", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/consulting/project-evaluation-advisory-consulting.webp"
-    alt: "Project Evaluation & Advisory Consulting - Expert solutions from Faisal Khan LLC"
-    caption: "Project Evaluation & Advisory Consulting Expert Solutions"
-
 # Taxonomies
 categories: ["consulting"]
 tags: ["project-evaluation-advisory-consulting", "consulting", "financial-services"]

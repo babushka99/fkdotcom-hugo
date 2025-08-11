@@ -5,12 +5,6 @@ draft: false
 description: "Expert trade payments solutions from Faisal Khan LLC"
 keywords: ["trade payments", "payments", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/payments/trade-payments.webp"
-    alt: "Trade Payments - Expert solutions from Faisal Khan LLC"
-    caption: "Trade Payments Expert Solutions"
-
 # Taxonomies
 categories: ["payments"]
 tags: ["trade-payments", "payments", "financial-services"]

@@ -5,12 +5,6 @@ draft: false
 description: "Expert money transfer business solutions from Faisal Khan LLC"
 keywords: ["money transfer business", "money-transfer", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/money-transfer/money-transfer-business.webp"
-    alt: "Money Transfer Business - Expert solutions from Faisal Khan LLC"
-    caption: "Money Transfer Business Expert Solutions"
-
 # Taxonomies
 categories: ["money-transfer"]
 tags: ["money-transfer-business", "money-transfer", "financial-services"]

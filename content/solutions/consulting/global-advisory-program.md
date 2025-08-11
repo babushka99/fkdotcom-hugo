@@ -5,12 +5,6 @@ draft: false
 description: "Expert global advisory program solutions from Faisal Khan LLC"
 keywords: ["global advisory program", "consulting", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/consulting/global-advisory-program.webp"
-    alt: "Global Advisory Program - Expert solutions from Faisal Khan LLC"
-    caption: "Global Advisory Program Expert Solutions"
-
 # Taxonomies
 categories: ["consulting"]
 tags: ["global-advisory-program", "consulting", "financial-services"]

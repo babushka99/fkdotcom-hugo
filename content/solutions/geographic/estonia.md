@@ -5,12 +5,6 @@ draft: false
 description: "Expert estonia solutions from Faisal Khan LLC"
 keywords: ["estonia", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/estonia.webp"
-    alt: "Estonia - Expert solutions from Faisal Khan LLC"
-    caption: "Estonia Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["estonia", "geographic", "financial-services"]

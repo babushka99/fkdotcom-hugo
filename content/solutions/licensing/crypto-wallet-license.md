@@ -5,12 +5,6 @@ draft: false
 description: "Expert crypto wallet license solutions from Faisal Khan LLC"
 keywords: ["crypto wallet license", "licensing", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/licensing/crypto-wallet-license.webp"
-    alt: "Crypto Wallet License - Expert solutions from Faisal Khan LLC"
-    caption: "Crypto Wallet License Expert Solutions"
-
 # Taxonomies
 categories: ["licensing"]
 tags: ["crypto-wallet-license", "licensing", "financial-services"]

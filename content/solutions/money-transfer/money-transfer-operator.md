@@ -5,12 +5,6 @@ draft: false
 description: "Expert money transfer operator (mto) solutions from Faisal Khan LLC"
 keywords: ["money transfer operator (mto)", "money-transfer", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/money-transfer/money-transfer-operator.webp"
-    alt: "Money Transfer Operator (MTO) - Expert solutions from Faisal Khan LLC"
-    caption: "Money Transfer Operator (MTO) Expert Solutions"
-
 # Taxonomies
 categories: ["money-transfer"]
 tags: ["money-transfer-operator", "money-transfer", "financial-services"]

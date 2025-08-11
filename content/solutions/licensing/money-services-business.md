@@ -5,12 +5,6 @@ draft: false
 description: "Expert money services business (msb) solutions from Faisal Khan LLC"
 keywords: ["money services business (msb)", "licensing", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/licensing/money-services-business.webp"
-    alt: "Money Services Business (MSB) - Expert solutions from Faisal Khan LLC"
-    caption: "Money Services Business (MSB) Expert Solutions"
-
 # Taxonomies
 categories: ["licensing"]
 tags: ["money-services-business", "licensing", "financial-services"]

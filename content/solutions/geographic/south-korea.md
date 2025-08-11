@@ -5,12 +5,6 @@ draft: false
 description: "Expert south korea solutions from Faisal Khan LLC"
 keywords: ["south korea", "geographic", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/geographic/south-korea.webp"
-    alt: "South Korea - Expert solutions from Faisal Khan LLC"
-    caption: "South Korea Expert Solutions"
-
 # Taxonomies
 categories: ["geographic"]
 tags: ["south-korea", "geographic", "financial-services"]

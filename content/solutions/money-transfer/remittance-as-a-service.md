@@ -5,12 +5,6 @@ draft: false
 description: "Expert remittance-as-a-service (raas) solutions from Faisal Khan LLC"
 keywords: ["remittance-as-a-service (raas)", "money-transfer", "licensing", "compliance", "faisal khan"]
 
-# Featured Image
-cover:
-    image: "/images/solutions/money-transfer/remittance-as-a-service.webp"
-    alt: "Remittance-as-a-Service (RaaS) - Expert solutions from Faisal Khan LLC"
-    caption: "Remittance-as-a-Service (RaaS) Expert Solutions"
-
 # Taxonomies
 categories: ["money-transfer"]
 tags: ["remittance-as-a-service", "money-transfer", "financial-services"]
