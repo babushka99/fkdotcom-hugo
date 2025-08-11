@@ -18,7 +18,7 @@ services: ['licensing', 'compliance', 'payments']
 jurisdictions: ['usa']
 
 # SEO
-canonicalURL: "https://faisalkhan.com/solutions/licensing/money-transmitter-license/"
+canonicalURL: "https://faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/"
 images: ["/images/solutions/licensing/money-transmitter-license.webp"]
 
 # Page settings
