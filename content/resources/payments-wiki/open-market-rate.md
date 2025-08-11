@@ -1,7 +1,7 @@
 ---
 title: "Open-Market Rate"
 date: 2024-01-27T11:05:15+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Open-Market Rate - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

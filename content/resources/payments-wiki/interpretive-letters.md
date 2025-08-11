@@ -1,7 +1,7 @@
 ---
 title: "Interpretive Letters"
 date: 2025-03-17T17:42:30+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Interpretive Letters - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

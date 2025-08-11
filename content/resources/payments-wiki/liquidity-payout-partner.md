@@ -1,7 +1,7 @@
 ---
 title: "Liquidity &amp; Payout Partner"
 date: 2024-04-06T10:40:00+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Liquidity &amp; Payout Partner - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

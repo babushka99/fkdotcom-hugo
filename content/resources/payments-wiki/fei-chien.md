@@ -1,7 +1,7 @@
 ---
 title: "Fei Chien"
 date: 2024-11-11T18:15:28+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Fei Chien - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -115,13 +115,14 @@ A Chinese migrant in Southeast Asia uses an informal network to send remittances
 
 ### Comparison Between Fei Chien and Formal Banking
 
-| ****Aspect**** | ****Fei Chien (Flying Money)**** | ****Formal Banking**** |
-| **Regulation** | Unregulated | Regulated by central banks and authorities |
-| **Documentation** | Minimal, symbolic notes | Legal contracts and detailed records |
-| **Accessibility** | High, especially in remote areas | Limited in underserved regions |
-| **Transaction Fees** | Low or none | Standardized fees |
-| **Security** | Based on trust and reputation | Institutional safeguards and insurance |
-| **Consumer Protection** | No legal recourse | Regulatory oversight and legal protections |
+| **Aspect** | **Fei Chien (Flying Money)** | **Formal Banking** |
+| --- | --- | --- |
+| Regulation | Unregulated | Regulated by central banks and authorities |
+| Documentation | Minimal, symbolic notes | Legal contracts and detailed records |
+| Accessibility | High, especially in remote areas | Limited in underserved regions |
+| Transaction Fees | Low or none | Standardized fees |
+| Security | Based on trust and reputation | Institutional safeguards and insurance |
+| Consumer Protection | No legal recourse | Regulatory oversight and legal protections |
 
 ### Impact of Fei Chien on Trade and Society
 

@@ -1,7 +1,7 @@
 ---
 title: "Custodying"
 date: 2025-02-17T08:45:06+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Custodying - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -66,10 +66,11 @@ Users hold their private keys via Ledger, Trezor, or multisig solutions.
 ## Pros & Cons
 
 | **Pros** | **Cons** |
-| **Self-Custody**: Full control over assets. | Losing private keys = lost funds. |
-| **Custodial Services**: User-friendly, insured protection. | Risk of exchange hacks or freezes. |
-| **Institutional Custody**: Regulated, compliant solutions. | Centralization limits user control. |
-| **Hybrid Solutions**: MPC, multi-sig wallets reduce risk. | Complex setup for beginners. |
+| --- | --- |
+| Self-Custody: Full control over assets. | Losing private keys = lost funds. |
+| Custodial Services: User-friendly, insured protection. | Risk of exchange hacks or freezes. |
+| Institutional Custody: Regulated, compliant solutions. | Centralization limits user control. |
+| Hybrid Solutions: MPC, multi-sig wallets reduce risk. | Complex setup for beginners. |
 
 ## Future Outlook
 

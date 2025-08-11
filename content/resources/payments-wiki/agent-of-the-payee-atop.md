@@ -1,7 +1,7 @@
 ---
 title: "Agent of the Payee (ATOP)"
 date: 2023-10-31T15:48:44+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Agent of the Payee (ATOP) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

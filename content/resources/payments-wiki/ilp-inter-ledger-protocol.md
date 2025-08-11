@@ -1,7 +1,7 @@
 ---
 title: "ILP - Inter Ledger Protocol"
 date: 2022-08-19T07:18:44+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "ILP - Inter Ledger Protocol - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

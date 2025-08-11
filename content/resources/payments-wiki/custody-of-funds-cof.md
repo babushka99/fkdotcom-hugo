@@ -1,7 +1,7 @@
 ---
 title: "Custody of Funds (COF)"
 date: 2024-12-09T06:39:35+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Custody of Funds (COF) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

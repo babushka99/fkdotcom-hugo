@@ -1,7 +1,7 @@
 ---
 title: "Community-Based Financial Solutions"
 date: 2024-11-11T19:09:46+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Community-Based Financial Solutions - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -127,13 +127,14 @@ In rural Tanzania, farmers form a VSLA. They save collectively, and members can 
 
 ### **Comparison with Formal Banking**
 
-| ****Aspect**** | ****Community-Based Financial Solutions**** | ****Formal Banking**** |
-| **Regulation** | Unregulated or lightly regulated | Fully regulated by central banks |
-| **Documentation** | Minimal or informal | Detailed legal contracts and records |
-| **Accessibility** | High in rural and underserved areas | Limited in remote regions |
-| **Transaction Fees** | Low or none | Standardized fees |
-| **Consumer Protection** | No formal protection | Legal recourse and insurance |
-| **Loan Requirements** | No collateral needed | Collateral often required |
+| **Aspect** | **Community-Based Financial Solutions** | **Formal Banking** |
+| --- | --- | --- |
+| Regulation | Unregulated or lightly regulated | Fully regulated by central banks |
+| Documentation | Minimal or informal | Detailed legal contracts and records |
+| Accessibility | High in rural and underserved areas | Limited in remote regions |
+| Transaction Fees | Low or none | Standardized fees |
+| Consumer Protection | No formal protection | Legal recourse and insurance |
+| Loan Requirements | No collateral needed | Collateral often required |
 
 ### **Impact on Financial Inclusion**
 

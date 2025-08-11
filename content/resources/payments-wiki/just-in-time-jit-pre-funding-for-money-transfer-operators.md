@@ -1,7 +1,7 @@
 ---
 title: "Just-In-Time (JIT) Pre-Funding for Money Transfer Operators"
 date: 2023-02-26T12:50:32+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Just-In-Time (JIT) Pre-Funding for Money Transfer Operators - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

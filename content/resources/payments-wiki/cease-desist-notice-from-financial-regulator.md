@@ -1,7 +1,7 @@
 ---
 title: "Cease & Desist Notice from Financial Regulator"
 date: 2022-10-14T07:40:58+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Cease & Desist Notice from Financial Regulator - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

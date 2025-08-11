@@ -1,7 +1,7 @@
 ---
 title: "Fraud Prevention"
 date: 2025-03-24T08:17:11+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Fraud Prevention - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -83,7 +83,8 @@ Without fraud prevention, organizations face **losses in revenue, customer trust
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages**** | ****Disadvantages/Challenges**** |
+| **Aspect** | **Advantages** | **Disadvantages/Challenges** |
+| --- | --- | --- |
 | Cost Savings | Prevents loss before it happens, reducing downstream costs | Can be expensive to implement and maintain |
 | Regulatory Compliance | Meets anti-money laundering (AML) and data protection laws | Complexity in maintaining compliance across jurisdictions |
 | Customer Trust | Builds confidence in platforms and services | Overly strict controls may cause friction or false positives |
@@ -92,25 +93,27 @@ Without fraud prevention, organizations face **losses in revenue, customer trust
 
 ## Core Techniques in Fraud Prevention
 
-| ****Method**** | ****Description**** |
-| **KYC & KYB Verification** | Verifies identity and business legitimacy during onboarding |
-| **Behavioral Biometrics** | Analyzes patterns like keystroke, mouse movement, or touch behavior |
-| **Two-Factor Authentication (2FA)** | Adds another layer of security during login or high-risk actions |
-| **Transaction Limits** | Caps values or frequency of activities to prevent rapid fraudulent exploitation |
-| **IP Geolocation Checks** | Blocks or flags logins and activity from suspicious or foreign IPs |
-| **Blacklist and Watchlist Screening** | Prevents access or transactions involving high-risk users or entities |
-| **Employee Access Controls** | Limits who can perform sensitive actions within internal systems |
-| **Encryption and Tokenization** | Protects data from interception or misuse in storage and transit |
-| **Fraud Awareness Training** | Equips staff and users to recognize and respond to fraud attempts |
+| **Method** | **Description** |
+| --- | --- |
+| KYC & KYB Verification | Verifies identity and business legitimacy during onboarding |
+| Behavioral Biometrics | Analyzes patterns like keystroke, mouse movement, or touch behavior |
+| Two-Factor Authentication (2FA) | Adds another layer of security during login or high-risk actions |
+| Transaction Limits | Caps values or frequency of activities to prevent rapid fraudulent exploitation |
+| IP Geolocation Checks | Blocks or flags logins and activity from suspicious or foreign IPs |
+| Blacklist and Watchlist Screening | Prevents access or transactions involving high-risk users or entities |
+| Employee Access Controls | Limits who can perform sensitive actions within internal systems |
+| Encryption and Tokenization | Protects data from interception or misuse in storage and transit |
+| Fraud Awareness Training | Equips staff and users to recognize and respond to fraud attempts |
 
 ## Fraud Prevention vs. Fraud Detection
 
-| ****Aspect**** | ****Fraud Prevention**** | ****Fraud Detection**** |
-| **Goal** | Stop fraud before it happens | Identify fraud as it occurs or shortly afterward |
-| **Timing** | Proactive | Reactive or real-time |
-| **Tools** | KYC, 2FA, policies, access control | AI models, anomaly detection, alerts, monitoring |
-| **Focus** | Risk reduction and control | Threat analysis and incident response |
-| **Complementary?** | Yes, often part of a unified fraud management system | Yes, works alongside prevention for full protection |
+| **Aspect** | **Fraud Prevention** | **Fraud Detection** |
+| --- | --- | --- |
+| Goal | Stop fraud before it happens | Identify fraud as it occurs or shortly afterward |
+| Timing | Proactive | Reactive or real-time |
+| Tools | KYC, 2FA, policies, access control | AI models, anomaly detection, alerts, monitoring |
+| Focus | Risk reduction and control | Threat analysis and incident response |
+| Complementary? | Yes, often part of a unified fraud management system | Yes, works alongside prevention for full protection |
 
 ## Future Outlook
 

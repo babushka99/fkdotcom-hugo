@@ -1,7 +1,7 @@
 ---
 title: "NFT in the High-End Fashion Space"
 date: 2024-12-13T12:26:13+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "NFT in the High-End Fashion Space - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

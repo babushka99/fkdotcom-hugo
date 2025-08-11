@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic Trading"
 date: 2025-03-24T08:05:32+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Algorithmic Trading - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -67,21 +67,23 @@ In major markets like the **New York Stock Exchange (NYSE)** or **NASDAQ**, over
 
 ## Types of Algorithmic Trading Strategies
 
-| ****Strategy**** | ****Description**** |
-| **Trend Following** | Trades based on technical indicators like moving averages or momentum |
-| **Arbitrage** | Exploits price discrepancies between markets or assets |
-| **Market Making** | [Continuously places buy/sell orders](https://faisalkhanllc.xyz/resources/payments-wiki/a/automated-market-makers-amms/) to profit from the bid-ask spread |
-| **Statistical Arbitrage** | Uses mathematical models to identify mean-reversion opportunities |
-| **High-Frequency Trading (HFT)** | Executes thousands of trades in milliseconds for micro-profits |
-| **Execution Algorithms** | Slices large orders into smaller parts (e.g., VWAP, TWAP) to avoid market impact |
-| **Machine Learning Models** | Uses AI to adapt strategies based on evolving patterns |
+| **Strategy** | **Description** |
+| --- | --- |
+| Trend Following | Trades based on technical indicators like moving averages or momentum |
+| Arbitrage | Exploits price discrepancies between markets or assets |
+| Market Making | Continuously places buy/sell orders to profit from the bid-ask spread |
+| Statistical Arbitrage | Uses mathematical models to identify mean-reversion opportunities |
+| High-Frequency Trading (HFT) | Executes thousands of trades in milliseconds for micro-profits |
+| Execution Algorithms | Slices large orders into smaller parts (e.g., VWAP, TWAP) to avoid market impact |
+| Machine Learning Models | Uses AI to adapt strategies based on evolving patterns |
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages**** | ****Disadvantages / Risks**** |
+| **Aspect** | **Advantages** | **Disadvantages / Risks** |
+| --- | --- | --- |
 | Speed | Executes trades in microseconds | Prone to flash crashes or runaway execution |
 | Accuracy | Eliminates emotional or human errors | Poor coding or model flaws can result in large losses |
-| Efficiency | Optimizes execution and reduces [slippage](https://faisalkhanllc.xyz/resources/payments-wiki/s/slippage/) | Requires strong infrastructure and technical expertise |
+| Efficiency | Optimizes execution and reduces slippage | Requires strong infrastructure and technical expertise |
 | Scalability | Handles multiple markets and instruments simultaneously | Overreliance can lead to systemic market risk |
 | Backtesting and Simulation | Strategies can be tested before real-world deployment | Past performance does not guarantee future results |
 

@@ -1,7 +1,7 @@
 ---
 title: "Financial Regulatory Frameworks"
 date: 2024-01-13T16:28:01+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Financial Regulatory Frameworks - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

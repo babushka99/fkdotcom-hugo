@@ -1,7 +1,7 @@
 ---
 title: "Surety Bond for Money Transmitter License"
 date: 2023-12-31T12:49:28+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Surety Bond for Money Transmitter License - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

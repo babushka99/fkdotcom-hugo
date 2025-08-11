@@ -1,7 +1,7 @@
 ---
 title: "Crowd Cash Gift"
 date: 2024-12-03T09:35:33+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Crowd Cash Gift - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -131,12 +131,13 @@ Colleagues pool their contributions to create a cash fund for a retiring co-work
 
 ### Comparison Between Crowd Cash Gifts and Traditional Group Gifts
 
-| ****Aspect**** | ****Crowd Cash Gifts**** | ****Traditional Group Gifts**** |
-| **Gift Flexibility** | High, recipient chooses how to use funds | Lower, specific item chosen for the recipient |
-| **Contributor Ease** | Easy, with digital contributions | Often requires in-person coordination |
-| **Personalization** | Less personal, unless accompanied by a message | More personal, as a specific item is selected |
-| **Scalability** | Easily scalable for any group size | Limited by item availability and budget |
-| **Cost to Organizer** | May involve platform fees | Usually no additional fees |
+| **Aspect** | **Crowd Cash Gifts** | **Traditional Group Gifts** |
+| --- | --- | --- |
+| Gift Flexibility | High, recipient chooses how to use funds | Lower, specific item chosen for the recipient |
+| Contributor Ease | Easy, with digital contributions | Often requires in-person coordination |
+| Personalization | Less personal, unless accompanied by a message | More personal, as a specific item is selected |
+| Scalability | Easily scalable for any group size | Limited by item availability and budget |
+| Cost to Organizer | May involve platform fees | Usually no additional fees |
 
 ### When to Organize a Crowd Cash Gift
 

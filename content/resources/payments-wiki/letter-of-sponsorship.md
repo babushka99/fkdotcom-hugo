@@ -1,7 +1,7 @@
 ---
 title: "Letter of Sponsorship"
 date: 2024-02-01T15:31:35+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Letter of Sponsorship - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

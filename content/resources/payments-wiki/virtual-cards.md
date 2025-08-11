@@ -1,7 +1,7 @@
 ---
 title: "Virtual Cards"
 date: 2021-06-24T13:41:28+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Virtual Cards - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

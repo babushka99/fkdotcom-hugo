@@ -1,7 +1,7 @@
 ---
 title: "Authorized Push Payment (APP) Fraud/Scam"
 date: 2024-04-05T22:14:35+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Authorized Push Payment (APP) Fraud/Scam - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

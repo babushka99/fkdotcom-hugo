@@ -1,7 +1,7 @@
 ---
 title: "FATF Blacklist"
 date: 2025-05-16T08:24:46+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "FATF Blacklist - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

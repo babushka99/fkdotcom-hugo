@@ -1,7 +1,7 @@
 ---
 title: "419 Scams"
 date: 2025-03-13T07:48:02+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "419 Scams - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -87,7 +87,8 @@ A 419 scam is like when a stranger tells you, **"I have a magic candy factory, b
 
 ## Pros & Cons of 419 Scams (From a Risk Perspective)
 
-| ****Pros (for fraudsters, not victims)**** | ****Cons (for victims and financial sector)**** |
+| **Pros (for fraudsters, not victims)** | **Cons (for victims and financial sector)** |
+| --- | --- |
 | High financial gain for scammers | Loss of money for individuals |
 | Hard to trace funds in crypto | Erosion of trust in banking and payments |
 | Global reach via online scams | Stricter compliance regulations |

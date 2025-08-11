@@ -1,7 +1,7 @@
 ---
 title: "Screening"
 date: 2022-02-08T09:48:58+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Screening - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

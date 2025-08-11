@@ -1,7 +1,7 @@
 ---
 title: "Grooming (in scamming)"
 date: 2025-03-24T09:45:20+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Grooming (in scamming) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -61,7 +61,8 @@ Grooming works because it **blends emotional bonding with psychological control*
 
 ## Advantages vs. Disadvantages of Grooming
 
-| ****Aspect**** | ****Advantages (for Scammers)**** | ****Disadvantages (for Victims/Society)**** |
+| **Aspect** | **Advantages (for Scammers)** | **Disadvantages (for Victims/Society)** |
+| --- | --- | --- |
 | High Conversion | Victims are emotionally conditioned to comply | Emotional trauma, financial ruin, social shame |
 | Long-Term Payout | Often leads to repeated transactions | Victims may remortgage homes, drain savings |
 | Manipulative Power | Exploits loneliness and emotional need | Undermines trust in online relationships |

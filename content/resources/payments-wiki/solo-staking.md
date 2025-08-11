@@ -1,7 +1,7 @@
 ---
 title: "Solo Staking"
 date: 2025-02-17T08:58:44+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Solo Staking - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -76,6 +76,7 @@ Imagine **solo staking** like running your own bakery:
 ## Pros & Cons
 
 | **Pros** | **Cons** |
+| --- | --- |
 | Full control over assets | Requires high capital |
 | No reliance on third parties | Complex setup and maintenance |
 | Supports network decentralization | Risk of slashing penalties |

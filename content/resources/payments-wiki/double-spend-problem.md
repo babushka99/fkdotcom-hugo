@@ -1,7 +1,7 @@
 ---
 title: "Double-Spend Problem"
 date: 2023-12-20T12:57:35+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Double-Spend Problem - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Fraud Detection"
 date: 2025-03-24T08:19:19+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Fraud Detection - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -83,7 +83,8 @@ Without effective fraud detection, organizations face **financial losses, regula
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages**** | ****Disadvantages/Challenges**** |
+| **Aspect** | **Advantages** | **Disadvantages/Challenges** |
+| --- | --- | --- |
 | Real-Time Protection | Stops fraud before it completes | High false positives can frustrate users |
 | AI and Automation | Scales with millions of users and transactions | Requires vast, high-quality datasets |
 | Compliance Support | Helps meet KYC, AML, and regulatory obligations | May require constant updating to remain effective |
@@ -92,15 +93,16 @@ Without effective fraud detection, organizations face **financial losses, regula
 
 ## Types of Fraud Detection Techniques
 
-| ****Technique**** | ****Description**** |
-| **Rule-Based Systems** | Uses predefined logic (e.g., country mismatch, blacklisted IPs) |
-| **Machine Learning Models** | Analyzes large datasets to find subtle patterns or anomalies |
-| **Behavioral Biometrics** | Tracks user behavior (typing speed, mouse movement, touch patterns) |
-| **Device Fingerprinting** | Captures browser, OS, and device identifiers to detect spoofed logins |
-| **Graph Analysis** | Maps relationships between accounts or entities to expose fraud rings |
-| **Risk Scoring Engines** | Assigns risk scores to users, devices, or transactions |
-| **Geolocation Analysis** | Flags activity from unusual IPs, countries, or devices |
-| **Velocity Checks** | Detects rapid or repetitive actions within short timeframes |
+| **Technique** | **Description** |
+| --- | --- |
+| Rule-Based Systems | Uses predefined logic (e.g., country mismatch, blacklisted IPs) |
+| Machine Learning Models | Analyzes large datasets to find subtle patterns or anomalies |
+| Behavioral Biometrics | Tracks user behavior (typing speed, mouse movement, touch patterns) |
+| Device Fingerprinting | Captures browser, OS, and device identifiers to detect spoofed logins |
+| Graph Analysis | Maps relationships between accounts or entities to expose fraud rings |
+| Risk Scoring Engines | Assigns risk scores to users, devices, or transactions |
+| Geolocation Analysis | Flags activity from unusual IPs, countries, or devices |
+| Velocity Checks | Detects rapid or repetitive actions within short timeframes |
 
 ## Future Outlook
 

@@ -1,7 +1,7 @@
 ---
 title: "Crowdfunded Gift"
 date: 2024-12-02T12:59:40+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Crowdfunded Gift - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -131,12 +131,13 @@ Family members pool funds to help a recent graduate purchase educational supplie
 
 ### Comparison Between Crowdfunded Gifts and Individual Gifts
 
-| ****Aspect**** | ****Crowdfunded Gifts**** | ****Individual Gifts**** |
-| **Cost to Each Person** | Lower per person, as costs are shared | Higher, as individuals pay alone |
-| **Gift Value** | Often higher-value, more impactful | Typically lower, due to single contribution limit |
-| **Ease of Coordination** | Easier with online platforms | Requires each person to buy a separate gift |
-| **Sentiment** | Shows collective support and unity | Personal, one-on-one connection |
-| **Gift Selection** | Group decision, harder to personalize | More customizable by individual |
+| **Aspect** | **Crowdfunded Gifts** | **Individual Gifts** |
+| --- | --- | --- |
+| Cost to Each Person | Lower per person, as costs are shared | Higher, as individuals pay alone |
+| Gift Value | Often higher-value, more impactful | Typically lower, due to single contribution limit |
+| Ease of Coordination | Easier with online platforms | Requires each person to buy a separate gift |
+| Sentiment | Shows collective support and unity | Personal, one-on-one connection |
+| Gift Selection | Group decision, harder to personalize | More customizable by individual |
 
 ### When to Organize a Crowdfunded Gift
 

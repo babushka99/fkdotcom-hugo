@@ -1,7 +1,7 @@
 ---
 title: "Licensable Activity"
 date: 2024-01-22T09:39:54+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Licensable Activity - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

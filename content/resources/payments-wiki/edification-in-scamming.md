@@ -1,7 +1,7 @@
 ---
 title: "Edification (in scamming)"
 date: 2025-03-24T07:54:57+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Edification (in scamming) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -65,7 +65,8 @@ Edification is critical because **scams thrive on belief**, and belief is built 
 
 ## Advantages vs. Disadvantages of Edification
 
-| ****Aspect**** | ****Advantages (for Scammers)**** | ****Disadvantages (for Victims/Society)**** |
+| **Aspect** | **Advantages (for Scammers)** | **Disadvantages (for Victims/Society)** |
+| --- | --- | --- |
 | Social Proof | Quickly builds apparent legitimacy | Victims are misled by manufactured trust |
 | Authority Bias | Victims defer to “experts” or “leaders” | Undermines real experts and truth |
 | Herd Mentality | Encourages victims to act because “others trust it” | Makes detection harder as scams appear widely accepted |

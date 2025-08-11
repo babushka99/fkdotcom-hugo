@@ -1,7 +1,7 @@
 ---
 title: "Tip Jar (TJ)"
 date: 2024-12-03T11:06:34+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Tip Jar (TJ) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -127,12 +127,13 @@ A bar places a tip jar labeled "For Our Hardworking Bartenders," giving patrons 
 
 ## Comparison Between Physical and Digital Tip Jar (TJ)
 
-| ****Aspect**** | ****Physical Tip Jar**** | ****Digital Tip Jar**** |
-| **Payment Type** | Cash tips | Electronic tips via card or app |
-| **Visibility** | Visible on the counter | Often shown on a screen at checkout |
-| **Customer Ease** | Drop in coins or bills | Choose a tip amount on digital interface |
-| **Tip Collection Frequency** | Usually at the end of the day | Automated with daily or weekly payouts |
-| **Adaptability** | Limited to cash-carrying customers | Accessible to all customers using cashless payment options |
+| **Aspect** | **Physical Tip Jar** | **Digital Tip Jar** |
+| --- | --- | --- |
+| Payment Type | Cash tips | Electronic tips via card or app |
+| Visibility | Visible on the counter | Often shown on a screen at checkout |
+| Customer Ease | Drop in coins or bills | Choose a tip amount on digital interface |
+| Tip Collection Frequency | Usually at the end of the day | Automated with daily or weekly payouts |
+| Adaptability | Limited to cash-carrying customers | Accessible to all customers using cashless payment options |
 
 ## When to Use a Tip Jar (TJ)
 

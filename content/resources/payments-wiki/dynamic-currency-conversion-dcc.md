@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Currency Conversion (DCC)"
 date: 2023-12-14T12:38:55+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Dynamic Currency Conversion (DCC) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

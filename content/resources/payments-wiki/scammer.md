@@ -1,7 +1,7 @@
 ---
 title: "Scammer"
 date: 2025-03-24T08:38:08+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Scammer - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -53,7 +53,8 @@ The **impact of scammers** is global and growing, costing individuals and busine
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages (for Scammers)**** | ****Disadvantages (for Victims/Society)**** |
+| **Aspect** | **Advantages (for Scammers)** | **Disadvantages (for Victims/Society)** |
+| --- | --- | --- |
 | Anonymity | Easy to hide identity using fake profiles, VPNs | Makes prosecution and recovery of funds difficult |
 | Global Reach | Scams can target thousands across borders | Cross-border jurisdiction complicates legal recourse |
 | Automation & AI | Speeds up scam campaigns and personalizes attacks | Increases volume and realism of scams |

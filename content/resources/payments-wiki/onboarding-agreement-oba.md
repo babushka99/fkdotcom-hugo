@@ -1,7 +1,7 @@
 ---
 title: "Onboarding Agreement (OBA)"
 date: 2023-12-29T22:53:29+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Onboarding Agreement (OBA) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Financial Market Infrastructure (FMI)"
 date: 2025-03-24T07:42:25+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Financial Market Infrastructure (FMI) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -19,12 +19,13 @@ Imagine you and your friends trade cards. One friend keeps the list of who gave 
 
 ## Types of Financial Market Infrastructure (FMI)
 
-| ****FMI Type**** | ****Function**** |
-| **Payment Systems** | Transfer money between institutions (e.g., RTGS systems like [Fedwire](https://faisalkhanllc.xyz/resources/payments-wiki/f/fedwire/)) |
-| **Central Counterparties (CCPs)** | Become the middleman in a trade, reducing counterparty risk |
-| **Central Securities Depositories (CSDs)** | Hold and record ownership of securities (e.g., stocks, bonds) |
-| **Securities Settlement Systems (SSSs)** | Ensure the delivery of securities against payment |
-| **Trade Repositories (TRs)** | Collect and store data on derivative transactions |
+| **FMI Type** | **Function** |
+| --- | --- |
+| Payment Systems | Transfer money between institutions (e.g., RTGS systems like Fedwire) |
+| Central Counterparties (CCPs) | Become the middleman in a trade, reducing counterparty risk |
+| Central Securities Depositories (CSDs) | Hold and record ownership of securities (e.g., stocks, bonds) |
+| Securities Settlement Systems (SSSs) | Ensure the delivery of securities against payment |
+| Trade Repositories (TRs) | Collect and store data on derivative transactions |
 
 ## Core Functions of FMIs
 
@@ -40,16 +41,17 @@ Imagine you and your friends trade cards. One friend keeps the list of who gave 
 
 ## Examples of Major Financial Market Infrastructure (FMI) by Region
 
-| ****FMI Name**** | ****Type**** | ****Country/Region**** | ****Function**** |
-| **Fedwire** | Payment System | United States | Real-time gross settlement (RTGS) for USD |
-| **CHIPS** | Payment System | United States | Large-value USD payments |
-| **TARGET2** | Payment System | Eurozone | Euro RTGS operated by the Eurosystem |
-| **DTCC** | CCP & CSD | United States | Central clearing and securities depository |
-| **CLS Bank** | Payment System | Global | FX settlement system reducing settlement risk |
-| **LCH** | CCP | UK/Europe | Clearing derivatives (rates, FX, swaps) |
-| **Euroclear/Clearstream** | CSD & SSS | Europe | Securities settlement and custody |
-| **NSCC** | CCP | United States | Clearing U.S. equity trades |
-| **CDSC & CDS** | CSD & CCP | Kenya & Canada (respectively) | Local securities depositories and clearing |
+| **FMI Name** | **Type** | **Country/Region** | **Function** |
+| --- | --- | --- | --- |
+| Fedwire | Payment System | United States | Real-time gross settlement (RTGS) for USD |
+| CHIPS | Payment System | United States | Large-value USD payments |
+| TARGET2 | Payment System | Eurozone | Euro RTGS operated by the Eurosystem |
+| DTCC | CCP & CSD | United States | Central clearing and securities depository |
+| CLS Bank | Payment System | Global | FX settlement system reducing settlement risk |
+| LCH | CCP | UK/Europe | Clearing derivatives (rates, FX, swaps) |
+| Euroclear/Clearstream | CSD & SSS | Europe | Securities settlement and custody |
+| NSCC | CCP | United States | Clearing U.S. equity trades |
+| CDSC & CDS | CSD & CCP | Kenya & Canada (respectively) | Local securities depositories and clearing |
 
 ## Importance of FMIs
 
@@ -69,12 +71,13 @@ FMIs are **systemically important** because they:
 
 While FMIs reduce many risks, they can also **concentrate systemic risk** due to their central role.
 
-| ****Risk Type**** | ****Description**** |
-| **Operational Risk** | System outages, cyberattacks, or human errors disrupting services |
-| **Liquidity Risk** | One participant’s failure to settle affects others in the network |
-| **Credit Risk** | Risk that a participant defaults on payment or delivery |
-| **Legal Risk** | Inadequate legal frameworks in cross-border or multi-jurisdictional FMIs |
-| **Systemic Risk** | Failure of an FMI can trigger cascading failures across the market |
+| **Risk Type** | **Description** |
+| --- | --- |
+| Operational Risk | System outages, cyberattacks, or human errors disrupting services |
+| Liquidity Risk | One participant’s failure to settle affects others in the network |
+| Credit Risk | Risk that a participant defaults on payment or delivery |
+| Legal Risk | Inadequate legal frameworks in cross-border or multi-jurisdictional FMIs |
+| Systemic Risk | Failure of an FMI can trigger cascading failures across the market |
 
 ## Regulatory and Global Standards
 
@@ -104,12 +107,13 @@ Key regulators and standard-setters:
 
 ## Innovations and Future Outlook
 
-| ****Trend**** | ****Impact on FMIs**** |
-| **Tokenization of assets** | FMIs exploring how to support [digital securities](https://faisalkhanllc.xyz/resources/payments-wiki/d/digital-assets/) and tokenized money |
-| **Blockchain and DLT integration** | Experiments with distributed ledgers for settlement and clearing (e.g., RLNs, BIS projects) |
-| **24/7 Real-time settlement** | Pushing traditional FMIs to match crypto market speeds |
-| **Cybersecurity and resilience** | Increased investments in protection against cyber threats |
-| **Cross-border harmonization** | Projects like ISO 20022 and BIS initiatives improve interoperability |
+| **Trend** | **Impact on FMIs** |
+| --- | --- |
+| Tokenization of assets | FMIs exploring how to support digital securities and tokenized money |
+| Blockchain and DLT integration | Experiments with distributed ledgers for settlement and clearing (e.g., RLNs, BIS projects) |
+| 24/7 Real-time settlement | Pushing traditional FMIs to match crypto market speeds |
+| Cybersecurity and resilience | Increased investments in protection against cyber threats |
+| Cross-border harmonization | Projects like ISO 20022 and BIS initiatives improve interoperability |
 
 ## Related Concepts
 

@@ -1,7 +1,7 @@
 ---
 title: "Originating Financial Institution (OFI)"
 date: 2025-05-10T16:17:42+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Originating Financial Institution (OFI) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

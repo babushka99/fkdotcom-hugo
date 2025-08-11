@@ -1,7 +1,7 @@
 ---
 title: "Smart Contract"
 date: 2023-01-12T09:27:11+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Smart Contract - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

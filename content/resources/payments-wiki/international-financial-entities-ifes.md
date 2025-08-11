@@ -1,7 +1,7 @@
 ---
 title: "International Financial Entities (IFEs)"
 date: 2024-02-17T11:45:05+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "International Financial Entities (IFEs) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

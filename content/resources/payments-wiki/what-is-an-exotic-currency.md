@@ -1,7 +1,7 @@
 ---
 title: "Exotic Currency"
 date: 2023-11-03T22:37:41+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Exotic Currency - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

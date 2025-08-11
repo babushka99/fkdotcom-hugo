@@ -1,7 +1,7 @@
 ---
 title: "Management & Shareholder Verification"
 date: 2023-11-23T20:13:13+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Management & Shareholder Verification - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

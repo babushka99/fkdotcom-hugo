@@ -1,7 +1,7 @@
 ---
 title: "On-chain FX Routing"
 date: 2025-05-13T12:08:57+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "On-chain FX Routing - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

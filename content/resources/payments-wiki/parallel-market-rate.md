@@ -1,7 +1,7 @@
 ---
 title: "Parallel Market Rate"
 date: 2024-01-27T10:48:04+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Parallel Market Rate - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Multinational Corporation (MNC)"
 date: 2024-02-21T16:03:58+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Multinational Corporation (MNC) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

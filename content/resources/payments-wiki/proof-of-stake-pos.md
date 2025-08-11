@@ -1,7 +1,7 @@
 ---
 title: "Proof of Stake (PoS)"
 date: 2024-02-11T16:47:45+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Proof of Stake (PoS) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

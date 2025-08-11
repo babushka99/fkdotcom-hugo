@@ -1,7 +1,7 @@
 ---
 title: "Escrow-based Pre-Funding"
 date: 2023-12-11T07:52:53+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Escrow-based Pre-Funding - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

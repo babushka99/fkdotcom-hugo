@@ -1,7 +1,7 @@
 ---
 title: "Master Account"
 date: 2023-07-16T19:06:49+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Master Account - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

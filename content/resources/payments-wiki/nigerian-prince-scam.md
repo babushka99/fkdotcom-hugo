@@ -1,7 +1,7 @@
 ---
 title: "Nigerian Prince Scam"
 date: 2025-03-24T07:48:07+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Nigerian Prince Scam - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -35,12 +35,13 @@ These scams often involve **fake documents**, **government seals**, and even **[
 
 ## Common Variations
 
-| ****Type**** | ****Description**** |
-| **Nigerian Prince** | Royalty asks for help moving inheritance or oil wealth |
-| **Business Proposal Scam** | You’re invited to participate in a secret investment deal |
-| **Lottery or Inheritance Scam** | You’re told you won a lottery or inherited money—but must pay taxes or fees |
-| **Fake Bank Official** | A banker claims a dormant account needs your help to release the funds |
-| **Refugee or Widow Story** | An emotional plea from someone fleeing war or hardship with family fortune |
+| **Type** | **Description** |
+| --- | --- |
+| Nigerian Prince | Royalty asks for help moving inheritance or oil wealth |
+| Business Proposal Scam | You’re invited to participate in a secret investment deal |
+| Lottery or Inheritance Scam | You’re told you won a lottery or inherited money—but must pay taxes or fees |
+| Fake Bank Official | A banker claims a dormant account needs your help to release the funds |
+| Refugee or Widow Story | An emotional plea from someone fleeing war or hardship with family fortune |
 
 ## Real-World Examples
 
@@ -66,7 +67,8 @@ These scams often involve **fake documents**, **government seals**, and even **[
 
 ## Red Flags to Watch Out For
 
-| ****Red Flag**** | ****Why It’s Suspicious**** |
+| **Red Flag** | **Why It’s Suspicious** |
+| --- | --- |
 | “You’ve been chosen to receive a fortune” | Money from strangers is almost always a scam |
 | Asks for upfront payments | Legitimate offers don’t require money to receive money |
 | Poor grammar or strange formatting | Many scam emails have typos, odd punctuation, or mismatched logos |

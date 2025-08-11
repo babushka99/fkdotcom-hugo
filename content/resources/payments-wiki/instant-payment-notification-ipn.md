@@ -1,7 +1,7 @@
 ---
 title: "Instant Payment Notification (IPN)"
 date: 2023-08-08T10:59:38+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Instant Payment Notification (IPN) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Currency Basket"
 date: 2024-01-07T11:35:57+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Currency Basket - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

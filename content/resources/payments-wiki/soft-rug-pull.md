@@ -1,7 +1,7 @@
 ---
 title: "Soft Rug Pull"
 date: 2024-12-10T07:57:39+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Soft Rug Pull - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Mandated Market Maker (MMM)"
 date: 2025-02-17T09:10:07+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Mandated Market Maker (MMM) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -75,7 +75,8 @@ Think of an MMM like a **supermarket manager** ensuring shelves are always stock
 
 ### Pros & Cons
 
-| ****Pros**** | ****Cons**** |
+| **Pros** | **Cons** |
+| --- | --- |
 | Reduces volatility & price manipulation | Can be expensive for token projects |
 | Enhances order book depth & liquidity | Risk of collusion with exchanges |
 | Facilitates better price discovery | Can create artificial demand |

@@ -1,7 +1,7 @@
 ---
 title: "Wallet Address Poisoning Scam"
 date: 2025-02-24T14:03:10+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Wallet Address Poisoning Scam - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

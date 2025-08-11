@@ -1,7 +1,7 @@
 ---
 title: "Current Account Deficit"
 date: 2023-11-30T14:15:40+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Current Account Deficit - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

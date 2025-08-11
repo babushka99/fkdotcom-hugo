@@ -1,7 +1,7 @@
 ---
 title: "Monthly Transaction Revenue (MTR)"
 date: 2023-05-24T19:57:10+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Monthly Transaction Revenue (MTR) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

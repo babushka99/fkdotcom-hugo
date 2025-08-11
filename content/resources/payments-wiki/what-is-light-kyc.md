@@ -1,7 +1,7 @@
 ---
 title: "Light KYC"
 date: 2023-10-15T19:03:14+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Light KYC - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Delegated Staking"
 date: 2025-02-17T08:49:58+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Delegated Staking - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -82,10 +82,11 @@ Imagine a **student council election** in a high school:
 ## Pros & Cons 
 
 | **Pros** | **Cons** |
-| **Easy Participation** – No need for technical expertise. | **Slashing Risks** – Validators’ mistakes can cause partial loss of funds. |
-| **Passive Income** – Earn staking rewards automatically. | **Centralization Risks** – Large validators may dominate governance. |
-| **Flexible Unstaking** – Many blockchains allow unstaking anytime. | **Validator Fees** – Validators take a cut from the rewards. |
-| **Strengthens Network** – More participants enhance blockchain security. | **Limited Control** – Delegators rely on the validator’s performance. |
+| --- | --- |
+| Easy Participation – No need for technical expertise. | Slashing Risks – Validators’ mistakes can cause partial loss of funds. |
+| Passive Income – Earn staking rewards automatically. | Centralization Risks – Large validators may dominate governance. |
+| Flexible Unstaking – Many blockchains allow unstaking anytime. | Validator Fees – Validators take a cut from the rewards. |
+| Strengthens Network – More participants enhance blockchain security. | Limited Control – Delegators rely on the validator’s performance. |
 
 ## Future Outlook of Delegated Staking
 

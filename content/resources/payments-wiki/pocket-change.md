@@ -1,7 +1,7 @@
 ---
 title: "Pocket Change"
 date: 2024-12-03T10:34:51+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Pocket Change - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -113,12 +113,13 @@ As more businesses adopt contactless and digital payments, the need for pocket c
 
 ### Comparison Between Pocket Change and Cash-on-Hand
 
-| ****Aspect**** | ****Pocket Change**** | ****Cash-on-Hand**** |
-| **Amount** | Small, typically coins or small bills | Larger, often includes bills |
-| **Purpose** | Minor, incidental expenses | General spending or larger purchases |
-| **Portability** | Easily carried in a pocket or wallet | May require a wallet or purse |
-| **Common Use** | For quick, low-cost transactions | For regular purchases or emergencies |
-| **Availability** | Readily accessible, intended for daily use | Set aside for more significant or emergency needs |
+| **Aspect** | **Pocket Change** | **Cash-on-Hand** |
+| --- | --- | --- |
+| Amount | Small, typically coins or small bills | Larger, often includes bills |
+| Purpose | Minor, incidental expenses | General spending or larger purchases |
+| Portability | Easily carried in a pocket or wallet | May require a wallet or purse |
+| Common Use | For quick, low-cost transactions | For regular purchases or emergencies |
+| Availability | Readily accessible, intended for daily use | Set aside for more significant or emergency needs |
 
 ### When to Keep Pocket Change
 

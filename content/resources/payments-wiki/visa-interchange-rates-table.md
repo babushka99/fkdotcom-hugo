@@ -1,7 +1,7 @@
 ---
 title: "Visa Interchange Rates Table"
 date: 2024-02-08T09:59:47+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Visa Interchange Rates Table - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

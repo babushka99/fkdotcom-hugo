@@ -1,7 +1,7 @@
 ---
 title: "Atomic"
 date: 2024-02-17T11:37:15+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Atomic - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "For Further Credit (FFC)"
 date: 2024-01-11T13:00:22+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "For Further Credit (FFC) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

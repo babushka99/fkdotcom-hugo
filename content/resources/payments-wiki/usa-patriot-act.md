@@ -1,7 +1,7 @@
 ---
 title: "USA PATRIOT Act"
 date: 2024-02-23T11:26:42+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "USA PATRIOT Act - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

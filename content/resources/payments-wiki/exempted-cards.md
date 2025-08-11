@@ -1,7 +1,7 @@
 ---
 title: "Exempted Cards"
 date: 2024-02-08T09:50:14+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Exempted Cards - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

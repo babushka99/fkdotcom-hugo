@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic Coin"
 date: 2025-03-24T08:12:05+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Algorithmic Coin - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -61,16 +61,18 @@ However, algorithmic coins have also **been at the center of major collapses**, 
 
 ## Examples of Algorithmic Coins
 
-| ****Coin**** | ****Mechanism**** | ****Status**** |
-| **TerraUSD (UST)** | Pegged via LUNA burn/mint mechanism | Collapsed (May 2022) |
-| **Ampleforth (AMPL)** | Uses rebasing to adjust supply | Active |
-| **Frax (FRAX)** | Hybrid: partially collateralized + algorithm | Active |
-| **Basis Cash (BAC)** | Three-token model with seigniorage bonds | Abandoned |
-| **Empty Set Dollar (ESD)** | Algorithmic stablecoin with bonding incentives | Mostly inactive |
+| **Coin** | **Mechanism** | **Status** |
+| --- | --- | --- |
+| TerraUSD (UST) | Pegged via LUNA burn/mint mechanism | Collapsed (May 2022) |
+| Ampleforth (AMPL) | Uses rebasing to adjust supply | Active |
+| Frax (FRAX) | Hybrid: partially collateralized + algorithm | Active |
+| Basis Cash (BAC) | Three-token model with seigniorage bonds | Abandoned |
+| Empty Set Dollar (ESD) | Algorithmic stablecoin with bonding incentives | Mostly inactive |
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages**** | ****Disadvantages**** |
+| **Aspect** | **Advantages** | **Disadvantages** |
+| --- | --- | --- |
 | No Collateral Needed | Reduces reliance on centralized reserves | Peg is highly unstable during volatility |
 | Decentralized Design | Aligns with crypto ethos; censorship-resistant | Difficult to regulate and prone to systemic failure |
 | Capital Efficient | Doesn’t lock capital in reserves | Vulnerable to death spirals and bank run scenarios |

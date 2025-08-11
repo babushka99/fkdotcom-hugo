@@ -1,7 +1,7 @@
 ---
 title: "Banking-as-a-Service (BaaS)"
 date: 2021-08-11T09:36:38+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Banking-as-a-Service (BaaS) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

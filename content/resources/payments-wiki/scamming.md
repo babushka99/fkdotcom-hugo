@@ -1,7 +1,7 @@
 ---
 title: "Scamming"
 date: 2025-03-24T09:48:44+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Scamming - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -61,7 +61,8 @@ It is **low-cost, high-reward**, and scalable—making it attractive for individ
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages (for Scammers)**** | ****Disadvantages (for Victims/Society)**** |
+| **Aspect** | **Advantages (for Scammers)** | **Disadvantages (for Victims/Society)** |
+| --- | --- | --- |
 | Profitability | Minimal input with potential for large returns | Severe emotional and financial impact on victims |
 | Anonymity | Easy to hide using fake identities and VPNs | Makes prosecution and recovery very difficult |
 | Global Reach | Scams can target thousands across borders | Trust in online systems and platforms erodes |

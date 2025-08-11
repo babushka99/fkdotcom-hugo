@@ -1,7 +1,7 @@
 ---
 title: "FATF Travel Rule"
 date: 2023-01-06T17:28:04+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "FATF Travel Rule - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

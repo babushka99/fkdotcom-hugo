@@ -1,7 +1,7 @@
 ---
 title: "Difference between CBDCs and Stablecoins"
 date: 2023-05-20T23:11:05+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Difference between CBDCs and Stablecoins - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -60,13 +60,14 @@ USDC is issued by Circle and Coinbase. Each USDC token is backed 1:1 with U.S. d
 ### Comparison Table: Difference between CBDCs and Stablecoins
 
 | **Feature** | **CBDCs** | **Stablecoins** |
-| Issuer | Central bank | Private companies or [DAOs](https://faisalkhanllc.xyz/resources/payments-wiki/d/decentralized-autonomous-organization-dao/) |
+| --- | --- | --- |
+| Issuer | Central bank | Private companies or DAOs |
 | Legal Tender | Yes | No (but may be regulated) |
 | Backing | Sovereign currency | Fiat reserves, crypto, or algorithms |
 | Regulation | Fully regulated | Partially regulated (varies by region) |
 | Infrastructure | Centralized or permissioned ledger | Public blockchain (e.g., Ethereum) |
 | Trust Model | Trust in central bank | Trust in issuer or smart contract |
-| Use Cases | Domestic payments, monetary policy | [DeFi](https://faisalkhanllc.xyz/resources/payments-wiki/d/decentralized-finance-defi/), remittances, trading |
+| Use Cases | Domestic payments, monetary policy | DeFi, remittances, trading |
 | Volatility | None (state-guaranteed) | Low (pegged but not government-guaranteed) |
 
 ### Simple Analogy

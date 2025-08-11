@@ -1,7 +1,7 @@
 ---
 title: "Cash Over Counter (COC)"
 date: 2023-12-24T15:32:50+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Cash Over Counter (COC) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Global Accounts in Banking"
 date: 2024-11-11T18:47:20+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Global Accounts in Banking - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -151,13 +151,14 @@ A multinational company uses global accounts to pay remote employees and contrac
 
 ### **Comparison Between Global Accounts and Traditional Bank Accounts**
 
-| ****Aspect**** | ****Global Accounts**** | ****Traditional Bank Accounts**** |
-| **Currencies** | Multi-currency | Typically single currency |
-| **FX Fees** | Lower, competitive rates | Higher fees for currency conversion |
-| **Local Account Details** | Provided for multiple currencies | Usually limited to the account’s home country |
-| **Speed of Payments** | Faster international transfers | Slower, often via SWIFT network |
-| **Availability** | Offered by fintechs, neobanks, and global banks | Offered primarily by domestic banks |
-| **Regulation** | Requires KYC/AML compliance | Fully regulated, but with fewer cross-border features |
+| **Aspect** | **Global Accounts** | **Traditional Bank Accounts** |
+| --- | --- | --- |
+| Currencies | Multi-currency | Typically single currency |
+| FX Fees | Lower, competitive rates | Higher fees for currency conversion |
+| Local Account Details | Provided for multiple currencies | Usually limited to the account’s home country |
+| Speed of Payments | Faster international transfers | Slower, often via SWIFT network |
+| Availability | Offered by fintechs, neobanks, and global banks | Offered primarily by domestic banks |
+| Regulation | Requires KYC/AML compliance | Fully regulated, but with fewer cross-border features |
 
 ### **When to Use Global Accounts**
 

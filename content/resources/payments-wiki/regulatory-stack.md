@@ -1,7 +1,7 @@
 ---
 title: "Regulatory Stack"
 date: 2023-05-25T07:57:54+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Regulatory Stack - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

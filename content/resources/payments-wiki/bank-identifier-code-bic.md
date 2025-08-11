@@ -1,7 +1,7 @@
 ---
 title: "Bank Identifier Code (BIC)"
 date: 2023-12-13T11:59:04+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Bank Identifier Code (BIC) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

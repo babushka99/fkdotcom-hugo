@@ -1,7 +1,7 @@
 ---
 title: "High-Frequency Trading (HFT)"
 date: 2025-03-24T08:03:15+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "High-Frequency Trading (HFT) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -79,18 +79,20 @@ Although typically inaccessible to retail investors, HFT is used by:
 
 ## Key Strategies Used in HFT
 
-| ****Strategy**** | ****Description**** |
-| **Market Making** | Posting bid and ask orders to profit from bid-ask spread and rebates |
-| **Statistical Arbitrage** | Exploiting temporary price differences between correlated assets |
-| **Latency Arbitrage** | Profiting from faster access to price changes than competitors |
-| **Quote Stuffing** (controversial) | Flooding the market with orders to slow down competitors (often flagged as abusive) |
-| **Liquidity Detection** | Sensing large hidden orders and trading ahead of them |
-| **Event-Driven Trading** | Reacting instantly to earnings, economic data, or news releases |
+| **Strategy** | **Description** |
+| --- | --- |
+| Market Making | Posting bid and ask orders to profit from bid-ask spread and rebates |
+| Statistical Arbitrage | Exploiting temporary price differences between correlated assets |
+| Latency Arbitrage | Profiting from faster access to price changes than competitors |
+| Quote Stuffing (controversial) | Flooding the market with orders to slow down competitors (often flagged as abusive) |
+| Liquidity Detection | Sensing large hidden orders and trading ahead of them |
+| Event-Driven Trading | Reacting instantly to earnings, economic data, or news releases |
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages**** | ****Disadvantages / Risks**** |
-| Speed and Efficiency | [Provides liquidity](https://faisalkhanllc.xyz/resources/payments-wiki/l/liquidity-provider/) and tightens spreads | Can cause unfair market advantages for well-capitalized firms |
+| **Aspect** | **Advantages** | **Disadvantages / Risks** |
+| --- | --- | --- |
+| Speed and Efficiency | Provides liquidity and tightens spreads | Can cause unfair market advantages for well-capitalized firms |
 | Reduced Transaction Costs | Benefits from exchange rebates and optimized execution | Raises barriers to entry for slower traders |
 | Arbitrage Opportunities | Ensures price alignment across markets | Can amplify volatility and market fragility |
 | Automation and Scale | Handles millions of trades with precision | Risk of runaway algorithms or flash crashes |

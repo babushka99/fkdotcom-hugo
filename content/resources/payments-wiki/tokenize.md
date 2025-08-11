@@ -1,7 +1,7 @@
 ---
 title: "Tokenize"
 date: 2024-12-03T11:24:06+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Tokenize - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -137,12 +137,13 @@ With different systems using varied tokenization methods, interoperability and s
 
 ## Comparison Between Tokenization and Encryption
 
-| ****Aspect**** | ****Tokenization**** | ****Encryption**** |
-| **Data Replacement** | Sensitive data replaced by a unique token | Sensitive data scrambled into code |
-| **Use Case** | Mainly for protecting payment data and assets | Used for protecting all types of data |
-| **Reversibility** | Cannot be reverse-engineered from token | Can be decrypted with a key |
-| **Storage** | Token is stored in place of actual data | Encrypted data stored as coded form |
-| **Compliance Benefits** | Meets compliance standards by securing sensitive data | Often required for compliance but more versatile |
+| **Aspect** | **Tokenization** | **Encryption** |
+| --- | --- | --- |
+| Data Replacement | Sensitive data replaced by a unique token | Sensitive data scrambled into code |
+| Use Case | Mainly for protecting payment data and assets | Used for protecting all types of data |
+| Reversibility | Cannot be reverse-engineered from token | Can be decrypted with a key |
+| Storage | Token is stored in place of actual data | Encrypted data stored as coded form |
+| Compliance Benefits | Meets compliance standards by securing sensitive data | Often required for compliance but more versatile |
 
 ## When to Use the Tokenize Process
 

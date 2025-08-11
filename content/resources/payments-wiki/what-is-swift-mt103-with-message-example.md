@@ -1,7 +1,7 @@
 ---
 title: "SWIFT MT103 with Message Example"
 date: 2023-12-14T13:19:01+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "SWIFT MT103 with Message Example - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

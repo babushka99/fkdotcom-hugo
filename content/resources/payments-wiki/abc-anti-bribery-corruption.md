@@ -1,7 +1,7 @@
 ---
 title: "Anti-Bribery & Corruption (ABC)"
 date: 2022-08-19T07:14:52+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Anti-Bribery & Corruption (ABC) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

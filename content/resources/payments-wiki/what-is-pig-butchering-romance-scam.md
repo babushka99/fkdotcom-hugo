@@ -1,7 +1,7 @@
 ---
 title: "Pig Butchering Romance Scam"
 date: 2023-11-21T12:49:19+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Pig Butchering Romance Scam - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

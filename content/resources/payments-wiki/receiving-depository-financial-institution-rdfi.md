@@ -1,7 +1,7 @@
 ---
 title: "Receiving Depository Financial Institution (RDFI)"
 date: 2024-01-23T09:49:17+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Receiving Depository Financial Institution (RDFI) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

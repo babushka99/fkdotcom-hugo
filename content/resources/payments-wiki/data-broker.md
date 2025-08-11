@@ -1,7 +1,7 @@
 ---
 title: "Data Broker"
 date: 2025-03-24T07:49:27+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Data Broker - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -67,7 +67,8 @@ Some well-known data brokers include **Acxiom, Experian, CoreLogic, LexisNexis R
 
 ## Advantages vs. Disadvantages of Data Broker
 
-| ****Aspect**** | ****Advantages**** | ****Disadvantages**** |
+| **Aspect** | **Advantages** | **Disadvantages** |
+| --- | --- | --- |
 | Business Intelligence | Provides deep insights for targeting and decision-making | Fuels surveillance capitalism and erodes user privacy |
 | Fraud Prevention | Used for risk assessment in financial or insurance sectors | Can be exploited for identity theft or scam prospecting |
 | Consumer Profiling | Enables personalized marketing and services | Often lacks transparency and opt-out mechanisms |

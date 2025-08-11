@@ -1,7 +1,7 @@
 ---
 title: "Prospecting (in Scamming)"
 date: 2025-03-24T07:48:56+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Prospecting (in Scamming) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -55,7 +55,8 @@ Scammers often automate prospecting using bots or hire low-level workers in frau
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages (for Scammers)**** | ****Disadvantages (for Victims/Society)**** |
+| **Aspect** | **Advantages (for Scammers)** | **Disadvantages (for Victims/Society)** |
+| --- | --- | --- |
 | Efficiency | Helps scammers save time by filtering likely targets | Increases the risk of personalized and convincing scams |
 | ROI Optimization | Improves conversion rates for fraudulent operations | More victims fall prey to well-researched scams |
 | Scalability | Enables mass-scam operations with minimal effort | Difficult for authorities to detect early signs |

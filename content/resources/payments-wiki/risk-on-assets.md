@@ -1,7 +1,7 @@
 ---
 title: "Risk-On Assets"
 date: 2024-11-11T19:05:26+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Risk-On Assets - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -105,13 +105,14 @@ Some risk-on assets, such as cryptocurrencies or high-yield bonds, may experienc
 
 ### Risk-On vs. Risk-Off Assets
 
-| ****Aspect**** | ****Risk-On Assets**** | ****Risk-Off Assets**** |
-| **Examples** | Equities, cryptocurrencies, oil, high-yield bonds | Bonds, gold, cash, treasury securities |
-| **Market Sentiment** | Perform well in bullish markets | Perform well in bearish or uncertain markets |
-| **Volatility** | High | Low |
-| **Return Potential** | High | Low to moderate |
-| **Economic Sensitivity** | Highly sensitive to growth cycles | Less sensitive, more stable in downturns |
-| **Liquidity Risk** | Moderate to high | Low |
+| **Aspect** | **Risk-On Assets** | **Risk-Off Assets** |
+| --- | --- | --- |
+| Examples | Equities, cryptocurrencies, oil, high-yield bonds | Bonds, gold, cash, treasury securities |
+| Market Sentiment | Perform well in bullish markets | Perform well in bearish or uncertain markets |
+| Volatility | High | Low |
+| Return Potential | High | Low to moderate |
+| Economic Sensitivity | Highly sensitive to growth cycles | Less sensitive, more stable in downturns |
+| Liquidity Risk | Moderate to high | Low |
 
 ### How to Manage Risk-On Assets in a Portfolio
 

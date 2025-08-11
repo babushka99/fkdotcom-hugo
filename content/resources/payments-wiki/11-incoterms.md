@@ -1,7 +1,7 @@
 ---
 title: "11 Incoterms"
 date: 2023-12-31T12:58:32+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "11 Incoterms - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

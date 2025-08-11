@@ -1,7 +1,7 @@
 ---
 title: "Crowdfunding"
 date: 2024-11-29T19:31:40+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Crowdfunding - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -157,12 +157,13 @@ A tech startup offers equity shares through SeedInvest, allowing investors to ow
 
 ### Comparison Between Crowdfunding and Traditional Fundraising
 
-| ****Aspect**** | ****Crowdfunding**** | ****Traditional Fundraising**** |
-| **Source of Funds** | Many small contributions | Large contributions from banks, VCs, etc. |
-| **Market Reach** | Global, often online | Limited to known investors or local reach |
-| **Risk Level** | Lower financial risk for individuals | Higher risk if loans or investor terms apply |
-| **Speed of Funding** | Rapid, depending on campaign success | Slower, with extensive negotiations |
-| **Community Engagement** | High, with direct backer interaction | Lower, often transactional relationships |
+| **Aspect** | **Crowdfunding** | **Traditional Fundraising** |
+| --- | --- | --- |
+| Source of Funds | Many small contributions | Large contributions from banks, VCs, etc. |
+| Market Reach | Global, often online | Limited to known investors or local reach |
+| Risk Level | Lower financial risk for individuals | Higher risk if loans or investor terms apply |
+| Speed of Funding | Rapid, depending on campaign success | Slower, with extensive negotiations |
+| Community Engagement | High, with direct backer interaction | Lower, often transactional relationships |
 
 ### When to Use Crowdfunding
 

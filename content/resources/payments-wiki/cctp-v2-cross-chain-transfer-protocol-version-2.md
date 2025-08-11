@@ -1,7 +1,7 @@
 ---
 title: "CCTP V2 - Cross Chain Transfer Protocol Version 2"
 date: 2025-05-14T15:03:33+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "CCTP V2 - Cross Chain Transfer Protocol Version 2 - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Member Service Provider (MSP)"
 date: 2023-12-24T15:43:51+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Member Service Provider (MSP) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

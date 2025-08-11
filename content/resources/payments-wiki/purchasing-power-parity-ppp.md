@@ -1,7 +1,7 @@
 ---
 title: "Purchasing Power Parity (PPP)"
 date: 2023-05-22T12:01:26+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Purchasing Power Parity (PPP) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

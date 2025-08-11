@@ -1,7 +1,7 @@
 ---
 title: "BuyMeACoffee"
 date: 2024-11-29T19:25:23+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "BuyMeACoffee - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -157,12 +157,13 @@ A podcaster uses Buy Me a Coffee donations to cover editing software costs and o
 
 ### Comparison Between BuyMeACoffee and Other Crowdfunding Platforms
 
-| ****Aspect**** | ****Buy Me a Coffee**** | ****Other Platforms (e.g., Patreon, Ko-fi)**** |
-| **Support Type** | One-time donations and memberships | Typically recurring subscriptions |
-| **Commitment Level** | Flexible, with no required commitment | Often requires monthly payments (Patreon) |
-| **Platform Fees** | Small transaction fee | Similar fees, with some variations |
-| **Community Building** | Possible through posts and updates | High, with structured tiers and perks |
-| **Audience Reach** | Primarily self-promoted by creators | Often larger reach on bigger platforms |
+| **Aspect** | **Buy Me a Coffee** | **Other Platforms (e.g., Patreon, Ko-fi)** |
+| --- | --- | --- |
+| Support Type | One-time donations and memberships | Typically recurring subscriptions |
+| Commitment Level | Flexible, with no required commitment | Often requires monthly payments (Patreon) |
+| Platform Fees | Small transaction fee | Similar fees, with some variations |
+| Community Building | Possible through posts and updates | High, with structured tiers and perks |
+| Audience Reach | Primarily self-promoted by creators | Often larger reach on bigger platforms |
 
 ### When to Use BuyMeACoffee
 

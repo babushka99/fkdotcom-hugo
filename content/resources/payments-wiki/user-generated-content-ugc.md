@@ -1,7 +1,7 @@
 ---
 title: "User-Generated Content (UGC)"
 date: 2024-11-29T18:47:41+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "User-Generated Content (UGC) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -131,12 +131,13 @@ A restaurant reposts customer photos and reviews on Instagram, giving followers 
 
 ### **Comparison Between UGC and Brand-Generated Content**
 
-| ****Aspect**** | ****User-Generated Content (UGC)**** | ****Brand-Generated Content**** |
-| **Source** | Created by customers or fans | Created by the brand’s team or agency |
-| **Authenticity** | Often more authentic and relatable | Typically polished and on-brand |
-| **Cost** | Free or low-cost | Higher cost due to production |
-| **Control Over Message** | Limited, as users create the content | Full control over messaging and tone |
-| **Engagement** | High, as people trust peer recommendations | Moderate, as it may feel like advertising |
+| **Aspect** | **User-Generated Content (UGC)** | **Brand-Generated Content** |
+| --- | --- | --- |
+| Source | Created by customers or fans | Created by the brand’s team or agency |
+| Authenticity | Often more authentic and relatable | Typically polished and on-brand |
+| Cost | Free or low-cost | Higher cost due to production |
+| Control Over Message | Limited, as users create the content | Full control over messaging and tone |
+| Engagement | High, as people trust peer recommendations | Moderate, as it may feel like advertising |
 
 ### **When and How to Use User-Generated Content**
 

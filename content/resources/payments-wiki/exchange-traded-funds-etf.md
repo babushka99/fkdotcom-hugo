@@ -1,7 +1,7 @@
 ---
 title: "Exchange-Traded Funds (ETF)"
 date: 2024-01-07T12:07:38+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Exchange-Traded Funds (ETF) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

@@ -1,7 +1,7 @@
 ---
 title: "Informal Banking"
 date: 2024-11-11T19:19:28+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Informal Banking - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -89,13 +89,14 @@ Informal banking plays a significant role in many developing countries, where fo
 
 ### **Comparison with Formal Banking**
 
-| ****Aspect**** | ****Informal Banking**** | ****Formal Banking**** |
-| **Regulation** | Unregulated | Regulated by [central banks](https://faisalkhan.com/solutions/banking/list-of-central-banks-of-the-world/) and authorities |
-| **Documentation** | Minimal or verbal | Legal contracts and formal documentation |
-| **Accessibility** | High, especially in remote or underserved areas | Limited in rural or conflict-affected regions |
-| **[Transaction Fees](https://faisalkhan.com/learn/payments-wiki/transaction-fee/)** | Low or none | Standardized fees |
-| **Transparency** | Low, primarily cash-based | High, with traceable records |
-| **Consumer Protection** | No formal protection | Legal recourse and regulatory oversight |
+| **Aspect** | **Informal Banking** | **Formal Banking** |
+| --- | --- | --- |
+| Regulation | Unregulated | Regulated by central banks and authorities |
+| Documentation | Minimal or verbal | Legal contracts and formal documentation |
+| Accessibility | High, especially in remote or underserved areas | Limited in rural or conflict-affected regions |
+| Transaction Fees | Low or none | Standardized fees |
+| Transparency | Low, primarily cash-based | High, with traceable records |
+| Consumer Protection | No formal protection | Legal recourse and regulatory oversight |
 
 ### **Impact of Informal Banking on Economies**
 

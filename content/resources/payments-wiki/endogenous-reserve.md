@@ -1,7 +1,7 @@
 ---
 title: "Endogenous Reserve"
 date: 2023-09-19T16:04:17+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Endogenous Reserve - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

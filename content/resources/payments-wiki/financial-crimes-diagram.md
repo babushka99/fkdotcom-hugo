@@ -1,7 +1,7 @@
 ---
 title: "Financial Crime (Diagram)"
 date: 2023-01-16T09:53:14+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Financial Crime (Diagram) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

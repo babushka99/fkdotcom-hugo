@@ -1,7 +1,7 @@
 ---
 title: "Risk-Off Assets"
 date: 2024-11-11T19:00:36+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Risk-Off Assets - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -119,13 +119,14 @@ Investors may miss out on potential gains by allocating too heavily to risk-off 
 
 ### **Risk-Off vs. Risk-On Assets**
 
-| ****Aspect**** | ****Risk-Off Assets**** | ****Risk-On Assets**** |
-| **Examples** | Government bonds, cash, gold, defensive stocks | Equities, cryptocurrencies, commodities |
-| **Market Sentiment** | Favorable in bearish or uncertain markets | Favorable in bullish or optimistic markets |
-| **Volatility** | Low | High |
-| **Return Potential** | Low to moderate | High |
-| **Economic Sensitivity** | Less sensitive to growth cycles | Highly sensitive to economic conditions |
-| **Liquidity Risk** | Low | Moderate to high |
+| **Aspect** | **Risk-Off Assets** | **Risk-On Assets** |
+| --- | --- | --- |
+| Examples | Government bonds, cash, gold, defensive stocks | Equities, cryptocurrencies, commodities |
+| Market Sentiment | Favorable in bearish or uncertain markets | Favorable in bullish or optimistic markets |
+| Volatility | Low | High |
+| Return Potential | Low to moderate | High |
+| Economic Sensitivity | Less sensitive to growth cycles | Highly sensitive to economic conditions |
+| Liquidity Risk | Low | Moderate to high |
 
 ### How to Use Risk-Off Assets in a Portfolio
 

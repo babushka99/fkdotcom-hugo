@@ -1,7 +1,7 @@
 ---
 title: "Local Acquiring"
 date: 2024-12-03T09:54:38+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Local Acquiring - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -105,12 +105,13 @@ A travel platform integrates with local acquirers in several countries, enabling
 
 ### Comparison Between Local Acquiring and Cross-Border Acquiring
 
-| ****Aspect**** | ****Local Acquiring**** | ****Cross-Border Acquiring**** |
-| **Transaction Fees** | Lower, with minimal cross-border fees | Higher, with foreign exchange and cross-border fees |
-| **Approval Rates** | Higher, due to domestic processing | Often lower, as international banks may decline transactions |
-| **Currency Options** | Local currency | Foreign currency conversion may apply |
-| **Settlement Speed** | Faster settlement in the local currency | Slower, often due to international processing |
-| **Compliance** | Better alignment with local regulations | May face regulatory challenges in some regions |
+| **Aspect** | **Local Acquiring** | **Cross-Border Acquiring** |
+| --- | --- | --- |
+| Transaction Fees | Lower, with minimal cross-border fees | Higher, with foreign exchange and cross-border fees |
+| Approval Rates | Higher, due to domestic processing | Often lower, as international banks may decline transactions |
+| Currency Options | Local currency | Foreign currency conversion may apply |
+| Settlement Speed | Faster settlement in the local currency | Slower, often due to international processing |
+| Compliance | Better alignment with local regulations | May face regulatory challenges in some regions |
 
 ### When to Use Local Acquiring
 

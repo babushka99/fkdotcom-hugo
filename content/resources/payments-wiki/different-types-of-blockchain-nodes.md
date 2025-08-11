@@ -1,7 +1,7 @@
 ---
 title: "Different Types of Blockchain Nodes"
 date: 2024-04-02T14:30:48+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Different Types of Blockchain Nodes - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

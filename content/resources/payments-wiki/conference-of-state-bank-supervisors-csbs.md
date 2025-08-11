@@ -1,7 +1,7 @@
 ---
 title: "Conference of State Bank Supervisors (CSBS)"
 date: 2024-12-03T11:38:46+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Conference of State Bank Supervisors (CSBS) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -135,12 +135,13 @@ CSBS regularly collaborates with federal agencies to advocate for a cooperative 
 
 ### Comparison Between State and Federal Financial Supervision
 
-| ****Aspect**** | ****State Financial Supervision (CSBS)**** | ****Federal Financial Supervision**** |
-| **Regulatory Scope** | [State-chartered](https://faisalkhanllc.xyz/resources/payments-wiki/s/state-chartered-bank/) banks and local financial institutions | National banks and federally chartered institutions |
-| **Focus** | Local economic development, consumer protection | National financial stability, economic policy |
-| **Innovation** | Supports local innovation, fintech initiatives | Adapts policies nationally based on federal guidelines |
-| **Collaboration** | Works with federal agencies through CSBS | Works with state regulators but led by federal guidelines |
-| **Economic Impact** | Promotes local economic growth | Oversees the overall U.S. financial system stability |
+| **Aspect** | **State Financial Supervision (CSBS)** | **Federal Financial Supervision** |
+| --- | --- | --- |
+| Regulatory Scope | State-chartered banks and local financial institutions | National banks and federally chartered institutions |
+| Focus | Local economic development, consumer protection | National financial stability, economic policy |
+| Innovation | Supports local innovation, fintech initiatives | Adapts policies nationally based on federal guidelines |
+| Collaboration | Works with federal agencies through CSBS | Works with state regulators but led by federal guidelines |
+| Economic Impact | Promotes local economic growth | Oversees the overall U.S. financial system stability |
 
 ### When CSBS is Vital to Financial Supervision
 

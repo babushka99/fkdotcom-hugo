@@ -1,7 +1,7 @@
 ---
 title: "GoFundMe Campaign"
 date: 2024-12-02T12:55:07+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "GoFundMe Campaign - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -143,12 +143,13 @@ An animal shelter uses GoFundMe to raise money for a rescue operation, sharing u
 
 ### **Comparison Between GoFundMe and Traditional Fundraising**
 
-| ****Aspect**** | ****GoFundMe Campaign**** | ****Traditional Fundraising**** |
-| **Accessibility** | Easy to set up, anyone can start | Often requires experience or organization |
-| **Audience Reach** | Broad, through online sharing | May be limited to local events or contacts |
-| **Fees** | Payment processing fees (2.9% + $0.30) | May include event costs, materials, etc. |
-| **Fundraising Speed** | Fast, funds can be withdrawn as donated | Slower, depends on event timing |
-| **Transparency Needed** | High, personal story needed for trust | Medium, trust often established with known donors |
+| **Aspect** | **GoFundMe Campaign** | **Traditional Fundraising** |
+| --- | --- | --- |
+| Accessibility | Easy to set up, anyone can start | Often requires experience or organization |
+| Audience Reach | Broad, through online sharing | May be limited to local events or contacts |
+| Fees | Payment processing fees (2.9% + $0.30) | May include event costs, materials, etc. |
+| Fundraising Speed | Fast, funds can be withdrawn as donated | Slower, depends on event timing |
+| Transparency Needed | High, personal story needed for trust | Medium, trust often established with known donors |
 
 ### **When to Use a GoFundMe Campaign**
 

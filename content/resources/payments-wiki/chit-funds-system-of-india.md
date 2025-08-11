@@ -1,7 +1,7 @@
 ---
 title: "Chit Funds System of India"
 date: 2024-11-11T18:49:57+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Chit Funds System of India - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -77,12 +77,13 @@ A group of small business owners participates in a chit fund with a monthly cont
 
 ### **Comparison with Other Financial Systems**
 
-| ****Aspect**** | ****Chit Funds**** | ****Bank Loans**** |
-| **Regulation** | Partially regulated (registered funds) | Fully regulated by financial authorities |
-| **Access to Credit** | Based on group trust | Requires creditworthiness and documentation |
-| **Interest Rates** | No fixed interest, auction-based payouts | [Interest rates](https://faisalkhanllc.xyz/resources/payments-wiki/i/interest/) are fixed by the bank |
-| **Flexibility** | High, based on participant needs | Low, rigid repayment schedules |
-| **Consumer Protection** | Limited protection for unregistered funds | Legal recourse and regulatory oversight |
+| **Aspect** | **Chit Funds** | **Bank Loans** |
+| --- | --- | --- |
+| Regulation | Partially regulated (registered funds) | Fully regulated by financial authorities |
+| Access to Credit | Based on group trust | Requires creditworthiness and documentation |
+| Interest Rates | No fixed interest, auction-based payouts | Interest rates are fixed by the bank |
+| Flexibility | High, based on participant needs | Low, rigid repayment schedules |
+| Consumer Protection | Limited protection for unregistered funds | Legal recourse and regulatory oversight |
 
 ## **Advantages of Chit Funds**
 
@@ -142,11 +143,12 @@ Despite regulation, many chit funds operate informally, evading oversight. Gover
 
 ### **Comparison Between Chit Funds and ROSCAs (Rotating Savings and Credit Associations)**
 
-| ****Aspect**** | ****Chit Funds**** | ****ROSCAs (e.g., Kamaitee)**** |
-| **Distribution Method** | Lottery or auction-based payouts | Fixed rotation or random draw |
-| **Regulation** | Partially regulated (registered funds) | Generally unregulated |
-| **Purpose** | Savings, credit, and potential profit | Primarily savings and credit |
-| **Profit Potential** | Yes, through auctions | No profit involved |
+| **Aspect** | **Chit Funds** | **ROSCAs (e.g., Kamaitee)** |
+| --- | --- | --- |
+| Distribution Method | Lottery or auction-based payouts | Fixed rotation or random draw |
+| Regulation | Partially regulated (registered funds) | Generally unregulated |
+| Purpose | Savings, credit, and potential profit | Primarily savings and credit |
+| Profit Potential | Yes, through auctions | No profit involved |
 
 ### **Conclusion**
 

@@ -1,7 +1,7 @@
 ---
 title: "Micro, Small and Medium Enterprises (MSMEs)"
 date: 2023-12-20T13:04:03+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Micro, Small and Medium Enterprises (MSMEs) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

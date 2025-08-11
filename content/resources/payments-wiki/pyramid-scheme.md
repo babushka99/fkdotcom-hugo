@@ -1,7 +1,7 @@
 ---
 title: "Pyramid Scheme"
 date: 2025-03-24T09:27:33+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Pyramid Scheme - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -53,7 +53,8 @@ The **hallmark of a pyramid scheme** is that money flows **upward**, with no sus
 
 ## Advantages vs. Disadvantages of Pyramid Scheme
 
-| ****Aspect**** | ****Advantages (for Promoters)**** | ****Disadvantages (for Participants/Society)**** |
+| **Aspect** | **Advantages (for Promoters)** | **Disadvantages (for Participants/Society)** |
+| --- | --- | --- |
 | Rapid Profit | Early members earn quickly with minimal effort | Most participants lose money |
 | Viral Growth | Fast expansion through social circles | Strains relationships, especially with friends/family |
 | Illusion of Legitimacy | May appear like a business or training model | Difficult to distinguish from legal MLMs |

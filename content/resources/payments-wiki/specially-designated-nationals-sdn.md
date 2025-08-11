@@ -1,7 +1,7 @@
 ---
 title: "Specially Designated Nationals (SDN)"
 date: 2023-01-29T16:45:24+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Specially Designated Nationals (SDN) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

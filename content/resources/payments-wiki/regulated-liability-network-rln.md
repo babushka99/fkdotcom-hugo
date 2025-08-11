@@ -1,7 +1,7 @@
 ---
 title: "Regulated Liability Network (RLN)"
 date: 2025-03-24T07:45:50+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Regulated Liability Network (RLN) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -33,13 +33,14 @@ The Regulated Liability Network is designed to solve major challenges in today's
 
 ## Key Features
 
-| ****Feature**** | ****Description**** |
-| **Regulated Access** | Only licensed financial institutions can issue and settle digital liabilities |
-| **Multi-Asset Support** | RLNs can support central bank money, commercial bank deposits, and [tokenized assets](https://faisalkhanllc.xyz/resources/payments-wiki/t/tokenization/) |
-| **Permissioned Ledger** | Unlike public blockchains, access is restricted to verified, regulated entities |
-| **Interoperability** | Connects different financial institutions under a common framework |
-| **24/7 Settlement** | Enables near-instant, continuous settlement across borders |
-| **Programmability** | Smart contracts can automate conditional payments, compliance, etc. |
+| **Feature** | **Description** |
+| --- | --- |
+| Regulated Access | Only licensed financial institutions can issue and settle digital liabilities |
+| Multi-Asset Support | RLNs can support central bank money, commercial bank deposits, and tokenized assets |
+| Permissioned Ledger | Unlike public blockchains, access is restricted to verified, regulated entities |
+| Interoperability | Connects different financial institutions under a common framework |
+| 24/7 Settlement | Enables near-instant, continuous settlement across borders |
+| Programmability | Smart contracts can automate conditional payments, compliance, etc. |
 
 ## Stakeholders and Implementation
 
@@ -93,21 +94,23 @@ The Regulated Liability Network is designed to solve major challenges in today's
 
 ## Advantages vs. Disadvantages
 
-| ****Aspect**** | ****Advantages**** | ****Disadvantages / Challenges**** |
-| **Speed and Efficiency** | Real-time settlement; eliminates delays in cross-border transfers | Requires buy-in and infrastructure updates from multiple parties |
-| **Regulatory Alignment** | Built for compliance from the ground up | Depends on coordination among regulators across jurisdictions |
-| **Interoperability** | Connects central bank and commercial money in one framework | Complex to integrate with legacy banking systems |
-| **Programmable Money** | Enables automation and smart contracts within legal limits | Raises questions about liability, legal enforceability |
-| **Security and Trust** | Permissioned access ensures trust and compliance | Not as decentralized as public blockchains |
+| **Aspect** | **Advantages** | **Disadvantages / Challenges** |
+| --- | --- | --- |
+| Speed and Efficiency | Real-time settlement; eliminates delays in cross-border transfers | Requires buy-in and infrastructure updates from multiple parties |
+| Regulatory Alignment | Built for compliance from the ground up | Depends on coordination among regulators across jurisdictions |
+| Interoperability | Connects central bank and commercial money in one framework | Complex to integrate with legacy banking systems |
+| Programmable Money | Enables automation and smart contracts within legal limits | Raises questions about liability, legal enforceability |
+| Security and Trust | Permissioned access ensures trust and compliance | Not as decentralized as public blockchains |
 
 ## Comparisons with Related Systems
 
-| ****System**** | ****Key Differences from RLN**** |
-| **SWIFT** | Message-based; not a settlement platform |
-| **CBDCs** | Issued by central banks only; RLNs support private liabilities too |
-| **Stablecoins** | Typically issued by private companies; RLNs are fully regulated |
-| **Ripple / XRP Ledger** | Public blockchain with native token; RLNs use tokenized fiat on permissioned ledgers |
-| **DeFi platforms** | Open and permissionless; RLNs are closed and institutionally controlled |
+| **System** | **Key Differences from RLN** |
+| --- | --- |
+| SWIFT | Message-based; not a settlement platform |
+| CBDCs | Issued by central banks only; RLNs support private liabilities too |
+| Stablecoins | Typically issued by private companies; RLNs are fully regulated |
+| Ripple / XRP Ledger | Public blockchain with native token; RLNs use tokenized fiat on permissioned ledgers |
+| DeFi platforms | Open and permissionless; RLNs are closed and institutionally controlled |
 
 ## Criticism and Open Questions About Regulated Liability Network (RLN)
 

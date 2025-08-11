@@ -1,7 +1,7 @@
 ---
 title: "Market Value / Realised Value (MV/RV)"
 date: 2024-12-30T09:33:55+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Market Value / Realised Value (MV/RV) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

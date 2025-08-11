@@ -1,7 +1,7 @@
 ---
 title: "BDS Movement"
 date: 2024-12-03T11:31:24+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "BDS Movement - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -119,12 +119,13 @@ Some local governments and political groups have advocated for sanctions or reso
 
 ### Comparison Between the BDS Movement and the Anti-Apartheid Movement
 
-| ****Aspect**** | ****BDS Movement**** | ****Anti-Apartheid Movement (South Africa)**** |
-| **Goal** | Rights and freedom for Palestinians | End of apartheid and equality for Black South Africans |
-| **Methods** | Boycott, divestment, sanctions | Boycott, divestment, sanctions |
-| **Type of Protest** | Non-violent economic and political pressure | Non-violent economic and political pressure |
-| **International Support** | Gained support globally, with mixed reactions | Gained strong international support |
-| **Challenges** | Accusations of anti-Semitism and bias | Faced resistance but had broad backing |
+| **Aspect** | **BDS Movement** | **Anti-Apartheid Movement (South Africa)** |
+| --- | --- | --- |
+| Goal | Rights and freedom for Palestinians | End of apartheid and equality for Black South Africans |
+| Methods | Boycott, divestment, sanctions | Boycott, divestment, sanctions |
+| Type of Protest | Non-violent economic and political pressure | Non-violent economic and political pressure |
+| International Support | Gained support globally, with mixed reactions | Gained strong international support |
+| Challenges | Accusations of anti-Semitism and bias | Faced resistance but had broad backing |
 
 ### When BDS is Typically Supported
 

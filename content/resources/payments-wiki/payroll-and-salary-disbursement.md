@@ -1,7 +1,7 @@
 ---
 title: "Payroll and Salary Disbursement"
 date: 2025-05-13T09:44:51+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Payroll and Salary Disbursement - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

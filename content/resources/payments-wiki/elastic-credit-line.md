@@ -1,7 +1,7 @@
 ---
 title: "Elastic Credit Line"
 date: 2023-05-25T17:36:26+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Elastic Credit Line - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

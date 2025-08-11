@@ -1,7 +1,7 @@
 ---
 title: "Fan Donation"
 date: 2024-11-29T19:20:49+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Fan Donation - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -137,12 +137,13 @@ A YouTuber provides a donation link on their page, allowing fans to make one-tim
 
 ### Comparison Between Fan Donations and Membership Subscriptions
 
-| ****Aspect**** | ****Fan Donations**** | ****Membership Subscriptions**** |
-| **Commitment Level** | One-time, flexible | Recurring monthly payments |
-| **Access to Exclusive Content** | Often no additional access | Usually includes exclusive content |
-| **Support Frequency** | Irregular, spontaneous | Regular, structured support |
-| **Platform Fees** | Typically lower per transaction | May include higher platform cuts |
-| **Recognition** | Some creators offer shoutouts or mentions | More structured perks based on tiers |
+| **Aspect** | **Fan Donations** | **Membership Subscriptions** |
+| --- | --- | --- |
+| Commitment Level | One-time, flexible | Recurring monthly payments |
+| Access to Exclusive Content | Often no additional access | Usually includes exclusive content |
+| Support Frequency | Irregular, spontaneous | Regular, structured support |
+| Platform Fees | Typically lower per transaction | May include higher platform cuts |
+| Recognition | Some creators offer shoutouts or mentions | More structured perks based on tiers |
 
 ### When to Make a Fan Donation
 

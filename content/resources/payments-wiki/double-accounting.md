@@ -1,7 +1,7 @@
 ---
 title: "Double Accounting"
 date: 2023-12-12T19:11:23+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Double Accounting - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

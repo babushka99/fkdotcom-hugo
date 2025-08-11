@@ -1,7 +1,7 @@
 ---
 title: "Rotating Savings and Credit Associations (ROSCAs)"
 date: 2024-11-11T19:14:44+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Rotating Savings and Credit Associations (ROSCAs) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -137,13 +137,14 @@ ROSCAs play a crucial role in promoting financial inclusion, especially in rural
 
 ### Comparison Between ROSCAs and Formal Banking
 
-| ****Aspect**** | ****ROSCAs**** | ****Formal Banking**** |
-| **Regulation** | Informal, trust-based | Regulated by financial authorities |
-| **Documentation** | Minimal, informal agreements | Detailed legal contracts and records |
-| **Accessibility** | High in rural and underserved areas | Limited in remote regions |
-| **Transaction Fees** | Low or none | Standardized fees |
-| **Interest Rates** | No interest | [Interest rates](https://faisalkhan.com/learn/payments-wiki/interest/interest-rates/) on loans |
-| **Consumer Protection** | No formal protection | Legal recourse and insurance |
+| **Aspect** | **ROSCAs** | **Formal Banking** |
+| --- | --- | --- |
+| Regulation | Informal, trust-based | Regulated by financial authorities |
+| Documentation | Minimal, informal agreements | Detailed legal contracts and records |
+| Accessibility | High in rural and underserved areas | Limited in remote regions |
+| Transaction Fees | Low or none | Standardized fees |
+| Interest Rates | No interest | Interest rates on loans |
+| Consumer Protection | No formal protection | Legal recourse and insurance |
 
 ### Examples of Rotating Savings and Credit Associations (ROSCAs) in Action
 

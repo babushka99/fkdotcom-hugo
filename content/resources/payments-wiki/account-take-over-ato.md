@@ -1,7 +1,7 @@
 ---
 title: "Account Take Over (ATO)"
 date: 2025-03-24T08:14:35+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Account Take Over (ATO) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
@@ -77,7 +77,8 @@ Once fraudsters control an account, they may:
 
 ## Advantages vs. Disadvantages of Account Take Over (ATO)
 
-| ****Aspect**** | ****Advantages (for Fraudsters)**** | ****Disadvantages (for Victims/Platforms)**** |
+| **Aspect** | **Advantages (for Fraudsters)** | **Disadvantages (for Victims/Platforms)** |
+| --- | --- | --- |
 | Low Entry Barrier | Can use leaked credentials from past data breaches | Financial loss, reputation damage, and identity theft |
 | High Scalability | Bots and tools can test millions of logins | May lead to widespread account lockouts or data exposure |
 | Trust Exploitation | Attacks come from “legitimate” accounts | Compromises trust in platforms and brands |

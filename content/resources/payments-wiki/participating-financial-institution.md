@@ -1,7 +1,7 @@
 ---
 title: "Participating Financial Institution"
 date: 2025-05-13T11:35:39+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Participating Financial Institution - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

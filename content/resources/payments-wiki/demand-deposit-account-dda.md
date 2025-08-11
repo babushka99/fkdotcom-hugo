@@ -1,7 +1,7 @@
 ---
 title: "Demand Deposit Account (DDA)"
 date: 2023-11-19T13:24:51+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Demand Deposit Account (DDA) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

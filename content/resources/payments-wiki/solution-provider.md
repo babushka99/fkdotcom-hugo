@@ -1,7 +1,7 @@
 ---
 title: "Solution Provider"
 date: 2023-01-14T14:40:09+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Solution Provider - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

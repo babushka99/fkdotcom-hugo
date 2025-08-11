@@ -1,7 +1,7 @@
 ---
 title: "Cannabis-Related Business (CRB)"
 date: 2024-03-15T21:27:24+0000
-lastmod: 2025-08-11T12:01:00
+lastmod: 2025-08-11T12:15:45
 draft: false
 description: "Cannabis-Related Business (CRB) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]

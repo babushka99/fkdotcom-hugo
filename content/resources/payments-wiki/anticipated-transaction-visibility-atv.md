@@ -1,7 +1,7 @@
 ---
 title: "Anticipated Transaction Visibility (ATV)"
 date: 2023-11-18T13:58:05+0000
-lastmod: 2025-08-11T12:00:59
+lastmod: 2025-08-11T12:15:44
 draft: false
 description: "Anticipated Transaction Visibility (ATV) - Payment industry knowledge and insights"
 keywords: ["payments", "fintech", "money transfer", "banking"]
