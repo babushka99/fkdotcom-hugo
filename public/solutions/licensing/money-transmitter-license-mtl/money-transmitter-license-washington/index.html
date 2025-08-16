@@ -637,20 +637,21 @@ iframe[src*="youtube-nocookie.com"] {
     .page-content iframe[src*="youtube"],
     article iframe[src*="youtube"],
     iframe[src*="youtube"] {
-        width: 95vw !important;
-        height: calc(95vw * 0.5625) !important;  
-        max-width: 500px !important;
-        max-height: 281px !important;  
+        width: 90% !important;
+        height: calc(90vw * 0.5625) !important;  
+        max-width: 480px !important;
+        max-height: 270px !important;  
+        display: block !important;
+        margin: 0 auto !important;
     }
     
      
     .post-content > div[style*="position: relative"],
     .page-content > div[style*="position: relative"],
     article > div[style*="position: relative"] {
-        max-width: 95vw !important;
-        position: static !important;
-        padding-bottom: 0 !important;
-        height: auto !important;
+        max-width: 100% !important;
+        margin: 20px auto !important;
+        text-align: center !important;
     }
 }
 
@@ -672,11 +673,19 @@ iframe[src*="youtube-nocookie.com"] {
 }
 
  
+iframe[src*="youtube"] + p,
+iframe[src*="youtube-nocookie"] + p,
+div:has(iframe[src*="youtube"]) + p,
+div:has(iframe[src*="youtube-nocookie"]) + p,
 .post-content iframe[src*="youtube"] + p,
+.post-content iframe[src*="youtube-nocookie"] + p,
 .page-content iframe[src*="youtube"] + p,
+.page-content iframe[src*="youtube-nocookie"] + p,
 article iframe[src*="youtube"] + p,
-div:has(iframe[src*="youtube"]) + p {
-    margin-top: 8px !important;
+article iframe[src*="youtube-nocookie"] + p,
+div[style*="position: relative"] + p {
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
     text-align: center !important;
     font-style: italic !important;
     color: #666 !important;
@@ -684,12 +693,27 @@ div:has(iframe[src*="youtube"]) + p {
     max-width: 640px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    line-height: 1.3 !important;
 }
 
+ 
+iframe[src*="youtube"],
+iframe[src*="youtube-nocookie"] {
+    margin-bottom: 5px !important;
+}
+
+ 
+.dark iframe[src*="youtube"] + p,
+.dark iframe[src*="youtube-nocookie"] + p,
+.dark div:has(iframe[src*="youtube"]) + p,
+.dark div:has(iframe[src*="youtube-nocookie"]) + p,
 .dark .post-content iframe[src*="youtube"] + p,
+.dark .post-content iframe[src*="youtube-nocookie"] + p,
 .dark .page-content iframe[src*="youtube"] + p,
+.dark .page-content iframe[src*="youtube-nocookie"] + p,
 .dark article iframe[src*="youtube"] + p,
-.dark div:has(iframe[src*="youtube"]) + p {
+.dark article iframe[src*="youtube-nocookie"] + p,
+.dark div[style*="position: relative"] + p {
     color: #ccc !important;
 }
 
@@ -1189,7 +1213,7 @@ View documents checklist <a href="https://dfi.wa.gov/sites/default/files/forms/m
 <div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important;">
   —
   <p>
-  Page Last Updated: June 24, 2021
+  Page Last Updated: October 14, 2023
 </div>
 
 <style>

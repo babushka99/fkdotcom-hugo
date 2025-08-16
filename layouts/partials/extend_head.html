@@ -642,20 +642,13 @@ iframe[src*="youtube-nocookie.com"] {
     color: #ccc !important;
 }
 
-/* AGGRESSIVE SPACING REDUCTION - Target all possible paragraph combinations after videos */
-iframe[src*="youtube"] + p,
-iframe[src*="youtube-nocookie"] + p,
-div:has(iframe[src*="youtube"]) + p,
-div:has(iframe[src*="youtube-nocookie"]) + p,
-.post-content iframe[src*="youtube"] + p,
-.post-content iframe[src*="youtube-nocookie"] + p,
-.page-content iframe[src*="youtube"] + p,
-.page-content iframe[src*="youtube-nocookie"] + p,
-article iframe[src*="youtube"] + p,
-article iframe[src*="youtube-nocookie"] + p,
-div[style*="position: relative"] + p {
-    margin-top: 5px !important;
-    margin-bottom: 15px !important;
+/* COMPREHENSIVE SPACING TARGETING - Multiple approaches */
+
+/* Method 1: Target any paragraph that immediately follows any element containing YouTube */
+*:has(iframe[src*="youtube"]) + p,
+*:has(iframe[src*="youtube-nocookie"]) + p {
+    margin-top: 8px !important;
+    padding-top: 0px !important;
     text-align: center !important;
     font-style: italic !important;
     color: #666 !important;
@@ -666,24 +659,73 @@ div[style*="position: relative"] + p {
     line-height: 1.3 !important;
 }
 
-/* Force tighter spacing on YouTube iframe bottom margin */
-iframe[src*="youtube"],
-iframe[src*="youtube-nocookie"] {
-    margin-bottom: 5px !important;
+/* Method 2: Direct iframe targeting */
+iframe[src*="youtube"] + p,
+iframe[src*="youtube-nocookie"] + p {
+    margin-top: 8px !important;
+    padding-top: 0px !important;
+    text-align: center !important;
+    font-style: italic !important;
+    color: #666 !important;
+    font-size: 14px !important;
+    max-width: 640px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 1.3 !important;
 }
 
-/* Dark mode description styling */
+/* Method 3: Hugo's probable container structure */
+div[style*="position: relative"] + p,
+.post-content > div + p,
+.page-content > div + p,
+article > div + p {
+    margin-top: 8px !important;
+    padding-top: 0px !important;
+    text-align: center !important;
+    font-style: italic !important;
+    color: #666 !important;
+    font-size: 14px !important;
+    max-width: 640px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 1.3 !important;
+}
+
+/* Method 4: Nuclear option - any italic paragraph */
+.post-content p em,
+.post-content p i,
+.page-content p em,
+.page-content p i,
+article p em,
+article p i {
+    display: block !important;
+    margin-top: 8px !important;
+    padding-top: 0px !important;
+    text-align: center !important;
+    font-style: italic !important;
+    color: #666 !important;
+    font-size: 14px !important;
+    max-width: 640px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 1.3 !important;
+}
+
+/* Dark mode versions */
+.dark *:has(iframe[src*="youtube"]) + p,
+.dark *:has(iframe[src*="youtube-nocookie"]) + p,
 .dark iframe[src*="youtube"] + p,
 .dark iframe[src*="youtube-nocookie"] + p,
-.dark div:has(iframe[src*="youtube"]) + p,
-.dark div:has(iframe[src*="youtube-nocookie"]) + p,
-.dark .post-content iframe[src*="youtube"] + p,
-.dark .post-content iframe[src*="youtube-nocookie"] + p,
-.dark .page-content iframe[src*="youtube"] + p,
-.dark .page-content iframe[src*="youtube-nocookie"] + p,
-.dark article iframe[src*="youtube"] + p,
-.dark article iframe[src*="youtube-nocookie"] + p,
-.dark div[style*="position: relative"] + p {
+.dark div[style*="position: relative"] + p,
+.dark .post-content > div + p,
+.dark .page-content > div + p,
+.dark article > div + p,
+.dark .post-content p em,
+.dark .post-content p i,
+.dark .page-content p em,
+.dark .page-content p i,
+.dark article p em,
+.dark article p i {
     color: #ccc !important;
 }
 
