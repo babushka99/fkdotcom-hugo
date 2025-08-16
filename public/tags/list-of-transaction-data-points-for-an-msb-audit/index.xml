@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>List of Transaction Data Points for an Msb Audit on Faisal Khan LLC</title>
+    <link>http://localhost:1313/tags/list-of-transaction-data-points-for-an-msb-audit/</link>
+    <description>Recent content in List of Transaction Data Points for an Msb Audit on Faisal Khan LLC</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/list-of-transaction-data-points-for-an-msb-audit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of Transaction Data Points for an MSB Audit</title>
+      <link>http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/list-of-transaction-data-points-for-an-msb-audit/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/list-of-transaction-data-points-for-an-msb-audit/</guid>
+      <description># List of Transaction Data Points for a MSB Audit
+The following are the necessary transaction data points that are captured for all Money Services Bu...</description>
+      <content:encoded><![CDATA[<h1 id="list-of-transaction-data-points-for-a-msb-audit">List of Transaction Data Points for a MSB Audit</h1>
+<p>The following are the necessary transaction data points that are captured for all Money Services Business related transactions (these are the data points that an examiner from the State Regulator) can you to pull during an MSB Audit</p>
+<ol>
+<li>Transaction Number</li>
+<li>Transaction Date</li>
+<li>Transaction Time (for transmissions)</li>
+<li>Transaction Amount in US Dollars (for transmissions)</li>
+<li>Amount and Type of Currency Received &amp; Given (for exchanges)</li>
+<li>Rate of Exchange (if applicable)</li>
+<li>Transaction Fee or Commission</li>
+<li>Customer Name</li>
+<li>Customer Address</li>
+<li>Customer Telephone Number (for transmissions)</li>
+<li>Customer Social Security Number (if US citizen or permanent resident)</li>
+<li>Passport Number or Official ID Number (if alien and has no SSN)</li>
+<li>Country of Issuance of Passport or Official ID</li>
+<li>Customer Date of Birth</li>
+<li>Customer Photo ID Number</li>
+<li>Customer Photo ID Type</li>
+<li>Customer Photo ID State/Country of Issuance</li>
+<li>Beneficiary Name (for outgoing transmissions)</li>
+<li>Beneficiary Address (for outgoing transmissions)</li>
+<li>Beneficiary Telephone Number (for outgoing transmissions)</li>
+<li>Sender Name (for incoming transmissions)</li>
+<li>Sender Address (for incoming transmissions)</li>
+<li>Sender Telephone Number (for incoming transmissions)</li>
+<li>Name of Person on Whose Behalf transaction conducted (if applicable)</li>
+<li>Address of Person on Whose Behalf transactions conducted (if applicable)</li>
+<li>FEIN or SSN of Person on Whose Behalf transactions conducted (if applicable)</li>
+<li>Location of the Office where transaction conducted</li>
+<li>Method of Payment (for transmissions)</li>
+<li>Initials of Employee effecting transaction</li>
+<li>Comments (if any of the above info is stored in comments field)</li>
+</ol>
+<p>Above 30 transaction data points should be exported in CSV File and/or Microsoft Excel (preferred)</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

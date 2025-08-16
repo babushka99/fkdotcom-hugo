@@ -1,0 +1,21 @@
+---
+title: "Advisory: Sponsorship vs Agent Status"
+date: "2023-10-09"
+url: "/solutions/licensing/money-transmitter-license-mtl/advisory-sponsorship-vs-agent-status/"
+draft: false
+description: "Alright, beginning with the far-right concept of a white label (refer to this table: [Summary of Money Transmitter License](https://faisalkhan.com/sol..."
+---
+
+Alright, beginning with the far-right concept of a white label (refer to this table: [Summary of Money Transmitter License](https://faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/summary-table-us-money-transmitter-license/)), it signifies a service being offered "as is" - no changes to the flow of funds or visual alterations are possible. This could resemble putting your domain and logo on a Google Mail and Google Work setup, without changing anything else. That’s pretty straightforward.
+
+However, sponsorship is the option that captivates most individuals. Here, you approach a company with money transmitter licenses and propose, for instance, incorporating 'acmemoneytransfer.com'. They may activate it while keeping you away from the fund's flow, with the details delineated. This can lead to a pathway to becoming an authorized agent, perhaps eventually, and you might undergo a new license application.
+
+It’s vital to recall a recent incident involving the [California Money Transmitter License](https://faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-california/) regulator, one of the most formidable regulatory bodies in the US. Their decision to alter certain practices in remittance services has injected a level of complication into plans. The scenario: if I, Faisal, have a license and use faisalkhan.com, you could request the usage of acmemoneytransfer.com. I might clone my existing setup, altering only the logo and naming to acmemoneytransfer.com and indicating Acme Money Transfer operates it under my license, which was previously permissible.
+
+However, the California regulator has introduced a new regulation: they permit as many websites as desired (such as FaisalKhan.com and acmemoneytransfer.com), but under the condition that the Ultimate Beneficial Owners (UBOs) and directors of faisalkhan.com must be identical to those on acmemoneytransfer.com, which typically isn't the scenario. This regulatory shift has spiraled things. Presently, only banks offer sponsorship and it involves using APIs and negotiation since each signup may cost a hefty one-time fee.
+
+Circling back to the Authorized Agent model (as can be seen in the [Summary of Money Transmitter License](https://faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/summary-table-us-money-transmitter-license/)) - the California regulator is agreeable to the likes of acmemoneytransfer.com and other domains **only if they become actual authorized agents**. This resembles becoming a mini license holder, lending legitimacy and order to everything. A widespread misconception is that being an agent is heavily regulated. To debunk this, consider the limited regulation on a comic or tobacco shop becoming a Western Union agent, thanks to the systems handling most compliance tasks. The same principle applies when becoming an authorized agent in the money transfer domain.
+
+Up until last week, I advised opting for remittance as a service. However, with my providers now retracting contracts where remittance as a service was being offered, I've halted that advice. New contracts are being drawn, stipulating that we will be the principal license holder and you will serve as our agent, the only arrangement that is currently viable going forward.
+
+The lingering question is how widespread this California decision will become, given that states like Pennsylvania, Nevada, and New Mexico often echo its regulatory shifts. As of now, this has affected around nine or ten money transmitter services in California as a result of an audit review, initially of a particular client, which then permeated through to others. How fast this becomes a standardized policy for all auditors in California and potentially permeates into other US states is yet to be determined. Nevertheless, we've been granted not only a problem but also a solution by the regulator, so the forthcoming trajectory will be insightful to observe
