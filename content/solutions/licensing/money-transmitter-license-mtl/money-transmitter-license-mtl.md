@@ -46,6 +46,11 @@ As a [money services business (MSB)](https://faisalkhan.com/solutions/licensing/
 
 https://www.youtube.com/watch?v=BBkvJUyYoj4 
 
+
+
+{{< youtube BBkvJUyYoj4  >}}
+*This video explains our cross-border payment solutions and how we help fintech companies navigate complex regulatory requirements.*
+
 There are a few different options for obtaining a money transmitter license, depending on your specific circumstances. You can apply for a license directly with the state in which you plan to operate, or you can become an agent of an existing license holder. In some cases, it may also be possible to be sponsored for a license by an existing license holder, or to essentially "rent" a license by partnering with a license holder and conducting your money transmission activities under their license.
 
 It is important to note that the requirements for a money transmitter license vary by state, so it is essential to research the specific requirements for the state in which you plan to operate. The application process may include completing a detailed application, providing information about your business and its owners, and passing a background check. You may also be required to post a surety bond or maintain a certain amount of capital as collateral.

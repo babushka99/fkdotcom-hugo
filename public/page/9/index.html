@@ -196,7 +196,10 @@ header.page-header {
     flex-direction: column;
     cursor: pointer;
     padding: 8px;
-    margin-left: auto;
+    position: absolute !important;
+    right: 20px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
 }
 
 .burger-line {
@@ -230,7 +233,7 @@ header.page-header {
     bottom: 0;
     background-color: var(--theme);
     z-index: 999;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
 }
@@ -588,6 +591,116 @@ img {
     outline: none !important;
     border: 1px solid var(--border) !important;
     box-shadow: none !important;
+}
+
+ 
+.video-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 20px auto !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+ 
+iframe[src*="youtube.com"],
+iframe[src*="youtube-nocookie.com"],
+.post-content iframe[src*="youtube.com"],
+.post-content iframe[src*="youtube-nocookie.com"],
+.page-content iframe[src*="youtube.com"],
+.page-content iframe[src*="youtube-nocookie.com"],
+article iframe[src*="youtube.com"],
+article iframe[src*="youtube-nocookie.com"] {
+    width: 640px !important;
+    height: 360px !important;
+    max-width: 90% !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+    display: block !important;
+    margin: 0 auto !important;
+    margin-bottom: 8px !important;
+}
+
+ 
+.video-description {
+    margin-top: 8px !important;
+    margin-bottom: 15px !important;
+    text-align: center !important;
+    color: #666 !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    max-width: 640px !important;
+    font-style: italic !important;
+}
+
+ 
+.dark .video-description {
+    color: #ccc !important;
+}
+
+ 
+iframe[src*="youtube"] + p,
+iframe[src*="youtube-nocookie"] + p,
+div:has(iframe[src*="youtube"]) + p {
+    margin-top: 8px !important;
+    text-align: center !important;
+    font-style: italic !important;
+    color: #666 !important;
+    font-size: 14px !important;
+}
+
+.dark iframe[src*="youtube"] + p,
+.dark iframe[src*="youtube-nocookie"] + p,
+.dark div:has(iframe[src*="youtube"]) + p {
+    color: #ccc !important;
+}
+
+ 
+@media (max-width: 768px) {
+    iframe[src*="youtube.com"],
+    iframe[src*="youtube-nocookie.com"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 250px !important;
+        margin: 0 auto !important;
+        margin-bottom: 8px !important;
+    }
+    
+    .video-description {
+        max-width: 100% !important;
+        padding: 0 20px !important;
+    }
+}
+
+ 
+div:has(> iframe[src*="youtube"]) {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 20px auto !important;
+}
+
+ 
+.youtube-video,
+div[class*="youtube"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 20px auto !important;
+}
+
+.youtube-video iframe,
+div[class*="youtube"] iframe {
+    width: 640px !important;
+    height: 360px !important;
+    max-width: 90% !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+    margin: 0 auto !important;
+    margin-bottom: 8px !important;
 }
 </style>
 
