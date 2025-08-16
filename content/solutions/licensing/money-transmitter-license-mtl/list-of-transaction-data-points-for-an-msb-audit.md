@@ -1,11 +1,42 @@
 ---
-title: "List of Transaction Data Points for an MSB Audit"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/list-of-transaction-data-points-for-an-msb-audit/"
+title: List of Transaction Data Points for an MSB Audit
+date: '2021-06-24'
 draft: false
-description: "# List of Transaction Data Points for a MSB Audit
+description: '# List of Transaction Data Points for a MSB Audit
 
-The following are the necessary transaction data points that are captured for all Money Services Bu..."
+  The following are the necessary transaction data points that are captured for all
+  Money Services Bu...'
+keywords:
+- msb
+- audit
+- list
+- for
+- of
+categories:
+- licensing
+tags:
+- list of transaction data points for an msb audit
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/list-of-transaction-data-points-for-an-msb-audit/
+images:
+- /images/solutions/list-of-transaction-data-points-for-an-msb-audit.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with list of transaction data points for an msb
+  audit? Contact Faisal Khan LLC for expert consultation.
 ---
 
 # List of Transaction Data Points for a MSB Audit

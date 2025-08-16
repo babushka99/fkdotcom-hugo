@@ -1,13 +1,42 @@
 ---
-title: "Maine Money Transmitter License"
-date: "2022-08-23"
-url: "/solutions/licensing/money-transmitter-license-mtl/maine-money-transmitter-license/"
+title: Maine Money Transmitter License
+date: '2022-08-23'
 draft: false
-description: "# Maine Money Transmitter License Overview
+description: '# Maine Money Transmitter License Overview
 
-## Who Controls the Maine Money Transmitter License?
+  ## Who Controls the Maine Money Transmitter License?
 
-The [Maine Bureau of Consumer Credit Protection](htt..."
+  The [Maine Bureau of Consumer Credit Protection](htt...'
+keywords:
+- license
+- money
+- maine
+- transmitter
+categories:
+- licensing
+tags:
+- maine money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/maine-money-transmitter-license/
+images:
+- /images/solutions/maine-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with maine money transmitter license? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 # Maine Money Transmitter License Overview

@@ -1,13 +1,42 @@
 ---
-title: "Money Transmitter License Law"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-law/"
+title: Money Transmitter License Law
+date: '2021-06-24'
 draft: false
-description: "## Money Transmitter License Law
+description: '## Money Transmitter License Law
 
-Understanding US Money Transmitter Law is no easy feat. There are federal laws like:
+  Understanding US Money Transmitter Law is no easy feat. There are federal laws like:
 
-  * [FinCEN](https://www.fince..."
+  * [FinCEN](https://www.fince...'
+keywords:
+- law
+- money
+- license
+- transmitter
+categories:
+- licensing
+tags:
+- money transmitter license law
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-law/
+images:
+- /images/solutions/money-transmitter-license-law.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with money transmitter license law? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 ## Money Transmitter License Law

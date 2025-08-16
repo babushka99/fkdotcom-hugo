@@ -1,13 +1,42 @@
 ---
-title: "Oregon Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/oregon-money-transmitter-license/"
+title: Oregon Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# Oregon Money Transmitter License Overview
+description: '# Oregon Money Transmitter License Overview
 
-## Who Needs a Money Transmitter License In Oregon?
+  ## Who Needs a Money Transmitter License In Oregon?
 
-If you’re starting out as a money transfer operator..."
+  If you’re starting out as a money transfer operator...'
+keywords:
+- oregon
+- money
+- license
+- transmitter
+categories:
+- licensing
+tags:
+- oregon money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/oregon-money-transmitter-license/
+images:
+- /images/solutions/oregon-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with oregon money transmitter license? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 # Oregon Money Transmitter License Overview

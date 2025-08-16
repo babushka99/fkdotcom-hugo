@@ -1,9 +1,40 @@
 ---
-title: "Authorized Agent: Want to be a US Money Transmitter License Agent?"
-date: "2023-01-02"
-url: "/solutions/licensing/money-transmitter-license-mtl/authorized-agent-want-to-be-a-us-money-transmitter-license-agent/"
+title: 'Authorized Agent: Want to be a US Money Transmitter License Agent?'
+date: '2023-01-02'
 draft: false
-description: "To be an Agent (also known as an Authorized Delegate) of a Principal License Holder (PLH), i.e., the entity holding the necessary money transmitter li..."
+description: To be an Agent (also known as an Authorized Delegate) of a Principal
+  License Holder (PLH), i.e., the entity holding the necessary money transmitter li...
+keywords:
+- agent?
+- authorized
+- be
+- license
+- to
+categories:
+- licensing
+tags:
+- authorized agent want to be a us money transmitter license agent
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/authorized-agent-want-to-be-a-us-money-transmitter-license-agent/
+images:
+- /images/solutions/authorized-agent-want-to-be-a-us-money-transmitter-license-agent.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: 'Ready to get started with authorized agent: want to be a us money transmitter
+  license agent?? Contact Faisal Khan LLC for expert consultation.'
 ---
 
 To be an Agent (also known as an Authorized Delegate) of a Principal License Holder (PLH), i.e., the entity holding the necessary money transmitter licenses, please be aware of what is and is not allowed under the Agent program. While the actual nuances would only be made clear once a sponsoring PLH is assigned to you, the broader understanding can be gauged from the US Money Transmitter License Summary table: <https://fkpost.com/USMTLSummary>

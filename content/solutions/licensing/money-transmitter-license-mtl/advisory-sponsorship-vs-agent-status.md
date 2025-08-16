@@ -1,9 +1,40 @@
 ---
-title: "Advisory: Sponsorship vs Agent Status"
-date: "2023-10-09"
-url: "/solutions/licensing/money-transmitter-license-mtl/advisory-sponsorship-vs-agent-status/"
+title: 'Advisory: Sponsorship vs Agent Status'
+date: '2023-10-09'
 draft: false
-description: "Alright, beginning with the far-right concept of a white label (refer to this table: [Summary of Money Transmitter License](https://faisalkhan.com/sol..."
+description: 'Alright, beginning with the far-right concept of a white label (refer
+  to this table: [Summary of Money Transmitter License](https://faisalkhan.com/sol...'
+keywords:
+- status
+- advisory
+- agent
+- sponsorship
+- vs
+categories:
+- licensing
+tags:
+- advisory sponsorship vs agent status
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/advisory-sponsorship-vs-agent-status/
+images:
+- /images/solutions/advisory-sponsorship-vs-agent-status.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: 'Ready to get started with advisory: sponsorship vs agent status? Contact
+  Faisal Khan LLC for expert consultation.'
 ---
 
 Alright, beginning with the far-right concept of a white label (refer to this table: [Summary of Money Transmitter License](https://faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/summary-table-us-money-transmitter-license/)), it signifies a service being offered "as is" - no changes to the flow of funds or visual alterations are possible. This could resemble putting your domain and logo on a Google Mail and Google Work setup, without changing anything else. That’s pretty straightforward.

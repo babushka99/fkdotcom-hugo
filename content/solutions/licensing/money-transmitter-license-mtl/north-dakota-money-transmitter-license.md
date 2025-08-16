@@ -1,13 +1,43 @@
 ---
-title: "North Dakota Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/north-dakota-money-transmitter-license/"
+title: North Dakota Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# North Dakota Money Transmitter License Overview
+description: '# North Dakota Money Transmitter License Overview
 
-## Who Regulates MTL in North Dakota?
+  ## Who Regulates MTL in North Dakota?
 
-The North Dakota money transmitter license is regulated by t..."
+  The North Dakota money transmitter license is regulated by t...'
+keywords:
+- license
+- money
+- transmitter
+- dakota
+- north
+categories:
+- licensing
+tags:
+- north dakota money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/north-dakota-money-transmitter-license/
+images:
+- /images/solutions/north-dakota-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with north dakota money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # North Dakota Money Transmitter License Overview

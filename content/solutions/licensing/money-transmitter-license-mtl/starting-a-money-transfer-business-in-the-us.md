@@ -1,11 +1,42 @@
 ---
-title: "Starting a Money Transfer Business in the US"
-date: "2023-12-06"
-url: "/solutions/licensing/money-transmitter-license-mtl/starting-a-money-transfer-business-in-the-us/"
+title: Starting a Money Transfer Business in the US
+date: '2023-12-06'
 draft: false
-description: "## What You Need to Know
+description: '## What You Need to Know
 
-**Are you interested in starting a money transfer business in the US?** Whether you're looking to help friends and family se..."
+  **Are you interested in starting a money transfer business in the US?** Whether
+  you''re looking to help friends and family se...'
+keywords:
+- in
+- transfer
+- starting
+- business
+- a
+categories:
+- licensing
+tags:
+- starting a money transfer business in the us
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/starting-a-money-transfer-business-in-the-us/
+images:
+- /images/solutions/starting-a-money-transfer-business-in-the-us.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with starting a money transfer business in the us?
+  Contact Faisal Khan LLC for expert consultation.
 ---
 
 ## What You Need to Know

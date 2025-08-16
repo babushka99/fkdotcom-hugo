@@ -1,11 +1,42 @@
 ---
-title: "South Carolina Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/south-carolina-money-transmitter-license/"
+title: South Carolina Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "## South Carolina Money Transmitter License Overview
+description: '## South Carolina Money Transmitter License Overview
 
-According to the Nationwide Licensing System, before applying for the South Carolina money trans..."
+  According to the Nationwide Licensing System, before applying for the South Carolina
+  money trans...'
+keywords:
+- license
+- money
+- south
+- transmitter
+- carolina
+categories:
+- licensing
+tags:
+- south carolina money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/south-carolina-money-transmitter-license/
+images:
+- /images/solutions/south-carolina-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with south carolina money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 ## South Carolina Money Transmitter License Overview

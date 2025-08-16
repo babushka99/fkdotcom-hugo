@@ -1,11 +1,41 @@
 ---
-title: "Applying for a New License (in the United States)"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/applying-for-a-new-license/"
+title: Applying for a New License (in the United States)
+date: '2021-06-24'
 draft: false
-description: "## Introduction to the US Money Transmitter License Application Process
+description: '## Introduction to the US Money Transmitter License Application Process
 
-If you're looking to obtain a money transmitter license (MTL) in the United S..."
+  If you''re looking to obtain a money transmitter license (MTL) in the United S...'
+keywords:
+- states)
+- the
+- for
+- new
+- license
+categories:
+- licensing
+tags:
+- applying for a new license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/applying-for-a-new-license/
+images:
+- /images/solutions/applying-for-a-new-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with applying for a new license (in the united states)?
+  Contact Faisal Khan LLC for expert consultation.
 ---
 
 ## Introduction to the US Money Transmitter License Application Process

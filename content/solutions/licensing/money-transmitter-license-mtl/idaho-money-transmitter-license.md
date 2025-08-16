@@ -1,13 +1,42 @@
 ---
-title: "Idaho Money Transmitter License"
-date: "2022-08-23"
-url: "/solutions/licensing/money-transmitter-license-mtl/idaho-money-transmitter-license/"
+title: Idaho Money Transmitter License
+date: '2022-08-23'
 draft: false
-description: "# Idaho Money Transmitter License Overview
+description: '# Idaho Money Transmitter License Overview
 
-## Who Controls the Idaho Money Transmitter License
+  ## Who Controls the Idaho Money Transmitter License
 
-The [Idaho Department of Finance](https://www.finance..."
+  The [Idaho Department of Finance](https://www.finance...'
+keywords:
+- money
+- license
+- idaho
+- transmitter
+categories:
+- licensing
+tags:
+- idaho money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/idaho-money-transmitter-license/
+images:
+- /images/solutions/idaho-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with idaho money transmitter license? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 # Idaho Money Transmitter License Overview

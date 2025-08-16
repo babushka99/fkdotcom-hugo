@@ -1,13 +1,43 @@
 ---
-title: "North Carolina Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/north-carolina-money-transmitter-license/"
+title: North Carolina Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# North Carolina Money Transmitter License Overview
+description: '# North Carolina Money Transmitter License Overview
 
-## North Carolina Money Transmitter License Regulator
+  ## North Carolina Money Transmitter License Regulator
 
-A money transmitter is a business that hel..."
+  A money transmitter is a business that hel...'
+keywords:
+- license
+- money
+- transmitter
+- north
+- carolina
+categories:
+- licensing
+tags:
+- north carolina money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/north-carolina-money-transmitter-license/
+images:
+- /images/solutions/north-carolina-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with north carolina money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # North Carolina Money Transmitter License Overview

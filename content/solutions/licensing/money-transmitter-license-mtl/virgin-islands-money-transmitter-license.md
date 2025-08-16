@@ -1,11 +1,42 @@
 ---
-title: "Virgin Islands Money Transmitter License"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/virgin-islands-money-transmitter-license/"
+title: Virgin Islands Money Transmitter License
+date: '2021-06-24'
 draft: false
-description: "## U.S. Virgin Islands Money Transmitter License Guide
+description: '## U.S. Virgin Islands Money Transmitter License Guide
 
-A money transmitter license is mandatory by law before you can start operating in the Virgins..."
+  A money transmitter license is mandatory by law before you can start operating in
+  the Virgins...'
+keywords:
+- license
+- money
+- virgin
+- islands
+- transmitter
+categories:
+- licensing
+tags:
+- virgin islands money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/virgin-islands-money-transmitter-license/
+images:
+- /images/solutions/virgin-islands-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with virgin islands money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 ## U.S. Virgin Islands Money Transmitter License Guide

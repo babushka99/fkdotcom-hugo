@@ -1,9 +1,39 @@
 ---
-title: "What is a Money Transmitter License"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/what-is-a-money-transmitter-license/"
+title: What is a Money Transmitter License
+date: '2021-06-24'
 draft: false
-description: "[New York Money Transmitter License](https://faisalkhan.com/services/money-transfer-license-money-transmitter-license/us-money-transmitter-license/mon..."
+description: '[New York Money Transmitter License](https://faisalkhan.com/services/money-transfer-license-money-transmitter-license/us-money-transmitter-license/mon...'
+keywords:
+- license
+- a
+- money
+- transmitter
+- is
+categories:
+- licensing
+tags:
+- what is a money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/what-is-a-money-transmitter-license/
+images:
+- /images/solutions/what-is-a-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with what is a money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 [New York Money Transmitter License](https://faisalkhan.com/services/money-transfer-license-money-transmitter-license/us-money-transmitter-license/money-transmitter-license-new-york/)

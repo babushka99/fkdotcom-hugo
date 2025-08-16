@@ -1,11 +1,42 @@
 ---
-title: "Illinois Money Transmitter License – Guide"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-illinois-guide/"
+title: Illinois Money Transmitter License – Guide
+date: '2021-06-24'
 draft: false
-description: "## Illinois Money Transmitter License - Basic Information
+description: '## Illinois Money Transmitter License - Basic Information
 
-The Illinois money transmitter license is essential for any business or entity that wants t..."
+  The Illinois money transmitter license is essential for any business or entity that
+  wants t...'
+keywords:
+- –
+- guide
+- license
+- money
+- transmitter
+categories:
+- licensing
+tags:
+- money transmitter license illinois guide
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-illinois-guide/
+images:
+- /images/solutions/money-transmitter-license-illinois-guide.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with illinois money transmitter license – guide?
+  Contact Faisal Khan LLC for expert consultation.
 ---
 
 ## Illinois Money Transmitter License - Basic Information

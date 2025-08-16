@@ -1,11 +1,41 @@
 ---
-title: "Georgia Money Transmitter License – A Guide"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-georgia-a-guide/"
+title: Georgia Money Transmitter License – A Guide
+date: '2021-06-24'
 draft: false
-description: "## Georgia Money Transmitter License - The Basics
+description: '## Georgia Money Transmitter License - The Basics
 
-Every money transmitter in Georgia MUST get a license by applying at the GA [NMLS](https://faisalkh..."
+  Every money transmitter in Georgia MUST get a license by applying at the GA [NMLS](https://faisalkh...'
+keywords:
+- –
+- license
+- georgia
+- guide
+- a
+categories:
+- licensing
+tags:
+- money transmitter license georgia a guide
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-georgia-a-guide/
+images:
+- /images/solutions/money-transmitter-license-georgia-a-guide.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with georgia money transmitter license – a guide?
+  Contact Faisal Khan LLC for expert consultation.
 ---
 
 ## Georgia Money Transmitter License - The Basics

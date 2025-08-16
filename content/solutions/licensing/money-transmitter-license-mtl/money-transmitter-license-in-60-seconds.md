@@ -1,11 +1,41 @@
 ---
-title: "Money Transmitter License in 60 Seconds"
-date: "2023-05-20"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-in-60-seconds/"
+title: Money Transmitter License in 60 Seconds
+date: '2023-05-20'
 draft: false
-description: "**What is a Money Transmitter License?**
+description: '**What is a Money Transmitter License?**
 
-A [money transmitter license](https://faisalkhan.com/knowledge-hub/videos/what-is-money-transmitter-license-..."
+  A [money transmitter license](https://faisalkhan.com/knowledge-hub/videos/what-is-money-transmitter-license-...'
+keywords:
+- in
+- license
+- money
+- transmitter
+- '60'
+categories:
+- licensing
+tags:
+- money transmitter license in 60 seconds
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-in-60-seconds/
+images:
+- /images/solutions/money-transmitter-license-in-60-seconds.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with money transmitter license in 60 seconds? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 **What is a Money Transmitter License?**

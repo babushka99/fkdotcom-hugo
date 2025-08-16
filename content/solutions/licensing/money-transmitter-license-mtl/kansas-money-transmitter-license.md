@@ -1,13 +1,42 @@
 ---
-title: "Kansas Money Transmitter License"
-date: "2022-08-23"
-url: "/solutions/licensing/money-transmitter-license-mtl/kansas-money-transmitter-license/"
+title: Kansas Money Transmitter License
+date: '2022-08-23'
 draft: false
-description: "# Kansas Money Transmitter License Overview
+description: '# Kansas Money Transmitter License Overview
 
-## Who Controls the Kansas Money Transmitter License?
+  ## Who Controls the Kansas Money Transmitter License?
 
-The [Kansas Office of the State Bank Commissioner]..."
+  The [Kansas Office of the State Bank Commissioner]...'
+keywords:
+- license
+- money
+- kansas
+- transmitter
+categories:
+- licensing
+tags:
+- kansas money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/kansas-money-transmitter-license/
+images:
+- /images/solutions/kansas-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with kansas money transmitter license? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 # Kansas Money Transmitter License Overview

@@ -1,11 +1,42 @@
 ---
-title: "Money Transmitter License Puerto Rico"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-puerto-rico/"
+title: Money Transmitter License Puerto Rico
+date: '2021-06-24'
 draft: false
-description: "## Basic Information about Money Transmitter License In Puerto Rico
+description: '## Basic Information about Money Transmitter License In Puerto Rico
 
-Any business engaging in the activity of money transmission in Puerto Rico (PR) i..."
+  Any business engaging in the activity of money transmission in Puerto Rico (PR)
+  i...'
+keywords:
+- rico
+- license
+- money
+- transmitter
+- puerto
+categories:
+- licensing
+tags:
+- money transmitter license puerto rico
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-puerto-rico/
+images:
+- /images/solutions/money-transmitter-license-puerto-rico.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with money transmitter license puerto rico? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 ## Basic Information about Money Transmitter License In Puerto Rico

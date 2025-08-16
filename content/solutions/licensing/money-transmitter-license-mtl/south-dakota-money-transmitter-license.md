@@ -1,13 +1,43 @@
 ---
-title: "South Dakota Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/south-dakota-money-transmitter-license/"
+title: South Dakota Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# South Dakota Money Transmitter License Overview
+description: '# South Dakota Money Transmitter License Overview
 
-## Who Regulates the Money Transmitter License in South Dakota?
+  ## Who Regulates the Money Transmitter License in South Dakota?
 
-The regulator that governs the mon..."
+  The regulator that governs the mon...'
+keywords:
+- license
+- money
+- south
+- transmitter
+- dakota
+categories:
+- licensing
+tags:
+- south dakota money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/south-dakota-money-transmitter-license/
+images:
+- /images/solutions/south-dakota-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with south dakota money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # South Dakota Money Transmitter License Overview

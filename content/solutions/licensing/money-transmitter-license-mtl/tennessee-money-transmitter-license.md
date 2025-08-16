@@ -1,13 +1,42 @@
 ---
-title: "Tennessee Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/tennessee-money-transmitter-license/"
+title: Tennessee Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# Tennessee Money Transmitter License Overview
+description: '# Tennessee Money Transmitter License Overview
 
-## Who Needs a Money Transmitter License in Tennessee?
+  ## Who Needs a Money Transmitter License in Tennessee?
 
-Any entity that engages in the business of mon..."
+  Any entity that engages in the business of mon...'
+keywords:
+- transmitter
+- money
+- license
+- tennessee
+categories:
+- licensing
+tags:
+- tennessee money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/tennessee-money-transmitter-license/
+images:
+- /images/solutions/tennessee-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with tennessee money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # Tennessee Money Transmitter License Overview

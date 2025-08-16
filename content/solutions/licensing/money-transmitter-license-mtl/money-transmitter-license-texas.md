@@ -1,11 +1,41 @@
 ---
-title: "Texas Money Transmitter License"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-texas/"
+title: Texas Money Transmitter License
+date: '2021-06-24'
 draft: false
-description: "## Texas MTL Guide
+description: '## Texas MTL Guide
 
-Texas Money Transmitter License is one of the Big 3 licenses along with the California Money Transmitter License and the New York..."
+  Texas Money Transmitter License is one of the Big 3 licenses along with the California
+  Money Transmitter License and the New York...'
+keywords:
+- texas
+- money
+- license
+- transmitter
+categories:
+- licensing
+tags:
+- money transmitter license texas
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-texas/
+images:
+- /images/solutions/money-transmitter-license-texas.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with texas money transmitter license? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 ## Texas MTL Guide

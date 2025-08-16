@@ -1,13 +1,42 @@
 ---
-title: "Alabama Money Transmitter License"
-date: "2022-08-22"
-url: "/solutions/licensing/money-transmitter-license-mtl/alabama-money-transmitter-license/"
+title: Alabama Money Transmitter License
+date: '2022-08-22'
 draft: false
-description: "# Alabama Money Transmitter License Overview
+description: '# Alabama Money Transmitter License Overview
 
-## Who regulates money transmitter licenses in Alabama?
+  ## Who regulates money transmitter licenses in Alabama?
 
-According to the Alabama Monetary Transmission..."
+  According to the Alabama Monetary Transmission...'
+keywords:
+- money
+- license
+- alabama
+- transmitter
+categories:
+- licensing
+tags:
+- alabama money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/alabama-money-transmitter-license/
+images:
+- /images/solutions/alabama-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with alabama money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # Alabama Money Transmitter License Overview

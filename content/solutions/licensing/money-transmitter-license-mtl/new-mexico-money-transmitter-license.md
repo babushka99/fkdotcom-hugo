@@ -1,13 +1,43 @@
 ---
-title: "New Mexico Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/new-mexico-money-transmitter-license/"
+title: New Mexico Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# New Mexico Money Transmitter License Overview
+description: '# New Mexico Money Transmitter License Overview
 
-## What Qualifies as a Money Transmitter?
+  ## What Qualifies as a Money Transmitter?
 
-The official definition of a money transmitter is “a corpo..."
+  The official definition of a money transmitter is “a corpo...'
+keywords:
+- new
+- mexico
+- license
+- money
+- transmitter
+categories:
+- licensing
+tags:
+- new mexico money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/new-mexico-money-transmitter-license/
+images:
+- /images/solutions/new-mexico-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with new mexico money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # New Mexico Money Transmitter License Overview

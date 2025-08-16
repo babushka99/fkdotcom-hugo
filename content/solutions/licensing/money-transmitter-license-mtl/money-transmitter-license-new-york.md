@@ -1,11 +1,42 @@
 ---
-title: "New York Money Transmitter License"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-new-york/"
+title: New York Money Transmitter License
+date: '2021-06-24'
 draft: false
-description: "## Basic information about Money Transmitter License New York
+description: '## Basic information about Money Transmitter License New York
 
-New York Money Transmitter License (MTL) is one of the **Big 3 MTLs**  (the other two b..."
+  New York Money Transmitter License (MTL) is one of the **Big 3 MTLs**  (the other
+  two b...'
+keywords:
+- york
+- new
+- license
+- money
+- transmitter
+categories:
+- licensing
+tags:
+- money transmitter license new york
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-new-york/
+images:
+- /images/solutions/money-transmitter-license-new-york.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with new york money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 ## Basic information about Money Transmitter License New York

@@ -1,11 +1,40 @@
 ---
-title: "Florida Money Transmitter License"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-florida/"
+title: Florida Money Transmitter License
+date: '2021-06-24'
 draft: false
-description: "## Florida Money Transmitter License - Basic Information and Guidance
+description: '## Florida Money Transmitter License - Basic Information and Guidance
 
-Money transmitter license Florida is mandatory for any business that wants to p..."
+  Money transmitter license Florida is mandatory for any business that wants to p...'
+keywords:
+- florida
+- money
+- license
+- transmitter
+categories:
+- licensing
+tags:
+- money transmitter license florida
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-florida/
+images:
+- /images/solutions/money-transmitter-license-florida.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with florida money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 ## Florida Money Transmitter License - Basic Information and Guidance

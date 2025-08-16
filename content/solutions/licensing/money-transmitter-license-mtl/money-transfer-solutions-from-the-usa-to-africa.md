@@ -1,11 +1,42 @@
 ---
-title: "Money Transfer Solutions from the USA to Africa"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transfer-solutions-from-the-usa-to-africa/"
+title: Money Transfer Solutions from the USA to Africa
+date: '2021-06-24'
 draft: false
-description: "Africa can best be summed up by a quote from Winston Churchill:
+description: 'Africa can best be summed up by a quote from Winston Churchill:
 
-> _It is a riddle, wrapped in a mystery, inside an enigma; but perhaps there is a key..."
+  > _It is a riddle, wrapped in a mystery, inside an enigma; but perhaps there is
+  a key...'
+keywords:
+- from
+- africa
+- transfer
+- solutions
+- to
+categories:
+- licensing
+tags:
+- money transfer solutions from the usa to africa
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transfer-solutions-from-the-usa-to-africa/
+images:
+- /images/solutions/money-transfer-solutions-from-the-usa-to-africa.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with money transfer solutions from the usa to africa?
+  Contact Faisal Khan LLC for expert consultation.
 ---
 
 Africa can best be summed up by a quote from Winston Churchill:

@@ -1,13 +1,43 @@
 ---
-title: "Rhode Island Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/rhode-island-money-transmitter-license/"
+title: Rhode Island Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# Rhode Island Money Transmitter License Overview
+description: '# Rhode Island Money Transmitter License Overview
 
-## Rhode Island Money Transmitter License
+  ## Rhode Island Money Transmitter License
 
-According to the Nationwide Licensing System, The Rhode..."
+  According to the Nationwide Licensing System, The Rhode...'
+keywords:
+- license
+- rhode
+- island
+- money
+- transmitter
+categories:
+- licensing
+tags:
+- rhode island money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/rhode-island-money-transmitter-license/
+images:
+- /images/solutions/rhode-island-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with rhode island money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # Rhode Island Money Transmitter License Overview

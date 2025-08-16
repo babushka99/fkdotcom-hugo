@@ -1,13 +1,42 @@
 ---
-title: "Arizona Money Transmitter License"
-date: "2022-08-23"
-url: "/solutions/licensing/money-transmitter-license-mtl/arizona-money-transmitter-license/"
+title: Arizona Money Transmitter License
+date: '2022-08-23'
 draft: false
-description: "# Arizona Money Transmitter License Overview
+description: '# Arizona Money Transmitter License Overview
 
-## Who Should Apply for a Money Transmitter License in Arizona?
+  ## Who Should Apply for a Money Transmitter License in Arizona?
 
-According to the [Arizona Department of..."
+  According to the [Arizona Department of...'
+keywords:
+- license
+- money
+- arizona
+- transmitter
+categories:
+- licensing
+tags:
+- arizona money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/arizona-money-transmitter-license/
+images:
+- /images/solutions/arizona-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with arizona money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # Arizona Money Transmitter License Overview

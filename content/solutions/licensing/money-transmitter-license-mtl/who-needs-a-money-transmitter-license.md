@@ -1,9 +1,40 @@
 ---
-title: "Who Needs a Money Transmitter License?"
-date: "2022-08-25"
-url: "/solutions/licensing/money-transmitter-license-mtl/who-needs-a-money-transmitter-license/"
+title: Who Needs a Money Transmitter License?
+date: '2022-08-25'
 draft: false
-description: "If you are engaged in any of the following activities, you are essentially classified as a [money services business](https://faisalkhan.com/solutions/..."
+description: If you are engaged in any of the following activities, you are essentially
+  classified as a [money services business](https://faisalkhan.com/solutions/...
+keywords:
+- needs
+- license
+- who
+- a
+- license?
+categories:
+- licensing
+tags:
+- who needs a money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/who-needs-a-money-transmitter-license/
+images:
+- /images/solutions/who-needs-a-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with who needs a money transmitter license?? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 If you are engaged in any of the following activities, you are essentially classified as a [money services business](https://faisalkhan.com/solutions/licensing/what-is-a-money-services-business/) and as such, you need to be licensed as a money transmitter in each respective state that you are doing business:

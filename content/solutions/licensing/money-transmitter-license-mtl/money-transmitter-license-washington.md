@@ -1,11 +1,41 @@
 ---
-title: "Washington Money Transmitter License"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-washington/"
+title: Washington Money Transmitter License
+date: '2021-06-24'
 draft: false
-description: "## Who Requires a Money Transmitter License in Washingon?
+description: '## Who Requires a Money Transmitter License in Washingon?
 
-Every money transmitter business in Washington has to be licensed. Once you obtain a money..."
+  Every money transmitter business in Washington has to be licensed. Once you obtain
+  a money...'
+keywords:
+- money
+- license
+- washington
+- transmitter
+categories:
+- licensing
+tags:
+- money transmitter license washington
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-washington/
+images:
+- /images/solutions/money-transmitter-license-washington.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with washington money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 ## Who Requires a Money Transmitter License in Washingon?

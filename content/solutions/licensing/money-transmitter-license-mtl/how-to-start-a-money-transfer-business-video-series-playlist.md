@@ -1,9 +1,40 @@
 ---
-title: "How to Start a Money Transfer Business – Video Series Playlist"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/how-to-start-a-money-transfer-business-video-series-playlist/"
+title: How to Start a Money Transfer Business – Video Series Playlist
+date: '2021-06-24'
 draft: false
-description: "Welcome to a video series I am putting together on _how to start a money transfer business_. It seems folks don't have too much time to read lengthy a..."
+description: Welcome to a video series I am putting together on _how to start a money
+  transfer business_. It seems folks don't have too much time to read lengthy a...
+keywords:
+- series
+- transfer
+- playlist
+- –
+- start
+categories:
+- licensing
+tags:
+- how to start a money transfer business video series playlist
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/how-to-start-a-money-transfer-business-video-series-playlist/
+images:
+- /images/solutions/how-to-start-a-money-transfer-business-video-series-playlist.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with how to start a money transfer business – video
+  series playlist? Contact Faisal Khan LLC for expert consultation.
 ---
 
 Welcome to a video series I am putting together on _how to start a money transfer business_. It seems folks don't have too much time to read lengthy articles or other blog posts, so I thought I'd give it a try by putting up small (read: short) videos that explain some of the nuances. Needless to say, you can argue, each video left this out or left that out. That is true. Even though as small of a subject each video discusses, it is in NO way complete. There is so much information out there, I am not sure if I or anyone else would be able to compile it together. 

@@ -1,11 +1,41 @@
 ---
-title: "Money Transmitter License (MTL)"
-date: "2021-06-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/"
+title: Money Transmitter License (MTL)
+date: '2021-06-24'
 draft: false
-description: "## United States Money Services Businesses & Money Transmitter License
+description: '## United States Money Services Businesses & Money Transmitter License
 
-Welcome to our page on the United States Money Transmitter License (MTL) and [..."
+  Welcome to our page on the United States Money Transmitter License (MTL) and [...'
+keywords:
+- (mtl)
+- license
+- money
+- mtl
+- transmitter
+categories:
+- licensing
+tags:
+- money transmitter license mtl
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-mtl/
+images:
+- /images/solutions/money-transmitter-license-mtl.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with money transmitter license (mtl)? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 ## United States Money Services Businesses & Money Transmitter License

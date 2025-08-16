@@ -1,13 +1,42 @@
 ---
-title: "Utah Money Transmitter License"
-date: "2022-08-24"
-url: "/solutions/licensing/money-transmitter-license-mtl/utah-money-transmitter-license/"
+title: Utah Money Transmitter License
+date: '2022-08-24'
 draft: false
-description: "# Utah Money Transmitter License Overview
+description: '# Utah Money Transmitter License Overview
 
-## Who Regulates the Money Transmitter License in Utah?
+  ## Who Regulates the Money Transmitter License in Utah?
 
-The regulator that governs the money transmitter l..."
+  The regulator that governs the money transmitter l...'
+keywords:
+- money
+- license
+- utah
+- transmitter
+categories:
+- licensing
+tags:
+- utah money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/utah-money-transmitter-license/
+images:
+- /images/solutions/utah-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with utah money transmitter license? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 # Utah Money Transmitter License Overview

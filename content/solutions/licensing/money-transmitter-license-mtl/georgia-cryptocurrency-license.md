@@ -1,11 +1,40 @@
 ---
-title: "Georgia Cryptocurrency License"
-date: "2021-10-05"
-url: "/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-georgia-a-guide/georgia-cryptocurrency-license/"
+title: Georgia Cryptocurrency License
+date: '2021-10-05'
 draft: false
-description: "### Definition and Origin
+description: '### Definition and Origin
 
-**Georgia Cryptocurrency License** refers to the regulatory authorization granted by the government of Georgia, enabling en..."
+  **Georgia Cryptocurrency License** refers to the regulatory authorization granted
+  by the government of Georgia, enabling en...'
+keywords:
+- cryptocurrency
+- georgia
+- license
+categories:
+- licensing
+tags:
+- georgia cryptocurrency license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/georgia-cryptocurrency-license/
+images:
+- /images/solutions/georgia-cryptocurrency-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with georgia cryptocurrency license? Contact Faisal
+  Khan LLC for expert consultation.
 ---
 
 ### Definition and Origin

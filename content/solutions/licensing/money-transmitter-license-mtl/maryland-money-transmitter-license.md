@@ -1,13 +1,42 @@
 ---
-title: "Maryland Money Transmitter License"
-date: "2022-08-23"
-url: "/solutions/licensing/money-transmitter-license-mtl/maryland-money-transmitter-license/"
+title: Maryland Money Transmitter License
+date: '2022-08-23'
 draft: false
-description: "# Maryland Money Transmitter License Overview
+description: '# Maryland Money Transmitter License Overview
 
-## Who Controls the Maryland MTL?
+  ## Who Controls the Maryland MTL?
 
-The [Office of the Commissioner of Financial Regulation](https://www..."
+  The [Office of the Commissioner of Financial Regulation](https://www...'
+keywords:
+- money
+- license
+- maryland
+- transmitter
+categories:
+- licensing
+tags:
+- maryland money transmitter license
+services:
+- licensing
+- compliance
+- payments
+jurisdictions:
+- usa
+canonicalURL: https:/faisalkhan.com/solutions/licensing/money-transmitter-license-mtl/maryland-money-transmitter-license/
+images:
+- /images/solutions/maryland-money-transmitter-license.webp
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+type: service
+provider: Faisal Khan LLC
+areaServed: Global
+showContactCTA: true
+contactText: Ready to get started with maryland money transmitter license? Contact
+  Faisal Khan LLC for expert consultation.
 ---
 
 # Maryland Money Transmitter License Overview
