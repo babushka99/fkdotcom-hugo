@@ -642,6 +642,32 @@ iframe[src*="youtube-nocookie.com"] {
     color: #ccc !important;
 }
 
+/* TARGET HUGO'S YOUTUBE CONTAINER - Replace percentage padding with fixed height */
+div[style*="position: relative"][style*="padding-bottom: 56.25%"] {
+    padding-bottom: 0px !important;
+    height: 360px !important;
+    width: 640px !important;
+    max-width: 90% !important;
+    margin: 20px auto 8px auto !important;
+}
+
+/* Mobile version - smaller fixed height */
+@media (max-width: 768px) {
+    div[style*="position: relative"][style*="padding-bottom: 56.25%"] {
+        height: calc(90vw * 0.5625) !important;
+        width: 90vw !important;
+        max-width: 480px !important;
+        max-height: 270px !important;
+    }
+}
+
+/* Also target any div with position relative that contains YouTube */
+.post-content > div[style*="position: relative"],
+.page-content > div[style*="position: relative"],
+article > div[style*="position: relative"] {
+    margin-bottom: 8px !important;
+}
+
 /* COMPREHENSIVE SPACING TARGETING - Multiple approaches */
 
 /* Method 1: Target any paragraph that immediately follows any element containing YouTube */
