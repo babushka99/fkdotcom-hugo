@@ -561,33 +561,67 @@ img {
     box-shadow: none !important;
 }
 
-/* YOUTUBE VIDEO STYLING - PROPERLY CENTERED WITH TIGHT SPACING */
-.video-container {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
+/* YOUTUBE VIDEO STYLING - COMPREHENSIVE TARGETING FOR CENTERING */
+
+/* Target Hugo's YouTube shortcode wrapper div */
+.post-content > div[style*="position: relative"],
+.page-content > div[style*="position: relative"],
+article > div[style*="position: relative"] {
     margin: 20px auto !important;
-    width: 100% !important;
     text-align: center !important;
+    max-width: 640px !important;
 }
 
-/* Force center all YouTube iframes with maximum specificity */
-iframe[src*="youtube.com"],
-iframe[src*="youtube-nocookie.com"],
+/* Force center ALL YouTube iframes with nuclear-level specificity */
 .post-content iframe[src*="youtube.com"],
 .post-content iframe[src*="youtube-nocookie.com"],
-.page-content iframe[src*="youtube.com"],
+.page-content iframe[src*="youtube.com"], 
 .page-content iframe[src*="youtube-nocookie.com"],
 article iframe[src*="youtube.com"],
-article iframe[src*="youtube-nocookie.com"] {
-    width: 640px !important;
-    height: 360px !important;
-    max-width: 90% !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+article iframe[src*="youtube-nocookie.com"],
+div iframe[src*="youtube.com"],
+div iframe[src*="youtube-nocookie.com"],
+iframe[src*="youtube.com"],
+iframe[src*="youtube-nocookie.com"] {
     display: block !important;
     margin: 0 auto !important;
-    margin-bottom: 8px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* Desktop YouTube sizing */
+@media (min-width: 769px) {
+    .post-content iframe[src*="youtube"],
+    .page-content iframe[src*="youtube"],
+    article iframe[src*="youtube"],
+    iframe[src*="youtube"] {
+        width: 640px !important;
+        height: 360px !important;
+        max-width: 90vw !important;
+    }
+}
+
+/* Mobile YouTube sizing - PROPER 16:9 ASPECT RATIO */
+@media (max-width: 768px) {
+    .post-content iframe[src*="youtube"],
+    .page-content iframe[src*="youtube"],
+    article iframe[src*="youtube"],
+    iframe[src*="youtube"] {
+        width: 95vw !important;
+        height: calc(95vw * 0.5625) !important; /* 16:9 aspect ratio */
+        max-width: 500px !important;
+        max-height: 281px !important; /* 500 * 0.5625 */
+    }
+    
+    /* Make sure wrapper doesn't interfere */
+    .post-content > div[style*="position: relative"],
+    .page-content > div[style*="position: relative"],
+    article > div[style*="position: relative"] {
+        max-width: 95vw !important;
+        position: static !important;
+        padding-bottom: 0 !important;
+        height: auto !important;
+    }
 }
 
 /* Video description styling - REDUCED SPACING */
@@ -607,50 +641,38 @@ article iframe[src*="youtube-nocookie.com"] {
     color: #ccc !important;
 }
 
-/* Target paragraphs immediately after YouTube videos - REDUCED SPACING */
-iframe[src*="youtube"] + p,
-iframe[src*="youtube-nocookie"] + p,
+/* Target paragraphs immediately after YouTube videos - DESCRIPTION STYLING */
+.post-content iframe[src*="youtube"] + p,
+.page-content iframe[src*="youtube"] + p,
+article iframe[src*="youtube"] + p,
 div:has(iframe[src*="youtube"]) + p {
     margin-top: 8px !important;
     text-align: center !important;
     font-style: italic !important;
     color: #666 !important;
     font-size: 14px !important;
+    max-width: 640px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
-.dark iframe[src*="youtube"] + p,
-.dark iframe[src*="youtube-nocookie"] + p,
+.dark .post-content iframe[src*="youtube"] + p,
+.dark .page-content iframe[src*="youtube"] + p,
+.dark article iframe[src*="youtube"] + p,
 .dark div:has(iframe[src*="youtube"]) + p {
     color: #ccc !important;
 }
 
-/* Mobile responsive YouTube videos */
-@media (max-width: 768px) {
-    iframe[src*="youtube.com"],
-    iframe[src*="youtube-nocookie.com"] {
-        width: 100% !important;
-        max-width: 100% !important;
-        height: 250px !important;
-        margin: 0 auto !important;
-        margin-bottom: 8px !important;
-    }
-    
-    .video-description {
-        max-width: 100% !important;
-        padding: 0 20px !important;
-    }
-}
-
-/* Auto-wrap and center YouTube videos in any container */
-div:has(> iframe[src*="youtube"]) {
+/* Container-based approach for manual wrapping */
+.video-container {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
     margin: 20px auto !important;
+    max-width: 640px !important;
 }
 
-/* Alternative targeting for YouTube containers */
 .youtube-video,
 div[class*="youtube"] {
     display: flex !important;
@@ -658,17 +680,7 @@ div[class*="youtube"] {
     align-items: center !important;
     text-align: center !important;
     margin: 20px auto !important;
-}
-
-.youtube-video iframe,
-div[class*="youtube"] iframe {
-    width: 640px !important;
-    height: 360px !important;
-    max-width: 90% !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
-    margin: 0 auto !important;
-    margin-bottom: 8px !important;
+    max-width: 640px !important;
 }
 </style>
 

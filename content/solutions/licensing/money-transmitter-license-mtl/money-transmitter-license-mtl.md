@@ -44,10 +44,6 @@ Welcome to our page on the United States Money Transmitter License (MTL) and [mo
 
 As a [money services business (MSB)](https://faisalkhan.com/solutions/licensing/money-services-business-msb/), you are required to register with the [Financial Crimes Enforcement Network (FinCEN)](https://faisalkhan.com/solutions/resources-and-references/financial-crimes-enforcement-network-fincen/) and obtain a money transmitter license in the United States. This license allows you to legally transmit money or monetary instruments, such as checks, drafts, and wire transfers.
 
-https://www.youtube.com/watch?v=BBkvJUyYoj4 
-
-
-
 {{< youtube BBkvJUyYoj4  >}}
 *This video explains our cross-border payment solutions and how we help fintech companies navigate complex regulatory requirements.*
 
