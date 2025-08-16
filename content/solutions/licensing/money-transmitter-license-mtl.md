@@ -61,65 +61,6 @@ Foundational resources covering MTL basics, regulatory framework overview, and i
 
 ---
 
-## US State Money Transmitter Licenses
-Detailed breakdown of licensing requirements, timelines, and costs for all 50 states plus Washington DC. Each state profile includes application procedures, capital requirements, bonding obligations, and ongoing compliance obligations. Essential for planning your multi-state licensing strategy and understanding jurisdictional variations.
-
-| State License                                                |
-| ------------------------------------------------------------ |
-| [Alabama Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/alabama-money-transmitter-license/) |
-| [Alaska Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/alaska-money-transmitter-license/) |
-| [Arizona Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/arizona-money-transmitter-license/) |
-| [Arkansas Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/arkansas-money-transmitter-license/) |
-| [California Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-california/) |
-| [Colorado Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/colorado-money-transmitter-license/) |
-| [Connecticut Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/connecticut-money-transmitter-license/) |
-| [Delaware Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/delaware-money-transmitter-license/) |
-| [Florida Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-florida/) |
-| [Georgia Money Transmitter License – A Guide](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-georgia-a-guide/) |
-| [Hawaii Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/hawaii-money-transmitter-license/) |
-| [Idaho Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/idaho-money-transmitter-license/) |
-| [Illinois Money Transmitter License – Guide](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-illinois-guide/) |
-| [Indiana Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/indiana-money-transmitter-license/) |
-| [Iowa Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/iowa-money-transmitter-license/) |
-| [Kansas Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/kansas-money-transmitter-license/) |
-| [Kentucky Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/kentucky-money-transmitter-license/) |
-| [Louisiana Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/louisiana-money-transmitter-license/) |
-| [Maine Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/maine-money-transmitter-license/) |
-| [Maryland Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/maryland-money-transmitter-license/) |
-| [Massachusetts Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-massachusetts/) |
-| [Michigan Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/michigan-money-transmitter-license/) |
-| [Minnesota Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/minnesota-money-transmitter-license/) |
-| [Mississippi Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/mississippi-money-transmitter-license/) |
-| [Missouri Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/missouri-money-transmitter-license/) |
-| [Montana Money Transmitter License: The Abridged Version](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-in-the-state-of-montana-the-abridged-version/) |
-| [Nebraska Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/nebraska-money-transmitter-license/) |
-| [Nevada Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-nevada/) |
-| [New Hampshire Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/new-hampshire-money-transmitter-license/) |
-| [New Jersey Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-new-jersey/) |
-| [New Mexico Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/new-mexico-money-transmitter-license/) |
-| [New York Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-new-york/) |
-| [North Carolina Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/north-carolina-money-transmitter-license/) |
-| [North Dakota Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/north-dakota-money-transmitter-license/) |
-| [Ohio Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/ohio-money-transmitter-license/) |
-| [Oklahoma Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/oklahoma-money-transmitter-license/) |
-| [Oregon Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/oregon-money-transmitter-license/) |
-| [Pennsylvania Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/pennsylvania-money-transmitter-license/) |
-| [Rhode Island Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/rhode-island-money-transmitter-license/) |
-| [South Carolina Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/south-carolina-money-transmitter-license/) |
-| [South Dakota Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/south-dakota-money-transmitter-license/) |
-| [Tennessee Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/tennessee-money-transmitter-license/) |
-| [Texas Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-texas/) |
-| [Utah Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/utah-money-transmitter-license/) |
-| [Vermont Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/vermont-money-transmitter-license/) |
-| [Virginia Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/virginia-money-transmitter-license/) |
-| [Washington Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-washington/) |
-| [Washington DC Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-washington-dc/) |
-| [West Virginia Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/west-virginia-money-transmitter-license/) |
-| [Wisconsin Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/wisconsin-money-transmitter-license/) |
-| [Wyoming Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/wyoming-money-transmitter-license/) |
-
----
-
 ## US Territories and Special Jurisdictions
 Coverage of money transmitter licensing requirements for US territories including Puerto Rico, US Virgin Islands, Guam, and other special jurisdictions. These often-overlooked markets can provide strategic advantages for certain business models while maintaining US regulatory compliance.
 
@@ -183,7 +124,68 @@ Operational guidance for maintaining MTL compliance including AML/BSA requiremen
 
 ---
 
+## US State Money Transmitter Licenses
+
+Detailed breakdown of licensing requirements, timelines, and costs for all 50 states plus Washington DC. Each state profile includes application procedures, capital requirements, bonding obligations, and ongoing compliance obligations. Essential for planning your multi-state licensing strategy and understanding jurisdictional variations.
+
+| State License                                                |
+| ------------------------------------------------------------ |
+| [Alabama Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/alabama-money-transmitter-license/) |
+| [Alaska Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/alaska-money-transmitter-license/) |
+| [Arizona Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/arizona-money-transmitter-license/) |
+| [Arkansas Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/arkansas-money-transmitter-license/) |
+| [California Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-california/) |
+| [Colorado Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/colorado-money-transmitter-license/) |
+| [Connecticut Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/connecticut-money-transmitter-license/) |
+| [Delaware Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/delaware-money-transmitter-license/) |
+| [Florida Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-florida/) |
+| [Georgia Money Transmitter License – A Guide](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-georgia-a-guide/) |
+| [Hawaii Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/hawaii-money-transmitter-license/) |
+| [Idaho Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/idaho-money-transmitter-license/) |
+| [Illinois Money Transmitter License – Guide](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-illinois-guide/) |
+| [Indiana Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/indiana-money-transmitter-license/) |
+| [Iowa Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/iowa-money-transmitter-license/) |
+| [Kansas Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/kansas-money-transmitter-license/) |
+| [Kentucky Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/kentucky-money-transmitter-license/) |
+| [Louisiana Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/louisiana-money-transmitter-license/) |
+| [Maine Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/maine-money-transmitter-license/) |
+| [Maryland Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/maryland-money-transmitter-license/) |
+| [Massachusetts Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-massachusetts/) |
+| [Michigan Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/michigan-money-transmitter-license/) |
+| [Minnesota Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/minnesota-money-transmitter-license/) |
+| [Mississippi Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/mississippi-money-transmitter-license/) |
+| [Missouri Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/missouri-money-transmitter-license/) |
+| [Montana Money Transmitter License: The Abridged Version](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-in-the-state-of-montana-the-abridged-version/) |
+| [Nebraska Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/nebraska-money-transmitter-license/) |
+| [Nevada Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-nevada/) |
+| [New Hampshire Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/new-hampshire-money-transmitter-license/) |
+| [New Jersey Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-new-jersey/) |
+| [New Mexico Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/new-mexico-money-transmitter-license/) |
+| [New York Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-new-york/) |
+| [North Carolina Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/north-carolina-money-transmitter-license/) |
+| [North Dakota Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/north-dakota-money-transmitter-license/) |
+| [Ohio Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/ohio-money-transmitter-license/) |
+| [Oklahoma Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/oklahoma-money-transmitter-license/) |
+| [Oregon Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/oregon-money-transmitter-license/) |
+| [Pennsylvania Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/pennsylvania-money-transmitter-license/) |
+| [Rhode Island Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/rhode-island-money-transmitter-license/) |
+| [South Carolina Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/south-carolina-money-transmitter-license/) |
+| [South Dakota Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/south-dakota-money-transmitter-license/) |
+| [Tennessee Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/tennessee-money-transmitter-license/) |
+| [Texas Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-texas/) |
+| [Utah Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/utah-money-transmitter-license/) |
+| [Vermont Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/vermont-money-transmitter-license/) |
+| [Virginia Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/virginia-money-transmitter-license/) |
+| [Washington Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-washington/) |
+| [Washington DC Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-washington-dc/) |
+| [West Virginia Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/west-virginia-money-transmitter-license/) |
+| [Wisconsin Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/wisconsin-money-transmitter-license/) |
+| [Wyoming Money Transmitter License](/solutions/licensing/money-transmitter-license-mtl/wyoming-money-transmitter-license/) |
+
+---
+
 ## Special Topics & FAQs
+
 Addresses complex scenarios and frequently asked questions about cryptocurrency integration, international operations, agent networks, and specialized business models. Includes regulatory interpretation guidance and solutions for unique compliance challenges.
 
 | Special Topic                                                |
