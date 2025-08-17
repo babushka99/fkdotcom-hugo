@@ -1140,7 +1140,6 @@ div[class*="youtube"] {
     }
 }
 
-
  
 .button-container {
   text-align: center;
@@ -1151,7 +1150,7 @@ div[class*="youtube"] {
   display: inline-block;
   padding: 12px 30px;
   border-radius: 8px;
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: 600;
   font-size: 16px;
   transition: all 0.3s ease;
@@ -1163,98 +1162,158 @@ div[class*="youtube"] {
 .cta-button:hover {
   transform: translateY(-1px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.cta-button:visited {
+  text-decoration: none !important;
+}
+
+.cta-button:active {
+  text-decoration: none !important;
+}
+
+.cta-button:link {
+  text-decoration: none !important;
+}
+
+ 
+.cta-button-default {
+  background-color: #6c757d;
+  color: white !important;
+}
+
+.cta-button-default:hover {
+  background-color: #5a6268;
+  color: white !important;
+}
+
+.cta-button-default:visited {
+  color: white !important;
 }
 
  
 .cta-button-primary {
   background-color: #007bff;
-  color: white;
+  color: white !important;
 }
 
 .cta-button-primary:hover {
   background-color: #0056b3;
-  color: white;
+  color: white !important;
+}
+
+.cta-button-primary:visited {
+  color: white !important;
 }
 
  
 .cta-button-success {
   background-color: #28a745;
-  color: white;
+  color: white !important;
 }
 
 .cta-button-success:hover {
   background-color: #1e7e34;
-  color: white;
+  color: white !important;
+}
+
+.cta-button-success:visited {
+  color: white !important;
 }
 
  
 .cta-button-warning {
   background-color: #ffc107;
-  color: #212529;
+  color: #212529 !important;
 }
 
 .cta-button-warning:hover {
   background-color: #e0a800;
-  color: #212529;
+  color: #212529 !important;
+}
+
+.cta-button-warning:visited {
+  color: #212529 !important;
 }
 
  
 .cta-button-danger {
   background-color: #dc3545;
-  color: white;
+  color: white !important;
 }
 
 .cta-button-danger:hover {
   background-color: #c82333;
-  color: white;
+  color: white !important;
+}
+
+.cta-button-danger:visited {
+  color: white !important;
 }
 
  
 .cta-button-dark {
   background-color: #343a40;
-  color: white;
+  color: white !important;
 }
 
 .cta-button-dark:hover {
   background-color: #23272b;
-  color: white;
+  color: white !important;
+}
+
+.cta-button-dark:visited {
+  color: white !important;
 }
 
  
 .cta-button-light {
   background-color: #f8f9fa;
-  color: #495057;
+  color: #495057 !important;
   border: 1px solid #dee2e6;
 }
 
 .cta-button-light:hover {
   background-color: #e2e6ea;
-  color: #495057;
+  color: #495057 !important;
+}
+
+.cta-button-light:visited {
+  color: #495057 !important;
 }
 
  
 .cta-button-gold {
   background-color: #ffd700;
-  color: #212529;
+  color: #212529 !important;
 }
 
 .cta-button-gold:hover {
   background-color: #ffcd00;
-  color: #212529;
+  color: #212529 !important;
+}
+
+.cta-button-gold:visited {
+  color: #212529 !important;
 }
 
  
 .dark .cta-button-light {
   background-color: #495057;
-  color: #f8f9fa;
+  color: #f8f9fa !important;
   border: 1px solid #6c757d;
 }
 
 .dark .cta-button-light:hover {
   background-color: #5a6268;
-  color: #f8f9fa;
+  color: #f8f9fa !important;
 }
+
+.dark .cta-button-light:visited {
+  color: #f8f9fa !important;
+}
+
 
 
 
@@ -1617,7 +1676,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="footer-content">
         <span>&copy; 2005-2025 <a href="http://localhost:1313/">Faisal Khan LLC</a>. All Rights Reserved.</span>
         <div class="footer-nav">
-            <a href="http://localhost:1313/book-a-call/" title="">Book A Call</a> ·
+            <a href="https://calendly.com/faisalkhan/15-minutes" title="">Book A Call</a> ·
             <a href="http://localhost:1313/legal/disclaimer/" title="">Legal Disclaimer</a> ·
             <a href="http://localhost:1313/legal/privacy/" title="">Privacy Policy</a> ·
             <a href="http://localhost:1313/legal/terms/" title="">Terms of Service</a> ·

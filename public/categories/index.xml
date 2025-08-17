@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>http://localhost:1313/categories/about/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/about/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Banking</title>
       <link>http://localhost:1313/categories/banking/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
@@ -104,6 +111,13 @@
       <link>http://localhost:1313/categories/resources/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solutions</title>
+      <link>http://localhost:1313/categories/solutions/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/solutions/</guid>
       <description></description>
     </item>
     <item>

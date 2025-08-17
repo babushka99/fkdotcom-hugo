@@ -1,18 +1,20 @@
----
-title: "Solutions"
-date: 2025-08-02
-draft: false
-description: "Comprehensive solutions for licensing, banking, payments, and compliance in regulated financial services"
-keywords: ["solutions", "licensing", "banking", "payments", "compliance", "faisal khan"]
-
-# COMPLETELY DISABLE AUTO-LISTING
-type: "page"
-layout: "single"
-_build:
-  list: false
----
-
-<style>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Solutions on Faisal Khan LLC</title>
+    <link>http://localhost:1313/categories/solutions/</link>
+    <description>Recent content in Solutions on Faisal Khan LLC</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprehensive Financial Solutions</title>
+      <link>http://localhost:1313/solutions/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/</guid>
+      <description>Expert solutions for licensing, banking, payments, and compliance in regulated financial services. Comprehensive consulting from Faisal Khan LLC across all jurisdictions.</description>
+      <content:encoded><![CDATA[<style>
 /* Theme-responsive bullet colors */
 .theme-bullet {
   background-color: #000000 !important; /* Black in light mode */
@@ -22,13 +24,9 @@ _build:
   background-color: #ffffff !important; /* White in dark mode */
 }
 </style>
-
-## Our Solutions
-
-Faisal Khan LLC provides comprehensive solutions across the regulated financial services spectrum. From licensing and compliance to banking access and payment processing, we help businesses navigate complex regulatory environments globally.
-
-## Solution Categories
-
+<h2 id="our-solutions">Our Solutions</h2>
+<p>Faisal Khan LLC provides comprehensive solutions across the regulated financial services spectrum. From licensing and compliance to banking access and payment processing, we help businesses navigate complex regulatory environments globally.</p>
+<h2 id="solution-categories">Solution Categories</h2>
 <ul style="padding-left: 0; margin: 20px 0;">
 <li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/licensing/" style="text-decoration: none; color: inherit;">Licensing & License Sponsorship</a> - MTL, MSB, EMI, and more</li>
 <li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/banking/" style="text-decoration: none; color: inherit;">Banking & Access to Banking</a> - MSB-friendly accounts and banking solutions</li>
@@ -45,16 +43,17 @@ Faisal Khan LLC provides comprehensive solutions across the regulated financial 
 <li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/high-risk/" style="text-decoration: none; color: inherit;">High-Risk Businesses</a> - Solutions for challenging business models</li>
 <li style="list-style: none; position: relative; padding-left: 20px; margin-bottom: 8px;"><span class="theme-bullet" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background-color: #000000; display: inline-block;"></span><a href="/solutions/consulting/" style="text-decoration: none; color: inherit;">Consulting Services</a> - Strategic advisory and consulting</li>
 </ul>
-
-## How We Help
-
-- **Strategic Consulting** - Expert guidance on regulatory requirements
-- **Implementation Support** - Hands-on help executing solutions  
-- **Partner Network** - Access to vetted service providers
-- **Ongoing Compliance** - Continued support for regulatory requirements
-
-## Get Started
-
-Ready to explore our solutions? Contact Faisal Khan LLC for expert consultation tailored to your specific needs.
-
-**[Contact us today →](mailto:contact@faisalkhan.com)**
+<h2 id="how-we-help">How We Help</h2>
+<ul>
+<li><strong>Strategic Consulting</strong> - Expert guidance on regulatory requirements</li>
+<li><strong>Implementation Support</strong> - Hands-on help executing solutions</li>
+<li><strong>Partner Network</strong> - Access to vetted service providers</li>
+<li><strong>Ongoing Compliance</strong> - Continued support for regulatory requirements</li>
+</ul>
+<h2 id="get-started">Get Started</h2>
+<p>Ready to explore our solutions? Contact Faisal Khan LLC for expert consultation tailored to your specific needs.</p>
+<p><strong><a href="mailto:contact@faisalkhan.com">Contact us today →</a></strong></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

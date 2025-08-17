@@ -81,7 +81,7 @@ enableRobotsTXT = true
   [[menu.footer]]
     identifier = "book-call"
     name = "Book A Call"
-    url = "/book-a-call/"
+    url = "https://calendly.com/faisalkhan/15-minutes"
     weight = 10
 
   [[menu.footer]]
