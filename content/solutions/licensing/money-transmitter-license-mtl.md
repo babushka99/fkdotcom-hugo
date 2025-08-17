@@ -40,6 +40,20 @@ contactText: "Ready to get started with money transmitter license (mtl)? Contact
 ## Overview
 This comprehensive resource hub serves as your complete guide to navigating the complex landscape of US money transmitter licensing. Whether you're a fintech startup, crypto business, or established financial services company, this collection provides the strategic insights and practical tools needed to successfully obtain and maintain MTL compliance across US jurisdictions.
 
+{{< callout type="definition" >}} US Money Transmitter Licenses are licenses that are required to operate as a money services business in the United States. The terminology "money transmitter" is inherently American in nature. Those entities that are classified as a Money Services Business (MSB) in the United States, would be required to obtain a money transmitter license if they fall into the category/classification of a money transmitter. {{< /callout >}}
+
+In the United States, a **money transmitter** is a type of financial institution defined under federal and state laws as any business or individual that engages in the transfer of funds on behalf of the public, either domestically or internationally. This includes accepting currency, monetary value, or other payment instruments from one person and transmitting it to another location or person by any means—such as electronic transfers, wire transfers, or through payment instruments like money orders or stored value cards. 
+
+
+
+{{< button text="Download Guide" url="/resources" color="primary" textcolor="#ffff00" >}}
+
+{{< button text="Contact Us" url="/contact" color="gold" textcolor="#ff0000" >}}
+
+{{< button text="Learn More" url="/solutions" textcolor="#ffffff" >}}
+
+Money transmitters are required to register with the **Financial Crimes Enforcement Network (FinCEN)** as a Money Services Business (MSB) and must comply with the **Bank Secrecy Act (BSA)**, which mandates anti-money laundering (AML) programs, recordkeeping, and reporting requirements, such as filing Suspicious Activity Reports (SARs) and Currency Transaction Reports (CTRs). Additionally, most states require money transmitters to obtain a separate license to operate within their jurisdiction, ensuring consumer protection and financial integrity. Failure to comply with these regulations can result in severe penalties, including fines and criminal charges. The definition is broad and can encompass traditional remittance services, digital payment platforms, and certain cryptocurrency exchanges, depending on their activities.
+
 ---
 
 ## General Information & Guides

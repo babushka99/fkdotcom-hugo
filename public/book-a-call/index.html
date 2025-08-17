@@ -373,6 +373,60 @@ h1.page-title {
 
  
  
+strong, b,
+.post-content strong,
+.post-content b,
+.page-content strong,
+.page-content b,
+article strong,
+article b {
+    font-weight: bold !important;
+    font-style: normal !important;
+    color: inherit !important;
+}
+
+ 
+em, i,
+.post-content em,
+.post-content i,
+.page-content em,
+.page-content i,
+article em,
+article i {
+    font-style: italic !important;
+    font-weight: normal !important;
+    color: inherit !important;
+}
+
+ 
+.dark strong,
+.dark b,
+.dark .post-content strong,
+.dark .post-content b,
+.dark .page-content strong,
+.dark .page-content b,
+.dark article strong,
+.dark article b {
+    font-weight: bold !important;
+    font-style: normal !important;
+    color: inherit !important;
+}
+
+.dark em,
+.dark i,
+.dark .post-content em,
+.dark .post-content i,
+.dark .page-content em,
+.dark .page-content i,
+.dark article em,
+.dark article i {
+    font-style: italic !important;
+    font-weight: normal !important;
+    color: inherit !important;
+}
+
+ 
+ 
 article.post-single div.post-content ul li a[href],
 article.post-single div.post-content p a[href],
 article.post-single div.post-content div a[href],
@@ -656,23 +710,6 @@ iframe[src*="youtube-nocookie.com"] {
 }
 
  
-.video-description {
-    margin-top: 8px !important;
-    margin-bottom: 15px !important;
-    text-align: center !important;
-    color: #666 !important;
-    font-size: 14px !important;
-    line-height: 1.4 !important;
-    max-width: 640px !important;
-    font-style: italic !important;
-}
-
- 
-.dark .video-description {
-    color: #ccc !important;
-}
-
- 
 div[style*="position: relative"][style*="padding-bottom: 56.25%"] {
     padding-bottom: 0px !important;
     height: 360px !important;
@@ -701,10 +738,11 @@ article > div[style*="position: relative"] {
  
 
  
-*:has(iframe[src*="youtube"]) + p,
-*:has(iframe[src*="youtube-nocookie"]) + p {
+div[style*="position: relative"][style*="padding-bottom"] + p,
+.post-content > div[style*="position: relative"] + p,
+.page-content > div[style*="position: relative"] + p,
+article > div[style*="position: relative"] + p {
     margin-top: 8px !important;
-    padding-top: 0px !important;
     text-align: center !important;
     font-style: italic !important;
     color: #666 !important;
@@ -716,72 +754,10 @@ article > div[style*="position: relative"] {
 }
 
  
-iframe[src*="youtube"] + p,
-iframe[src*="youtube-nocookie"] + p {
-    margin-top: 8px !important;
-    padding-top: 0px !important;
-    text-align: center !important;
-    font-style: italic !important;
-    color: #666 !important;
-    font-size: 14px !important;
-    max-width: 640px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    line-height: 1.3 !important;
-}
-
- 
-div[style*="position: relative"] + p,
-.post-content > div + p,
-.page-content > div + p,
-article > div + p {
-    margin-top: 8px !important;
-    padding-top: 0px !important;
-    text-align: center !important;
-    font-style: italic !important;
-    color: #666 !important;
-    font-size: 14px !important;
-    max-width: 640px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    line-height: 1.3 !important;
-}
-
- 
-.post-content p em,
-.post-content p i,
-.page-content p em,
-.page-content p i,
-article p em,
-article p i {
-    display: block !important;
-    margin-top: 8px !important;
-    padding-top: 0px !important;
-    text-align: center !important;
-    font-style: italic !important;
-    color: #666 !important;
-    font-size: 14px !important;
-    max-width: 640px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    line-height: 1.3 !important;
-}
-
- 
-.dark *:has(iframe[src*="youtube"]) + p,
-.dark *:has(iframe[src*="youtube-nocookie"]) + p,
-.dark iframe[src*="youtube"] + p,
-.dark iframe[src*="youtube-nocookie"] + p,
-.dark div[style*="position: relative"] + p,
-.dark .post-content > div + p,
-.dark .page-content > div + p,
-.dark article > div + p,
-.dark .post-content p em,
-.dark .post-content p i,
-.dark .page-content p em,
-.dark .page-content p i,
-.dark article p em,
-.dark article p i {
+.dark div[style*="position: relative"][style*="padding-bottom"] + p,
+.dark .post-content > div[style*="position: relative"] + p,
+.dark .page-content > div[style*="position: relative"] + p,
+.dark article > div[style*="position: relative"] + p {
     color: #ccc !important;
 }
 
@@ -804,8 +780,6 @@ div[class*="youtube"] {
     margin: 20px auto !important;
     max-width: 640px !important;
 }
-
-
 
  
 .callout {
@@ -976,6 +950,22 @@ div[class*="youtube"] {
 }
 
  
+.callout-definition {
+    border-left-color: #8B4513;
+    background: #FFF8DC;
+}
+
+.callout-definition .callout-header {
+    color: #8B4513;
+    background: rgba(139, 69, 19, 0.1);
+    border-bottom-color: rgba(139, 69, 19, 0.2);
+}
+
+.callout-definition .callout-content {
+    color: #5D4037;
+}
+
+ 
 .callout-disclaimer {
     border-left-color: #6c757d;
     background: #f8f9fa;
@@ -1104,6 +1094,18 @@ div[class*="youtube"] {
     color: #ffc107;
 }
 
+.dark .callout-definition {
+    background: #3D2814;
+}
+
+.dark .callout-definition .callout-header {
+    background: rgba(139, 69, 19, 0.2);
+}
+
+.dark .callout-definition .callout-content {
+    color: #D7CCC8;
+}
+
 .dark .callout-disclaimer {
     background: #333333;
 }
@@ -1137,6 +1139,182 @@ div[class*="youtube"] {
         font-size: 14px;
     }
 }
+
+ 
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none !important;
+}
+
+.cta-button:visited {
+  text-decoration: none !important;
+}
+
+.cta-button:active {
+  text-decoration: none !important;
+}
+
+.cta-button:link {
+  text-decoration: none !important;
+}
+
+ 
+.cta-button-default {
+  background-color: #6c757d;
+  color: white !important;
+}
+
+.cta-button-default:hover {
+  background-color: #5a6268;
+  color: white !important;
+}
+
+.cta-button-default:visited {
+  color: white !important;
+}
+
+ 
+.cta-button-primary {
+  background-color: #007bff;
+  color: white !important;
+}
+
+.cta-button-primary:hover {
+  background-color: #0056b3;
+  color: white !important;
+}
+
+.cta-button-primary:visited {
+  color: white !important;
+}
+
+ 
+.cta-button-success {
+  background-color: #28a745;
+  color: white !important;
+}
+
+.cta-button-success:hover {
+  background-color: #1e7e34;
+  color: white !important;
+}
+
+.cta-button-success:visited {
+  color: white !important;
+}
+
+ 
+.cta-button-warning {
+  background-color: #ffc107;
+  color: #212529 !important;
+}
+
+.cta-button-warning:hover {
+  background-color: #e0a800;
+  color: #212529 !important;
+}
+
+.cta-button-warning:visited {
+  color: #212529 !important;
+}
+
+ 
+.cta-button-danger {
+  background-color: #dc3545;
+  color: white !important;
+}
+
+.cta-button-danger:hover {
+  background-color: #c82333;
+  color: white !important;
+}
+
+.cta-button-danger:visited {
+  color: white !important;
+}
+
+ 
+.cta-button-dark {
+  background-color: #343a40;
+  color: white !important;
+}
+
+.cta-button-dark:hover {
+  background-color: #23272b;
+  color: white !important;
+}
+
+.cta-button-dark:visited {
+  color: white !important;
+}
+
+ 
+.cta-button-light {
+  background-color: #f8f9fa;
+  color: #495057 !important;
+  border: 1px solid #dee2e6;
+}
+
+.cta-button-light:hover {
+  background-color: #e2e6ea;
+  color: #495057 !important;
+}
+
+.cta-button-light:visited {
+  color: #495057 !important;
+}
+
+ 
+.cta-button-gold {
+  background-color: #ffd700;
+  color: #212529 !important;
+}
+
+.cta-button-gold:hover {
+  background-color: #ffcd00;
+  color: #212529 !important;
+}
+
+.cta-button-gold:visited {
+  color: #212529 !important;
+}
+
+ 
+.dark .cta-button-light {
+  background-color: #495057;
+  color: #f8f9fa !important;
+  border: 1px solid #6c757d;
+}
+
+.dark .cta-button-light:hover {
+  background-color: #5a6268;
+  color: #f8f9fa !important;
+}
+
+.dark .cta-button-light:visited {
+  color: #f8f9fa !important;
+}
+
+
 
 
 
@@ -1476,57 +1654,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 <div class="post-content"><h2 id="book-a-call">Book A Call<a hidden class="anchor" aria-hidden="true" href="#book-a-call">#</a></h2>
 <p>Book a consultation call with Faisal Khan LLC for personalized expert guidance on your financial services needs.</p>
-<h2 id="why-book-a-call">Why Book a Call?<a hidden class="anchor" aria-hidden="true" href="#why-book-a-call">#</a></h2>
-<ul>
-<li><strong>Expert Guidance</strong> - 15+ years of specialized experience</li>
-<li><strong>Personalized Advice</strong> - Tailored to your specific situation</li>
-<li><strong>Clear Next Steps</strong> - Actionable recommendations and planning</li>
-<li><strong>No Obligation</strong> - Initial consultation to explore fit and approach</li>
-</ul>
-<h2 id="what-well-discuss">What We&rsquo;ll Discuss<a hidden class="anchor" aria-hidden="true" href="#what-well-discuss">#</a></h2>
-<p>During our call, we&rsquo;ll cover:</p>
-<ul>
-<li>Your business model and requirements</li>
-<li>Regulatory and compliance considerations</li>
-<li>Available options and recommendations</li>
-<li>Timeline and implementation approach</li>
-<li>Investment and next steps</li>
-</ul>
-<h2 id="call-types">Call Types<a hidden class="anchor" aria-hidden="true" href="#call-types">#</a></h2>
-<h3 id="discovery-call-30-minutes">Discovery Call (30 minutes)<a hidden class="anchor" aria-hidden="true" href="#discovery-call-30-minutes">#</a></h3>
-<ul>
-<li>Understanding your needs</li>
-<li>Initial assessment and recommendations</li>
-<li>Determining fit for collaboration</li>
-</ul>
-<h3 id="strategy-session-60-minutes">Strategy Session (60 minutes)<a hidden class="anchor" aria-hidden="true" href="#strategy-session-60-minutes">#</a></h3>
-<ul>
-<li>Detailed strategy development</li>
-<li>Multiple options analysis</li>
-<li>Implementation planning</li>
-</ul>
-<h3 id="technical-consultation-90-minutes">Technical Consultation (90 minutes)<a hidden class="anchor" aria-hidden="true" href="#technical-consultation-90-minutes">#</a></h3>
-<ul>
-<li>Deep dive into technical requirements</li>
-<li>Regulatory analysis</li>
-<li>Detailed implementation roadmap</li>
-</ul>
-<h2 id="booking-process">Booking Process<a hidden class="anchor" aria-hidden="true" href="#booking-process">#</a></h2>
-<ol>
-<li><strong>Email Request</strong> - Send your booking request to <a href="mailto:contact@faisalkhan.com">contact@faisalkhan.com</a></li>
-<li><strong>Include Details</strong> - Business overview, specific needs, preferred call type</li>
-<li><strong>Time Preferences</strong> - Your available times and time zone</li>
-<li><strong>Confirmation</strong> - We&rsquo;ll confirm and send calendar invitation</li>
-</ol>
-<h2 id="preparation">Preparation<a hidden class="anchor" aria-hidden="true" href="#preparation">#</a></h2>
-<p>Please prepare:</p>
-<ul>
-<li>Brief business overview</li>
-<li>Specific questions or challenges</li>
-<li>Relevant documentation (if applicable)</li>
-<li>Decision-making timeline</li>
-</ul>
-<p>Ready to book your call? <a href="mailto:contact@faisalkhan.com">Contact us now</a>.</p>
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/faisalkhan/15-minutes?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
 
 
 </div>

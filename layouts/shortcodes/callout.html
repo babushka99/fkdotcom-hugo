@@ -30,6 +30,9 @@
 {{- else if eq $type "disclaimer" -}}
   {{- $icon = "📋" -}}
   {{- $defaultTitle = "Disclaimer" -}}
+{{- else if eq $type "definition" -}}
+  {{- $icon = "📖" -}}
+  {{- $defaultTitle = "Definition" -}}
 {{- else -}}
   {{- $icon = "ℹ️" -}}
   {{- $defaultTitle = "Information" -}}
@@ -44,3 +47,4 @@
     {{ .Inner | markdownify }}
   </div>
 </div>
+{{- /* Ensure clean separation */ -}}

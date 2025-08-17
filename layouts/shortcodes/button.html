@@ -1,0 +1,12 @@
+{{/* Button shortcode with customizable colors and text */}}
+{{- $text := .Get "text" | default "Click Here" -}}
+{{- $url := .Get "url" | default "#" -}}
+{{- $color := .Get "color" | default "default" -}}
+{{- $textcolor := .Get "textcolor" | default "" -}}
+{{- $target := .Get "target" | default "_self" -}}
+
+<div class="button-container">
+  <a href="{{ $url }}" target="{{ $target }}" class="cta-button cta-button-{{ $color }}"{{ if $textcolor }} style="color: {{ $textcolor }} !important;"{{ end }}>
+    {{ $text }}
+  </a>
+</div>
