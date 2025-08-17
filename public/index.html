@@ -41,6 +41,60 @@ img {
 }
 
  
+body {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+ 
+.main, .post-content, .page-content, article {
+    font-size: 18px !important;
+}
+
+ 
+.post-content p, .page-content p, article p,
+.post-content div, .page-content div, article div,
+.post-content span, .page-content span, article span,
+.post-content li, .page-content li, article li {
+    font-size: 18px !important;
+}
+
+ 
+.post-content p,
+.page-content p,
+article p,
+.post-content div,
+.page-content div,
+article div,
+.post-content li,
+.page-content li,
+article li {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+}
+
+ 
+header.header, 
+header.header *,
+.menu, .menu *,
+nav, nav *,
+.logo, .logo *,
+header a,
+.breadcrumbs, .breadcrumbs * {
+    font-size: inherit !important;
+}
+
+ 
+.custom-footer,
+.custom-footer *,
+.footer-nav,
+.footer-nav *,
+.footer-content,
+.footer-content * {
+    font-size: inherit !important;
+}
+
+ 
 :root {
     --theme: #ffffff;
     --bg: #ffffff;
@@ -251,7 +305,7 @@ header.page-header {
     padding: 15px 0;
     color: var(--content);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px !important;
     border-bottom: 1px solid var(--border);
 }
 
@@ -283,10 +337,18 @@ header.page-header {
 }
 
  
-.main, .post-content, .page-content, article {
+.main, 
+.post-content:not(.wide-content), 
+.page-content:not(.wide-content), 
+article:not(.wide-page) {
     max-width: 900px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+ 
+.main:has(.wide-page) {
+    max-width: none !important;
 }
 
  
@@ -337,6 +399,28 @@ header.page-header {
 .dark .breadcrumb-current {
     color: #fff !important;
 }
+
+
+ 
+.wide-page .breadcrumbs {
+    max-width: 1400px !important;
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 20px !important;
+}
+
+ 
+@media (max-width: 768px) {
+    .wide-page .breadcrumbs {
+        width: 100% !important;
+        padding: 0 15px !important;
+    }
+}
+
+
+
+
 
  
 h1, h2, h3, h4, h5, h6 {
@@ -817,6 +901,7 @@ div[class*="youtube"] {
     padding: 12px 16px;
     line-height: 1.6;
     color: #444;
+    font-size: 18px !important;
 }
 
 .callout-content p:last-child {
@@ -1316,10 +1401,222 @@ div[class*="youtube"] {
   color: #f8f9fa !important;
 }
 
+ 
+table.professional-table {
+    width: 100% !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    margin: 25px 0 !important;
+    font-size: 14px !important;  
+    line-height: 1.4 !important;
+    background: #ffffff !important;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 12px !important;  
+    overflow: hidden !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
 
+ 
+table.professional-table thead {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+}
 
+table.professional-table thead tr:first-child th:first-child {
+    border-top-left-radius: 12px !important;
+}
 
+table.professional-table thead tr:first-child th:last-child {
+    border-top-right-radius: 12px !important;
+}
 
+table.professional-table th {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    padding: 16px 12px !important;
+    text-align: center !important;
+    border-bottom: 2px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+}
+
+table.professional-table th:last-child {
+    border-right: none !important;
+}
+
+ 
+table.professional-table tbody tr {
+    background: #ffffff !important;
+    transition: background-color 0.2s ease !important;
+}
+
+table.professional-table tbody tr:hover {
+    background: #f8f9fa !important;
+}
+
+table.professional-table tbody tr:nth-child(even) {
+    background: #fafbfc !important;
+}
+
+table.professional-table tbody tr:nth-child(even):hover {
+    background: #f1f3f4 !important;
+}
+
+table.professional-table td {
+    padding: 14px 12px !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    border-right: 1px solid #f0f0f0 !important;
+    color: #444444 !important;
+    vertical-align: top !important;
+    font-size: 14px !important;
+}
+
+table.professional-table td:last-child {
+    border-right: none !important;
+}
+
+ 
+table.professional-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px !important;
+}
+
+table.professional-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px !important;
+}
+
+table.professional-table tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+ 
+table.professional-table td:last-child {
+    font-weight: normal !important;
+    color: #2c3e50 !important;
+    text-align: right !important;
+}
+
+ 
+table.professional-table td:first-child {
+    font-weight: 500 !important;
+    color: #6c757d !important;
+    text-align: center !important;
+    width: 60px !important;
+}
+
+ 
+.dark table.professional-table {
+    background: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark table.professional-table thead {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2d2d2d 100%) !important;
+}
+
+.dark table.professional-table th {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2d2d2d 100%) !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #4a4a4a !important;
+    border-right: 1px solid #4a4a4a !important;
+}
+
+.dark table.professional-table tbody tr {
+    background: #2d2d2d !important;
+}
+
+.dark table.professional-table tbody tr:hover {
+    background: #3a3a3a !important;
+}
+
+.dark table.professional-table tbody tr:nth-child(even) {
+    background: #333333 !important;
+}
+
+.dark table.professional-table tbody tr:nth-child(even):hover {
+    background: #404040 !important;
+}
+
+.dark table.professional-table td {
+    border-bottom: 1px solid #404040 !important;
+    border-right: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark table.professional-table td:last-child {
+    color: #ffffff !important;  
+}
+
+.dark table.professional-table td:first-child {
+    color: #adb5bd !important;
+}
+
+ 
+@media (max-width: 768px) {
+    table.professional-table {
+        font-size: 12px !important;
+        margin: 15px 0 !important;
+    }
+    
+    table.professional-table th, table.professional-table td {
+        padding: 10px 8px !important;
+    }
+    
+    table.professional-table th {
+        font-size: 11px !important;
+    }
+    
+     
+    table.professional-table td:nth-child(2) {
+        word-wrap: break-word !important;
+        hyphens: auto !important;
+    }
+}
+
+ 
+.table-container {
+    overflow-x: auto !important;
+    margin: 20px 0 !important;
+    border-radius: 12px !important;
+}
+
+.table-container table.professional-table {
+    margin: 0 !important;
+    min-width: 600px !important;
+}
+
+ 
+table.professional-table tr:first-child th {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10 !important;
+}
+
+ 
+table.professional-table th:last-child {
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+.dark table.professional-table th:last-child {
+    color: #ffffff !important;
+}
+
+ 
+table.professional-table caption {
+    caption-side: top !important;
+    padding: 15px 0 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    text-align: left !important;
+}
+
+.dark table.professional-table caption {
+    color: #ffffff !important;
+}
 </style>
 
 
@@ -1663,23 +1960,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <article class="first-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">
+    <h2 class="entry-hint-parent">Regulatory Compliance Requirements by Jurisdiction
     </h2>
   </header>
   <div class="entry-content">
-    <p>Page List Directory: /Users/faisalkhan/Library/CloudStorage/Dropbox/Hugoproject/faisalkhan/content/solutions/licensing/money-transmitter-license-mtl
-Generated: 2025-08-16 at 23:42
-Total Pages: 105
-All Pages (Alphabetical) Access to US Money Transfer Market
-URL: /licensing/money-transmitter-license-mtl/access-to-us-money-transfer-market/ File: access-to-us-money-transfer-market.md Advisory: Guidance on Domain Naming for Authorized Agents Operating Under US Money Transmitter Licenses in Online Businesses
-URL: /licensing/money-transmitter-license-mtl/advisory-guidance-on-domain-naming-for-authorized-agents-operating-under-us-money-transmitter-licenses-in-online-businesses/ File: advisory-guidance-on-domain-naming-for-authorized-agents-operating-under-us-money-transmitter-licenses-in-online-businesses.md Advisory: Sponsorship vs Agent Status
-URL: /licensing/money-transmitter-license-mtl/advisory-sponsorship-vs-agent-status/ File: advisory-sponsorship-vs-agent-status.md Alabama Money Transmitter License
-URL: /licensing/money-transmitter-license-mtl/alabama-money-transmitter-license/ File: alabama-money-transmitter-license.md Alaska Money Transmitter License
-URL: /licensing/money-transmitter-license-mtl/alaska-money-transmitter-license/ File: alaska-money-transmitter-license.md Applying for a New License (in the United States)
+    <p>Regulatory Compliance Requirements by Jurisdiction This table provides a comprehensive overview of regulatory requirements across different jurisdictions for money transmitter licensing and compliance.
+Jurisdiction License Type Capital Requirements Application Timeline Key Compliance Requirements Ongoing Obligations United States - Federal MSB Registration (FinCEN) No minimum capital requirement 2-4 weeks Registration with FinCEN, state-by-state licensing, BSA compliance program, customer identification procedures Annual MSB renewal, suspicious activity reporting, currency transaction reporting, record keeping requirements New York State Money Transmitter License $500,000 minimum net worth 12-18 months Comprehensive application, background checks, business plan review, compliance manual, anti-money laundering program Annual reporting, surety bond maintenance, quarterly financial statements, regulatory examinations California Money Transmission License $250,000 minimum tangible net worth 9-12 months Application with fingerprinting, surety bond, financial statements, compliance policies, consumer protection measures Annual renewal, financial reporting, compliance monitoring, permissible investment maintenance European Union Electronic Money Institution (EMI) €350,000 initial capital 6-9 months Authorization application, prudential requirements, safeguarding arrangements, operational resilience Regulatory reporting, capital adequacy maintenance, operational resilience testing, consumer protection compliance United Kingdom Authorised Payment Institution £125,000 initial capital 9-12 months FCA authorization, safeguarding requirements, operational resilience, conduct requirements Regulatory reporting, capital requirement calculations, operational resilience testing, conduct monitoring Singapore Major Payment Institution S$1 million base capital 6-9 months MAS licensing, technology risk management, anti-money laundering compliance, customer due diligence Annual compliance reporting, technology risk assessments, AML transaction monitoring, regulatory submissions Canada - Federal Money Services Business No minimum capital (varies by province) 4-6 weeks FINTRAC registration, compliance program, record keeping, client identification Annual compliance reporting, suspicious transaction reporting, large cash transaction reporting Australia Remittance Service Provider AUD $1 million financial requirement 6-8 months AUSTRAC registration, compliance program, risk assessment, customer identification procedures Annual compliance reporting, transaction monitoring, ongoing customer due diligence, regulatory liaison Switzerland FinTech License CHF 300,000 minimum capital 6-9 months FINMA authorization, prudential requirements, risk management, organizational requirements Regulatory reporting, risk management updates, compliance monitoring, capital adequacy maintenance Japan Funds Transfer Service Provider ¥10 million minimum capital 3-6 months FSA registration, internal control systems, segregation of customer funds, operational procedures Annual reporting, internal audit requirements, customer fund segregation monitoring, regulatory compliance Hong Kong Money Service Operator HK$100,000 minimum paid-up capital 2-4 months Customs licensing, anti-money laundering compliance, customer due diligence, record keeping Annual renewal, suspicious transaction reporting, customer identification verification, compliance monitoring UAE Stored Value Facility License AED 3 million minimum capital 6-12 months Central Bank licensing, governance framework, risk management, consumer protection measures Regulatory reporting, risk assessment updates, compliance monitoring, operational resilience testing Brazil Payment Institution R$ 2 million minimum capital 9-12 months Central Bank authorization, corporate governance, risk management, operational requirements Regular reporting, capital adequacy monitoring, compliance assessments, operational resilience maintenance Mexico Electronic Payment Fund Institution MXN 3 million minimum capital 6-9 months CNBV authorization, operational requirements, risk management, consumer protection Financial reporting, compliance monitoring, risk assessment updates, regulatory examination participation South Africa Designated Non-Bank Financial Institution ZAR 1 million minimum capital 6-8 months SARB authorization, compliance program, fit and proper requirements, risk management Quarterly reporting, compliance monitoring, risk management updates, regulatory examination compliance Key Considerations for Multi-Jurisdiction Licensing When planning expansion across multiple jurisdictions, consider:
 ...</p>
   </div>
-  <footer class="entry-footer">6 min&nbsp;·&nbsp;1104 words&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to " href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/listofpages/"></a>
+  <footer class="entry-footer"><span title='2025-08-17 00:00:00 +0000 UTC'>August 17, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;575 words&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Regulatory Compliance Requirements by Jurisdiction" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-summary-table/"></a>
 </article>
     </main>
     
@@ -1707,7 +1997,7 @@ URL: /licensing/money-transmitter-license-mtl/alaska-money-transmitter-license/ 
 <div class="page-last-updated-auto post-content" style="margin-top: 60px !important; margin-bottom: 20px !important; font-size: 12px !important;">
   —
   <p>
-  Page Last Updated: August 2, 2025
+  Page Last Updated: August 17, 2025
 </div>
 
 <style>

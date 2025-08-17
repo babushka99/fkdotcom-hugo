@@ -39,6 +39,60 @@ img {
 }
 
  
+body {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+ 
+.main, .post-content, .page-content, article {
+    font-size: 18px !important;
+}
+
+ 
+.post-content p, .page-content p, article p,
+.post-content div, .page-content div, article div,
+.post-content span, .page-content span, article span,
+.post-content li, .page-content li, article li {
+    font-size: 18px !important;
+}
+
+ 
+.post-content p,
+.page-content p,
+article p,
+.post-content div,
+.page-content div,
+article div,
+.post-content li,
+.page-content li,
+article li {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+}
+
+ 
+header.header, 
+header.header *,
+.menu, .menu *,
+nav, nav *,
+.logo, .logo *,
+header a,
+.breadcrumbs, .breadcrumbs * {
+    font-size: inherit !important;
+}
+
+ 
+.custom-footer,
+.custom-footer *,
+.footer-nav,
+.footer-nav *,
+.footer-content,
+.footer-content * {
+    font-size: inherit !important;
+}
+
+ 
 :root {
     --theme: #ffffff;
     --bg: #ffffff;
@@ -249,7 +303,7 @@ header.page-header {
     padding: 15px 0;
     color: var(--content);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px !important;
     border-bottom: 1px solid var(--border);
 }
 
@@ -281,10 +335,18 @@ header.page-header {
 }
 
  
-.main, .post-content, .page-content, article {
+.main, 
+.post-content:not(.wide-content), 
+.page-content:not(.wide-content), 
+article:not(.wide-page) {
     max-width: 900px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+ 
+.main:has(.wide-page) {
+    max-width: none !important;
 }
 
  
@@ -335,6 +397,28 @@ header.page-header {
 .dark .breadcrumb-current {
     color: #fff !important;
 }
+
+
+ 
+.wide-page .breadcrumbs {
+    max-width: 1400px !important;
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 20px !important;
+}
+
+ 
+@media (max-width: 768px) {
+    .wide-page .breadcrumbs {
+        width: 100% !important;
+        padding: 0 15px !important;
+    }
+}
+
+
+
+
 
  
 h1, h2, h3, h4, h5, h6 {
@@ -815,6 +899,7 @@ div[class*="youtube"] {
     padding: 12px 16px;
     line-height: 1.6;
     color: #444;
+    font-size: 18px !important;
 }
 
 .callout-content p:last-child {
@@ -1314,10 +1399,222 @@ div[class*="youtube"] {
   color: #f8f9fa !important;
 }
 
+ 
+table.professional-table {
+    width: 100% !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    margin: 25px 0 !important;
+    font-size: 14px !important;  
+    line-height: 1.4 !important;
+    background: #ffffff !important;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 12px !important;  
+    overflow: hidden !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
 
+ 
+table.professional-table thead {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+}
 
+table.professional-table thead tr:first-child th:first-child {
+    border-top-left-radius: 12px !important;
+}
 
+table.professional-table thead tr:first-child th:last-child {
+    border-top-right-radius: 12px !important;
+}
 
+table.professional-table th {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    padding: 16px 12px !important;
+    text-align: center !important;
+    border-bottom: 2px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+}
+
+table.professional-table th:last-child {
+    border-right: none !important;
+}
+
+ 
+table.professional-table tbody tr {
+    background: #ffffff !important;
+    transition: background-color 0.2s ease !important;
+}
+
+table.professional-table tbody tr:hover {
+    background: #f8f9fa !important;
+}
+
+table.professional-table tbody tr:nth-child(even) {
+    background: #fafbfc !important;
+}
+
+table.professional-table tbody tr:nth-child(even):hover {
+    background: #f1f3f4 !important;
+}
+
+table.professional-table td {
+    padding: 14px 12px !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    border-right: 1px solid #f0f0f0 !important;
+    color: #444444 !important;
+    vertical-align: top !important;
+    font-size: 14px !important;
+}
+
+table.professional-table td:last-child {
+    border-right: none !important;
+}
+
+ 
+table.professional-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px !important;
+}
+
+table.professional-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px !important;
+}
+
+table.professional-table tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+ 
+table.professional-table td:last-child {
+    font-weight: normal !important;
+    color: #2c3e50 !important;
+    text-align: right !important;
+}
+
+ 
+table.professional-table td:first-child {
+    font-weight: 500 !important;
+    color: #6c757d !important;
+    text-align: center !important;
+    width: 60px !important;
+}
+
+ 
+.dark table.professional-table {
+    background: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark table.professional-table thead {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2d2d2d 100%) !important;
+}
+
+.dark table.professional-table th {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2d2d2d 100%) !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #4a4a4a !important;
+    border-right: 1px solid #4a4a4a !important;
+}
+
+.dark table.professional-table tbody tr {
+    background: #2d2d2d !important;
+}
+
+.dark table.professional-table tbody tr:hover {
+    background: #3a3a3a !important;
+}
+
+.dark table.professional-table tbody tr:nth-child(even) {
+    background: #333333 !important;
+}
+
+.dark table.professional-table tbody tr:nth-child(even):hover {
+    background: #404040 !important;
+}
+
+.dark table.professional-table td {
+    border-bottom: 1px solid #404040 !important;
+    border-right: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark table.professional-table td:last-child {
+    color: #ffffff !important;  
+}
+
+.dark table.professional-table td:first-child {
+    color: #adb5bd !important;
+}
+
+ 
+@media (max-width: 768px) {
+    table.professional-table {
+        font-size: 12px !important;
+        margin: 15px 0 !important;
+    }
+    
+    table.professional-table th, table.professional-table td {
+        padding: 10px 8px !important;
+    }
+    
+    table.professional-table th {
+        font-size: 11px !important;
+    }
+    
+     
+    table.professional-table td:nth-child(2) {
+        word-wrap: break-word !important;
+        hyphens: auto !important;
+    }
+}
+
+ 
+.table-container {
+    overflow-x: auto !important;
+    margin: 20px 0 !important;
+    border-radius: 12px !important;
+}
+
+.table-container table.professional-table {
+    margin: 0 !important;
+    min-width: 600px !important;
+}
+
+ 
+table.professional-table tr:first-child th {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10 !important;
+}
+
+ 
+table.professional-table th:last-child {
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+.dark table.professional-table th:last-child {
+    color: #ffffff !important;
+}
+
+ 
+table.professional-table caption {
+    caption-side: top !important;
+    padding: 15px 0 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    text-align: left !important;
+}
+
+.dark table.professional-table caption {
+    color: #ffffff !important;
+}
 </style>
 
 
@@ -1654,6 +1951,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Money Transmitter License Information &amp; Requirements by State
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Alabama Money Transmitter License Alaska Money Transmitter License Arizona Money Transmitter License Arkansas Money Transmitter License California Money Transmitter License Colorado Money Transmitter License Connecticut Money Transmitter License Delaware Money Transmitter License Florida Money Transmitter License Georgia Money Transmitter License Guam Money Transmitter License Hawaii Money Transmitter License Idaho Money Transmitter License Illinois Money Transmitter License Indiana Money Transmitter License Iowa Money Transmitter License Kansas Money Transmitter License Kentucky Money Transmitter License Louisiana Money Transmitter License Maine Money Transmitter License Maryland Money Transmitter License Massachusetts Money Transmitter License Michigan Money Transmitter License Minnesota Money Transmitter License Mississippi Money Transmitter License Missouri Money Transmitter License Nevada Money Transmitter License New Jersey Money Transmitter License New York Money Transmitter License Nebraska Money Transmitter License New Hampshire Money Transmitter License New Mexico Money Transmitter License North Carolina Money Transmitter License North Dakota Money Transmitter License Ohio Money Transmitter License Oklahoma Money Transmitter License Oregon Money Transmitter License Pennsylvania Money Transmitter License Puerto Rico Money Transmitter License Rhode Island Money Transmitter License South Carolina Money Transmitter License South Dakota Money Transmitter License Tennessee Money Transmitter License Texas Money Transmitter License Utah Money Transmitter License Vermont Money Transmitter License Virginia Money Transmitter License Virgin Islands Money Transmitter License West Virginia Money Transmitter License Wisconsin Money Transmitter License Wyoming Money Transmitter License Washington Money Transmitter License Washington DC Money Transmitter License </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-08 00:00:00 +0000 UTC'>October 8, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Money Transmitter License Information & Requirements by State" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-information-requirements-by-state/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Money Transmitter License in the State of Montana: The abridged version
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Montana is the only state in the US that does not have a specific money transmitter license. However, this does not mean that money transmitters do not need any licenses in Montana. In fact, the Montana Division of Banking and Financial Institutions (Division) has stated that money transmitters may need to obtain other types of licenses in order to operate in the state, depending on the specific activities they are engaged in.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-24 00:00:00 +0000 UTC'>September 24, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Money Transmitter License in the State of Montana: The abridged version" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-in-the-state-of-montana-the-abridged-version/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Navigating the Regulatory Landscape for Foreign Money Services Businesses in the U.S.
     </h2>
   </header>
@@ -1759,38 +2081,6 @@ Use National Multistate Licensing System (NMLS) : The NMLS provides licensing in
   </div>
   <footer class="entry-footer"><span title='2023-05-27 00:00:00 +0000 UTC'>May 27, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Faisal Khan</footer>
   <a class="entry-link" aria-label="post link to Money Transmitter License Sponsor" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-sponsor/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Money Transmitter License in 60 Seconds
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>What is a Money Transmitter License?
-A money transmitter license is a government-issued permit that allows businesses to send or receive money on behalf of others. Money transmitters typically include companies that offer wire transfers, money orders, and other forms of payment.
-Who Needs a Money Transmitter License?
-In the United States, money transmitter licenses are required by all 50 states and the District of Columbia. The requirements for obtaining a license vary from state to state, but they typically include having a certain amount of capital, submitting to background checks, and maintaining certain financial records.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-20 00:00:00 +0000 UTC'>May 20, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Money Transmitter License in 60 Seconds" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-in-60-seconds/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Money Transmitter License Sponsorship Timelines
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>We understand the importance of meeting deadlines in the world of Money Transmitter License Sponsorship. That’s why we have created a sample timeline that we strive to follow for the benefit of our valued clients.
-Click on the image below for a larger version.
-Download a PDF of this image: Money Transmitter License Sponsorship Timelines
-Day 1: We begin by signing the Referral Agreement and initiating the EDD Collection process, corporate setup, pay-in, and pay-out flows, correspondent tie-up agreements, and client types.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-04-24 00:00:00 +0000 UTC'>April 24, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Money Transmitter License Sponsorship Timelines" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/money-transmitter-license-sponsorship-timelines/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

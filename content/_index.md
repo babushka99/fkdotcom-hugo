@@ -1,6 +1,6 @@
 ---
 title: "Faisal Khan LLC"
-date: 2025-08-02
+date: 2025-08-17
 draft: false
 description: "Expert consulting in cross-border payments, banking access, licensing, and crypto compliance. Helping businesses navigate regulated financial services globally."
 

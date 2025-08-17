@@ -39,6 +39,60 @@ img {
 }
 
  
+body {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+ 
+.main, .post-content, .page-content, article {
+    font-size: 18px !important;
+}
+
+ 
+.post-content p, .page-content p, article p,
+.post-content div, .page-content div, article div,
+.post-content span, .page-content span, article span,
+.post-content li, .page-content li, article li {
+    font-size: 18px !important;
+}
+
+ 
+.post-content p,
+.page-content p,
+article p,
+.post-content div,
+.page-content div,
+article div,
+.post-content li,
+.page-content li,
+article li {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+}
+
+ 
+header.header, 
+header.header *,
+.menu, .menu *,
+nav, nav *,
+.logo, .logo *,
+header a,
+.breadcrumbs, .breadcrumbs * {
+    font-size: inherit !important;
+}
+
+ 
+.custom-footer,
+.custom-footer *,
+.footer-nav,
+.footer-nav *,
+.footer-content,
+.footer-content * {
+    font-size: inherit !important;
+}
+
+ 
 :root {
     --theme: #ffffff;
     --bg: #ffffff;
@@ -249,7 +303,7 @@ header.page-header {
     padding: 15px 0;
     color: var(--content);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px !important;
     border-bottom: 1px solid var(--border);
 }
 
@@ -281,10 +335,18 @@ header.page-header {
 }
 
  
-.main, .post-content, .page-content, article {
+.main, 
+.post-content:not(.wide-content), 
+.page-content:not(.wide-content), 
+article:not(.wide-page) {
     max-width: 900px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+ 
+.main:has(.wide-page) {
+    max-width: none !important;
 }
 
  
@@ -335,6 +397,28 @@ header.page-header {
 .dark .breadcrumb-current {
     color: #fff !important;
 }
+
+
+ 
+.wide-page .breadcrumbs {
+    max-width: 1400px !important;
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 20px !important;
+}
+
+ 
+@media (max-width: 768px) {
+    .wide-page .breadcrumbs {
+        width: 100% !important;
+        padding: 0 15px !important;
+    }
+}
+
+
+
+
 
  
 h1, h2, h3, h4, h5, h6 {
@@ -815,6 +899,7 @@ div[class*="youtube"] {
     padding: 12px 16px;
     line-height: 1.6;
     color: #444;
+    font-size: 18px !important;
 }
 
 .callout-content p:last-child {
@@ -1314,10 +1399,222 @@ div[class*="youtube"] {
   color: #f8f9fa !important;
 }
 
+ 
+table.professional-table {
+    width: 100% !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    margin: 25px 0 !important;
+    font-size: 14px !important;  
+    line-height: 1.4 !important;
+    background: #ffffff !important;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 12px !important;  
+    overflow: hidden !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
 
+ 
+table.professional-table thead {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+}
 
+table.professional-table thead tr:first-child th:first-child {
+    border-top-left-radius: 12px !important;
+}
 
+table.professional-table thead tr:first-child th:last-child {
+    border-top-right-radius: 12px !important;
+}
 
+table.professional-table th {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    padding: 16px 12px !important;
+    text-align: center !important;
+    border-bottom: 2px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+}
+
+table.professional-table th:last-child {
+    border-right: none !important;
+}
+
+ 
+table.professional-table tbody tr {
+    background: #ffffff !important;
+    transition: background-color 0.2s ease !important;
+}
+
+table.professional-table tbody tr:hover {
+    background: #f8f9fa !important;
+}
+
+table.professional-table tbody tr:nth-child(even) {
+    background: #fafbfc !important;
+}
+
+table.professional-table tbody tr:nth-child(even):hover {
+    background: #f1f3f4 !important;
+}
+
+table.professional-table td {
+    padding: 14px 12px !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    border-right: 1px solid #f0f0f0 !important;
+    color: #444444 !important;
+    vertical-align: top !important;
+    font-size: 14px !important;
+}
+
+table.professional-table td:last-child {
+    border-right: none !important;
+}
+
+ 
+table.professional-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px !important;
+}
+
+table.professional-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px !important;
+}
+
+table.professional-table tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+ 
+table.professional-table td:last-child {
+    font-weight: normal !important;
+    color: #2c3e50 !important;
+    text-align: right !important;
+}
+
+ 
+table.professional-table td:first-child {
+    font-weight: 500 !important;
+    color: #6c757d !important;
+    text-align: center !important;
+    width: 60px !important;
+}
+
+ 
+.dark table.professional-table {
+    background: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark table.professional-table thead {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2d2d2d 100%) !important;
+}
+
+.dark table.professional-table th {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2d2d2d 100%) !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #4a4a4a !important;
+    border-right: 1px solid #4a4a4a !important;
+}
+
+.dark table.professional-table tbody tr {
+    background: #2d2d2d !important;
+}
+
+.dark table.professional-table tbody tr:hover {
+    background: #3a3a3a !important;
+}
+
+.dark table.professional-table tbody tr:nth-child(even) {
+    background: #333333 !important;
+}
+
+.dark table.professional-table tbody tr:nth-child(even):hover {
+    background: #404040 !important;
+}
+
+.dark table.professional-table td {
+    border-bottom: 1px solid #404040 !important;
+    border-right: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark table.professional-table td:last-child {
+    color: #ffffff !important;  
+}
+
+.dark table.professional-table td:first-child {
+    color: #adb5bd !important;
+}
+
+ 
+@media (max-width: 768px) {
+    table.professional-table {
+        font-size: 12px !important;
+        margin: 15px 0 !important;
+    }
+    
+    table.professional-table th, table.professional-table td {
+        padding: 10px 8px !important;
+    }
+    
+    table.professional-table th {
+        font-size: 11px !important;
+    }
+    
+     
+    table.professional-table td:nth-child(2) {
+        word-wrap: break-word !important;
+        hyphens: auto !important;
+    }
+}
+
+ 
+.table-container {
+    overflow-x: auto !important;
+    margin: 20px 0 !important;
+    border-radius: 12px !important;
+}
+
+.table-container table.professional-table {
+    margin: 0 !important;
+    min-width: 600px !important;
+}
+
+ 
+table.professional-table tr:first-child th {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10 !important;
+}
+
+ 
+table.professional-table th:last-child {
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+.dark table.professional-table th:last-child {
+    color: #ffffff !important;
+}
+
+ 
+table.professional-table caption {
+    caption-side: top !important;
+    padding: 15px 0 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    text-align: left !important;
+}
+
+.dark table.professional-table caption {
+    color: #ffffff !important;
+}
 </style>
 
 
@@ -1654,6 +1951,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Hawaii Money Transmitter License
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hawaii Money Transmitter License Overview Hawaii Money Transmitter License Regulator The money transmitter license for Hawaii is regulated by the Hawaii Division of Financial Institutions “DFI”.
+Who Should Apply for a Money Transmitter License in Hawaii? Individuals, partnerships, trusts, or corporations that seek to engage in the business of selling or issuing payment instruments such as drafts, money orders, traveler’s checks, or any other electronic instruments or written instruments, including stored value cards or devices or receiving money, which includes virtual currency, for transmission to any location within or outside the United States by any and all means must apply for a money transmitter license.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-23 00:00:00 +0000 UTC'>August 23, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Hawaii Money Transmitter License" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/hawaii-money-transmitter-license/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Idaho Money Transmitter License
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Idaho Money Transmitter License Overview Who Controls the Idaho Money Transmitter License The Idaho Department of Finance issues a Money Transmitter License to entities engaged in the sale or issuance of payment instruments, engaged in the business of receiving money for transmission or engaged in the business of transmitting money within the United States or to locations outside the United States by any and all means including, but not limited to, payment instrument, wire, facsimile or electronic transfer.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-23 00:00:00 +0000 UTC'>August 23, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Faisal Khan</footer>
+  <a class="entry-link" aria-label="post link to Idaho Money Transmitter License" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/idaho-money-transmitter-license/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Indiana Money Transmitter License
     </h2>
   </header>
@@ -1757,34 +2081,6 @@ Debt Management/Credit Counseling Electronic money transmitting Issuing traveler
   </div>
   <footer class="entry-footer"><span title='2022-08-22 00:00:00 +0000 UTC'>August 22, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Faisal Khan</footer>
   <a class="entry-link" aria-label="post link to Alabama Money Transmitter License" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/alabama-money-transmitter-license/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Documents Required for Money Transmitter License
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In order to obtain a money transmitter license, you will need to submit the following documents along with your application:
-Audited Financial Statements Location of Authorized Delegates (if applicable) Other trade name (if operating under a different name) Registered Agent Primary contact employees Bank account information Credit Report Credit Report Explanations Business Plan Certificate of Authority/Good Standing Certificate Individual FBI Criminal Background Check Company Staffing &amp; Internal Policies Sample contracts for consultants, or any third-party providers, and sample contracts of authorized agents, money transmission contracts. Flow of Funds Company formation documents Organizational Chart Management Chart Surety Bond Verification of Experience List of company’s permissible investments Legal documentation of legal name or legal status Alaska Business License (if applying for a license in Alaska) AML/BSA Policy Applicant SEC Filings Parent Company Information Bond Reduction Request Personal Financial Statement Lease Agreement/Proof of Ownership Municipal Business License (if applicable) Waiver for Nevada Trust Location Requirement (if applicable) </p>
-  </div>
-  <footer class="entry-footer"><span title='2022-08-22 00:00:00 +0000 UTC'>August 22, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Documents Required for Money Transmitter License" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/documents-required-for-money-transmitter-license/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Georgia Cryptocurrency License
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Definition and Origin Georgia Cryptocurrency License refers to the regulatory authorization granted by the government of Georgia, enabling entities to engage in cryptocurrency-related activities within legal frameworks.
-Simplest Explanation in Payments The Georgia Cryptocurrency License allows businesses to legally operate cryptocurrency-related services and payments under the supervision of Georgian regulatory authorities.
-Type of Georgia Cryptocurrency License There are primarily two types: one for cryptocurrency exchanges and another for service providers. Exchanges facilitate trading, while service providers offer wallet solutions and payment processing.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2021-10-05 00:00:00 +0000 UTC'>October 5, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Faisal Khan</footer>
-  <a class="entry-link" aria-label="post link to Georgia Cryptocurrency License" href="http://localhost:1313/solutions/licensing/money-transmitter-license-mtl/georgia-cryptocurrency-license/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

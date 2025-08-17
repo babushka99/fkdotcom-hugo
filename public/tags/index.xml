@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>http://localhost:1313/tags/about/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/about/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Acquiring</title>
       <link>http://localhost:1313/tags/acquiring/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
@@ -398,6 +405,20 @@
       <link>http://localhost:1313/tags/europeeea/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/europeeea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expertise</title>
+      <link>http://localhost:1313/tags/expertise/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/expertise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Faisal-Khan</title>
+      <link>http://localhost:1313/tags/faisal-khan/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/faisal-khan/</guid>
       <description></description>
     </item>
     <item>
