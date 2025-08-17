@@ -1,0 +1,46 @@
+{{- $type := .Get "type" | default "info" -}}
+{{- $title := .Get "title" -}}
+{{- $icon := "" -}}
+{{- $defaultTitle := "" -}}
+
+{{- if eq $type "warning" -}}
+  {{- $icon = "⚠️" -}}
+  {{- $defaultTitle = "Warning" -}}
+{{- else if eq $type "note" -}}
+  {{- $icon = "📝" -}}
+  {{- $defaultTitle = "Note" -}}
+{{- else if eq $type "tip" -}}
+  {{- $icon = "💡" -}}
+  {{- $defaultTitle = "Tip" -}}
+{{- else if eq $type "information" -}}
+  {{- $icon = "ℹ️" -}}
+  {{- $defaultTitle = "Information" -}}
+{{- else if eq $type "fyi" -}}
+  {{- $icon = "📌" -}}
+  {{- $defaultTitle = "FYI" -}}
+{{- else if eq $type "update" -}}
+  {{- $icon = "🔄" -}}
+  {{- $defaultTitle = "Update" -}}
+{{- else if eq $type "news" -}}
+  {{- $icon = "📰" -}}
+  {{- $defaultTitle = "News" -}}
+{{- else if eq $type "caution" -}}
+  {{- $icon = "⚡" -}}
+  {{- $defaultTitle = "Caution" -}}
+{{- else if eq $type "disclaimer" -}}
+  {{- $icon = "📋" -}}
+  {{- $defaultTitle = "Disclaimer" -}}
+{{- else -}}
+  {{- $icon = "ℹ️" -}}
+  {{- $defaultTitle = "Information" -}}
+{{- end -}}
+
+<div class="callout callout-{{ $type }}">
+  <div class="callout-header">
+    <span class="callout-icon">{{ $icon }}</span>
+    <span class="callout-title">{{ if $title }}{{ $title }}{{ else }}{{ $defaultTitle }}{{ end }}</span>
+  </div>
+  <div class="callout-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
